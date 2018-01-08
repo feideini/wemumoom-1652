@@ -1,0 +1,6 @@
+{"type":"settings","kernel":"julia","backend_state":"ready","metadata":{"language_info":{"file_extension":".jl","mimetype":"application/julia","name":"julia","version":"0.6.2"}},"kernel_usage":{"cpu":0,"memory":189083648},"kernel_state":"idle","trust":true}
+{"type":"cell","id":"295863","pos":0,"input":"### Introductory Concepts in Statistics","cell_type":"markdown","exec_count":0}
+{"type":"file","last_load":1515443340608}
+{"type":"cell","id":"8d396c","pos":1,"input":"* A *population* is the complete collection of all meaents or data that are being considered.\n\n* A *census* is the collection of data from every memf the population.\n\n* A *sample* is a subcollection of members selected from a population.","cell_type":"markdown"}
+{"type":"cell","id":"1ba1fe","pos":2,"input":"* A _voluntary response sample_ or _self-selected sample_ is one in which the respondents themselves decide whether to be included.\n\n* A _random sample_ is one in which each member has the same probability of being selected.\n\n* A _stratified random sample_ is one in which random samples from subgroups are drawn and proportionally combined to form the complete sample.","cell_type":"markdown"}
+{"type":"cell","id":"393ed7","pos":3,"input":""}
