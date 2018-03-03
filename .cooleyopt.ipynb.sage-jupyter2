@@ -1,0 +1,34 @@
+{"exec_count":2,"start":1520039283878,"input":"V(r)=2*pi*r^2*(9-r^2)^(1/2)","state":"done","pos":28,"type":"cell","end":1520039283882,"id":"825dee","kernel":"sagemath"}
+{"exec_count":3,"start":1520039304771,"input":"Vp(r)=diff(V(r),r)","state":"done","pos":28.5,"type":"cell","end":1520039304773,"id":"3431df","kernel":"sagemath"}
+{"type":"cell","id":"0c4922","pos":14,"input":"Dp(x)=diff(D(x),x)","cell_type":"code","exec_count":3}
+{"type":"cell","id":"0d2947","pos":23,"input":"<img src=\"cooleyopt.png\">","cell_type":"markdown"}
+{"type":"cell","id":"12cab0","pos":10,"input":"Set $S'(x)=0$ for $x=10^{-7}$. The sum of hydrogen ions and hydroxyl ions will be a minimum at hydrogen ion concentration of $10^{-7}$.","cell_type":"markdown"}
+{"type":"cell","id":"14674d","pos":13,"input":"D(x)=x-x^2","cell_type":"code","exec_count":2}
+{"type":"cell","id":"29eb3b","pos":8,"input":"Sp(x)=diff(S(x),x)","cell_type":"code","exec_count":0}
+{"type":"cell","id":"3109a0","pos":12,"input":"Maximize the function $D(x)=x-x^{2}$.","cell_type":"markdown"}
+{"type":"cell","id":"338011","pos":7,"input":"S(x)=x+1/(x*10^14)","cell_type":"code","exec_count":0}
+{"type":"cell","id":"357ad2","pos":27,"input":"r=var('r')","cell_type":"raw"}
+{"type":"cell","id":"405022","pos":2,"input":"k=rat(50/400)","output":{"0":{"name":"stdout","output_type":"stream","text":"k = 0 + 1/8\n"}},"cell_type":"code","exec_count":1}
+{"type":"cell","id":"41f2f7","pos":19,"input":"Fp(x)=diff(F(x),x)","cell_type":"code","exec_count":2}
+{"type":"cell","id":"58ea76","pos":1,"input":"First we express the cost per hour for fuel. If $C$ represents this cost, $$C=ks^{2},$$ where $s$ is the speed in mph. Since $C=50$ when $s=20$, $$50=400k$$ and","cell_type":"markdown"}
+{"type":"cell","id":"5aa233","pos":21,"input":"Set the derivative to zero for $x=20$. The dimensions should be $x=20,y=30$ in order\nto require the least amount of fencing.","cell_type":"markdown"}
+{"type":"cell","id":"6488b7","pos":17,"input":"The amount of fencing as a function of the width $x$ and the length $y$ is $$F(x)=3x+2y$$ The side constraint is $$y=\\frac{600}{x}$$ Differentiate $F(x)=3x+\\frac{1200}{x}$","cell_type":"markdown"}
+{"type":"cell","id":"6d40e9","pos":6,"input":"Let $x$ be the concentration of hydrogen ions, $y$ the concentration of hydroxyl ions. The sum of the ions is $$S(x)=x+y$$ with the side constraint $$x\\cdot{}y=10^{-14}$$ Therefore, $S(x)$ without the variable $y$ is $$S(x)=x+\\frac{1}{x\\cdot{}10^{14}}$$","cell_type":"markdown"}
+{"type":"cell","id":"6da742","pos":26,"input":"$V$ as a function of one variable is therefore $$V(r)=2\\pi{}r^{2}\\sqrt{9-r^{2}}$$","cell_type":"markdown"}
+{"type":"cell","id":"7727b5","pos":3,"input":"The cost per hour for fuel is therefore $\\frac{1}{8}s^{2}$. Since other costs are \\$200 per hour, the total cost per hour is $\\frac{1}{8}s^{2}+200$. The number of hours needed to make a 500-mile trip at $s$ miles per hour is $500/s$. Therefore, the total cost for the trip is $$A(s)=\\frac{500}{s}\\left(\\frac{1}{8}s^{2}+200\\right)=\\frac{125}{2}s+\\frac{100000}{s},$$ in which $s>0$. Differentiating, $$A'(s)=\\frac{125}{2}-\\frac{100000}{s^{2}}$$","cell_type":"markdown"}
+{"type":"cell","id":"78495e","pos":4,"input":"Set the derivative to zero and solve the equation $$\\frac{125}{2}=\\frac{100000}{s^{2}}$$ Cross-multiply for $s=40$. The cost is minimal at 40 mph. (Strictly speaking, you should find the second derivative to ensure that the critical point is a minimum.)","cell_type":"markdown"}
+{"type":"cell","id":"7af397","pos":16,"input":"**(4)** A rectangular garden is to be surrounded by a fence and\ndivided into two equal parts by a fence parallel to one side. If the\narea is to be 600 square feet, what should be the dimensions in order\nto require the least amount of fencing?","cell_type":"markdown"}
+{"type":"cell","id":"7c116e","pos":18,"input":"F(x)=3*x+(1200/x)","cell_type":"code","exec_count":1}
+{"type":"cell","id":"854dd7","pos":24,"input":"The volume of the cylinder in terms of the radius of its base is $$V(r)=r^{2}\\pi{}h$$","cell_type":"markdown"}
+{"type":"cell","id":"99797e","pos":0,"input":"**(1)** The cost of fuel for running a train is proportional to the square of the speed maintained, and is \\$50 per hour when the speed is 20 mph. Other charges, such as labour, for example, are \\$200 per hour. What should be the speed for a 500-mile trip in order that the total cost shall be as little as possible?","cell_type":"markdown"}
+{"type":"cell","id":"a0661e","pos":20,"input":"$$F'(x)=-\\frac{1200}{x^{2}} + 3$$","cell_type":"markdown"}
+{"type":"cell","id":"a39892","pos":22,"input":"**(5)**  Find the dimensions (height and radius) of the largest (in\nvolume) right circular cylinder that can be inscribed in a sphere six\ninches in diameter.","cell_type":"markdown"}
+{"type":"cell","id":"a633d5","pos":15,"input":"$$D'(x)=-2 \\, x + 1$$ Now set the derivative to zero and note that $x=\\frac{1}{2}$. The number that exceeds its square by the greatest\namount is $\\frac{1}{2}$.","cell_type":"markdown"}
+{"type":"cell","id":"afabcc","pos":9,"input":"$$S'(x)=-\\frac{1}{10^{14} \\, x^{2}} + 1$$","cell_type":"markdown"}
+{"type":"cell","id":"bbb7ab","pos":25,"input":"The side constraint is $$h^{2}+(2r)^{2}=6^{2}$$ or simplified $$h=2\\sqrt{9-r^{2}}$$","cell_type":"markdown"}
+{"type":"cell","id":"c753f2","pos":30,"input":"$$V'(r)=-\\frac{2 \\, \\pi r^{3}}{\\sqrt{-r^{2} + 9}} + 4 \\, \\pi{}r \\sqrt{-r^{2} + 9}$$ Now set the derivative to zero for $$\\sqrt{9-r^{2}}=\\frac{r^{2}}{2\\sqrt{9-r^{2}}}$$ and eventually $$r=\\sqrt{6}$$ The dimensions of the largest right circular cylinder that can be inscribed in a sphere six inches in diameter are $r=\\sqrt{6},h=2\\sqrt{3}$.","cell_type":"markdown"}
+{"type":"cell","id":"cff6a0","pos":5,"input":"**(2)** The product of the concentration of hydrogen ions, $C_{h^{+}}$, and hydroxyl ions, $C_{oh^{-}}$, in any aqueous solution is a constant $=10^{-14}$. At what concentration of hydrogen ions will the sum of hydrogen ions and hydroxyl ions be a minimum?","cell_type":"markdown"}
+{"type":"cell","id":"d7555f","pos":11,"input":"**(3)** Find the number that exceeds its square by the greatest amount.","cell_type":"markdown"}
+{"type":"file","last_load":1520037449227}
+{"type":"nbconvert","args":["--to","html"],"state":"done","start":1520039671632,"time":1520039676276}
+{"type":"settings","kernel":"sagemath","backend_state":"running","metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.14"}},"kernel_state":"idle","trust":true,"kernel_usage":{"cpu":0,"memory":255741952}}
