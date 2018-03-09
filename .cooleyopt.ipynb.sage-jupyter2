@@ -31,4 +31,4 @@
 {"type":"cell","id":"d7555f","pos":11,"input":"**(3)** Find the number that exceeds its square by the greatest amount.","cell_type":"markdown"}
 {"type":"file","last_load":1520037449227}
 {"type":"nbconvert","args":["--to","html"],"state":"done","start":1520039671632,"time":1520039676276}
-{"type":"settings","kernel":"sagemath","backend_state":"running","metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.14"}},"kernel_state":"idle","trust":true,"kernel_usage":{"cpu":0,"memory":255741952}}
+{"type":"settings","kernel":"sagemath","backend_state":"running","metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.14"}},"kernel_state":"idle","trust":true,"kernel_usage":{"cpu":0,"memory":204558336}}
