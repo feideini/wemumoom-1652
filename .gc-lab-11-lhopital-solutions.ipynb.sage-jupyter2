@@ -1,0 +1,124 @@
+{"exec_count":10,"input":"x=var('x')","state":"done","pos":29,"cell_type":"code","type":"cell","id":"f47640","kernel":"sagemath"}
+{"exec_count":102,"input":"<img src=\"optsine.png\">","state":"done","pos":105.25,"cell_type":"markdown","type":"cell","id":"8bc4b4","kernel":"sagemath"}
+{"exec_count":2,"start":1520634532040,"input":"f(x)=x^6-x^5-6*x^4-x^2+x+10","state":"done","pos":30,"type":"cell","end":1520634532051,"id":"c75a1b","kernel":"sagemath"}
+{"exec_count":24,"start":1520635074643,"input":"x1=1","state":"done","pos":32.75,"type":"cell","end":1520635074654,"id":"e801f0","kernel":"sagemath"}
+{"exec_count":25,"start":1520635078949,"input":"x2=x1-(f(x1)/fp(x1))","state":"done","pos":33,"cell_type":"code","type":"cell","end":1520635078960,"id":"448cca","kernel":"sagemath"}
+{"exec_count":27,"start":1520635093757,"input":"x3=x2-(f(x2)/fp(x2))","state":"done","pos":35,"type":"cell","end":1520635093770,"id":"c6b280","kernel":"sagemath"}
+{"exec_count":29,"start":1520635120645,"input":"x4=x3-(f(x3)/fp(x3))","state":"done","pos":37,"type":"cell","end":1520635120648,"id":"19ef51","kernel":"sagemath"}
+{"exec_count":3,"start":1520634556041,"input":"fp(x)=diff(f(x),x)","state":"done","pos":31,"type":"cell","end":1520634556045,"id":"d7c0fd","kernel":"sagemath"}
+{"exec_count":31,"start":1520635149239,"input":"x5=x4-(f(x4)/fp(x4))","state":"done","pos":39,"type":"cell","end":1520635149243,"id":"53e7cf","kernel":"sagemath"}
+{"exec_count":33,"start":1520635545941,"input":"f(x)=(4/(x^2+1))-x^2*(4-x^2)","state":"done","pos":43,"type":"cell","end":1520635545950,"id":"728ed3","kernel":"sagemath"}
+{"exec_count":34,"start":1520635563643,"input":"fp(x)=diff(f(x),x)","state":"done","pos":44,"type":"cell","end":1520635563647,"id":"97614d","kernel":"sagemath"}
+{"exec_count":39,"start":1520635706711,"input":"x1=1","state":"done","pos":47,"type":"cell","end":1520635706715,"id":"cfa244","kernel":"sagemath"}
+{"exec_count":4,"input":"$$f'(x)=6 \\, x^{5} - 5 \\, x^{4} - 24 \\, x^{3} - 2 \\, x + 1$$","state":"done","pos":32,"cell_type":"markdown","type":"cell","id":"da115b","kernel":"sagemath"}
+{"exec_count":40,"start":1520635723453,"input":"x2=x1-(f(x1)/fp(x1))","state":"done","pos":48,"type":"cell","end":1520635723456,"id":"95ad1e","kernel":"sagemath"}
+{"exec_count":42,"start":1520635746816,"input":"x3=x2-(f(x2)/fp(x2))","state":"done","pos":50,"type":"cell","end":1520635746821,"id":"b08ce5","kernel":"sagemath"}
+{"exec_count":44,"start":1520635765842,"input":"x4=x3-(f(x3)/fp(x3))","state":"done","pos":52,"type":"cell","end":1520635765848,"id":"5800c7","kernel":"sagemath"}
+{"exec_count":46,"start":1520635792750,"input":"x5=x4-(f(x4)/fp(x4))","state":"done","pos":54,"type":"cell","end":1520635792756,"id":"9589a9","kernel":"sagemath"}
+{"exec_count":48,"start":1520635931763,"input":"f(x)=1-x^2*sqrt(2-x-x^2)","state":"done","pos":58,"type":"cell","end":1520635931777,"id":"c5a93b","kernel":"sagemath"}
+{"exec_count":49,"start":1520635952651,"input":"fp(x)=diff(f(x),x)","state":"done","pos":59,"type":"cell","end":1520635952652,"id":"91f1a6","kernel":"sagemath"}
+{"exec_count":59,"start":1520636225870,"input":"x1=-1","state":"done","pos":62,"type":"cell","end":1520636225878,"id":"ecfb14","kernel":"sagemath"}
+{"exec_count":60,"start":1520636236279,"input":"x2=x1-(f(x1)/fp(x1))","state":"done","pos":63,"type":"cell","end":1520636236286,"id":"a406f7","kernel":"sagemath"}
+{"exec_count":62,"start":1520636257679,"input":"x3=x2-(f(x2)/fp(x2))","state":"done","pos":65,"type":"cell","end":1520636257681,"id":"17bbd2","kernel":"sagemath"}
+{"exec_count":64,"start":1520636280946,"input":"x4=x3-(f(x3)/fp(x3))","state":"done","pos":67,"type":"cell","end":1520636280960,"id":"b5c7f5","kernel":"sagemath"}
+{"exec_count":66,"start":1520636302932,"input":"x5=x4-(f(x4)/fp(x4))","state":"done","pos":69,"type":"cell","end":1520636302935,"id":"54c5d2","kernel":"sagemath"}
+{"exec_count":68,"start":1520636419776,"input":"f(x)=x^2-x+1-4*exp(-x^2)*sin(x)","state":"done","pos":73,"type":"cell","end":1520636419786,"id":"8260a2","kernel":"sagemath"}
+{"exec_count":70,"start":1520636438638,"input":"fp(x)=diff(f(x),x)","state":"done","pos":74,"type":"cell","end":1520636438645,"id":"b6da51","kernel":"sagemath"}
+{"exec_count":76,"start":1520636607850,"input":"x1=0","state":"done","pos":77,"type":"cell","end":1520636607856,"id":"abd0c7","kernel":"sagemath"}
+{"exec_count":77,"start":1520636618808,"input":"x2=x1-(f(x1)/fp(x1))","state":"done","pos":78,"type":"cell","end":1520636618813,"id":"2e8f14","kernel":"sagemath"}
+{"exec_count":79,"start":1520636646843,"input":"x3=x2-(f(x2)/fp(x2))","state":"done","pos":80,"type":"cell","end":1520636646850,"id":"b12d4d","kernel":"sagemath"}
+{"exec_count":81,"start":1520636665015,"input":"x4=x3-(f(x3)/fp(x3))","state":"done","pos":82,"type":"cell","end":1520636665020,"id":"591aaf","kernel":"sagemath"}
+{"exec_count":83,"start":1520636683110,"input":"x5=x4-(f(x4)/fp(x4))","state":"done","pos":84,"type":"cell","end":1520636683113,"id":"26499d","kernel":"sagemath"}
+{"exec_count":85,"start":1520636795339,"input":"f(x)=3*sin(x^2)-2*x","state":"done","pos":88,"type":"cell","end":1520636795346,"id":"5f36cf","kernel":"sagemath"}
+{"exec_count":86,"start":1520636806745,"input":"fp(x)=diff(f(x),x)","state":"done","pos":89,"type":"cell","end":1520636806750,"id":"b5cfba","kernel":"sagemath"}
+{"exec_count":90,"input":"**(9)** A cone with height $H$ and radius $R$ is inscribed in a larger cone with height $h$ and radius $r$ so that its vertex is at the centre of the base of the larger cone. Find $R$ in terms of the dimensions of the larger cone that makes the volume of the smaller cone maximal.","state":"done","pos":95.5,"cell_type":"markdown","type":"cell","id":"2fd908","kernel":"sagemath"}
+{"exec_count":91,"start":1520640663456,"input":"f(x)=sin(x)-x*cos(x)","state":"done","pos":105.5,"type":"cell","end":1520640663459,"id":"890432","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"-0.826462326195434"},"exec_count":67}},"exec_count":67,"start":1520636309537,"input":"n(x5)","state":"done","pos":70,"type":"cell","end":1520636310251,"id":"26d28f","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"-0.826462326269352"},"exec_count":65}},"exec_count":65,"start":1520636287673,"input":"n(x4)","state":"done","pos":68,"type":"cell","end":1520636287747,"id":"380190","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"-0.826476364377094"},"exec_count":63}},"exec_count":63,"start":1520636266560,"input":"n(x3)","state":"done","pos":66,"type":"cell","end":1520636266618,"id":"1a8c2c","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"-0.832632446392313"},"exec_count":61}},"exec_count":61,"start":1520636244337,"input":"n(x2)","state":"done","pos":64,"type":"cell","end":1520636244368,"id":"e7cfb6","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"0.200000000000000"},"exec_count":78}},"exec_count":78,"start":1520636629752,"input":"n(x2)","state":"done","pos":79,"type":"cell","end":1520636629784,"id":"e4f274","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"0.218832730610920"},"exec_count":80}},"exec_count":80,"start":1520636652545,"input":"n(x3)","state":"done","pos":81,"type":"cell","end":1520636652573,"id":"874dc2","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"0.219163571329239"},"exec_count":82}},"exec_count":82,"start":1520636671628,"input":"n(x4)","state":"done","pos":83,"type":"cell","end":1520636671651,"id":"e80d64","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"0.219163677236341"},"exec_count":84}},"exec_count":84,"start":1520636690006,"input":"n(x5)","state":"done","pos":85,"type":"cell","end":1520636690088,"id":"eec7f9","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"0.833333333333333"},"exec_count":41}},"exec_count":41,"start":1520635734239,"input":"n(x2)","state":"done","pos":49,"type":"cell","end":1520635734253,"id":"c068e6","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"0.843092535766353"},"exec_count":43}},"exec_count":43,"start":1520635752238,"input":"n(x3)","state":"done","pos":51,"type":"cell","end":1520635752271,"id":"f2abf3","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"0.843108209827693"},"exec_count":45}},"exec_count":45,"start":1520635779879,"input":"n(x4)","state":"done","pos":53,"type":"cell","end":1520635779910,"id":"cc57bc","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"0.843108209870886"},"exec_count":47}},"exec_count":47,"start":1520635799241,"input":"n(x5)","state":"done","pos":55,"type":"cell","end":1520635799285,"id":"3518de","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"1.13929374596799"},"exec_count":32}},"exec_count":32,"start":1520635162651,"input":"n(x5)","state":"done","pos":40,"type":"cell","end":1520635162672,"id":"1ef410","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"1.13929444014290"},"exec_count":30}},"exec_count":30,"start":1520635132314,"input":"n(x4)","state":"done","pos":38,"type":"cell","end":1520635132360,"id":"ebebc0","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"1.14008652743594"},"exec_count":28}},"exec_count":28,"start":1520635101344,"input":"n(x3)","state":"done","pos":36,"type":"cell","end":1520635101357,"id":"a59651","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"1.16666666666667"},"exec_count":26}},"exec_count":26,"start":1520635084337,"input":"n(x2)","state":"done","pos":34,"type":"cell","end":1520635084355,"id":"a60fad","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"4.493409457909064"},"exec_count":101}},"exec_count":101,"start":1520641118338,"input":"find_root(f,pi,2*pi)","state":"done","pos":108.5,"type":"cell","end":1520641118373,"id":"24d01f","kernel":"sagemath"}
+{"type":"cell","id":"017f05","pos":93.5,"input":"Differentiate $$E'(v)=\\frac{Lav^{2}}{v-u}\\left(3-\\frac{v}{(v-u)}\\right)$$","cell_type":"markdown"}
+{"type":"cell","id":"06897c","pos":8,"input":"**(3)** A cylindrical can is to be made to hold one litre of oil. Find the dimensions that will minimize the cost of the metal to manufacture the can.","cell_type":"markdown"}
+{"type":"cell","id":"06ddb4","pos":91,"input":"$$f'(x)=6 \\, x \\cos\\left(x^{2}\\right) - 2$$","cell_type":"markdown"}
+{"type":"cell","id":"130bf5","pos":97.5,"input":"**Step 2:** $$\\frac{h-H}{R}=\\frac{h}{r}$$ and therefore $$H=\\frac{h}{r}(r-R)$$","cell_type":"markdown"}
+{"type":"cell","id":"1471c4","pos":46,"input":"$$f'(x)=2 \\, x^{3} + 2 \\, {\\left(x^{2} - 4\\right)} x - \\frac{8 \\, x}{{\\left(x^{2} + 1\\right)}^{2}}$$","cell_type":"markdown"}
+{"type":"cell","id":"16a4cd","pos":42,"input":"**(7b)**","cell_type":"markdown"}
+{"type":"cell","id":"17ada3","pos":11,"input":"**Step 3:** Differentiate and set to zero. $$A'(r)=2\\left(2r\\pi-\\frac{1}{r^{2}}\\right)=0$$","cell_type":"markdown"}
+{"type":"cell","id":"1a546b","pos":19,"input":"Make sure to check that you only use LHR when there is an indeterminate form.","cell_type":"markdown"}
+{"type":"cell","id":"1b2cc4","pos":103.5,"input":"$$\\lim_{x\\rightarrow{}1}\\left(\\frac{x}{x-1}-\\frac{1}{\\ln{}x}\\right)=\\lim_{x\\rightarrow{}1}\\frac{x\\ln{}x-(x-1)}{(x-1)\\ln{}x}\\stackrel{\\mbox{LHR}}{=}\\lim_{x\\rightarrow{}1}\\frac{x\\ln{}x}{x\\ln{}x+(x-1)}=$$","cell_type":"markdown"}
+{"type":"cell","id":"1ce985","pos":105.375,"input":"The slope of the tangent line is $$S(x)=-\\frac{\\sin{}x}{x}$$ Differentiate and set to zero $$S'(x)=\\frac{\\sin{}x-x\\cos{}x}{x^{2}}=0$$","cell_type":"markdown"}
+{"type":"cell","id":"2742bc","pos":20,"input":"$$\\lim_{x\\rightarrow{}1}\\frac{1-x+\\ln{}x}{1+\\cos\\pi{}x}\\stackrel{\\mbox{LHR}}{=}\\lim_{x\\rightarrow{}1}\\frac{-1+\\frac{1}{x}}{-\\pi\\sin\\pi{}x}\\stackrel{\\mbox{LHR}}{=}\\lim_{x\\rightarrow{}1}\\frac{-\\frac{1}{x^{2}}}{-\\pi^{2}\\cos\\pi{}x}=-\\frac{1}{\\pi^{2}}$$","cell_type":"markdown"}
+{"type":"cell","id":"288f6d","pos":101.5,"input":"**(10)** Find $$\\lim_{x\\rightarrow{}1}\\left(\\frac{x}{x-1}-\\frac{1}{\\ln{}x}\\right)$$","cell_type":"markdown"}
+{"type":"cell","id":"2a5f50","pos":100.5,"input":"**Answer:** There are two solutions here, $R=0$ for the minimum and $R=\\frac{2}{3}r$ for the maximum.","cell_type":"markdown"}
+{"type":"cell","id":"3603e1","pos":109.5,"input":"Instead of Newton's method (which is simple enough to use here), I have used a function in SageMath to approximate the solution. **Answer:** the slope of the line is approximately $0.21723$.","cell_type":"markdown"}
+{"type":"cell","id":"3710f8","pos":92.5,"input":"**(8)** For a fish swimming at a speed $v$ relative to the water, the energy expenditure per unit time is proportional to $v^{3}$. It is believed that migrating fish try to minimize the total energy required to swim a fixed distance. If the fish are swimming against a current $u$ ($u<v$), then the time required to swim a distance $L$ is $L/(v-u)$ and the total energy $E$ required to swim the distance is given by $$E(v)=av^{3}\\cdot\\frac{L}{v-u}$$ where $a$ is the proportionality constant. Determine the value of $v$ that minimizes $E$.","cell_type":"markdown"}
+{"type":"cell","id":"41f6c0","pos":41,"input":"One solution for the equation $x^{6}-x^{5}-6x^{4}-x^{2}+x+10=0$ is $x\\approx{}1.39294$.","cell_type":"markdown"}
+{"type":"cell","id":"4eab8c","pos":32.5,"input":"Since $f(1)=4$ and $f(2)=-56$, I know that there is a $x$-intercept in the interval $[1,2]$. I choose $x_{1}=1$.","cell_type":"markdown"}
+{"type":"cell","id":"505e88","pos":104.5,"input":"$$\\left(1+\\lim_{x\\rightarrow{}1}\\frac{x-1}{x\\ln{}x}\\right)^{-1}\\stackrel{\\mbox{LHR}}{=}\\left(1+\\lim_{x\\rightarrow{}1}\\frac{1}{\\ln{}x+1}\\right)^{-1}=\\left(1+\\frac{1}{1}\\right)^{-1}=\\frac{1}{2}$$","cell_type":"markdown"}
+{"type":"cell","id":"54a267","pos":14,"input":"**(4)** A farmer has 2400ft of fencing and wants to fence off a rectangular field that borders a straight river. She needs no fence along the river. What are the dimensions of the field that has the largest area?","cell_type":"markdown"}
+{"type":"cell","id":"5571f6","pos":96.5,"input":"**Step 1:** $$V(R)=\\frac{1}{3}R^{2}\\pi{}H$$","cell_type":"markdown"}
+{"type":"cell","id":"57bb9c","pos":23,"input":"**Step 1:** Define $$f(a)=\\sqrt{a^{2}+b^{2}}$$","cell_type":"markdown"}
+{"type":"cell","id":"5b10f5","pos":71,"input":"One solution for the equation $x^{2}\\sqrt{2-x-x^{2}}=1$ is $x\\approx{}-0.82646$.","cell_type":"markdown"}
+{"type":"cell","id":"5bba8b","pos":56,"input":"One solution for the equation $x^{2}(4-x^{2})=\\frac{4}{x^{2}+1}$ is $x\\approx{}0.84311$.","cell_type":"markdown"}
+{"type":"cell","id":"5d1661","pos":5,"input":"**(2)** Find $$\\lim_{x\\rightarrow{}0}\\frac{e^{x}-e^{-x}-2x}{x-\\sin{}x}$$","cell_type":"markdown"}
+{"type":"cell","id":"5e958b","pos":18,"input":"**(5)** Find $$\\lim_{x\\rightarrow{}1}\\frac{1-x+\\ln{}x}{1+\\cos\\pi{}x}$$","cell_type":"markdown"}
+{"type":"cell","id":"6089b1","pos":10,"input":"**Step 2:** Use the side constraint $$1=r^{2}\\pi{}h$$ to replace $h$ in terms of $r$ $$A(r)=2r^{2}\\pi+\\frac{2\\pi{}r}{r^{2}\\pi}=A(r)=2\\left(r^{2}\\pi+\\frac{1}{r}\\right)$$","cell_type":"markdown"}
+{"type":"cell","id":"68dd40","pos":46.5,"input":"Since $f(0)=4$ and $f(1)=-1$, there must be an $x$-intercept in the interval $[0,1]$. I choose $x_{1}=1$ again.","cell_type":"markdown"}
+{"type":"cell","id":"6a4a68","pos":17,"input":"**Step 3:** Differentiate and set to zero. $$A'(w)=2400-4w=0$$ **Answer:** The dimensions of the field that has the largest area are $w=600,l=1200$.","cell_type":"markdown"}
+{"type":"cell","id":"6f9c65","pos":87,"input":"**(7e)**","cell_type":"markdown"}
+{"type":"cell","id":"703f3f","pos":9,"input":"**Step 1:** Find a function for that which you are trying to optimize, in this case the area of the can. $$A(r)=2r^{2}\\pi+2\\pi{}rh$$","cell_type":"markdown"}
+{"type":"cell","id":"71cbbe","pos":112.5,"input":"<img src=\"optparabola3.png\">","cell_type":"markdown"}
+{"type":"cell","id":"7a3c81","pos":113.5,"input":"**(13)** Find the area of the largest rectangle that can be inscribed in a semicircle of radius $r$.","cell_type":"markdown"}
+{"type":"cell","id":"82bf26","pos":99.5,"input":"$$V'(R)=\\pi{}hR\\left(\\frac{2}{3}-\\frac{R}{r}\\right)=0$$","cell_type":"markdown"}
+{"type":"cell","id":"86495b","pos":61,"input":"$$f'(x)=\\frac{{\\left(2 \\, x + 1\\right)} x^{2}}{2 \\, \\sqrt{-x^{2} - x + 2}} - 2 \\, \\sqrt{-x^{2} - x + 2} x$$","cell_type":"markdown"}
+{"type":"cell","id":"866516","pos":57,"input":"**(7c)**","cell_type":"markdown"}
+{"type":"cell","id":"87513a","pos":76,"input":"$$f'(x)=8 \\, x e^{\\left(-x^{2}\\right)} \\sin\\left(x\\right) - 4 \\, \\cos\\left(x\\right) e^{\\left(-x^{2}\\right)} + 2 \\, x - 1$$","cell_type":"markdown"}
+{"type":"cell","id":"920011","pos":28,"input":"**(7a)**","cell_type":"markdown"}
+{"type":"cell","id":"a0131b","pos":2,"input":"$$\\lim_{x\\rightarrow{}0^{+}}\\sin{}x\\ln{}x=\\lim_{x\\rightarrow{}0^{+}}\\frac{\\ln{}x}{\\csc{}x}\\stackrel{\\mbox{LHR}}{=}\\lim_{x\\rightarrow{}0^{+}}\\frac{\\frac{1}{x}}{-\\csc{}x\\cdot{}\\cot{}x}=$$","cell_type":"markdown"}
+{"type":"cell","id":"a09626","pos":13,"input":"Finally, use the side constraint for $$h=\\frac{1}{\\left(\\frac{1}{2\\pi}\\right)^{\\frac{2}{3}}\\pi}=1.0839$$ **Answer:** The dimensions that will minimize the cost of the metal to manufacture the can are $r=0.54193$dm and $h=1.0839$dm.","cell_type":"markdown"}
+{"type":"cell","id":"a34420","pos":98.5,"input":"**Step 3:** Differentiate and set to zero $$V(R)=\\frac{1}{3}R^{2}\\pi\\frac{h}{r}(r-R)$$","cell_type":"markdown"}
+{"type":"cell","id":"a74bdb","pos":3,"input":"$$\\lim_{x\\rightarrow{}0^{+}}\\frac{-\\sin^{2}x}{x\\cos{}x}=\\frac{0}{0}$$","cell_type":"markdown"}
+{"type":"cell","id":"a7a988","pos":4,"input":"Use LHR again for $$\\lim_{x\\rightarrow{}0^{+}}\\frac{-\\sin^{2}x}{x\\cos{}x}\\stackrel{\\mbox{LHR}}{=}\\lim_{x\\rightarrow{}0^{+}}\\frac{-2\\sin{}x\\cos{}x}{\\cos{}x-x\\sin{}x}=\\frac{0}{1-0}=0$$","cell_type":"markdown"}
+{"type":"cell","id":"a8ef0d","pos":115.5,"input":"**Step 2:**: The side constraint $r^{2}=w^{2}+\\frac{l^{2}}{4}$ gives us $$A(l)=l\\cdot\\sqrt{r^{2}-\\frac{l^{2}}{4}}$$","cell_type":"markdown"}
+{"type":"cell","id":"a9efd1","pos":15,"input":"**Step 1:** $$A(w)=l\\cdot{}w$$","cell_type":"markdown"}
+{"type":"cell","id":"afe1be","pos":16,"input":"**Step 2:** $l+2w=2400$, therefore $l=2400-2w$ and $$A(w)=(2400-2w)\\cdot{}w=2400w-2w^{2}$$","cell_type":"markdown"}
+{"type":"cell","id":"b11ce7","pos":110.5,"input":"<img src=\"optparabola1.png\">","cell_type":"markdown"}
+{"type":"cell","id":"b158ef","pos":25,"input":"$$f(a)=\\sqrt{a^{2}+\\left(\\sqrt{16-(a+1)^{2}}-\\sqrt{3}\\right)^{2}}$$","cell_type":"markdown"}
+{"type":"cell","id":"b515b9","pos":76.5,"input":"Since $f(0)=1$ and $f(1)<0$, there must be an $x$-intercept in the interval $[0,1]$. I choose $x_{1}=0$.","cell_type":"markdown"}
+{"type":"cell","id":"d183bf","pos":1,"input":"Make sure to check that you only use LHR when there is an indeterminate form.","cell_type":"markdown"}
+{"type":"cell","id":"d26788","pos":86,"input":"One solution for the equation $4e^{-x^{2}}\\sin{}x=x^{2}-x+1$ is $x\\approx{}0.21916$.","cell_type":"markdown"}
+{"type":"cell","id":"d795a6","pos":26,"input":"**Step 3:** Differentiate and set to zero $$f'(a)=\\frac{-2-2\\sqrt{3}\\frac{-2a-2}{2\\cdot\\sqrt{-a^{2}-2a+15}}}{2\\cdot\\sqrt{18-2a-2\\sqrt{3}\\sqrt{-a^{2}-2a+15}}}=0$$","cell_type":"markdown"}
+{"type":"cell","id":"dafe47","pos":6,"input":"Make sure to check that you only use LHR when there is an indeterminate form.","cell_type":"markdown"}
+{"type":"cell","id":"dd255e","pos":72,"input":"**(7d)**","cell_type":"markdown"}
+{"type":"cell","id":"dd2fd5","pos":114.5,"input":"**Step 1:** The function to optimize is $A(l)=l\\cdot{}w$.","cell_type":"markdown"}
+{"type":"cell","id":"e02e65","pos":21,"input":"**(6)** How close does the semi-circle $y=\\sqrt{16-x^{2}}$ come to the point $P=(1,\\sqrt{3})$?","cell_type":"markdown"}
+{"type":"cell","id":"e3ead2","pos":94.5,"input":"Set the derivative to zero for the answer. **Answer:** $v$ is minimized at $v=\\frac{3}{2}u$.","cell_type":"markdown"}
+{"type":"cell","id":"e5bf53","pos":12,"input":"Solve the equation for $$r=\\sqrt[3]{\\frac{1}{2\\pi}}=0.54193$$","cell_type":"markdown"}
+{"type":"cell","id":"e65e72","pos":116.5,"input":"**Step 3:** Differentiate and set to zero. $$A'(l)=\\sqrt{r^{2}-\\frac{l^{2}}{4}}-\\frac{l^{2}}{4\\sqrt{r^{2}-\\frac{l^{2}}{4}}}=0$$","cell_type":"markdown"}
+{"type":"cell","id":"e68fb7","pos":111.5,"input":"<img src=\"optparabola2.png\">","cell_type":"markdown"}
+{"type":"cell","id":"eec06c","pos":102.5,"input":"Make sure to check that you only use LHR when there is an indeterminate form.","cell_type":"markdown"}
+{"type":"cell","id":"eef24c","pos":91.5,"input":"I was lucky. I plugged in $x=0$ and there is a solution for the equation. I no longer need Newton's method.","cell_type":"markdown"}
+{"type":"cell","id":"f0fa53","pos":22,"input":"<img src=\"optsemi.png\">","cell_type":"markdown"}
+{"type":"cell","id":"f8d43c","pos":7,"input":"$$\\lim_{x\\rightarrow{}0}\\frac{e^{x}-e^{-x}-2x}{x-\\sin{}x}\\stackrel{\\mbox{LHR}}{=}\\lim_{x\\rightarrow{}0}\\frac{e^{x}+e^{-x}-2}{1-\\cos{}x}\\stackrel{\\mbox{LHR}}{=}\\lim_{x\\rightarrow{}0}\\frac{e^{x}-e^{-x}}{\\sin{}x}\\stackrel{\\mbox{LHR}}{=}\\lim_{x\\rightarrow{}0}\\frac{e^{x}+e^{-x}}{\\cos{}x}=\\frac{1+1}{1}=2$$","cell_type":"markdown"}
+{"type":"cell","id":"f9ccd9","pos":0,"input":"**(1)** Find $$\\lim_{x\\rightarrow{}0^{+}}\\sin{}x\\ln{}x$$","cell_type":"markdown"}
+{"type":"cell","id":"fa182a","pos":24,"input":"**Step 2:** Use the fact that $Q$ is on the semi-circle to replace $b$ in terms of $a$ $$b+\\sqrt{3}=\\sqrt{16-(a+1)^{2}}$$","cell_type":"markdown"}
+{"type":"cell","id":"fb003f","pos":61.5,"input":"Since $f(-1)=1-\\sqrt{2}$ and $f(0)=1$, there must be an $x$-intercept in the interval $[-1,0]$. $f$ has a critical point at $x=0$, so I choose $x_{1}=-1$ instead.","cell_type":"markdown"}
+{"type":"cell","id":"fb4bf0","pos":117.5,"input":"Solve this equation for $l=\\sqrt{2}r,w=\\frac{1}{\\sqrt{2}}r$. **Answer:** The area of the largest rectangle that can be\ninscribed in a semicircle of radius $r$ is $r^{2}$.","cell_type":"markdown"}
+{"type":"cell","id":"fc8872","pos":27,"input":"Recall that a fraction is zero if and only if the numerator is zero. The equation simplifies to $$a^{2}+2a-3=0$$ for which the solutions are $a=-3,a=1$. **Answer:** The coordinates of $Q$ are $(2,\\sqrt{12}-\\sqrt{3})$ and the distance from $P$ to $Q$ is 2 (think about why this is not surprising). Note that the solution $a=-3$ provides us with the maximum distance of a point on the semi-circle to $P$.","cell_type":"markdown"}
+{"type":"cell","id":"fcb8b4","pos":105,"input":"**(11)** Of the infinitely many lines that are tangent to the curve $$y=-\\sin{}x$$ and pass through the origin, there is one that has the largest slope. Use Newton's Method to find the slope of that line.","cell_type":"markdown"}
+{"type":"file","last_load":1520632944905}
+{"type":"nbconvert","args":["--to","html"],"state":"done","start":1520642792848,"time":1520642796645}
+{"type":"settings","kernel":"sagemath","backend_state":"running","metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.14"}},"kernel_usage":{"cpu":0,"memory":339324928},"kernel_state":"idle","trust":true}
