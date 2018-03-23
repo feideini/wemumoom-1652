@@ -1,0 +1,15 @@
+{"type":"cell","id":"0919f3","pos":4,"input":"$$\\sqrt{2\\pi\\sinh\\left(\\ln\\pi\\right)+1}=\\sqrt{2\\pi\\left(\\frac{1}{2}\\left(e^{\\ln\\pi}-e^{-\\ln\\pi}\\right)\\right)+1}=\\sqrt{\\pi\\left(\\pi-\\frac{1}{\\pi}\\right)+1}=\\sqrt{\\pi^{2}}=\\pi$$","cell_type":"markdown"}
+{"type":"cell","id":"106fce","pos":7,"input":"$$f'(x)=\\frac{-x+1}{x^{3}}$$","cell_type":"markdown"}
+{"type":"cell","id":"1c5039","pos":5,"input":"(3) Analyze the following function (do not worry about asymptotes and whether the function is even/odd). $$f(x)=\\frac{2x-1}{2x^{2}}$$","cell_type":"markdown"}
+{"type":"cell","id":"3cee73","pos":8,"input":"critical points: $\\left\\{1\\right\\}$, the solution set of $-x+1=0$","cell_type":"markdown"}
+{"type":"cell","id":"5298f3","pos":3,"input":"(2) Simplify, using the definition of hyperbolic trigonometric functions,$$\\sqrt{2\\pi\\sinh\\left(\\ln\\pi\\right)+1}$$","cell_type":"markdown"}
+{"type":"cell","id":"60c75f","pos":9,"input":"$$f''(x)=\\frac{2x-3}{x^{4}}$$","cell_type":"markdown"}
+{"type":"cell","id":"6353be","pos":1,"input":"(1) Evaluate the following limit. $$\\lim_{x\\rightarrow\\frac{\\pi}{2}}\\frac{2x-\\pi}{\\cos{}x}$$","cell_type":"markdown"}
+{"type":"cell","id":"77628f","pos":6,"input":"domain: $\\{x\\in\\mathbb{R}|x\\neq{}0\\}=\\mathbb{R}\\setminus\\{0\\}$","cell_type":"markdown"}
+{"type":"cell","id":"cad0fa","pos":11,"input":"the critical point is a maximum because $f''(1)=-1$\n","cell_type":"markdown"}
+{"type":"cell","id":"de63ae","pos":2,"input":"$$\\lim_{x\\rightarrow\\frac{\\pi}{2}}\\frac{2x-\\pi}{\\cos{}x}\\stackrel{\\mbox{LHR}}{=}\\lim_{x\\rightarrow\\frac{\\pi}{2}}\\frac{2}{-\\sin{}x}=\\frac{2}{-\\sin\\frac{\\pi}{2}}=-\\frac{2}{1}=-2$$","cell_type":"markdown"}
+{"type":"cell","id":"e5ccbc","pos":0,"input":"**Test B Solutions (MATH 2511)**","cell_type":"markdown"}
+{"type":"cell","id":"f56fb6","pos":10,"input":"inflection points: $\\left\\{\\frac{3}{2}\\right\\}$, the solution set of $2x-3=0$","cell_type":"markdown"}
+{"type":"cell","id":"fbc877","pos":6.5,"input":"$x$-intercepts: $\\left\\{\\frac{1}{2}\\right\\}$, the solution set of $2x-1=0$","cell_type":"markdown"}
+{"type":"file","last_load":1521846692801}
+{"type":"settings","kernel":"sagemath","backend_state":"running","trust":true,"kernel_usage":{"cpu":0,"memory":257257472},"kernel_state":"idle"}
