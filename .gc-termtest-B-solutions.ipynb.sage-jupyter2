@@ -1,20 +1,41 @@
+{"exec_count":12,"start":1521851134027,"input":"r=n((2000000/(6*pi^2))^.25)","state":"done","pos":33,"type":"cell","end":1521851134030,"id":"5fe523","kernel":"sagemath"}
+{"exec_count":18,"start":1521851224209,"input":"h=n((((1000000-r^4*pi^2)/(r^2*pi^2))^.5))","state":"done","pos":34,"type":"cell","end":1521851224213,"id":"590734","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"1.39455039360682"},"exec_count":5}},"exec_count":5,"start":1521850321104,"input":"n(1.4-((1.4-1-0.4*sin(1.4))/(1+0.4*cos(1.4))))","state":"done","pos":26,"type":"cell","end":1521850321115,"id":"0a7724","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"13.5564117108448"},"exec_count":13}},"exec_count":13,"start":1521851151417,"input":"r","state":"done","pos":33.5,"cell_type":"code","type":"cell","end":1521851151437,"id":"5ec243","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"19.1716612985902"},"exec_count":19}},"exec_count":19,"start":1521851227398,"input":"h","state":"done","pos":35,"type":"cell","end":1521851227419,"id":"b2a34d","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"2.16666666666667"},"exec_count":2}},"exec_count":2,"start":1521849690496,"input":"n(13/6)","state":"done","pos":20,"cell_type":"code","type":"cell","end":1521849690515,"id":"e9e8d5","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"[x == (13/6), x == (13/2)]"},"exec_count":1}},"exec_count":1,"start":1521849645921,"input":"solve(12*x^2-104*x+169,x)","state":"done","pos":19,"type":"cell","end":1521849650889,"id":"34ad7d","kernel":"sagemath"}
+{"type":"cell","id":"07eb54","pos":28,"input":"<img src=\"coneslantheight.png\">","cell_type":"markdown"}
 {"type":"cell","id":"0919f3","pos":4,"input":"$$\\sqrt{2\\pi\\sinh\\left(\\ln\\pi\\right)+1}=\\sqrt{2\\pi\\left(\\frac{1}{2}\\left(e^{\\ln\\pi}-e^{-\\ln\\pi}\\right)\\right)+1}=\\sqrt{\\pi\\left(\\pi-\\frac{1}{\\pi}\\right)+1}=\\sqrt{\\pi^{2}}=\\pi$$","cell_type":"markdown"}
 {"type":"cell","id":"106fce","pos":7,"input":"$$f'(x)=\\frac{-x+1}{x^{3}}$$","cell_type":"markdown"}
+{"type":"cell","id":"18710d","pos":31,"input":"**Step 3:** $$V'(r)=\\frac{1}{3}\\sqrt{1000000-r^{4}\\pi^{2}}-\\frac{4r^{4}\\pi^{2}}{6\\sqrt{1000000-r^{4}\\pi^{2}}}$$","cell_type":"markdown"}
 {"type":"cell","id":"1c5039","pos":5,"input":"(3) Analyze the following function (do not worry about asymptotes and whether the function is even/odd). $$f(x)=\\frac{2x-1}{2x^{2}}$$","cell_type":"markdown"}
+{"type":"cell","id":"1f7428","pos":29,"input":"**Step 1:** $V(r)=\\frac{1}{3}r^{2}\\pi{}h$","cell_type":"markdown"}
 {"type":"cell","id":"3cee73","pos":8,"input":"critical points: $\\left\\{1\\right\\}$, the solution set of $-x+1=0$","cell_type":"markdown"}
 {"type":"cell","id":"5298f3","pos":3,"input":"(2) Simplify, using the definition of hyperbolic trigonometric functions,$$\\sqrt{2\\pi\\sinh\\left(\\ln\\pi\\right)+1}$$","cell_type":"markdown"}
 {"type":"cell","id":"60c75f","pos":9,"input":"$$f''(x)=\\frac{2x-3}{x^{4}}$$","cell_type":"markdown"}
 {"type":"cell","id":"6353be","pos":1,"input":"(1) Evaluate the following limit. $$\\lim_{x\\rightarrow\\frac{\\pi}{2}}\\frac{2x-\\pi}{\\cos{}x}$$","cell_type":"markdown"}
+{"type":"cell","id":"669d17","pos":16,"input":"<img src=\"gc-termtestB-v1-01.png\">","cell_type":"markdown"}
 {"type":"cell","id":"6c89df","pos":15,"input":"(5) An open-top box is to be made by cutting small congruent squares from the corners of a 13 inch by 13 inch sheet of tin and bending up the sides. How large should the squares cut from the corners be to make the box hold as much as possible?","cell_type":"markdown"}
 {"type":"cell","id":"77628f","pos":6,"input":"domain: $\\{x\\in\\mathbb{R}|x\\neq{}0\\}=\\mathbb{R}\\setminus\\{0\\}$","cell_type":"markdown"}
 {"type":"cell","id":"7a92d2","pos":14,"input":"$$g'(t)=2\\coth(2t)$$","cell_type":"markdown"}
+{"type":"cell","id":"7b0c8b","pos":17,"input":"$$V(x)=(13-2x)^{2}x$$","cell_type":"markdown"}
 {"type":"cell","id":"7bd6c7","pos":5.5,"input":"<img src=\"ttbana.png\">","cell_type":"markdown"}
+{"type":"cell","id":"9d8387","pos":18,"input":"$$V'(x)=12x^{2}-104x+169$$","cell_type":"markdown"}
 {"type":"cell","id":"a5955f","pos":12,"input":"range: $\\{x\\in\\mathbb{R}|x\\leq\\frac{1}{2}\\}$","cell_type":"markdown"}
+{"type":"cell","id":"a6bfaf","pos":32,"input":"It follows that, solving $V'(r)=0$, $$r^{4}=\\frac{2000000}{6\\pi^{2}}$$","cell_type":"markdown"}
+{"type":"cell","id":"a8019c","pos":22,"input":"(6) Evaluate the following limit. $$\\lim_{x\\rightarrow\\frac{\\pi}{4}}\\frac{\\sin{}x-\\cos{}x}{x-\\frac{\\pi}{4}}$$","cell_type":"markdown"}
 {"type":"cell","id":"add66b","pos":13,"input":"(4) Differentiate $$g(t)=\\ln\\left(\\sinh\\left(2t\\right)\\right)$$","cell_type":"markdown"}
 {"type":"cell","id":"cad0fa","pos":11,"input":"the critical point is a maximum because $f''(1)=-1$\n","cell_type":"markdown"}
+{"type":"cell","id":"d9ca59","pos":21,"input":"Answer: The squares cut from the corners to make the box hold as much as possible should have $x=13/6$ as their side.","cell_type":"markdown"}
+{"type":"cell","id":"db11f6","pos":24,"input":"(7) To calculate a planet's space coordinates, we have to solve equations like $$x=1+0.4\\sin{}x$$ Graphing the function $f(x)=x-1-0.4\\sin{}x$ suggests that the function has a root near $x=1.4$. Use one application of Newton's method to improve this estimate. That is, start with $x_{1}=1.4$ and find $x_{2}$.","cell_type":"markdown"}
 {"type":"cell","id":"de63ae","pos":2,"input":"$$\\lim_{x\\rightarrow\\frac{\\pi}{2}}\\frac{2x-\\pi}{\\cos{}x}\\stackrel{\\mbox{LHR}}{=}\\lim_{x\\rightarrow\\frac{\\pi}{2}}\\frac{2}{-\\sin{}x}=\\frac{2}{-\\sin\\frac{\\pi}{2}}=-\\frac{2}{1}=-2$$","cell_type":"markdown"}
+{"type":"cell","id":"e380e6","pos":23,"input":"$$\\lim_{x\\rightarrow\\frac{\\pi}{4}}\\frac{\\sin{}x-\\cos{}x}{x-\\frac{\\pi}{4}}\\stackrel{\\mbox{LHR}}{=}\\lim_{x\\rightarrow\\frac{\\pi}{4}}\\frac{\\cos{}x+\\sin{}x}{1}=\\frac{2}{\\sqrt{2}}=\\sqrt{2}$$","cell_type":"markdown"}
 {"type":"cell","id":"e5ccbc","pos":0,"input":"**Test B Solutions (MATH 2511)**","cell_type":"markdown"}
+{"type":"cell","id":"e74897","pos":30,"input":"**Step 2:** $\\pi{}r\\sqrt{r^{2}+h^{2}}=1000$, therefore $$h=\\sqrt{\\frac{1000000-r^{4}\\pi^{2}}{r^{2}\\pi^{2}}}$$","cell_type":"markdown"}
 {"type":"cell","id":"f56fb6","pos":10,"input":"inflection points: $\\left\\{\\frac{3}{2}\\right\\}$, the solution set of $2x-3=0$","cell_type":"markdown"}
+{"type":"cell","id":"fb4e4c","pos":25,"input":"$$f'(x)=1+0.4\\cos{}x$$","cell_type":"markdown"}
 {"type":"cell","id":"fbc877","pos":6.5,"input":"$x$-intercepts: $\\left\\{\\frac{1}{2}\\right\\}$, the solution set of $2x-1=0$","cell_type":"markdown"}
+{"type":"cell","id":"fc90b0","pos":27,"input":"(8) A conical tent is to have $1000$ft$^{3}$ capacity. Find its dimensions if the amount of canvas is to be a minimum. Disregard the floor. Note that the formula for the volume of a cone is $$V=\\frac{1}{3}r^{2}\\pi{}h$$ The formula for the area of the lateral surface of a cone (without the floor) is $$A=\\pi{}rs$$ where $s$ is the slant height (see diagram).\n","cell_type":"markdown"}
 {"type":"file","last_load":1521846692801}
-{"type":"settings","kernel":"sagemath","backend_state":"running","trust":true,"kernel_usage":{"cpu":0,"memory":257257472},"kernel_state":"idle"}
+{"type":"settings","kernel":"sagemath","backend_state":"running","trust":true,"kernel_usage":{"cpu":0,"memory":323899392},"kernel_state":"idle"}
