@@ -61,5 +61,5 @@
 {"type":"cell","id":"fbc877","pos":6.5,"input":"$x$-intercepts: $\\left\\{\\frac{1}{2}\\right\\}$, the solution set of $2x-1=0$","cell_type":"markdown"}
 {"type":"cell","id":"fc90b0","pos":27,"input":"(8) A conical tent is to have $1000$ft$^{3}$ capacity. Find its dimensions if the amount of canvas is to be a minimum. Disregard the floor. Note that the formula for the volume of a cone is $$V=\\frac{1}{3}r^{2}\\pi{}h$$ The formula for the area of the lateral surface of a cone (without the floor) is $$A=\\pi{}rs$$ where $s$ is the slant height (see diagram).\n","cell_type":"markdown"}
 {"type":"file","last_load":1521846692801}
-{"type":"nbconvert","args":["--to","html"],"state":"done","start":1522164582789,"time":1522164589381}
-{"type":"settings","kernel":"sagemath","backend_state":"running","trust":true,"kernel_usage":{"cpu":0,"memory":263901184},"kernel_state":"idle"}
+{"type":"nbconvert","args":["--to","slides"],"state":"done","start":1522182861981,"time":1522182868418}
+{"type":"settings","kernel":"sagemath","backend_state":"running","trust":true,"kernel_usage":{"cpu":0,"memory":261967872},"kernel_state":"idle"}
