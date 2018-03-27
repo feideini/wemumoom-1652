@@ -2,4 +2,4 @@
 {"type":"cell","id":"60edd4","pos":2,"input":"<img src=\"mvt2.svg\">","cell_type":"markdown"}
 {"type":"cell","id":"a2e629","pos":1,"input":"For any differentiable function on a closed interval $[a,b]$ there exists a point $c$ such that $$f'(c)=\\frac{f(b)-f(a)}{b-a}$$ This means that there is always a point $c$ between $a$ and $b$ such that the tangent line at $c$ is parallel to the secant line between $a$ and $b$.","cell_type":"markdown"}
 {"type":"file","last_load":1521472997975}
-{"type":"settings","kernel":"sagemath","backend_state":"running","trust":true,"kernel_usage":{"cpu":0,"memory":173699072},"kernel_state":"idle"}
+{"type":"settings","kernel":"sagemath","backend_state":"running","trust":true,"kernel_usage":{"cpu":0,"memory":170713088},"kernel_state":"idle"}
