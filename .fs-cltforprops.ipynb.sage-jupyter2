@@ -1,0 +1,7 @@
+{"type":"cell","id":"0b3745","pos":0,"input":"### Central Limit Theorem for Proportions","cell_type":"markdown"}
+{"type":"cell","id":"351fea","pos":1,"input":"Consider the following problem on Lab Report 8: A survey of 77 students found that 42% were in favour of raising tuition to build a new recreation center. The standard deviation of the sample proportion is 6.6%. How large a sample (to the nearest person) would be required to reduce this standard deviation to 3.2%?","cell_type":"markdown"}
+{"type":"cell","id":"53d704","pos":3,"input":"for the Lab Report question, see <a href=\"http://bugs.webwork.maa.org/show_bug.cgi?id=4104\">my bug report</a>. ","cell_type":"markdown"}
+{"type":"cell","id":"ff8c36","pos":2,"input":"This problem is based on the Central Limit Theorem for sample proportions (not the sample means). Just as with the sample means $\\bar{x}$, it makes sense to ask what the distribution of the sample proportions $\\hat{p}$ might be. The Central Limit Theorem for sample proportions tells us that the distribution for $\\hat{p}$ is approximately normal if the sample size $n>30$. The mean and standard deviation are $$\\mu_{\\bar{p}}=p$$ and $$\\sigma_{\\hat{p}}=\\sqrt{\\frac{p(1-p)}{n}}$$","cell_type":"markdown"}
+{"type":"file","last_load":1522338052978}
+{"type":"nbconvert","args":["--to","html"],"state":"done","start":1522341289344,"time":1522341292138}
+{"type":"settings","kernel":"sagemath","backend_state":"running","trust":true,"kernel_usage":{"cpu":0,"memory":193589248},"kernel_state":"idle"}

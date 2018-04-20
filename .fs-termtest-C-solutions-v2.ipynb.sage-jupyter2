@@ -1,0 +1,40 @@
+{"exec_count":1,"input":"E<-1.96*(((451/502)*(51/502))/502)^.5","state":"done","pos":3,"type":"cell","id":"a595cd","kernel":"ir-sage"}
+{"exec_count":10,"start":1523987962308,"input":"crit<-c((16.791+24.433)/2,(46.979+59.342)/2)","state":"done","pos":14,"type":"cell","end":1523987962390,"id":"5ee278","kernel":"ir-sage"}
+{"exec_count":12,"start":1523988275387,"input":"n<-(2.575^2*0.18*(1-0.18))/(0.04^2)","state":"done","pos":20,"type":"cell","end":1523988275403,"id":"b4094a","kernel":"ir-sage"}
+{"exec_count":14,"start":1523988458009,"input":"ts<-(360-351)/(94/(800^.5))","state":"done","pos":25,"type":"cell","end":1523988458074,"id":"996536","kernel":"ir-sage"}
+{"exec_count":16,"start":1523988775173,"input":"E<-1.645*(0.008/(50^.5))","state":"done","pos":32,"type":"cell","end":1523988775203,"id":"459c94","kernel":"ir-sage"}
+{"exec_count":18,"start":1523988811770,"input":"confint<-c(0.086-E,0.086+E)","state":"done","pos":34,"type":"cell","end":1523988811787,"id":"a25cb9","kernel":"ir-sage"}
+{"exec_count":3,"start":1523987525175,"input":"lr<-(451/502)-E","state":"done","pos":5,"type":"cell","end":1523987525195,"id":"5237b5","kernel":"ir-sage"}
+{"exec_count":4,"start":1523987544249,"input":"hr<-(451/502)+E","state":"done","pos":6,"type":"cell","end":1523987544264,"id":"895e78","kernel":"ir-sage"}
+{"exec_count":5,"start":1523987564050,"input":"interval<-c(lr,hr)","state":"done","pos":7,"type":"cell","end":1523987564065,"id":"610bd6","kernel":"ir-sage"}
+{"exec_count":8,"start":1523987791266,"input":"cs<-(35*11256)/8100","state":"done","pos":12,"type":"cell","end":1523987791300,"id":"6c7294","kernel":"ir-sage"}
+{"output":{"0":{"data":{"text/html":"0.00186110504808299"}}},"exec_count":17,"start":1523988779856,"input":"E","state":"done","pos":33,"type":"cell","end":1523988779882,"id":"388035","kernel":"ir-sage"}
+{"output":{"0":{"data":{"text/html":"0.0264285815448348"}}},"exec_count":2,"start":1523987479523,"input":"E","state":"done","pos":4,"type":"cell","end":1523987479650,"id":"a93453","kernel":"ir-sage"}
+{"output":{"0":{"data":{"text/html":"2.70806852369316"}}},"exec_count":15,"start":1523988463681,"input":"ts","state":"done","pos":26,"type":"cell","end":1523988463719,"id":"d795f5","kernel":"ir-sage"}
+{"output":{"0":{"data":{"text/html":"48.637037037037"}}},"exec_count":9,"start":1523987798340,"input":"cs","state":"done","pos":13,"type":"cell","end":1523987798368,"id":"b08d89","kernel":"ir-sage"}
+{"output":{"0":{"data":{"text/html":"611.67515625"}}},"exec_count":13,"start":1523988284872,"input":"n","state":"done","pos":21,"type":"cell","end":1523988284899,"id":"417567","kernel":"ir-sage"}
+{"output":{"0":{"data":{"text/html":"<ol class=list-inline>\n\t<li>0.084138894951917</li>\n\t<li>0.087861105048083</li>\n</ol>\n"}}},"exec_count":19,"start":1523988818029,"input":"confint","state":"done","pos":35,"type":"cell","end":1523988818054,"id":"17bcd8","kernel":"ir-sage"}
+{"output":{"0":{"data":{"text/html":"<ol class=list-inline>\n\t<li>0.871977792957157</li>\n\t<li>0.924834956046827</li>\n</ol>\n"}}},"exec_count":7,"start":1523987615465,"input":"interval","state":"done","pos":8,"type":"cell","end":1523987615498,"id":"806e88","kernel":"ir-sage"}
+{"output":{"0":{"data":{"text/html":"<ol class=list-inline>\n\t<li>20.612</li>\n\t<li>53.1605</li>\n</ol>\n"}}},"exec_count":11,"start":1523987968081,"input":"crit","state":"done","pos":15,"type":"cell","end":1523987968107,"id":"145e30","kernel":"ir-sage"}
+{"type":"cell","id":"082176","pos":17,"input":"#### Question 3","cell_type":"markdown"}
+{"type":"cell","id":"09a0fc","pos":18,"input":"$p^{\\ast}=0.18,E=0.04,1-\\alpha=0.99$","cell_type":"markdown"}
+{"type":"cell","id":"0a8300","pos":9,"input":"#### Question 2","cell_type":"markdown"}
+{"type":"cell","id":"1168f5","pos":10,"input":"$\\sigma^{2}=8100,n=36,s^{2}=11256,1-\\alpha=0.95$","cell_type":"markdown"}
+{"type":"cell","id":"144783","pos":2,"input":"$$E=z_{\\frac{\\alpha}{2}}\\sqrt{\\frac{\\hat{p}\\hat{q}}{n}}=1.96\\sqrt{\\frac{\\frac{451}{502}\\frac{51}{502}}{502}}$$","cell_type":"markdown"}
+{"type":"cell","id":"1e88dc","pos":16,"input":"Decision: fail to reject $H_{0}$.","cell_type":"markdown"}
+{"type":"cell","id":"1f725c","pos":36,"input":"The confidence interval is between 8.41% and 8.79%.","cell_type":"markdown"}
+{"type":"cell","id":"256dc6","pos":22,"input":"#### Question 4","cell_type":"markdown"}
+{"type":"cell","id":"2d48c4","pos":30,"input":"$\\sigma=0.008,n=50,\\bar{x}=0.086,1-\\alpha=0.90$","cell_type":"markdown"}
+{"type":"cell","id":"2d9608","pos":24,"input":"$$t^{\\ast}=\\frac{\\bar{x}-\\mu}{\\frac{s}{\\sqrt{n}}}$$","cell_type":"markdown"}
+{"type":"cell","id":"56cfd0","pos":0.5,"input":"#### Question 1","cell_type":"markdown"}
+{"type":"cell","id":"78a9be","pos":28,"input":"Decision: reject $H_{0}$.","cell_type":"markdown"}
+{"type":"cell","id":"95da8d","pos":1,"input":"$n=502,x=451,1-\\alpha=0.95$","cell_type":"markdown"}
+{"type":"cell","id":"a21820","pos":19,"input":"$$n=\\frac{(z_{\\frac{\\alpha}{2}})^{2}p^{\\ast}(1-p^{\\ast})}{E^{2}}$$","cell_type":"markdown"}
+{"type":"cell","id":"be3a96","pos":31,"input":"$$E=z_{\\frac{\\alpha}{2}}\\frac{\\sigma}{\\sqrt{n}}$$","cell_type":"markdown"}
+{"type":"cell","id":"dd7863","pos":23,"input":"$\\mu=351,n=800,\\bar{x}=360,s=94,1-\\alpha=0.95$","cell_type":"markdown"}
+{"type":"cell","id":"e31ac1","pos":0,"input":"# MATH 2441 Term Test C Solutions (Version 2)","cell_type":"markdown"}
+{"type":"cell","id":"fa977d","pos":11,"input":"$$\\chi^{2}=\\frac{(n-1)s^{2}}{\\sigma^{2}}=\\frac{35\\cdot{}11256}{8100}$$","cell_type":"markdown"}
+{"type":"cell","id":"fae9ec","pos":29,"input":"#### Question 5","cell_type":"markdown"}
+{"type":"cell","id":"fb6f44","pos":27,"input":"$$t_{\\alpha}=2.646$$","cell_type":"markdown"}
+{"type":"file","last_load":1523987035106}
+{"type":"settings","kernel":"ir-sage","backend_state":"starting","trust":true,"kernel_usage":{"cpu":0,"memory":60071936}}

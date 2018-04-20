@@ -30,5 +30,4 @@
 {"type":"cell","id":"cff6a0","pos":5,"input":"**(2)** The product of the concentration of hydrogen ions, $C_{h^{+}}$, and hydroxyl ions, $C_{oh^{-}}$, in any aqueous solution is a constant $=10^{-14}$. At what concentration of hydrogen ions will the sum of hydrogen ions and hydroxyl ions be a minimum?","cell_type":"markdown"}
 {"type":"cell","id":"d7555f","pos":11,"input":"**(3)** Find the number that exceeds its square by the greatest amount.","cell_type":"markdown"}
 {"type":"file","last_load":1520037449227}
-{"type":"nbconvert","args":["--to","html"],"state":"done","start":1520039671632,"time":1520039676276}
-{"type":"settings","kernel":"sagemath","backend_state":"running","metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.14"}},"kernel_state":"idle","trust":true,"kernel_usage":{"cpu":0,"memory":204558336}}
+{"type":"settings","kernel":"sagemath","backend_state":"running","metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.14"}},"kernel_usage":{"cpu":0,"memory":194260992},"trust":true,"kernel_state":"idle"}

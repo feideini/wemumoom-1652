@@ -1,0 +1,13 @@
+{"exec_count":11,"start":1522170308698,"input":"r=((9/(2*pi^2))^(1/6))*10","state":"done","pos":7,"type":"cell","end":1522170308703,"id":"810975","kernel":"sagemath"}
+{"exec_count":12,"start":1522170317721,"input":"h=3000/(r^2*pi)","state":"done","pos":9,"type":"cell","end":1522170317724,"id":"7623db","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"(8.77308077654739, 12.4070098179880)"},"exec_count":13}},"exec_count":13,"start":1522170320021,"input":"(n(r),n(h))","state":"done","pos":10,"type":"cell","end":1522170320041,"id":"885490","kernel":"sagemath"}
+{"type":"cell","id":"11ac4d","pos":8,"input":"Since $h=\\frac{3000}{r^{2}\\pi}$","cell_type":"markdown"}
+{"type":"cell","id":"1bc5d9","pos":3,"input":"**Step 1:** $A(r)=\\pi{}rs$","cell_type":"markdown"}
+{"type":"cell","id":"33278f","pos":6,"input":"It follows that, solving $A'(r)=0$, $$4r^{3}=\\frac{18\\cdot{}10^{6}}{r^{3}\\pi^{2}}$$ Isolate $r$ for $$r=10\\cdot\\left(\\frac{9}{2\\pi^{2}}\\right)^{\\frac{1}{6}}$$","cell_type":"markdown"}
+{"type":"cell","id":"5224b2","pos":11,"input":"Answer: if the amount of the canvas is to be at a minimum, then the dimensions should be approximately $r=8.77$ feet and $h=12.41$ feet.","cell_type":"markdown"}
+{"type":"cell","id":"5a8b7f","pos":1,"input":"(8) A conical tent is to have $1000$ft$^{3}$ capacity. Find its dimensions if the amount of canvas is to be a minimum. Disregard the floor. Note that the formula for the volume of a cone is $$V=\\frac{1}{3}r^{2}\\pi{}h$$ The formula for the area of the lateral surface of a cone (without the floor) is $$A=\\pi{}rs$$ where $s$ is the slant height (see diagram).\n","cell_type":"markdown"}
+{"type":"cell","id":"7b30b3","pos":5,"input":"**Step 3:** $$A'(r)=\\pi\\cdot\\frac{4r^{3}-\\frac{18\\cdot{}10^{6}}{r^{3}\\pi^{2}}}{2\\sqrt{r^{4}+\\frac{9\\cdot{}10^{6}}{r^{2}\\pi^{2}}}}$$","cell_type":"markdown"}
+{"type":"cell","id":"92eec9","pos":4,"input":"**Step 2:** $s=\\sqrt{r^{2}+h^{2}}$ and $\\frac{1}{3}r^{2}\\pi{}h=1000$ therefore $$s=\\sqrt{r^{2}+\\frac{9\\cdot{}10^{6}}{r^{4}\\pi^{2}}}$$ $$A(r)=\\pi{}r\\sqrt{r^{2}+\\frac{9\\cdot{}10^{6}}{r^{4}\\pi^{2}}}=\\pi{}\\sqrt{r^{4}+\\frac{9\\cdot{}10^{6}}{r^{2}\\pi^{2}}}$$","cell_type":"markdown"}
+{"type":"cell","id":"9d6b9f","pos":2,"input":"<img src=\"coneslantheight.png\">","cell_type":"markdown"}
+{"type":"file","last_load":1522183729273}
+{"type":"settings","kernel":"sagemath","backend_state":"running","trust":true,"kernel_usage":{"cpu":0,"memory":193421312},"kernel_state":"idle"}
