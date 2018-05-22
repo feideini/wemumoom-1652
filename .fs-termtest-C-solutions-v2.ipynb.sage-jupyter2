@@ -37,4 +37,4 @@
 {"type":"cell","id":"fae9ec","pos":29,"input":"#### Question 5","cell_type":"markdown"}
 {"type":"cell","id":"fb6f44","pos":27,"input":"$$t_{\\alpha}=2.646$$","cell_type":"markdown"}
 {"type":"file","last_load":1523987035106}
-{"type":"settings","kernel":"ir-sage","backend_state":"starting","trust":true,"kernel_usage":{"cpu":0,"memory":60071936}}
+{"type":"settings","kernel":"ir-sage","backend_state":"starting","trust":true,"kernel_usage":{"cpu":0,"memory":60706816}}
