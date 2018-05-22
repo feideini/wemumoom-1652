@@ -1,20 +1,24 @@
+{"exec_count":1,"input":"<image src=\"fe-11.png\">","state":"done","pos":18.5,"cell_type":"markdown","type":"cell","id":"4bfb0a","kernel":"sagemath"}
 {"type":"cell","id":"0de080","pos":13,"input":"<image src=\"fe-07.png\">","cell_type":"markdown"}
 {"type":"cell","id":"43df93","pos":1,"input":"Evaluate the following limit. $$\\lim_{x\\rightarrow{}0}\\frac{x-\\sin{}x}{x^{3}}$$","cell_type":"markdown"}
 {"type":"cell","id":"4a6930","pos":3,"input":"Evaluate the following limit. $$\\lim_{n\\rightarrow\\infty}\\sum_{k=1}^{n}\\frac{2^{k}}{3^{k+2}}$$","cell_type":"markdown"}
 {"type":"cell","id":"4a946a","pos":11,"input":"<image src=\"fe-06.png\">","cell_type":"markdown"}
+{"type":"cell","id":"4debac","pos":18,"input":"Let $$f(x)=\\frac{1}{1+2x}$$ Use the Maclaurin series expansion to approximate $$f(x)\\approx{}c_{0}+c_{1}x+c_{2}x^{2}+c_{3}x^{3}+c_{4}x^{4}$$ Then, provide the full expansion $$f(x)=\\sum_{n=0}^{\\infty}c_{n}x^{n}$$","cell_type":"markdown"}
 {"type":"cell","id":"5aa85f","pos":7,"input":"Consider the two curves $y=\\sin{}x$ and $y=\\sin{}(2x)$.\nThey intersect three times between $x=0$ and $x=\\pi$, call these\nintersection points $A,B,C$ from left to right. What is the total area\nbetween these two curves from $x=B$ to $x=C$? If part of this area is\nbelow the $x$-axis, it is added to the total area, not subtracted. ","cell_type":"markdown"}
 {"type":"cell","id":"5adcfb","pos":14,"input":"Consider the following three points: $$P=(3,1,2)\\hspace{.5in}Q=(0,-6,3)\\hspace{.5in}R=(-1,-5,5)$$ $P,Q,R$ form a triangle, and $$\\vec{PQ}\\times\\vec{PR}=\\left(\n    \\begin{array}{c}\n      -3     & \n           1 & \n               -2 \n    \\end{array}\n\\right)$$ \n* Provide the line equation for the plane containing the triangle.\n* Calculate the three interior angles of the triangle.","cell_type":"markdown"}
+{"type":"cell","id":"5ecaf4","pos":15.5,"input":"<image src=\"fe-09.png\">","cell_type":"markdown"}
 {"type":"cell","id":"795e17","pos":9,"input":"<image src=\"fe-05.png\">","cell_type":"markdown"}
 {"type":"cell","id":"99548f","pos":5,"input":"All boxes with a square base and a volume of 50ft$^{3}$\nhave a surface area given by $$S(x)=2x^{2}+\\frac{200}{x}$$ where $x$ is the length of the sides of the base. Find the absolute\nminimum of the surface area function. What are the dimensions of the\nbox with minimum surface area?\n","cell_type":"markdown"}
 {"type":"cell","id":"abd2f2","pos":6,"input":"<image src=\"fe-03.png\">","cell_type":"markdown"}
 {"type":"cell","id":"ada02f","pos":10,"input":"Evaluate the following definite integral. Present your answer as $\\ln(n/m)$, where $n$ and\n$m$ are whole numbers. $$\\int_{-1}^{1}\\frac{3x}{x^{2}+2x-8}\\,dx$$","cell_type":"markdown"}
 {"type":"cell","id":"b22bda","pos":8,"input":"<image src=\"fe-04.png\">","cell_type":"markdown"}
+{"type":"cell","id":"b66baa","pos":18.75,"input":"<image src=\"fe-12.png\">","cell_type":"markdown"}
 {"type":"cell","id":"c24bd8","pos":2,"input":"Solution: $$\\lim_{x\\rightarrow{}0}\\frac{x-\\sin{}x}{x^{3}}\\stackrel{\\mbox{LHR}}{=}\\lim_{x\\rightarrow{}0}\\frac{1-\\cos{}x}{3x^{2}}\\stackrel{\\mbox{LHR}}{=}\\frac{1}{3}\\lim_{x\\rightarrow{}0}\\frac{\\sin{}x}{2x}\\stackrel{\\mbox{LHR}}{=}\\frac{1}{6}\\lim_{x\\rightarrow{}0}\\frac{\\cos{}x}{1}=\\frac{1}{6}$$","cell_type":"markdown","collapsed":false}
 {"type":"cell","id":"c9f8bf","pos":16,"input":"Find the critical points of the following function. Use\nthe Second Derivative Test to determine (if possible) whether each\ncritical point corresponds to a local maximum, local minimum, or\nsaddle point. $$f(x,y)=(4x-1)^{2}+(2y+4)^{2}+1  $$","cell_type":"markdown"}
 {"type":"cell","id":"d978ef","pos":12,"input":"Evaluate the following definite integral. $$\\int_{0}^{\\infty}e^{-3x}\\,dx$$","cell_type":"markdown"}
 {"type":"cell","id":"dfb9d9","pos":15,"input":"<image src=\"fe-08.png\">","cell_type":"markdown"}
 {"type":"cell","id":"f47dbb","pos":0,"input":"<img src=\"fe-01.png\">","cell_type":"markdown"}
 {"type":"cell","id":"f7b711","pos":4,"input":"<img src=\"fe-02.png\">","cell_type":"markdown"}
-{"type":"cell","id":"fc9596","pos":17,"input":"","cell_type":"markdown"}
+{"type":"cell","id":"fc9596","pos":17,"input":"<image src=\"fe-10.png\">","cell_type":"markdown"}
 {"type":"file","last_load":1527006789870}
-{"type":"settings","kernel":"sagemath","backend_state":"running","trust":true,"kernel_usage":{"cpu":0,"memory":256757760},"kernel_state":"idle"}
+{"type":"settings","kernel":"sagemath","backend_state":"running","trust":true,"kernel_usage":{"cpu":0,"memory":248446976},"kernel_state":"idle"}
