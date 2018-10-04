@@ -1,0 +1,15 @@
+{"exec_count":12,"start":1527284586917,"input":"x<-c(1512/12763,9555/12763,1512/5226,4728/7537)","state":"done","pos":8,"type":"cell","end":1527284587001,"id":"11616a","kernel":"ir-sage"}
+{"output":{"0":{"data":{"text/html":"0.0672133162432181"}}},"exec_count":3,"start":1527281732783,"input":"(88/338)*(87/337)","state":"done","pos":2,"type":"cell","end":1527281732805,"id":"a30b55","kernel":"ir-sage"}
+{"output":{"0":{"data":{"text/html":"0.0677847414306222"}}},"exec_count":5,"start":1527281789989,"input":"(88/338)^2","state":"done","pos":4,"type":"cell","end":1527281790038,"id":"d40e0d","kernel":"ir-sage"}
+{"output":{"0":{"data":{"text/html":"0.138017201426725"}}},"exec_count":7,"start":1527281866094,"input":"ppois(1,3.48)","state":"done","pos":6,"type":"cell","end":1527281866116,"id":"fc7e91","kernel":"ir-sage"}
+{"output":{"0":{"data":{"text/html":"0.172099441588237"}}},"exec_count":1,"start":1527281362180,"input":"1-pbinom(5,15,88/338)","state":"done","pos":0,"type":"cell","end":1527281362602,"id":"29394c","kernel":"ir-sage"}
+{"output":{"0":{"data":{"text/html":"0.195668668909721"}}},"exec_count":17,"start":1527290193103,"input":"pnorm(47.9,49.2,2.3^.5)","state":"done","pos":12,"type":"cell","end":1527290193210,"id":"b4dacc","kernel":"ir-sage"}
+{"output":{"0":{"data":{"text/html":"0.265708733630369"}}},"exec_count":15,"start":1527289649006,"input":"1-ppois(8,6.96)","state":"done","pos":11,"type":"cell","end":1527289649051,"id":"b13cdd","kernel":"ir-sage"}
+{"output":{"0":{"data":{"text/html":"0.265708733630369"}}},"exec_count":8,"input":"1-ppois(8,6.96)","state":"done","pos":7,"type":"cell","id":"f09180","kernel":"ir-sage"}
+{"output":{"0":{"data":{"text/html":"0.270784272746423"}}},"exec_count":14,"start":1527289628800,"input":"1-ppois(4.5,3.48)","state":"done","pos":10,"type":"cell","end":1527289628820,"id":"668686","kernel":"ir-sage"}
+{"output":{"0":{"data":{"text/html":"0.54650325707162"}}},"exec_count":4,"start":1527281750878,"input":"(250/338)*(249/337)","state":"done","pos":3,"type":"cell","end":1527281750898,"id":"4eef61","kernel":"ir-sage"}
+{"output":{"0":{"data":{"text/html":"0.547074682259025"}}},"exec_count":6,"start":1527281800675,"input":"(250/338)^2","state":"done","pos":5,"type":"cell","end":1527281800705,"id":"595527","kernel":"ir-sage"}
+{"output":{"0":{"data":{"text/html":"250"}}},"exec_count":2,"start":1527281708759,"input":"338-88","state":"done","pos":1,"type":"cell","end":1527281708819,"id":"312d86","kernel":"ir-sage"}
+{"output":{"0":{"data":{"text/html":"<ol class=list-inline>\n\t<li>0.118467444958082</li>\n\t<li>0.748648436887879</li>\n\t<li>0.289322617680827</li>\n\t<li>0.627305293883508</li>\n</ol>\n"}}},"exec_count":13,"start":1527284589480,"input":"x","state":"done","pos":9,"type":"cell","end":1527284589497,"id":"22e098","kernel":"ir-sage"}
+{"type":"file","last_load":1527281317744}
+{"type":"settings","kernel":"ir-sage","backend_state":"running","trust":true,"kernel_usage":{"cpu":0,"memory":65388544},"kernel_state":"idle"}

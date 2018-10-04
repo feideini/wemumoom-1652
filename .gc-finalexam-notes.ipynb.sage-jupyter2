@@ -1,0 +1,4 @@
+{"output":{"0":{"text":"ans =  3.6840\n","name":"stdout"}},"exec_count":1,"start":1527294484991,"input":"50^(1/3)","state":"done","pos":0,"type":"cell","end":1527294485008,"id":"5ce5b2","kernel":"octave"}
+{"output":{"0":{"text":"ans =  35.355\n","name":"stdout"}},"exec_count":2,"start":1527294500188,"input":"2^.5*50*.5","state":"done","pos":1,"type":"cell","end":1527294500215,"id":"43c6d4","kernel":"octave"}
+{"type":"file","last_load":1527294452700}
+{"type":"settings","kernel":"octave","backend_state":"running","trust":true,"kernel_usage":{"cpu":0,"memory":5304320},"kernel_state":"idle"}
