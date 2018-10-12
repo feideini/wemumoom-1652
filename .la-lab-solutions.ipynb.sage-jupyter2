@@ -1,4 +1,5 @@
 {"exec_count":1,"start":1538593255055,"input":"A=matrix([[-8,7,5],[-8,1,4]])","state":"done","pos":2,"type":"cell","end":1538593255085,"id":"5c1f9a","kernel":"sage-8.3"}
+{"exec_count":1,"start":1539356096574,"input":"P=matrix([[4,-2,1],[1,1,1],[9,3,1]])","state":"done","pos":40,"type":"cell","end":1539356096577,"id":"a6f420","kernel":"sage-8.3"}
 {"exec_count":10,"start":1538593636928,"input":"B=matrix([[5,-4,-4],[-1,0,-7],[7,5,-2]])","state":"done","pos":16,"type":"cell","end":1538593636938,"id":"e2a705","kernel":"sage-8.3"}
 {"exec_count":104,"start":1538611505136,"input":"A=matrix([[real_part((sqrt(3)+i)^8*(1+i)^5)],[imag_part((sqrt(3)+i)^8*(1+i)^5)]])","scrolled":true,"state":"done","pos":117,"cell_type":"code","type":"cell","end":1538611505142,"id":"697603","kernel":"sage-8.3"}
 {"exec_count":106,"start":1538611579427,"input":"B=matrix([[real_part((sqrt(3)-i)^(-8))],[imag_part((sqrt(3)-i)^(-8))]])","state":"done","pos":118,"cell_type":"code","type":"cell","end":1538611579441,"id":"20e0f2","kernel":"sage-8.3"}
@@ -13,12 +14,11 @@
 {"exec_count":16,"start":1538594088832,"input":"M=matrix([[108,8,26,95,69,3],[79,0,13,95,76,1],[238,40,79,114,60,11]])","state":"done","pos":25,"type":"cell","end":1538594088834,"id":"67c021","kernel":"sage-8.3"}
 {"exec_count":18,"start":1538594237424,"input":"T=matrix([[2,-6],[-3,1]])","state":"done","pos":29,"type":"cell","end":1538594237433,"id":"da105d","kernel":"sage-8.3"}
 {"exec_count":2,"start":1538593295226,"input":"B=matrix([[1,-8],[0,7],[0,1]])","state":"done","pos":3,"type":"cell","end":1538593295238,"id":"2b6502","kernel":"sage-8.3"}
+{"exec_count":2,"start":1539356099598,"input":"y=matrix([[40],[7],[15]])","state":"done","pos":41,"type":"cell","end":1539356099618,"id":"730dc7","kernel":"sage-8.3"}
 {"exec_count":24,"start":1538594435125,"input":"b=matrix([[0.425],[2.225],[3.775]])","state":"done","pos":34,"type":"cell","end":1538594435134,"id":"6ea639","kernel":"sage-8.3"}
 {"exec_count":27,"start":1538594614028,"input":"x=~A*b","state":"done","pos":35,"type":"cell","end":1538594614041,"id":"838dd4","kernel":"sage-8.3"}
-{"exec_count":30,"start":1538606179927,"input":"P=matrix([[4,2,1],[1,1,1],[9,3,1]])","state":"done","pos":40,"type":"cell","end":1538606179946,"id":"a6f420","kernel":"sage-8.3"}
-{"exec_count":32,"start":1538606221440,"input":"y=matrix([[40],[7],[15]])","state":"done","pos":41,"type":"cell","end":1538606221444,"id":"730dc7","kernel":"sage-8.3"}
-{"exec_count":33,"start":1538606251429,"input":"d=~P*y","state":"done","pos":42,"type":"cell","end":1538606251438,"id":"eb9c6f","kernel":"sage-8.3"}
-{"exec_count":35,"input":"$y=-29x^{2}+120x-84$","state":"done","pos":44,"cell_type":"markdown","type":"cell","id":"2063f0","kernel":"sage-8.3"}
+{"exec_count":3,"start":1539356102450,"input":"d=~P*y","state":"done","pos":42,"type":"cell","end":1539356102540,"id":"eb9c6f","kernel":"sage-8.3"}
+{"exec_count":35,"input":"$y=3x^{2}-8x+12$","state":"done","pos":44,"cell_type":"markdown","type":"cell","id":"2063f0","kernel":"sage-8.3"}
 {"exec_count":36,"start":1538606506552,"input":"A=matrix([[1,2,-1],[3,-1,2],[5,1,2]])","state":"done","pos":33,"type":"cell","end":1538606506558,"id":"df384d","kernel":"sage-8.3"}
 {"exec_count":43,"start":1538606821666,"input":"L=matrix([[14,20,24],[20,15,19],[30,5,13]])","state":"done","pos":47,"cell_type":"code","type":"cell","end":1538606821677,"id":"8e50fa","kernel":"sage-8.3"}
 {"exec_count":44,"start":1538606846524,"input":"d=matrix([[20,20,20]])","state":"done","pos":48,"type":"cell","end":1538606846534,"id":"e6e72a","kernel":"sage-8.3"}
@@ -66,9 +66,9 @@
 {"output":{"0":{"data":{"text/plain":"[ 3.62222184858401]\n[0.970571419134453]"},"exec_count":86}},"exec_count":86,"start":1538609596039,"input":"B","state":"done","pos":96,"cell_type":"code","type":"cell","end":1538609596096,"id":"a56a2b","kernel":"sage-8.3"}
 {"output":{"0":{"data":{"text/plain":"[ 3005.80741478717]\n[-1907.54339012523]"},"exec_count":84}},"exec_count":84,"start":1538609494133,"input":"A","state":"done","pos":93,"type":"cell","end":1538609494161,"id":"d51f63","kernel":"sage-8.3"}
 {"output":{"0":{"data":{"text/plain":"[ 35 -28  28]\n[-51  18  39]\n[ -5 -53  -4]"},"exec_count":12}},"exec_count":12,"start":1538593788643,"input":"det(B)*~B","state":"done","pos":17,"type":"cell","end":1538593788662,"id":"3a39b5","kernel":"sage-8.3"}
+{"output":{"0":{"data":{"text/plain":"[ 3]\n[-8]\n[12]"},"exec_count":4}},"exec_count":4,"start":1539356105451,"input":"d","state":"done","pos":43,"type":"cell","end":1539356105496,"id":"8d5161","kernel":"sage-8.3"}
 {"output":{"0":{"data":{"text/plain":"[ 5/2]\n[-1/2]\n[   0]"},"exec_count":58}},"exec_count":58,"start":1538607881125,"input":"~A*b.transpose()","state":"done","pos":67,"type":"cell","end":1538607881149,"id":"de4102","kernel":"sage-8.3"}
 {"output":{"0":{"data":{"text/plain":"[ 56  -1 -27]\n[-56   7  28]\n[ -8   1   4]"},"exec_count":4}},"exec_count":4,"start":1538593313660,"input":"B*A","state":"done","pos":5,"type":"cell","end":1538593313673,"id":"7acbf7","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"[-29]\n[120]\n[-84]"},"exec_count":34}},"exec_count":34,"start":1538606262634,"input":"d","state":"done","pos":43,"type":"cell","end":1538606262668,"id":"8d5161","kernel":"sage-8.3"}
 {"output":{"0":{"data":{"text/plain":"[-35/58]\n[ 10/29]"},"exec_count":97}},"exec_count":97,"start":1538610693011,"input":"~A*b.transpose()","state":"done","pos":109,"type":"cell","end":1538610693053,"id":"13ffdb","kernel":"sage-8.3"}
 {"output":{"0":{"data":{"text/plain":"[-512*sqrt(3) + 512]\n[ 512*sqrt(3) + 512]"},"exec_count":105}},"exec_count":105,"start":1538611511911,"input":"A","state":"done","pos":117.5,"type":"cell","end":1538611511957,"id":"25d21c","kernel":"sage-8.3"}
 {"output":{"0":{"data":{"text/plain":"[-9.80000000000000]\n[ 13.0000000000000]\n[ 1.00000000000000]"},"exec_count":48}},"exec_count":48,"start":1538607295028,"input":"~V*h.transpose()","state":"done","pos":55,"type":"cell","end":1538607295063,"id":"7beefd","kernel":"sage-8.3"}
@@ -134,7 +134,7 @@
 {"type":"cell","id":"bfebc5","pos":125,"input":"Find the fifth roots of $\\sqrt{-1024}$.","cell_type":"markdown"}
 {"type":"cell","id":"c1dcdd","pos":105,"input":"Solve the following equation for $x$ and $y$.\n$$\n(x+y\\cdot{}i)(7\\cdot{}i-4)=i\\cdot{}(x-5)  \n$$","cell_type":"markdown"}
 {"type":"cell","id":"c49e0c","pos":50,"input":"The gold token is 50 cents; the silver token is 35 cents; the bronze token is 25 cents.","cell_type":"markdown"}
-{"type":"cell","id":"c4ca9e","pos":1,"input":"Multiply the following two matrices, if possible. $$\n  \\label{eq:lipafohp}\n  A=\\left[\n    \\begin{array}{ccc}\n      -8 & 7 & 5 \\\\\n      -8 & 1 & 4\n    \\end{array}\\right]\\hspace{.5in}B=\\left[\n    \\begin{array}{cc}\n      1 & -8 \\\\\n      0 & 7 \\\\\n      0 & 1 \n    \\end{array}\\right]\n$$\n","cell_type":"markdown"}
+{"type":"cell","id":"c4ca9e","pos":1,"input":"Multiply the following two matrices, if possible. \n$$\n   A=\\left[\n    \\begin{array}{ccc}\n      -8 & 7 & 5 \\\\\n      -8 & 1 & 4\n    \\end{array}\\right]\\hspace{.5in}B=\\left[\n    \\begin{array}{cc}\n      1 & -8 \\\\\n      0 & 7 \\\\\n      0 & 1 \n    \\end{array}\\right]\n$$\n","cell_type":"markdown"}
 {"type":"cell","id":"c6e57b","pos":102,"input":"Use complex arithmetic to provide the following in\n  rectangular form. \n$$\n    (8i-5)(7+4i)\n$$\n<hr>\n$$\n    (\\sqrt{-18}\\sqrt{-4})\\cdot{}3i\n$$\n<hr>\n$$\n(1+i)(1-i)^{2}\n  $$\n<hr>\n  $$\n        \\frac{0.25}{3-\\sqrt{-1}}\n  $$\n<hr>\n $$\n    \\frac{6+5i}{3-4i}\n  $$\n<hr>\n  $$\n    \\frac{(2-i^{3})^{4}}{(i^{8}-i^{6})^{3}}+i\n  $$","cell_type":"markdown"}
 {"type":"cell","id":"c95314","pos":27,"input":"**Lab 2 Question 1**","cell_type":"markdown"}
 {"type":"cell","id":"cceb66","pos":136,"input":"This means that the three polynomials are linearly dependent. Set up the following augmented matrix to express $f_{3}$ as a linear combination of $f_{1}$ and $f_{2}$.","cell_type":"markdown"}
@@ -154,5 +154,5 @@
 {"type":"cell","id":"f98693","pos":144.5,"input":"This means that the three lines are linearly independent. Set up the following system of linear equations to express $L$ as a linear combination of $L_{1},L_{2}$ and $L_{3}$.","cell_type":"markdown"}
 {"type":"cell","id":"fb1574","pos":64,"input":"Find the equation of the quadratic\n$$\n    y=ax^{2}+bx+c\n$$\n  which passes through $(0,0),(1,2),(-1,3)$.","cell_type":"markdown"}
 {"type":"file","last_load":1538593075716}
-{"type":"nbconvert","args":["--to","html"],"state":"done","start":1538701066339,"time":1538701070637}
-{"type":"settings","backend_state":"running","trust":true,"kernel":"sage-8.3","kernel_usage":{"cpu":0,"memory":325394432},"kernel_state":"idle"}
+{"type":"nbconvert","args":["--to","html"],"state":"done","start":1539356148247,"time":1539356154479}
+{"type":"settings","backend_state":"running","trust":true,"kernel":"sage-8.3","kernel_usage":{"cpu":0,"memory":192749568},"kernel_state":"idle"}
