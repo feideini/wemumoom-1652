@@ -103,4 +103,4 @@
 {"type":"cell","id":"ece693","pos":0,"input":"Use matrix arithmetic to find the area of the following triangle: $P=(-2,-5),Q=(4,-3),R=(1,3)$.","cell_type":"markdown"}
 {"type":"file","last_load":1539389789788}
 {"type":"nbconvert","args":["--to","html"],"state":"done","start":1539394714595,"time":1539394719708}
-{"type":"settings","backend_state":"running","trust":true,"kernel":"sagemath","kernel_usage":{"cpu":0,"memory":211435520},"kernel_state":"idle"}
+{"type":"settings","backend_state":"running","trust":true,"kernel":"sagemath","kernel_usage":{"cpu":0,"memory":207437824},"kernel_state":"idle"}
