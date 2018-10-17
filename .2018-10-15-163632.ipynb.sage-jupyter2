@@ -1,0 +1,7 @@
+{"exec_count":3,"start":1539646728252,"input":"A=matrix([[3,1,-5,-4],[4,2,-1,-5],[6,4,7,-7]])","state":"done","pos":0,"type":"cell","end":1539646728258,"id":"e4257a","kernel":"sagemath"}
+{"exec_count":5,"start":1539647720350,"input":"A=matrix([[3,1,-5],[4,2,-1],[6,4,7]])","state":"done","pos":2,"type":"cell","end":1539647720368,"id":"1c53f9","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"[ 1  1  4 -1]\n[ 0  2 17  1]\n[ 0  0  0  0]"},"exec_count":4}},"exec_count":4,"start":1539646728269,"input":"A.echelon_form()","state":"done","pos":1,"type":"cell","end":1539646733696,"id":"198016","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"[-4]\n[-5]\n[-7]"},"exec_count":6}},"exec_count":6,"start":1539647769507,"input":"A*matrix([3,-8,1]).transpose()","state":"done","pos":3,"type":"cell","end":1539647769906,"id":"7b1c02","kernel":"sagemath"}
+{"type":"cell","id":"f62f93","pos":4,"input":""}
+{"type":"file","last_load":1539646597530}
+{"type":"settings","backend_state":"running","trust":true,"kernel":"sagemath","kernel_usage":{"cpu":0,"memory":175583232},"kernel_state":"idle"}

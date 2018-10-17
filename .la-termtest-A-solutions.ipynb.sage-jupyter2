@@ -1,33 +1,35 @@
-{"type":"cell","id":"013e41","pos":71,"input":"The following points lie on a parabola $y=ax^{2}+bx+c$: $P=(1,4),Q=(-3,40),R=(-2,16)$. Determine the coefficients of the parabola.","cell_type":"markdown"}
+{"type":"cell","id":"013e41","pos":73,"input":"The following points lie on a parabola $y=ax^{2}+bx+c$: $P=(1,4),Q=(-3,40),R=(-2,16)$. Determine the coefficients of the parabola.","cell_type":"markdown"}
 {"type":"cell","id":"01e0ef","pos":52,"input":"Find the three cube roots of $-2028+845i$. Clearly indicate the radius and the angle (in degrees) of your solutions.","cell_type":"markdown"}
-{"type":"cell","id":"09818a","pos":94,"input":"Determine how many solutions the following system of equations has. Your answer should be none, one, or infinitely many. Show your work.$$\n\\begin{array}{ccccccc}\n2a&+&3b&+&7c&=&-1\\\\\n4a&-&2b&-&2c&=&3\\\\\n8a&-&12b&-&20c&=&11\n\\end{array}\n$$","cell_type":"markdown"}
-{"type":"cell","id":"0b2d8e","pos":74,"input":"The parabola is $y=5x^{2}+x-2$.","cell_type":"markdown"}
+{"type":"cell","id":"09818a","pos":98,"input":"Determine how many solutions the following system of equations has. Your answer should be none, one, or infinitely many. Show your work.$$\n\\begin{array}{ccccccc}\n2a&+&3b&+&7c&=&-1\\\\\n4a&-&2b&-&2c&=&3\\\\\n8a&-&12b&-&20c&=&11\n\\end{array}\n$$","cell_type":"markdown"}
+{"type":"cell","id":"0b2d8e","pos":76,"input":"The parabola is $y=5x^{2}+x-2$.","cell_type":"markdown"}
 {"type":"cell","id":"0c6471","pos":37,"input":"A=matrix([[1,-1,2],[2,-4,2],[4,-2,4]])","cell_type":"code","exec_count":45}
 {"type":"cell","id":"0f657f","pos":21,"input":"Find the product $AB$.\n$$\nA=\\left[\\begin{array}{cc}\n3-3i&6\\\\\n-5i&-4+7i\n\\end{array}\\right]\\hspace{.5in}\nB=\\left[\\begin{array}{cc}\n-5-6i&-4+7i\\\\\n-2+5i&7+2i\n\\end{array}\\right]\n$$","cell_type":"markdown"}
+{"type":"cell","id":"148fd7","pos":58,"input":"","cell_type":"code","exec_count":0}
 {"type":"cell","id":"159c3d","pos":13,"input":"B=matrix([[1,2,31],[5,1,29],[3,-1,10]])","cell_type":"code","exec_count":20}
-{"type":"cell","id":"16e8a3","pos":65,"input":"Convert the following complex number to polar form: \n$$\\frac{-2+2i}{5+i}$$","cell_type":"markdown"}
+{"type":"cell","id":"16e8a3","pos":67,"input":"Convert the following complex number to polar form: \n$$\\frac{-2+2i}{5+i}$$","cell_type":"markdown"}
 {"type":"cell","id":"1797ed","pos":47,"input":"det(C)","output":{"0":{"data":{"text/plain":"-66"},"output_type":"execute_result","exec_count":53}},"cell_type":"code","exec_count":53}
 {"type":"cell","id":"196b10","pos":27,"input":"oq=vector([5,4])","cell_type":"code","exec_count":31}
 {"type":"cell","id":"1b92cd","pos":55,"input":"imag_part(z)","output":{"0":{"data":{"text/plain":"13*sin(1/3*pi - 1/3*arctan(5/12))"},"output_type":"execute_result","exec_count":107}},"cell_type":"code","exec_count":107}
 {"type":"cell","id":"1d5a11","pos":8,"input":"m=matrix([[7,3],[9,-2]])","cell_type":"code","exec_count":42}
 {"type":"cell","id":"1d5c83","pos":41,"input":"Find the product $AB$.\n$$\nA=\\left[\\begin{array}{cc}\n3+3i&6i\\\\\n-5&-4-7i\n\\end{array}\\right]\\hspace{.5in}\nB=\\left[\\begin{array}{cc}\n-5+6i&-4-7i\\\\\n2-5i&-7+2i\n\\end{array}\\right]\n$$","cell_type":"markdown"}
 {"type":"cell","id":"1eea1d","pos":17,"input":"x3","output":{"0":{"data":{"text/plain":"5"},"output_type":"execute_result","exec_count":24}},"cell_type":"code","exec_count":24}
-{"type":"cell","id":"2b59ee","pos":57,"input":"The following points lie on a parabola $y=ax^{2}+bx+c$: $P=(3,28),Q=(-1,12),R=(2,15)$. Determine the coefficients of the parabola.","cell_type":"markdown"}
+{"type":"cell","id":"2b59ee","pos":59,"input":"The following points lie on a parabola $y=ax^{2}+bx+c$: $P=(3,28),Q=(-1,12),R=(2,15)$. Determine the coefficients of the parabola.","cell_type":"markdown"}
 {"type":"cell","id":"2b8778","pos":28,"input":"orr=vector([1,-3])","cell_type":"code","exec_count":32}
 {"type":"cell","id":"2e0684","pos":2,"input":"oq=vector([4,-3])","cell_type":"code","exec_count":8}
 {"type":"cell","id":"306be1","pos":43,"input":"B=matrix([[-5+6*I,-4-7*I],[2-5*I,-7+2*I]])","cell_type":"code","exec_count":50}
-{"type":"cell","id":"330f59","pos":78,"input":"n(abs(z)^(1/3))","output":{"0":{"data":{"text/plain":"5.00000000000000"},"output_type":"execute_result","exec_count":114}},"cell_type":"code","exec_count":114}
-{"type":"cell","id":"37e955","pos":62,"input":"M=matrix([[-4,2,6,4],[8,-8,-1,2],[-4,-2,17,9]])","cell_type":"code","exec_count":72}
+{"type":"cell","id":"330f59","pos":80,"input":"n(abs(z)^(1/3))","output":{"0":{"data":{"text/plain":"5.00000000000000"},"output_type":"execute_result","exec_count":114}},"cell_type":"code","exec_count":114}
+{"type":"cell","id":"37e955","pos":64,"input":"M=matrix([[-4,2,6,4],[8,-8,-1,2],[-4,-2,17,9]])","cell_type":"code","exec_count":72}
 {"type":"cell","id":"3afa1e","pos":25,"input":"Use matrix arithmetic to find the area of the following triangle: $P=(-2,2),Q=(5,4),R=(1,-3)$.","cell_type":"markdown"}
 {"type":"cell","id":"3bf5cb","pos":29,"input":"pq=oq-op","cell_type":"code","exec_count":33}
-{"type":"cell","id":"40e0c0","pos":86,"input":"abs(z)","output":{"0":{"data":{"text/plain":"3*sqrt(2/17)"},"output_type":"execute_result","exec_count":96}},"cell_type":"code","exec_count":96}
+{"type":"cell","id":"40e0c0","pos":90,"input":"abs(z)","output":{"0":{"data":{"text/plain":"3*sqrt(2/17)"},"output_type":"execute_result","exec_count":96}},"cell_type":"code","exec_count":96}
 {"type":"cell","id":"41ec1e","pos":16,"input":"x3=det(B)/det(M)","cell_type":"code","exec_count":23}
 {"type":"cell","id":"4305c7","pos":51,"input":"Infinitely many solutions.","cell_type":"markdown"}
 {"type":"cell","id":"4c5493","pos":39,"input":"det(A)/det(M)","output":{"0":{"data":{"text/plain":"2"},"output_type":"execute_result","exec_count":47}},"cell_type":"code","exec_count":47}
 {"type":"cell","id":"4d2f0d","pos":14,"input":"x2=det(A)/det(M)","cell_type":"code","exec_count":21}
 {"type":"cell","id":"4ec932","pos":5,"input":"pq","output":{"0":{"data":{"text/plain":"(7, 9)"},"output_type":"execute_result","exec_count":41}},"cell_type":"code","exec_count":41}
 {"type":"cell","id":"4efc41","pos":40,"input":"det(B)/det(M)","output":{"0":{"data":{"text/plain":"-2"},"output_type":"execute_result","exec_count":48}},"cell_type":"code","exec_count":48}
-{"type":"cell","id":"56257b","pos":85,"input":"imag_part(z)","output":{"0":{"data":{"text/plain":"9/17"},"output_type":"execute_result","exec_count":95}},"cell_type":"code","exec_count":95}
+{"type":"cell","id":"56093e","pos":57,"input":"sols","output":{"0":{"data":{"text/plain":"(52.4600450173199, 172.460045017320, 292.460045017320)"},"output_type":"execute_result","exec_count":120}},"cell_type":"code","exec_count":120}
+{"type":"cell","id":"56257b","pos":89,"input":"imag_part(z)","output":{"0":{"data":{"text/plain":"9/17"},"output_type":"execute_result","exec_count":95}},"cell_type":"code","exec_count":95}
 {"type":"cell","id":"58b399","pos":48,"input":"Determine how many solutions the following system of equations has. Your answer should be none, one, or infinitely many. Show your work.\n$$\n\\begin{array}{ccccccc}\n4a&-&2b&+&3c&=&2\\\\\n5a&+&b&-&2c&=&3\\\\\n-7a&-&7b&+&12c&=&-5\n\\end{array}\n$$","cell_type":"markdown"}
 {"type":"cell","id":"58bc3c","pos":46,"input":"C=matrix([[-2,1,-3,0],[0,1,3,0],[-1,0,0,3],[1,2,0,2]])","cell_type":"code","exec_count":52}
 {"type":"cell","id":"5c2404","pos":20,"input":"det(C)","output":{"0":{"data":{"text/plain":"-33"},"output_type":"execute_result","exec_count":26}},"cell_type":"code","exec_count":26}
@@ -35,66 +37,68 @@
 {"type":"cell","id":"621a34","pos":24,"input":"A*B","output":{"0":{"data":{"text/plain":"[27*I - 45 45*I + 51]\n[-9*I - 57  61*I - 7]"},"output_type":"execute_result","exec_count":29}},"cell_type":"code","exec_count":29}
 {"type":"cell","id":"6248b9","pos":3,"input":"orr=vector([1,3])","cell_type":"code","exec_count":9}
 {"type":"cell","id":"62a8d4","pos":26,"input":"op=vector([-2,2])","cell_type":"code","exec_count":30}
-{"type":"cell","id":"680ef6","pos":84,"input":"real_part(z)","output":{"0":{"data":{"text/plain":"-15/17"},"output_type":"execute_result","exec_count":93}},"cell_type":"code","exec_count":93}
+{"type":"cell","id":"680ef6","pos":88,"input":"real_part(z)","output":{"0":{"data":{"text/plain":"-15/17"},"output_type":"execute_result","exec_count":93}},"cell_type":"code","exec_count":93}
 {"type":"cell","id":"6d3f1a","pos":49,"input":"G=matrix([[4,-2,3,2],[5,1,-2,3],[-7,-7,12,-5]])","cell_type":"code","exec_count":54}
 {"type":"cell","id":"703965","pos":0,"input":"Use matrix arithmetic to find the area of the following triangle: $P=(-2,-5),Q=(4,-3),R=(1,3)$.","cell_type":"markdown"}
-{"type":"cell","id":"70e4e4","pos":81,"input":"n((-pi + arctan(3/4))*180/pi)+360","output":{"0":{"data":{"text/plain":"216.869897645844"},"output_type":"execute_result","exec_count":117}},"cell_type":"code","exec_count":117}
-{"type":"cell","id":"783b6b","pos":58,"input":"P=matrix([[9,3,1],[1,-1,1],[4,2,1]])","cell_type":"code","exec_count":70}
-{"type":"cell","id":"7969ab","pos":95,"input":"M=matrix([[2,3,7,-1],[4,-2,-2,3],[8,-12,-20,11]])","cell_type":"code","exec_count":102}
-{"type":"cell","id":"7da68c","pos":69,"input":"abs(z)","output":{"0":{"data":{"text/plain":"2*sqrt(1/13)"},"output_type":"execute_result","exec_count":77}},"cell_type":"code","exec_count":77}
+{"type":"cell","id":"70e4e4","pos":83,"input":"n((-pi + arctan(3/4))*180/pi)+360","output":{"0":{"data":{"text/plain":"216.869897645844"},"output_type":"execute_result","exec_count":117}},"cell_type":"code","exec_count":117}
+{"type":"cell","id":"783b6b","pos":60,"input":"P=matrix([[9,3,1],[1,-1,1],[4,2,1]])","cell_type":"code","exec_count":126}
+{"type":"cell","id":"7969ab","pos":99,"input":"M=matrix([[2,3,7,-1],[4,-2,-2,3],[8,-12,-20,11]])","cell_type":"code","exec_count":102}
+{"type":"cell","id":"7a96de","pos":84,"input":"n((-pi + arctan(3/4))*180/pi)+240","output":{"0":{"data":{"text/plain":"96.8698976458440"},"output_type":"execute_result","exec_count":121}},"cell_type":"code","exec_count":121}
+{"type":"cell","id":"7da68c","pos":71,"input":"abs(z)","output":{"0":{"data":{"text/plain":"2*sqrt(1/13)"},"output_type":"execute_result","exec_count":77}},"cell_type":"code","exec_count":77}
 {"type":"cell","id":"80becc","pos":35,"input":"Use Cramer's rule to find the values of $x_{2}$ and $x_{3}$.\n$$\n\\begin{array}{ccccccc}\nx_{1}&+&x_{2}&+&2x_{3}&=&-1\\\\\n2x_{1}&-&x_{2}&+&2x_{3}&=&-4\\\\\n4x_{1}&+&x_{2}&+&4x_{3}&=&-2\n\\end{array}\n$$","cell_type":"markdown"}
-{"type":"cell","id":"847f24","pos":56,"input":"n((1/3*pi - 1/3*arctan(5/12))*180/pi)","output":{"0":{"data":{"text/plain":"52.4600450173199"},"output_type":"execute_result","exec_count":109}},"cell_type":"code","exec_count":109}
-{"type":"cell","id":"87567d","pos":90,"input":"Determine how many solutions the following system of equations has. Your answer should be none, one, or infinitely many. Show your work.\n$$\n\\begin{array}{ccccccc}\n3x&+&4y&-&8z&=&-6\\\\\n-x&+&3y&+&6z&=&7\\\\\nx&+&10y&+&4z&=&-3\n\\end{array}\n$$","cell_type":"markdown"}
-{"type":"cell","id":"886108","pos":89,"input":"n(arg(z)*180/pi)","output":{"0":{"data":{"text/plain":"149.036243467926"},"output_type":"execute_result","exec_count":99}},"cell_type":"code","exec_count":99}
-{"type":"cell","id":"907083","pos":68,"input":"imag_part(z)","output":{"0":{"data":{"text/plain":"6/13"},"output_type":"execute_result","exec_count":76}},"cell_type":"code","exec_count":76}
-{"type":"cell","id":"918d9e","pos":67,"input":"real_part(z)","output":{"0":{"data":{"text/plain":"-4/13"},"output_type":"execute_result","exec_count":75}},"cell_type":"code","exec_count":75}
+{"type":"cell","id":"847f24","pos":56,"input":"sols=vector([n((1/3*pi - 1/3*arctan(5/12))*180/pi),n(((pi-arctan(5/12)+2*pi)*180/(3*pi))),n(((pi-arctan(5/12)+4*pi)*180/(3*pi)))])","cell_type":"code","exec_count":119}
+{"type":"cell","id":"87567d","pos":94,"input":"Determine how many solutions the following system of equations has. Your answer should be none, one, or infinitely many. Show your work.\n$$\n\\begin{array}{ccccccc}\n3x&+&4y&-&8z&=&-6\\\\\n-x&+&3y&+&6z&=&7\\\\\nx&+&10y&+&4z&=&-3\n\\end{array}\n$$","cell_type":"markdown"}
+{"type":"cell","id":"886108","pos":93,"input":"n(arg(z)*180/pi)","output":{"0":{"data":{"text/plain":"149.036243467926"},"output_type":"execute_result","exec_count":99}},"cell_type":"code","exec_count":99}
+{"type":"cell","id":"907083","pos":70,"input":"imag_part(z)","output":{"0":{"data":{"text/plain":"6/13"},"output_type":"execute_result","exec_count":76}},"cell_type":"code","exec_count":76}
+{"type":"cell","id":"918d9e","pos":69,"input":"real_part(z)","output":{"0":{"data":{"text/plain":"-4/13"},"output_type":"execute_result","exec_count":75}},"cell_type":"code","exec_count":75}
 {"type":"cell","id":"96be79","pos":31,"input":"pr=orr-op","cell_type":"code","exec_count":35}
 {"type":"cell","id":"96ef1a","pos":38,"input":"B=matrix([[1,1,-1],[2,-1,-4],[4,1,-2]])","cell_type":"code","exec_count":46}
 {"type":"cell","id":"98bef8","pos":6,"input":"pr=orr-op","cell_type":"code","exec_count":13}
-{"type":"cell","id":"98da09","pos":11,"input":"M=matrix([[1,2,4],[5,1,2],[3,-1,1]])","cell_type":"code","exec_count":17}
-{"type":"cell","id":"999749","pos":66,"input":"z=(-2+2*I)/(5+I)","cell_type":"code","exec_count":74}
-{"type":"cell","id":"9a834f","pos":97,"input":"Infinitely many solutions.","cell_type":"markdown"}
-{"type":"cell","id":"9e0450","pos":70,"input":"arg(z)","output":{"0":{"data":{"text/plain":"pi - arctan(3/2)"},"output_type":"execute_result","exec_count":78}},"cell_type":"code","exec_count":78}
-{"type":"cell","id":"9e4e3b","pos":75,"input":"Find the three cube roots of $10i+5$. Clearly indicate the radius and the angle (in degrees) of your solutions.","cell_type":"markdown"}
+{"type":"cell","id":"98da09","pos":11,"input":"M=matrix([[1,2,4],[5,1,2],[3,-1,1]])","cell_type":"code","exec_count":124}
+{"type":"cell","id":"999749","pos":68,"input":"z=(-2+2*I)/(5+I)","cell_type":"code","exec_count":74}
+{"type":"cell","id":"9a834f","pos":101,"input":"Infinitely many solutions.","cell_type":"markdown"}
+{"type":"cell","id":"9e0450","pos":72,"input":"arg(z)","output":{"0":{"data":{"text/plain":"pi - arctan(3/2)"},"output_type":"execute_result","exec_count":78}},"cell_type":"code","exec_count":78}
+{"type":"cell","id":"9e4e3b","pos":77,"input":"Find the three cube roots of $-100-75i$. Clearly indicate the radius and the angle (in degrees) of your solutions.","cell_type":"markdown"}
 {"type":"cell","id":"9f8a9a","pos":34,"input":"(1/2)*det(M)","output":{"0":{"data":{"text/plain":"-41/2"},"output_type":"execute_result","exec_count":38}},"cell_type":"code","exec_count":38}
-{"type":"cell","id":"9fe224","pos":87,"input":"n(abs(z))","output":{"0":{"data":{"text/plain":"1.02899151085505"},"output_type":"execute_result","exec_count":97}},"cell_type":"code","exec_count":97}
+{"type":"cell","id":"9fe224","pos":91,"input":"n(abs(z))","output":{"0":{"data":{"text/plain":"1.02899151085505"},"output_type":"execute_result","exec_count":97}},"cell_type":"code","exec_count":97}
 {"type":"cell","id":"a1d4ec","pos":12,"input":"A=matrix([[1,31,4],[5,29,2],[3,10,1]])","cell_type":"code","exec_count":18}
 {"type":"cell","id":"a21aa7","pos":22,"input":"A=matrix([[3-3*I,6],[-5*I,-4+7*I]])","cell_type":"code","exec_count":27}
-{"type":"cell","id":"a467c3","pos":73,"input":"~P*matrix([[4],[40],[16]])","output":{"0":{"data":{"text/plain":"[ 5]\n[ 1]\n[-2]"},"output_type":"execute_result","exec_count":80}},"cell_type":"code","exec_count":80}
-{"type":"cell","id":"a8cd62","pos":76,"input":"z=-100-75*I","cell_type":"code","exec_count":112}
+{"type":"cell","id":"a467c3","pos":75,"input":"~P*matrix([[4],[40],[16]])","output":{"0":{"data":{"text/plain":"[ 5]\n[ 1]\n[-2]"},"output_type":"execute_result","exec_count":80}},"cell_type":"code","exec_count":80}
+{"type":"cell","id":"a8cd62","pos":78,"input":"z=-100-75*I","cell_type":"code","exec_count":112}
 {"type":"cell","id":"ae0225","pos":10,"input":"Use Cramer's rule to find the values of $x_{2}$ and $x_{3}$.\n$$\n\\begin{array}{ccccccc}\nx_{1}&+&2x_{2}&+&4x_{3}&=&31\\\\\n5x_{1}&+&x_{2}&+&2x_{3}&=&29\\\\\n3x_{1}&-&x_{2}&+&x_{3}&=&10\n\\end{array}\n$$","cell_type":"markdown"}
 {"type":"cell","id":"b4646e","pos":19,"input":"C=matrix([[1,-2,-3,0],[-1,0,0,3],[0,1,3,0],[1,2,0,2]])","cell_type":"code","exec_count":25}
 {"type":"cell","id":"b486a3","pos":1,"input":"op=vector([-2,-5])","cell_type":"code","exec_count":39}
-{"type":"cell","id":"beb628","pos":59,"input":"~P*matrix([[28],[12],[15]])","output":{"0":{"data":{"text/plain":"[ 3]\n[-2]\n[ 7]"},"output_type":"execute_result","exec_count":71}},"cell_type":"code","exec_count":71}
-{"type":"cell","id":"bf0881","pos":92,"input":"M.echelon_form()","output":{"0":{"data":{"text/plain":"[ 1 10  4  8]\n[ 0 13 10  4]\n[ 0  0  0 11]"},"output_type":"execute_result","exec_count":101}},"cell_type":"code","exec_count":101}
-{"type":"cell","id":"c1cb93","pos":88,"input":"arg(z)","output":{"0":{"data":{"text/plain":"pi - arctan(3/5)"},"output_type":"execute_result","exec_count":98}},"cell_type":"code","exec_count":98}
+{"type":"cell","id":"beb628","pos":61,"input":"~P*matrix([[28],[12],[15]])","output":{"0":{"data":{"text/plain":"[ 3]\n[-2]\n[ 7]"},"output_type":"execute_result","exec_count":71}},"cell_type":"code","exec_count":71}
+{"type":"cell","id":"bf0881","pos":96,"input":"M.echelon_form()","output":{"0":{"data":{"text/plain":"[ 1 10  4  8]\n[ 0 13 10  4]\n[ 0  0  0 11]"},"output_type":"execute_result","exec_count":101}},"cell_type":"code","exec_count":101}
+{"type":"cell","id":"c1cb93","pos":92,"input":"arg(z)","output":{"0":{"data":{"text/plain":"pi - arctan(3/5)"},"output_type":"execute_result","exec_count":98}},"cell_type":"code","exec_count":98}
+{"type":"cell","id":"c365dc","pos":85,"input":"n((-pi + arctan(3/4))*180/pi)+480","output":{"0":{"data":{"text/plain":"336.869897645844"},"output_type":"execute_result","exec_count":122}},"cell_type":"code","exec_count":122}
 {"type":"cell","id":"c89ed0","pos":4,"input":"pq=oq-op","cell_type":"code","exec_count":40}
 {"type":"cell","id":"c912b2","pos":53,"input":"z=(-2028+845*I)^(1/3)","cell_type":"code","exec_count":105}
-{"type":"cell","id":"c9a0e9","pos":83,"input":"z=(3-3*I)/(-4+I)","cell_type":"code","exec_count":92}
+{"type":"cell","id":"c9a0e9","pos":87,"input":"z=(3-3*I)/(-4+I)","cell_type":"code","exec_count":92}
 {"type":"cell","id":"caf777","pos":7,"input":"pr","output":{"0":{"data":{"text/plain":"(3, -2)"},"output_type":"execute_result","exec_count":14}},"cell_type":"code","exec_count":14}
-{"type":"cell","id":"cb8dd2","pos":80,"input":"n((-pi + arctan(3/4))*180/pi)","output":{"0":{"data":{"text/plain":"-143.130102354156"},"output_type":"execute_result","exec_count":116}},"cell_type":"code","exec_count":116}
-{"type":"cell","id":"cd396b","pos":61,"input":"Determine how many solutions the following system of equations has. Your answer should be none, one, or infinitely many. Show your work.\n$$\n\\begin{array}{ccccccc}\n-4x&+&2y&+&6z&=&4\\\\\n8x&-&8y&-&z&=&2\\\\\n-4x&-&2y&+&17z&=&9\n\\end{array}\\notag\n$$","cell_type":"markdown"}
+{"type":"cell","id":"cb8dd2","pos":82,"input":"n((-pi + arctan(3/4))*180/pi)","output":{"0":{"data":{"text/plain":"-143.130102354156"},"output_type":"execute_result","exec_count":116}},"cell_type":"code","exec_count":116}
+{"type":"cell","id":"cd396b","pos":63,"input":"Determine how many solutions the following system of equations has. Your answer should be none, one, or infinitely many. Show your work.\n$$\n\\begin{array}{ccccccc}\n-4x&+&2y&+&6z&=&4\\\\\n8x&-&8y&-&z&=&2\\\\\n-4x&-&2y&+&17z&=&9\n\\end{array}\\notag\n$$","cell_type":"markdown"}
 {"type":"cell","id":"cd8585","pos":44,"input":"A*B","output":{"0":{"data":{"text/plain":"[  15*I - 3  -75*I - 3]\n[-24*I - 18  76*I + 62]"},"output_type":"execute_result","exec_count":51}},"cell_type":"code","exec_count":51}
-{"type":"cell","id":"ce2706","pos":63,"input":"M.echelon_form()","output":{"0":{"data":{"text/plain":"[  4   2 -17   1]\n[  0   4 -11   0]\n[  0   0   0   5]"},"output_type":"execute_result","exec_count":73}},"cell_type":"code","exec_count":73}
-{"type":"cell","id":"d04366","pos":72,"input":"P=matrix([[1,1,1],[9,-3,1],[4,-2,1]])","cell_type":"code","exec_count":79}
-{"type":"cell","id":"d3cca2","pos":96,"input":"M.echelon_form()","output":{"0":{"data":{"text/plain":"[ 2  3  7 -1]\n[ 0  8 16 -5]\n[ 0  0  0  0]"},"output_type":"execute_result","exec_count":104}},"cell_type":"code","exec_count":104}
-{"type":"cell","id":"d3fa35","pos":79,"input":"arg(z)","output":{"0":{"data":{"text/plain":"-pi + arctan(3/4)"},"output_type":"execute_result","exec_count":115}},"cell_type":"code","exec_count":115}
+{"type":"cell","id":"ce2706","pos":65,"input":"M.echelon_form()","output":{"0":{"data":{"text/plain":"[  4   2 -17   1]\n[  0   4 -11   0]\n[  0   0   0   5]"},"output_type":"execute_result","exec_count":73}},"cell_type":"code","exec_count":73}
+{"type":"cell","id":"d04366","pos":74,"input":"P=matrix([[1,1,1],[9,-3,1],[4,-2,1]])","cell_type":"code","exec_count":79}
+{"type":"cell","id":"d3cca2","pos":100,"input":"M.echelon_form()","output":{"0":{"data":{"text/plain":"[ 2  3  7 -1]\n[ 0  8 16 -5]\n[ 0  0  0  0]"},"output_type":"execute_result","exec_count":104}},"cell_type":"code","exec_count":104}
+{"type":"cell","id":"d3fa35","pos":81,"input":"arg(z)","output":{"0":{"data":{"text/plain":"-pi + arctan(3/4)"},"output_type":"execute_result","exec_count":115}},"cell_type":"code","exec_count":115}
 {"type":"cell","id":"dc0d9d","pos":36,"input":"M=matrix([[1,1,2],[2,-1,2],[4,1,4]])","cell_type":"code","exec_count":44}
 {"type":"cell","id":"e0d389","pos":23,"input":"B=matrix([[-5-6*I,-4+7*I],[-2+5*I,7+2*I]])","cell_type":"code","exec_count":28}
 {"type":"cell","id":"e18af1","pos":45,"input":"Find the determinant of $C$.\n$$\nC=\\left[\\begin{array}{cccc}\n-2&1&-3&0\\\\\n0&1&3&0\\\\\n-1&0&0&3\\\\\n1&2&0&2\n\\end{array}\\right]\n$$","cell_type":"markdown"}
 {"type":"cell","id":"e888db","pos":50,"input":"G.echelon_form()","output":{"0":{"data":{"text/plain":"[  1   3  -5   1]\n[  0  14 -23   2]\n[  0   0   0   0]"},"output_type":"execute_result","exec_count":55}},"cell_type":"code","exec_count":55}
-{"type":"cell","id":"ed60d6","pos":91,"input":"M=matrix([[3,4,-8,-6],[-1,3,6,7],[1,10,4,-3]])","cell_type":"code","exec_count":100}
+{"type":"cell","id":"ed60d6","pos":95,"input":"M=matrix([[3,4,-8,-6],[-1,3,6,7],[1,10,4,-3]])","cell_type":"code","exec_count":100}
 {"type":"cell","id":"edaccc","pos":42,"input":"A=matrix([[3+3*I,6*I],[-5,-4-7*I]])","cell_type":"code","exec_count":49}
-{"type":"cell","id":"eef41d","pos":60,"input":"The parabola is $y=3x^{2}-2x+7$.","cell_type":"markdown"}
+{"type":"cell","id":"eef41d","pos":62,"input":"The parabola is $y=3x^{2}-2x+7$.","cell_type":"markdown"}
 {"type":"cell","id":"eefa2a","pos":33,"input":"M=matrix([[7,3],[2,-5]])","cell_type":"code","exec_count":37}
 {"type":"cell","id":"eff477","pos":18,"input":"Find the determinant of $C$.\n$$\nC=\\left[\\begin{array}{cccc}\n1&-2&-3&0\\\\\n-1&0&0&3\\\\\n0&1&3&0\\\\\n1&2&0&2\n\\end{array}\\right]\n$$","cell_type":"markdown"}
-{"type":"cell","id":"f3fddd","pos":82,"input":"Convert the following complex number to polar form: $$\\frac{3-3i}{-4+i}$$","cell_type":"markdown"}
-{"type":"cell","id":"f57321","pos":77,"input":"abs(z)","output":{"0":{"data":{"text/plain":"125"},"output_type":"execute_result","exec_count":113}},"cell_type":"code","exec_count":113}
+{"type":"cell","id":"f3fddd","pos":86,"input":"Convert the following complex number to polar form: $$\\frac{3-3i}{-4+i}$$","cell_type":"markdown"}
+{"type":"cell","id":"f57321","pos":79,"input":"abs(z)","output":{"0":{"data":{"text/plain":"125"},"output_type":"execute_result","exec_count":113}},"cell_type":"code","exec_count":113}
 {"type":"cell","id":"f5f7cc","pos":32,"input":"pr","output":{"0":{"data":{"text/plain":"(3, -5)"},"output_type":"execute_result","exec_count":36}},"cell_type":"code","exec_count":36}
 {"type":"cell","id":"f7b2a6","pos":9,"input":"(1/2)*det(m)","output":{"0":{"data":{"text/plain":"-41/2"},"output_type":"execute_result","exec_count":43}},"cell_type":"code","exec_count":43}
-{"type":"cell","id":"f916d5","pos":93,"input":"No solutions.","cell_type":"markdown"}
-{"type":"cell","id":"faf0d5","pos":64,"input":"No solutions.","cell_type":"markdown"}
+{"type":"cell","id":"f916d5","pos":97,"input":"No solutions.","cell_type":"markdown"}
+{"type":"cell","id":"faf0d5","pos":66,"input":"No solutions.","cell_type":"markdown"}
 {"type":"cell","id":"fcb70e","pos":54,"input":"real_part(z)","output":{"0":{"data":{"text/plain":"13*cos(1/3*pi - 1/3*arctan(5/12))"},"output_type":"execute_result","exec_count":106}},"cell_type":"code","exec_count":106}
 {"type":"cell","id":"fea5ce","pos":15,"input":"x2","output":{"0":{"data":{"text/plain":"4"},"output_type":"execute_result","exec_count":22}},"cell_type":"code","exec_count":22}
-{"type":"file","last_load":1539633265985}
-{"type":"settings","kernel":"sagemath","kernel_state":"idle","backend_state":"running","trust":true,"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.15"}}}
+{"type":"file","last_load":1539816642654}
+{"type":"settings","kernel":"sagemath","backend_state":"running","trust":true,"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.15"}},"kernel_usage":{"cpu":0,"memory":265129984},"kernel_state":"idle"}
