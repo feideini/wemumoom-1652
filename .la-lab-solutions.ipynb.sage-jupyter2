@@ -1,167 +1,169 @@
-{"exec_count":1,"start":1538593255055,"input":"A=matrix([[-8,7,5],[-8,1,4]])","state":"done","pos":2,"type":"cell","end":1538593255085,"id":"5c1f9a","kernel":"sage-8.3"}
-{"exec_count":1,"start":1539356096574,"input":"P=matrix([[4,-2,1],[1,1,1],[9,3,1]])","state":"done","pos":40,"type":"cell","end":1539356096577,"id":"a6f420","kernel":"sage-8.3"}
-{"exec_count":10,"start":1538593636928,"input":"B=matrix([[5,-4,-4],[-1,0,-7],[7,5,-2]])","state":"done","pos":16,"type":"cell","end":1538593636938,"id":"e2a705","kernel":"sage-8.3"}
-{"exec_count":104,"start":1538611505136,"input":"A=matrix([[real_part((sqrt(3)+i)^8*(1+i)^5)],[imag_part((sqrt(3)+i)^8*(1+i)^5)]])","scrolled":true,"state":"done","pos":117,"cell_type":"code","type":"cell","end":1538611505142,"id":"697603","kernel":"sage-8.3"}
-{"exec_count":106,"start":1538611579427,"input":"B=matrix([[real_part((sqrt(3)-i)^(-8))],[imag_part((sqrt(3)-i)^(-8))]])","state":"done","pos":118,"cell_type":"code","type":"cell","end":1538611579441,"id":"20e0f2","kernel":"sage-8.3"}
-{"exec_count":115,"start":1538613151343,"input":"A=matrix([[n(real_part(2*(cos(18*pi/180)+i*sin(18*pi/180)))),n(imag_part(2*(cos(18*pi/180)+i*sin(18*pi/180))))],[n(real_part(2*(cos(90*pi/180)+i*sin(90*pi/180)))),n(imag_part(2*(cos(90*pi/180)+i*sin(90*pi/180))))],[n(real_part(2*(cos(162*pi/180)+i*sin(162*pi/180)))),n(imag_part(2*(cos(162*pi/180)+i*sin(162*pi/180))))],[n(real_part(2*(cos(234*pi/180)+i*sin(234*pi/180)))),n(imag_part(2*(cos(234*pi/180)+i*sin(234*pi/180))))],[n(real_part(2*(cos(306*pi/180)+i*sin(306*pi/180)))),n(imag_part(2*(cos(306*pi/180)+i*sin(306*pi/180))))]])","state":"done","pos":128,"type":"cell","end":1538613151366,"id":"bf0be5","kernel":"sage-8.3"}
-{"exec_count":117,"start":1538613470829,"input":"G=matrix([[3,5,-2],[1,1,-6],[6,11,4]])","state":"done","pos":134,"type":"cell","end":1538613470844,"id":"853bcb","kernel":"sage-8.3"}
-{"exec_count":120,"start":1538613653824,"input":"A=matrix([[3,5,-2],[1,1,-6],[6,11,4]])","state":"done","pos":137,"type":"cell","end":1538613653838,"id":"aa6a67","kernel":"sage-8.3"}
-{"exec_count":122,"input":"Consider the vector space of lines in $\\mathbb{R}^{3}$\ngoing through the origin.\n$$\nW=\\{L|L:ax+by+cz=0\\}  \n$$\nAre the following three lines a basis for $W$?\n$$\n  \\begin{array}{rcl}\n    L_{1}&:&2x+5y+z=0 \\\\\n    L_{2}&:&x-y-2z=0 \\\\\n    L_{3}&:&-3x+4z=0\n  \\end{array}\n$$\n\n* If yes, find the coordinates in terms of this basis for $L:14x+9y-12z=0$.\n* If no, express one of the $L_{i}$ by the others, $i=1,2,3$. \n","state":"done","pos":141,"cell_type":"markdown","type":"cell","id":"81157f","kernel":"sage-8.3"}
-{"exec_count":123,"start":1538613945933,"input":"H=matrix([[2,1,-3],[5,-1,0],[1,-2,4]])","state":"done","pos":143,"type":"cell","end":1538613945940,"id":"91752e","kernel":"sage-8.3"}
-{"exec_count":126,"start":1538614140153,"input":"v=matrix([14,9,-12])","state":"done","pos":146,"type":"cell","end":1538614140164,"id":"e6802a","kernel":"sage-8.3"}
-{"exec_count":13,"start":1538593901425,"input":"C=matrix([[-9,8,2],[-2,-5,-4],[7,5,5]])","state":"done","pos":20,"type":"cell","end":1538593901436,"id":"cadeb4","kernel":"sage-8.3"}
-{"exec_count":15,"start":1538594034829,"input":"A=matrix([[1,2,3],[0,1,4],[5,6,0]])","state":"done","pos":24,"type":"cell","end":1538594034831,"id":"1d7b72","kernel":"sage-8.3"}
-{"exec_count":16,"start":1538594088832,"input":"M=matrix([[108,8,26,95,69,3],[79,0,13,95,76,1],[238,40,79,114,60,11]])","state":"done","pos":25,"type":"cell","end":1538594088834,"id":"67c021","kernel":"sage-8.3"}
-{"exec_count":18,"start":1538594237424,"input":"T=matrix([[2,-6],[-3,1]])","state":"done","pos":29,"type":"cell","end":1538594237433,"id":"da105d","kernel":"sage-8.3"}
-{"exec_count":2,"start":1538593295226,"input":"B=matrix([[1,-8],[0,7],[0,1]])","state":"done","pos":3,"type":"cell","end":1538593295238,"id":"2b6502","kernel":"sage-8.3"}
-{"exec_count":2,"start":1539356099598,"input":"y=matrix([[40],[7],[15]])","state":"done","pos":41,"type":"cell","end":1539356099618,"id":"730dc7","kernel":"sage-8.3"}
-{"exec_count":24,"start":1538594435125,"input":"b=matrix([[0.425],[2.225],[3.775]])","state":"done","pos":34,"type":"cell","end":1538594435134,"id":"6ea639","kernel":"sage-8.3"}
-{"exec_count":27,"start":1538594614028,"input":"x=~A*b","state":"done","pos":35,"type":"cell","end":1538594614041,"id":"838dd4","kernel":"sage-8.3"}
-{"exec_count":3,"start":1539356102450,"input":"d=~P*y","state":"done","pos":42,"type":"cell","end":1539356102540,"id":"eb9c6f","kernel":"sage-8.3"}
-{"exec_count":35,"input":"$y=3x^{2}-8x+12$","state":"done","pos":44,"cell_type":"markdown","type":"cell","id":"2063f0","kernel":"sage-8.3"}
-{"exec_count":36,"start":1538606506552,"input":"A=matrix([[1,2,-1],[3,-1,2],[5,1,2]])","state":"done","pos":33,"type":"cell","end":1538606506558,"id":"df384d","kernel":"sage-8.3"}
-{"exec_count":43,"start":1538606821666,"input":"L=matrix([[14,20,24],[20,15,19],[30,5,13]])","state":"done","pos":47,"cell_type":"code","type":"cell","end":1538606821677,"id":"8e50fa","kernel":"sage-8.3"}
-{"exec_count":44,"start":1538606846524,"input":"d=matrix([[20,20,20]])","state":"done","pos":48,"type":"cell","end":1538606846534,"id":"e6e72a","kernel":"sage-8.3"}
-{"exec_count":46,"start":1538607254625,"input":"V=matrix([[0.125,0.5,1],[0.5,1,1],[0,0,1]])","state":"done","pos":53,"type":"cell","end":1538607254640,"id":"993f7c","kernel":"sage-8.3"}
-{"exec_count":47,"start":1538607278324,"input":"h=matrix([[6.275,9.1,1]])","state":"done","pos":54,"type":"cell","end":1538607278332,"id":"0b153a","kernel":"sage-8.3"}
-{"exec_count":5,"start":1538593397827,"input":"A=matrix([[6,6,-9],[-1,-9,-5],[1,2,-4]])","state":"done","pos":8,"type":"cell","end":1538593397837,"id":"6177f2","kernel":"sage-8.3"}
-{"exec_count":5,"start":1539469500647,"input":"z2=(I*sqrt(18)*I*sqrt(4))*3*I","state":"done","pos":102.5,"type":"cell","end":1539469501027,"id":"9df5a7","kernel":"sage-8.3"}
-{"exec_count":50,"start":1538607394825,"input":"t=var('t')","state":"done","pos":55.5,"type":"cell","end":1538607394837,"id":"02ea75","kernel":"sage-8.3"}
-{"exec_count":53,"start":1538607661280,"input":"R=matrix([[1,1,1],[5,6,8.5],[2,-1,0]])","state":"done","pos":59,"type":"cell","end":1538607661298,"id":"9119bf","kernel":"sage-8.3"}
-{"exec_count":54,"start":1538607678487,"input":"c=matrix([[8500,64600,0]])","state":"done","pos":60,"type":"cell","end":1538607678498,"id":"591f5c","kernel":"sage-8.3"}
-{"exec_count":56,"start":1538607851434,"input":"A=matrix([[0,0,1],[1,1,1],[1,-1,1]])","state":"done","pos":65,"type":"cell","end":1538607851438,"id":"a6e7a6","kernel":"sage-8.3"}
-{"exec_count":57,"start":1538607864225,"input":"b=matrix([[0,2,3]])","state":"done","pos":66,"type":"cell","end":1538607864232,"id":"abf16e","kernel":"sage-8.3"}
-{"exec_count":59,"start":1538608014146,"input":"H=matrix([[4,3-2*i,-3*i],[3+2*i,1,-5+2*i],[3*i,-5-2*i,2]])","state":"done","pos":71,"type":"cell","end":1538608014168,"id":"235502","kernel":"sage-8.3"}
-{"exec_count":61,"start":1538608215327,"input":"B=matrix([[3,-4,7,-23],[5,-10,11,-47],[5,0,-1,7],[1,-3,2,-12]])","state":"done","pos":75,"type":"cell","end":1538608215335,"id":"bdb7af","kernel":"sage-8.3"}
-{"exec_count":63,"start":1538608340032,"input":"C=matrix([[2,1,-2,4],[2,4,-3,9],[4,5,-5,-11]])","state":"done","pos":78,"type":"cell","end":1538608340039,"id":"d4e0c8","kernel":"sage-8.3"}
-{"exec_count":65,"start":1538608643424,"input":"c=3+4*i","state":"done","pos":83,"type":"cell","end":1538608643438,"id":"b7f269","kernel":"sage-8.3"}
-{"exec_count":69,"start":1538608702134,"input":"d=-1.04-1.56*i","state":"done","pos":86,"type":"cell","end":1538608702154,"id":"60498c","kernel":"sage-8.3"}
-{"exec_count":8,"start":1538593534836,"input":"D=matrix([[-5,-4,-5,-6],[0,2,0,-3],[-6,5,3,8],[5,1,-9,5]])","state":"done","pos":12,"type":"cell","end":1538593534841,"id":"038a60","kernel":"sage-8.3"}
-{"exec_count":83,"start":1538609490928,"input":"A=matrix([[n(real_part(3560*(cos(-32.4*pi/180)+i*sin(-32.4*pi/180))))],[n(imag_part(3560*(cos(-32.4*pi/180)+i*sin(-32.4*pi/180))))]])","state":"done","pos":92,"type":"cell","end":1538609490935,"id":"b07f4c","kernel":"sage-8.3"}
-{"exec_count":85,"start":1538609581290,"input":"B=matrix([[n(real_part(3.75*(cos(15*pi/180)+i*sin(15*pi/180))))],[n(imag_part(3.75*(cos(15*pi/180)+i*sin(15*pi/180))))]])","state":"done","pos":95,"type":"cell","end":1538609581324,"id":"4fdeef","kernel":"sage-8.3"}
-{"exec_count":9,"start":1539469790285,"input":"z6=((2-I^3)^4/(I^8-I^6)^3)+I","state":"done","pos":102.96875,"type":"cell","end":1539469790298,"id":"376d53","kernel":"sage-8.3"}
-{"exec_count":93,"start":1538609766464,"input":"C=matrix([[abs(2.84-1.06*i)],[n(arg(2.84-1.06*i)*180/pi+360)]])","state":"done","pos":98,"type":"cell","end":1538609766471,"id":"2d16ef","kernel":"sage-8.3"}
-{"exec_count":95,"start":1538610652242,"input":"A=matrix([[-4,-7],[6,-4]])","state":"done","pos":107,"type":"cell","end":1538610652249,"id":"bcc773","kernel":"sage-8.3"}
-{"exec_count":96,"start":1538610674928,"input":"b=matrix([[0,-5]])","state":"done","pos":108,"cell_type":"code","type":"cell","end":1538610674933,"id":"2ad6fc","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"-1"},"exec_count":124}},"exec_count":124,"start":1538613958340,"input":"H.determinant()","scrolled":true,"state":"done","pos":144,"type":"cell","end":1538613958396,"id":"54f10e","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"-18*sqrt(2)"},"exec_count":7}},"exec_count":7,"start":1539469527918,"input":"imag_part(z2)","state":"done","pos":102.875,"type":"cell","end":1539469527960,"id":"68586c","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"-239"},"exec_count":60}},"exec_count":60,"start":1538608039124,"input":"H.determinant()","state":"done","pos":72,"type":"cell","end":1538608039163,"id":"307d2d","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"-32*I"},"exec_count":100}},"exec_count":100,"start":1538611334730,"input":"(1-i)^10","state":"done","pos":116,"type":"cell","end":1538611334785,"id":"0bfdba","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"-3691"},"exec_count":9}},"exec_count":9,"start":1538593539630,"input":"det(D)","state":"done","pos":13,"type":"cell","end":1538593539656,"id":"78e1d3","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"-7/8"},"exec_count":10}},"exec_count":10,"start":1539469802252,"input":"real_part(z6)","state":"done","pos":102.984375,"type":"cell","end":1539469802273,"id":"6bc664","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"0"},"exec_count":118}},"exec_count":118,"start":1538613481261,"input":"G.determinant()","state":"done","pos":135,"type":"cell","end":1538613481308,"id":"a6b818","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"0"},"exec_count":6}},"exec_count":6,"start":1539469516713,"input":"real_part(z2)","state":"done","pos":102.75,"type":"cell","end":1539469516763,"id":"f881ee","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"1.87488666324127"},"exec_count":70}},"exec_count":70,"start":1538608708930,"input":"abs(d)","state":"done","pos":87,"type":"cell","end":1538608708972,"id":"393d00","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"11/17*I + 10/17"},"exec_count":99}},"exec_count":99,"start":1538611216726,"input":"(3+2*i)/(4-i)","state":"done","pos":113,"type":"cell","end":1538611216775,"id":"74e98b","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"159"},"exec_count":6}},"exec_count":6,"start":1538593407626,"input":"det(A)","state":"done","pos":9,"type":"cell","end":1538593407649,"id":"ff89cd","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"2.72787464490636"},"exec_count":52}},"exec_count":52,"start":1538607459837,"input":"n(1/49*sqrt(4715) + 65/49)","state":"done","pos":55.875,"type":"cell","end":1538607459866,"id":"b4da67","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"236.309932474020"},"exec_count":72}},"exec_count":72,"start":1538608971025,"input":"n(arg(d)*180/pi+360)","state":"done","pos":88,"type":"cell","end":1538608971153,"id":"77be5f","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"25.4558441227157"},"exec_count":8}},"exec_count":8,"input":"n(18*sqrt(2))","state":"done","pos":102.9375,"type":"cell","id":"820422","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"4"},"exec_count":11}},"exec_count":11,"start":1539469813752,"input":"imag_part(z6)","state":"done","pos":102.9921875,"type":"cell","end":1539469813790,"id":"7bcb40","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"5"},"exec_count":66}},"exec_count":66,"start":1538608653930,"input":"abs(c)","state":"done","pos":84,"type":"cell","end":1538608653960,"id":"0897a7","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"53.1301023541560"},"exec_count":68}},"exec_count":68,"start":1538608677523,"input":"n(arg(c)*180/pi)","state":"done","pos":85,"type":"cell","end":1538608677560,"id":"4e6159","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"8"},"exec_count":20}},"exec_count":20,"start":1538594281326,"input":"abs((1/2)*det(T))","state":"done","pos":30,"cell_type":"code","type":"cell","end":1538594281341,"id":"487dae","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"[        -1/512]\n[-1/512*sqrt(3)]"},"exec_count":107}},"exec_count":107,"start":1538611583286,"input":"B","state":"done","pos":119,"type":"cell","end":1538611583327,"id":"8e7ab6","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"[   5/49   30/49   22/49]\n[  18/49   59/49   40/49]\n[ -25/49 -101/49  -61/49]"},"exec_count":14}},"exec_count":14,"start":1538593909928,"input":"~C","state":"done","pos":21,"type":"cell","end":1538593909939,"id":"1e5349","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"[  1   0 -14]\n[  0   1   8]\n[  0   0   0]"},"exec_count":121}},"exec_count":121,"start":1538613667647,"input":"A.echelon_form()","state":"done","pos":138,"type":"cell","end":1538613667732,"id":"3eadf0","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"[  1   2   3   1]\n[  0   5   1  13]\n[  0   0  14 -28]\n[  0   0   0   0]"},"exec_count":62}},"exec_count":62,"start":1538608229226,"input":"B.echelon_form()","state":"done","pos":76,"type":"cell","end":1538608229266,"id":"446372","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"[ -8 118]\n[ -8  75]"},"exec_count":3}},"exec_count":3,"start":1538593303243,"input":"A*B","state":"done","pos":4,"type":"cell","end":1538593303260,"id":"408f75","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"[ 1.90211303259031 0.618033988749895]\n[0.000000000000000  2.00000000000000]\n[-1.90211303259031 0.618033988749895]\n[-1.17557050458495 -1.61803398874989]\n[ 1.17557050458495 -1.61803398874989]"},"exec_count":116}},"exec_count":116,"start":1538613153244,"input":"A","state":"done","pos":129,"type":"cell","end":1538613153377,"id":"2f2cdb","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"[ 1/2]\n[7/20]\n[ 1/4]"},"exec_count":45}},"exec_count":45,"start":1538606886303,"input":"~L*d.transpose()","state":"done","pos":49,"type":"cell","end":1538606886328,"id":"ab1059","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"[ 2  1 -2  4]\n[ 0  3 -1  5]\n[ 0  0  0 24]"},"exec_count":64}},"exec_count":64,"start":1538608353041,"input":"C.echelon_form()","state":"done","pos":79,"type":"cell","end":1538608353083,"id":"006631","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"[ 2]\n[ 1]\n[-3]"},"exec_count":129}},"exec_count":129,"start":1538614234081,"input":"~H*v.transpose()","state":"done","pos":147,"type":"cell","end":1538614234187,"id":"fb5689","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"[ 3.62222184858401]\n[0.970571419134453]"},"exec_count":86}},"exec_count":86,"start":1538609596039,"input":"B","state":"done","pos":96,"cell_type":"code","type":"cell","end":1538609596096,"id":"a56a2b","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"[ 3005.80741478717]\n[-1907.54339012523]"},"exec_count":84}},"exec_count":84,"start":1538609494133,"input":"A","state":"done","pos":93,"type":"cell","end":1538609494161,"id":"d51f63","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"[ 35 -28  28]\n[-51  18  39]\n[ -5 -53  -4]"},"exec_count":12}},"exec_count":12,"start":1538593788643,"input":"det(B)*~B","state":"done","pos":17,"type":"cell","end":1538593788662,"id":"3a39b5","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"[ 3]\n[-8]\n[12]"},"exec_count":4}},"exec_count":4,"start":1539356105451,"input":"d","state":"done","pos":43,"type":"cell","end":1539356105496,"id":"8d5161","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"[ 5/2]\n[-1/2]\n[   0]"},"exec_count":58}},"exec_count":58,"start":1538607881125,"input":"~A*b.transpose()","state":"done","pos":67,"type":"cell","end":1538607881149,"id":"de4102","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"[ 56  -1 -27]\n[-56   7  28]\n[ -8   1   4]"},"exec_count":4}},"exec_count":4,"start":1538593313660,"input":"B*A","state":"done","pos":5,"type":"cell","end":1538593313673,"id":"7acbf7","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"[-35/58]\n[ 10/29]"},"exec_count":97}},"exec_count":97,"start":1538610693011,"input":"~A*b.transpose()","state":"done","pos":109,"type":"cell","end":1538610693053,"id":"13ffdb","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"[-512*sqrt(3) + 512]\n[ 512*sqrt(3) + 512]"},"exec_count":105}},"exec_count":105,"start":1538611511911,"input":"A","state":"done","pos":117.5,"type":"cell","end":1538611511957,"id":"25d21c","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"[-9.80000000000000]\n[ 13.0000000000000]\n[ 1.00000000000000]"},"exec_count":48}},"exec_count":48,"start":1538607295028,"input":"~V*h.transpose()","state":"done","pos":55,"type":"cell","end":1538607295063,"id":"7beefd","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"[0.375000000000000]\n[0.399999999999999]\n[0.750000000000000]"},"exec_count":29}},"exec_count":29,"start":1538594757727,"input":"x","state":"done","pos":36,"type":"cell","end":1538594757748,"id":"a78b05","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"[20  8  5  0 12  1]\n[23  0  9 19  0  1]\n[14  0  1 19 19  0]"},"exec_count":17}},"exec_count":17,"start":1538594139731,"input":"~A*M","state":"done","pos":26,"type":"cell","end":1538594139747,"id":"e3cc8a","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"[3.03136932754820]\n[339.532442400431]"},"exec_count":94}},"exec_count":94,"start":1538609768410,"input":"C","state":"done","pos":99,"type":"cell","end":1538609768451,"id":"3aaa99","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"[899.999999999998]\n[1800.00000000001]\n[5800.00000000000]"},"exec_count":55}},"exec_count":55,"start":1538607692986,"input":"~R*c.transpose()","state":"done","pos":61,"type":"cell","end":1538607693016,"id":"45a0fd","kernel":"sage-8.3"}
-{"output":{"0":{"data":{"text/plain":"[t == -1/49*sqrt(4715) + 65/49, t == 1/49*sqrt(4715) + 65/49]"},"exec_count":51}},"exec_count":51,"input":"solve(-4.9*t^2+13*t+1,t)","state":"done","pos":55.75,"type":"cell","id":"cff9b4","kernel":"sage-8.3"}
+{"exec_count":1,"input":"A=matrix([[-8,7,5],[-8,1,4]])","pos":2,"cell_type":"code","type":"cell","id":"5c1f9a"}
+{"exec_count":1,"input":"P=matrix([[4,-2,1],[1,1,1],[9,3,1]])","pos":40,"cell_type":"code","type":"cell","id":"a6f420"}
+{"exec_count":10,"input":"B=matrix([[5,-4,-4],[-1,0,-7],[7,5,-2]])","pos":16,"cell_type":"code","type":"cell","id":"e2a705"}
+{"exec_count":104,"input":"A=matrix([[real_part((sqrt(3)+i)^8*(1+i)^5)],[imag_part((sqrt(3)+i)^8*(1+i)^5)]])","scrolled":true,"pos":129,"cell_type":"code","type":"cell","id":"697603"}
+{"exec_count":106,"input":"B=matrix([[real_part((sqrt(3)-i)^(-8))],[imag_part((sqrt(3)-i)^(-8))]])","pos":131,"cell_type":"code","type":"cell","id":"20e0f2"}
+{"exec_count":115,"input":"A=matrix([[n(real_part(2*(cos(18*pi/180)+i*sin(18*pi/180)))),n(imag_part(2*(cos(18*pi/180)+i*sin(18*pi/180))))],[n(real_part(2*(cos(90*pi/180)+i*sin(90*pi/180)))),n(imag_part(2*(cos(90*pi/180)+i*sin(90*pi/180))))],[n(real_part(2*(cos(162*pi/180)+i*sin(162*pi/180)))),n(imag_part(2*(cos(162*pi/180)+i*sin(162*pi/180))))],[n(real_part(2*(cos(234*pi/180)+i*sin(234*pi/180)))),n(imag_part(2*(cos(234*pi/180)+i*sin(234*pi/180))))],[n(real_part(2*(cos(306*pi/180)+i*sin(306*pi/180)))),n(imag_part(2*(cos(306*pi/180)+i*sin(306*pi/180))))]])","pos":143,"cell_type":"code","type":"cell","id":"bf0be5"}
+{"exec_count":117,"input":"G=matrix([[3,5,-2],[1,1,-6],[6,11,4]])","pos":149,"cell_type":"code","type":"cell","id":"853bcb"}
+{"exec_count":120,"input":"A=matrix([[3,5,-2],[1,1,-6],[6,11,4]])","pos":152,"cell_type":"code","type":"cell","id":"aa6a67"}
+{"exec_count":123,"input":"H=matrix([[2,1,-3],[5,-1,0],[1,-2,4]])","pos":158,"cell_type":"code","type":"cell","id":"91752e"}
+{"exec_count":126,"input":"v=matrix([14,9,-12])","pos":161,"cell_type":"code","type":"cell","id":"e6802a"}
+{"exec_count":13,"input":"C=matrix([[-9,8,2],[-2,-5,-4],[7,5,5]])","pos":20,"cell_type":"code","type":"cell","id":"cadeb4"}
+{"exec_count":15,"input":"A=matrix([[1,2,3],[0,1,4],[5,6,0]])","pos":24,"cell_type":"code","type":"cell","id":"1d7b72"}
+{"exec_count":16,"input":"M=matrix([[108,8,26,95,69,3],[79,0,13,95,76,1],[238,40,79,114,60,11]])","pos":25,"cell_type":"code","type":"cell","id":"67c021"}
+{"exec_count":18,"input":"T=matrix([[2,-6],[-3,1]])","pos":29,"cell_type":"code","type":"cell","id":"da105d"}
+{"exec_count":2,"input":"B=matrix([[1,-8],[0,7],[0,1]])","pos":3,"cell_type":"code","type":"cell","id":"2b6502"}
+{"exec_count":2,"input":"y=matrix([[40],[7],[15]])","pos":41,"cell_type":"code","type":"cell","id":"730dc7"}
+{"exec_count":24,"input":"b=matrix([[0.425],[2.225],[3.775]])","pos":34,"cell_type":"code","type":"cell","id":"6ea639"}
+{"exec_count":27,"input":"x=~A*b","pos":35,"cell_type":"code","type":"cell","id":"838dd4"}
+{"exec_count":3,"input":"d=~P*y","pos":42,"cell_type":"code","type":"cell","id":"eb9c6f"}
+{"exec_count":36,"input":"A=matrix([[1,2,-1],[3,-1,2],[5,1,2]])","pos":33,"cell_type":"code","type":"cell","id":"df384d"}
+{"exec_count":43,"input":"L=matrix([[14,20,24],[20,15,19],[30,5,13]])","pos":47,"cell_type":"code","type":"cell","id":"8e50fa"}
+{"exec_count":44,"input":"d=matrix([[20,20,20]])","pos":48,"cell_type":"code","type":"cell","id":"e6e72a"}
+{"exec_count":46,"input":"V=matrix([[0.125,0.5,1],[0.5,1,1],[0,0,1]])","pos":53,"cell_type":"code","type":"cell","id":"993f7c"}
+{"exec_count":47,"input":"h=matrix([[6.275,9.1,1]])","pos":54,"cell_type":"code","type":"cell","id":"0b153a"}
+{"exec_count":5,"input":"A=matrix([[6,6,-9],[-1,-9,-5],[1,2,-4]])","pos":8,"cell_type":"code","type":"cell","id":"6177f2"}
+{"exec_count":5,"input":"z2=(I*sqrt(18)*I*sqrt(4))*3*I","pos":107,"cell_type":"code","type":"cell","id":"9df5a7"}
+{"exec_count":50,"input":"t=var('t')","pos":56,"cell_type":"code","type":"cell","id":"02ea75"}
+{"exec_count":53,"input":"R=matrix([[1,1,1],[5,6,8.5],[2,-1,0]])","pos":62,"cell_type":"code","type":"cell","id":"9119bf"}
+{"exec_count":54,"input":"c=matrix([[8500,64600,0]])","pos":63,"cell_type":"code","type":"cell","id":"591f5c"}
+{"exec_count":56,"input":"A=matrix([[0,0,1],[1,1,1],[1,-1,1]])","pos":68,"cell_type":"code","type":"cell","id":"a6e7a6"}
+{"exec_count":57,"input":"b=matrix([[0,2,3]])","pos":69,"cell_type":"code","type":"cell","id":"abf16e"}
+{"exec_count":59,"input":"H=matrix([[4,3-2*i,-3*i],[3+2*i,1,-5+2*i],[3*i,-5-2*i,2]])","pos":74,"cell_type":"code","type":"cell","id":"235502"}
+{"exec_count":61,"input":"B=matrix([[3,-4,7,-23],[5,-10,11,-47],[5,0,-1,7],[1,-3,2,-12]])","pos":78,"cell_type":"code","type":"cell","id":"bdb7af"}
+{"exec_count":63,"input":"C=matrix([[2,1,-2,4],[2,4,-3,9],[4,5,-5,-11]])","pos":81,"cell_type":"code","type":"cell","id":"d4e0c8"}
+{"exec_count":65,"input":"c=3+4*i","pos":86,"cell_type":"code","type":"cell","id":"b7f269"}
+{"exec_count":69,"input":"d=-1.04-1.56*i","pos":90,"cell_type":"code","type":"cell","id":"60498c"}
+{"exec_count":8,"input":"D=matrix([[-5,-4,-5,-6],[0,2,0,-3],[-6,5,3,8],[5,1,-9,5]])","pos":12,"cell_type":"code","type":"cell","id":"038a60"}
+{"exec_count":83,"input":"A=matrix([[n(real_part(3560*(cos(-32.4*pi/180)+i*sin(-32.4*pi/180))))],[n(imag_part(3560*(cos(-32.4*pi/180)+i*sin(-32.4*pi/180))))]])","pos":96,"cell_type":"code","type":"cell","id":"b07f4c"}
+{"exec_count":85,"input":"B=matrix([[n(real_part(3.75*(cos(15*pi/180)+i*sin(15*pi/180))))],[n(imag_part(3.75*(cos(15*pi/180)+i*sin(15*pi/180))))]])","pos":99,"cell_type":"code","type":"cell","id":"4fdeef"}
+{"exec_count":9,"input":"z6=((2-I^3)^4/(I^8-I^6)^3)+I","pos":111,"cell_type":"code","type":"cell","id":"376d53"}
+{"exec_count":93,"input":"C=matrix([[abs(2.84-1.06*i)],[n(arg(2.84-1.06*i)*180/pi+360)]])","pos":102,"cell_type":"code","type":"cell","id":"2d16ef"}
+{"exec_count":95,"input":"A=matrix([[-4,-7],[6,-4]])","pos":118,"cell_type":"code","type":"cell","id":"bcc773"}
+{"exec_count":96,"input":"b=matrix([[0,-5]])","pos":119,"cell_type":"code","type":"cell","id":"2ad6fc"}
+{"input":"Consider the vector space of lines in $\\mathbb{R}^{3}$\ngoing through the origin.\n$$\nW=\\{L|L:ax+by+cz=0\\}  \n$$\nAre the following three lines a basis for $W$?\n$$\n  \\begin{array}{rcl}\n    L_{1}&:&2x+5y+z=0 \\\\\n    L_{2}&:&x-y-2z=0 \\\\\n    L_{3}&:&-3x+4z=0\n  \\end{array}\n$$\n\n* If yes, find the coordinates in terms of this basis for $L:14x+9y-12z=0$.\n* If no, express one of the $L_{i}$ by the others, $i=1,2,3$. \n","pos":156,"cell_type":"markdown","type":"cell","id":"81157f"}
+{"output":{"0":{"data":{"text/plain":"-1"},"output_type":"execute_result","exec_count":124}},"exec_count":124,"input":"H.determinant()","scrolled":true,"pos":159,"cell_type":"code","type":"cell","id":"54f10e"}
+{"output":{"0":{"data":{"text/plain":"-18*sqrt(2)"},"output_type":"execute_result","exec_count":7}},"exec_count":7,"input":"imag_part(z2)","pos":109,"cell_type":"code","type":"cell","id":"68586c"}
+{"output":{"0":{"data":{"text/plain":"-239"},"output_type":"execute_result","exec_count":60}},"exec_count":60,"input":"H.determinant()","pos":75,"cell_type":"code","type":"cell","id":"307d2d"}
+{"output":{"0":{"data":{"text/plain":"-32*I"},"output_type":"execute_result","exec_count":100}},"exec_count":100,"input":"(1-i)^10","pos":128,"cell_type":"code","type":"cell","id":"0bfdba"}
+{"output":{"0":{"data":{"text/plain":"-3691"},"output_type":"execute_result","exec_count":9}},"exec_count":9,"input":"det(D)","pos":13,"cell_type":"code","type":"cell","id":"78e1d3"}
+{"output":{"0":{"data":{"text/plain":"-7/8"},"output_type":"execute_result","exec_count":10}},"exec_count":10,"input":"real_part(z6)","pos":112,"cell_type":"code","type":"cell","id":"6bc664"}
+{"output":{"0":{"data":{"text/plain":"0"},"output_type":"execute_result","exec_count":118}},"exec_count":118,"input":"G.determinant()","pos":150,"cell_type":"code","type":"cell","id":"a6b818"}
+{"output":{"0":{"data":{"text/plain":"0"},"output_type":"execute_result","exec_count":6}},"exec_count":6,"input":"real_part(z2)","pos":108,"cell_type":"code","type":"cell","id":"f881ee"}
+{"output":{"0":{"data":{"text/plain":"1.87488666324127"},"output_type":"execute_result","exec_count":70}},"exec_count":70,"input":"abs(d)","pos":91,"cell_type":"code","type":"cell","id":"393d00"}
+{"output":{"0":{"data":{"text/plain":"11/17*I + 10/17"},"output_type":"execute_result","exec_count":99}},"exec_count":99,"input":"(3+2*i)/(4-i)","pos":124,"cell_type":"code","type":"cell","id":"74e98b"}
+{"output":{"0":{"data":{"text/plain":"159"},"output_type":"execute_result","exec_count":6}},"exec_count":6,"input":"det(A)","pos":9,"cell_type":"code","type":"cell","id":"ff89cd"}
+{"output":{"0":{"data":{"text/plain":"2.72787464490636"},"output_type":"execute_result","exec_count":52}},"exec_count":52,"input":"n(1/49*sqrt(4715) + 65/49)","pos":58,"cell_type":"code","type":"cell","id":"b4da67"}
+{"output":{"0":{"data":{"text/plain":"236.309932474020"},"output_type":"execute_result","exec_count":72}},"exec_count":72,"input":"n(arg(d)*180/pi+360)","pos":92,"cell_type":"code","type":"cell","id":"77be5f"}
+{"output":{"0":{"data":{"text/plain":"25.4558441227157"},"output_type":"execute_result","exec_count":8}},"exec_count":8,"input":"n(18*sqrt(2))","pos":110,"cell_type":"code","type":"cell","id":"820422"}
+{"output":{"0":{"data":{"text/plain":"4"},"output_type":"execute_result","exec_count":11}},"exec_count":11,"input":"imag_part(z6)","pos":113,"cell_type":"code","type":"cell","id":"7bcb40"}
+{"output":{"0":{"data":{"text/plain":"5"},"output_type":"execute_result","exec_count":66}},"exec_count":66,"input":"abs(c)","pos":87,"cell_type":"code","type":"cell","id":"0897a7"}
+{"output":{"0":{"data":{"text/plain":"53.1301023541560"},"output_type":"execute_result","exec_count":68}},"exec_count":68,"input":"n(arg(c)*180/pi)","pos":88,"cell_type":"code","type":"cell","id":"4e6159"}
+{"output":{"0":{"data":{"text/plain":"8"},"output_type":"execute_result","exec_count":20}},"exec_count":20,"input":"abs((1/2)*det(T))","pos":30,"cell_type":"code","type":"cell","id":"487dae"}
+{"output":{"0":{"data":{"text/plain":"[        -1/512]\n[-1/512*sqrt(3)]"},"output_type":"execute_result","exec_count":107}},"exec_count":107,"input":"B","pos":132,"cell_type":"code","type":"cell","id":"8e7ab6"}
+{"output":{"0":{"data":{"text/plain":"[   5/49   30/49   22/49]\n[  18/49   59/49   40/49]\n[ -25/49 -101/49  -61/49]"},"output_type":"execute_result","exec_count":14}},"exec_count":14,"input":"~C","pos":21,"cell_type":"code","type":"cell","id":"1e5349"}
+{"output":{"0":{"data":{"text/plain":"[  1   0 -14]\n[  0   1   8]\n[  0   0   0]"},"output_type":"execute_result","exec_count":121}},"exec_count":121,"input":"A.echelon_form()","pos":153,"cell_type":"code","type":"cell","id":"3eadf0"}
+{"output":{"0":{"data":{"text/plain":"[  1   2   3   1]\n[  0   5   1  13]\n[  0   0  14 -28]\n[  0   0   0   0]"},"output_type":"execute_result","exec_count":62}},"exec_count":62,"input":"B.echelon_form()","pos":79,"cell_type":"code","type":"cell","id":"446372"}
+{"output":{"0":{"data":{"text/plain":"[ -8 118]\n[ -8  75]"},"output_type":"execute_result","exec_count":3}},"exec_count":3,"input":"A*B","pos":4,"cell_type":"code","type":"cell","id":"408f75"}
+{"output":{"0":{"data":{"text/plain":"[ 1.90211303259031 0.618033988749895]\n[0.000000000000000  2.00000000000000]\n[-1.90211303259031 0.618033988749895]\n[-1.17557050458495 -1.61803398874989]\n[ 1.17557050458495 -1.61803398874989]"},"output_type":"execute_result","exec_count":116}},"exec_count":116,"input":"A","pos":144,"cell_type":"code","type":"cell","id":"2f2cdb"}
+{"output":{"0":{"data":{"text/plain":"[ 1/2]\n[7/20]\n[ 1/4]"},"output_type":"execute_result","exec_count":45}},"exec_count":45,"input":"~L*d.transpose()","pos":49,"cell_type":"code","type":"cell","id":"ab1059"}
+{"output":{"0":{"data":{"text/plain":"[ 2  1 -2  4]\n[ 0  3 -1  5]\n[ 0  0  0 24]"},"output_type":"execute_result","exec_count":64}},"exec_count":64,"input":"C.echelon_form()","pos":82,"cell_type":"code","type":"cell","id":"006631"}
+{"output":{"0":{"data":{"text/plain":"[ 2]\n[ 1]\n[-3]"},"output_type":"execute_result","exec_count":129}},"exec_count":129,"input":"~H*v.transpose()","scrolled":true,"pos":162,"cell_type":"code","type":"cell","id":"fb5689"}
+{"output":{"0":{"data":{"text/plain":"[ 3.62222184858401]\n[0.970571419134453]"},"output_type":"execute_result","exec_count":86}},"exec_count":86,"input":"B","pos":100,"cell_type":"code","type":"cell","id":"a56a2b"}
+{"output":{"0":{"data":{"text/plain":"[ 3005.80741478717]\n[-1907.54339012523]"},"output_type":"execute_result","exec_count":84}},"exec_count":84,"input":"A","pos":97,"cell_type":"code","type":"cell","id":"d51f63"}
+{"output":{"0":{"data":{"text/plain":"[ 35 -28  28]\n[-51  18  39]\n[ -5 -53  -4]"},"output_type":"execute_result","exec_count":12}},"exec_count":12,"input":"det(B)*~B","pos":17,"cell_type":"code","type":"cell","id":"3a39b5"}
+{"output":{"0":{"data":{"text/plain":"[ 3]\n[-8]\n[12]"},"output_type":"execute_result","exec_count":4}},"exec_count":4,"input":"d","pos":43,"cell_type":"code","type":"cell","id":"8d5161"}
+{"output":{"0":{"data":{"text/plain":"[ 5/2]\n[-1/2]\n[   0]"},"output_type":"execute_result","exec_count":58}},"exec_count":58,"input":"~A*b.transpose()","pos":70,"cell_type":"code","type":"cell","id":"de4102"}
+{"output":{"0":{"data":{"text/plain":"[ 56  -1 -27]\n[-56   7  28]\n[ -8   1   4]"},"output_type":"execute_result","exec_count":4}},"exec_count":4,"input":"B*A","pos":5,"cell_type":"code","type":"cell","id":"7acbf7"}
+{"output":{"0":{"data":{"text/plain":"[-35/58]\n[ 10/29]"},"output_type":"execute_result","exec_count":97}},"exec_count":97,"input":"~A*b.transpose()","pos":120,"cell_type":"code","type":"cell","id":"13ffdb"}
+{"output":{"0":{"data":{"text/plain":"[-512*sqrt(3) + 512]\n[ 512*sqrt(3) + 512]"},"output_type":"execute_result","exec_count":105}},"exec_count":105,"input":"A","pos":130,"cell_type":"code","type":"cell","id":"25d21c"}
+{"output":{"0":{"data":{"text/plain":"[-9.80000000000000]\n[ 13.0000000000000]\n[ 1.00000000000000]"},"output_type":"execute_result","exec_count":48}},"exec_count":48,"input":"~V*h.transpose()","pos":55,"cell_type":"code","type":"cell","id":"7beefd"}
+{"output":{"0":{"data":{"text/plain":"[0.375000000000000]\n[0.399999999999999]\n[0.750000000000000]"},"output_type":"execute_result","exec_count":29}},"exec_count":29,"input":"x","pos":36,"cell_type":"code","type":"cell","id":"a78b05"}
+{"output":{"0":{"data":{"text/plain":"[20  8  5  0 12  1]\n[23  0  9 19  0  1]\n[14  0  1 19 19  0]"},"output_type":"execute_result","exec_count":17}},"exec_count":17,"input":"~A*M","pos":26,"cell_type":"code","type":"cell","id":"e3cc8a"}
+{"output":{"0":{"data":{"text/plain":"[3.03136932754820]\n[339.532442400431]"},"output_type":"execute_result","exec_count":94}},"exec_count":94,"input":"C","pos":103,"cell_type":"code","type":"cell","id":"3aaa99"}
+{"output":{"0":{"data":{"text/plain":"[899.999999999998]\n[1800.00000000001]\n[5800.00000000000]"},"output_type":"execute_result","exec_count":55}},"exec_count":55,"input":"~R*c.transpose()","pos":64,"cell_type":"code","type":"cell","id":"45a0fd"}
+{"output":{"0":{"data":{"text/plain":"[t == -1/49*sqrt(4715) + 65/49, t == 1/49*sqrt(4715) + 65/49]"},"output_type":"execute_result","exec_count":51}},"exec_count":51,"input":"solve(-4.9*t^2+13*t+1,t)","id":"cff9b4","pos":57,"type":"cell","cell_type":"code"}
 {"type":"cell","id":"04b2b9","pos":37,"input":"$I_{1}=0.375,I_{2}=0.4,I_{3}=0.75$","cell_type":"markdown"}
-{"type":"cell","id":"0516c7","pos":91,"input":"Solve the following problems in electrical engineering.\n  \n  * The impedance $Z$ (in $\\Omega$) in an alternating-current circuit is given by $Z=3560/-32.4^{\\circ}$. Express this in rectangular form.\n  * The current in a microprocessor circuit is represented by $3.75/15.0^{\\circ}\\mu$A. Write this in rectangular form.\n  * The voltage of a generator is represented by $2.84-1.06i$kV. Write this voltage in polar form.\n  ","cell_type":"markdown"}
+{"type":"cell","id":"0516c7","pos":95,"input":"Solve the following problems in electrical engineering.\n  \n  * The impedance $Z$ (in $\\Omega$) in an alternating-current circuit is given by $Z=3560/-32.4^{\\circ}$. Express this in rectangular form.\n  * The current in a microprocessor circuit is represented by $3.75/15.0^{\\circ}\\mu$A. Write this in rectangular form.\n  * The voltage of a generator is represented by $2.84-1.06i$kV. Write this voltage in polar form.\n  ","cell_type":"markdown"}
 {"type":"cell","id":"0c4db6","pos":31,"input":"**Lab 2 Question 2**","cell_type":"markdown"}
 {"type":"cell","id":"11a6d0","pos":6,"input":"**Lab 1 Question 2**","cell_type":"markdown"}
-{"type":"cell","id":"156dc7","pos":121,"input":"**Lab 4 Question 4**","cell_type":"markdown"}
-{"type":"cell","id":"1586de","pos":74,"input":"Solve the following systems of linear equations.\n$$\n    \\begin{array}{ccccccc}\n      3x&-&4y&+&7z&=&-23 \\\\\n      5x&-&10y&+&11z&=&-47 \\\\\n      5x&&&-&z&=&7 \\\\\n      x&-&3y&+&2z&=&-12\n    \\end{array}\n$$\n<hr>\n$$\n    \\begin{array}{ccccccc}\n      2u&+&v&-&2w&=&4 \\\\\n      2u&+&4v&-&3w&=&9 \\\\\n      4u&+&5v&-&5w&=&-11\n    \\end{array}\n$$","cell_type":"markdown"}
-{"type":"cell","id":"1eb325","pos":81,"input":"**Lab 3 Question 4**","cell_type":"markdown"}
-{"type":"cell","id":"2404f5","pos":56,"input":"The position function is $s(t)=-4.9t^{2}+13t+1$. It will take 2.73 seconds until the ball hits the ground on the other side of the net if everyone on that team completely misses it.","cell_type":"markdown"}
+{"type":"cell","id":"156dc7","pos":136,"input":"**Lab 4 Question 4**","cell_type":"markdown"}
+{"type":"cell","id":"1586de","pos":77,"input":"Solve the following systems of linear equations.\n$$\n    \\begin{array}{ccccccc}\n      3x&-&4y&+&7z&=&-23 \\\\\n      5x&-&10y&+&11z&=&-47 \\\\\n      5x&&&-&z&=&7 \\\\\n      x&-&3y&+&2z&=&-12\n    \\end{array}\n$$\n<hr>\n$$\n    \\begin{array}{ccccccc}\n      2u&+&v&-&2w&=&4 \\\\\n      2u&+&4v&-&3w&=&9 \\\\\n      4u&+&5v&-&5w&=&-11\n    \\end{array}\n$$","cell_type":"markdown"}
+{"type":"cell","id":"1eb325","pos":84,"input":"**Lab 3 Question 4**","cell_type":"markdown"}
+{"type":"cell","id":"2404f5","pos":59,"input":"The position function is $s(t)=-4.9t^{2}+13t+1$. It will take 2.73 seconds until the ball hits the ground on the other side of the net if everyone on that team completely misses it.","cell_type":"markdown"}
 {"type":"cell","id":"308c1a","pos":51,"input":"**Lab 2 Question 5**","cell_type":"markdown"}
 {"type":"cell","id":"31836b","pos":7,"input":"Find the determinant of the following matrix.\n\n$$\n    A=\\left[\n    \\begin{array}{ccc}\n      6 & 6 & -9 \\\\\n      -1 & -9 & -5 \\\\\n      1 & 2 & -4 \n    \\end{array}\\right]\n$$","cell_type":"markdown"}
-{"type":"cell","id":"365ccc","pos":114,"input":"The answer is $\\frac{10}{17}+\\frac{11}{17}\\cdot{}i$.","cell_type":"markdown"}
+{"type":"cell","id":"365ccc","pos":125,"input":"The answer is $\\frac{10}{17}+\\frac{11}{17}\\cdot{}i$.","cell_type":"markdown"}
 {"type":"cell","id":"398375","pos":19,"input":"Find the inverse of the following matrix.\n\n$$\n  C=\\left[\n    \\begin{array}{ccc}\n      -9 & 8 & 2 \\\\\n      -2 & -5 & -4 \\\\\n      7 & 5 & 5 \\\\\n    \\end{array}\\right]\n$$","cell_type":"markdown"}
-{"type":"cell","id":"3b0d39","pos":106,"input":"Expand and collect like terms for $(-4x-7y)+(6x-4y+5)i=0$.","cell_type":"markdown"}
-{"type":"cell","id":"3ccf2d","pos":73,"input":"**Lab 3 Question 3**","cell_type":"markdown"}
-{"type":"cell","id":"406e41","pos":90,"input":"**Lab 3 Question 5**","cell_type":"markdown"}
+{"type":"cell","id":"3b0d39","pos":117,"input":"Expand and collect like terms for $(-4x-7y)+(6x-4y+5)i=0$.","cell_type":"markdown"}
+{"type":"cell","id":"3ccf2d","pos":76,"input":"**Lab 3 Question 3**","cell_type":"markdown"}
+{"type":"cell","id":"406e41","pos":94,"input":"**Lab 3 Question 5**","cell_type":"markdown"}
 {"type":"cell","id":"41b0a9","pos":38,"input":"**Lab 2 Question 3**","cell_type":"markdown"}
 {"type":"cell","id":"4232be","pos":22,"input":"**Lab 1 Question 6**","cell_type":"markdown"}
 {"type":"cell","id":"426485","pos":14,"input":"**Lab 1 Question 4**","cell_type":"markdown"}
-{"type":"cell","id":"51802e","pos":97,"input":"The current in a microprocessor circuit is approximately represented by $3.62+0.9706i$.","cell_type":"markdown"}
-{"type":"cell","id":"5471eb","pos":112,"input":"Convert the following expression to rectangular form with\nand without Euler's formula,\n$$\n  \\frac{3+\\sqrt{-4}}{4-i}\n$$","cell_type":"markdown"}
-{"type":"cell","id":"54892d","pos":131,"input":"**Lab 4 Question 6**","cell_type":"markdown"}
+{"type":"cell","id":"502b3b","pos":165,"input":"The solutions are available in D2L. The filename is <tt>la-lab-05-answers.pdf</tt>.","cell_type":"markdown"}
+{"type":"cell","id":"51802e","pos":101,"input":"The current in a microprocessor circuit is approximately represented by $3.62+0.9706i$.","cell_type":"markdown"}
+{"type":"cell","id":"5471eb","pos":123,"input":"Convert the following expression to rectangular form with\nand without Euler's formula,\n$$\n  \\frac{3+\\sqrt{-4}}{4-i}\n$$","cell_type":"markdown"}
+{"type":"cell","id":"54892d","pos":146,"input":"**Lab 4 Question 6**","cell_type":"markdown"}
 {"type":"cell","id":"555a4f","pos":32,"input":"The currents running through an electrical system are given\nby the following system of equations. The three currents\n$I_{1},I_{2},I_{3}$ are measured in amps. Solve the system to find the\ncurrents in this circuit. (Use elementary row operations to find the\ninverse matrix.)\n$$\n    \\begin{array}{clclclc}\n    I_{1} & + & 2I_{2} & - & I_{3} & = & 0.425 \\\\\n    3I_{1} & - & I_{2} & + & 2I_{3} & = & 2.225 \\\\\n    5I_{1} & + & I_{2} & + & 2I_{3} & = & 3.775\n    \\end{array}\n$$","cell_type":"markdown"}
-{"type":"cell","id":"57371d","pos":58,"input":"Last Tuesday, Regal Cinemas sold a total of 8500 movie\n  tickets. Proceeds totaled \\$64,600. Tickets can be bought in one of\n  3 ways: a matinee admission costs \\$5, student admission is \\$6 all\n  day, and regular admissions are \\$8.50. How many of each type of\n  ticket was sold if twice as many student tickets were sold as\n  matinee tickets? (Use technology to solve the system of linear equations.)","cell_type":"markdown"}
+{"type":"cell","id":"57371d","pos":61,"input":"Last Tuesday, Regal Cinemas sold a total of 8500 movie\n  tickets. Proceeds totaled \\$64,600. Tickets can be bought in one of\n  3 ways: a matinee admission costs \\$5, student admission is \\$6 all\n  day, and regular admissions are \\$8.50. How many of each type of\n  ticket was sold if twice as many student tickets were sold as\n  matinee tickets? (Use technology to solve the system of linear equations.)","cell_type":"markdown"}
 {"type":"cell","id":"5cb88d","pos":15,"input":"Find the adjugate of the following matrix.\n\n$$\n  B=\\left[\n    \\begin{array}{ccc}\n      5 & -4 & -4 \\\\\n      -1 & 0 & -7 \\\\\n      7 & 5 & -2\n    \\end{array}\\right]\n$$","cell_type":"markdown"}
-{"type":"cell","id":"5d1240","pos":123,"input":"$$\\frac{1}{\\frac{1}{2}(1-i\\sqrt{3})}=\\frac{2\\cdot(1+i\\sqrt{3})}{(1-i\\sqrt{3})(1+i\\sqrt{3})}=\\frac{1}{2}(1+i\\sqrt{3})$$","cell_type":"markdown"}
-{"type":"cell","id":"5fa2fb","pos":69,"input":"**Lab 3 Question 2**","cell_type":"markdown"}
-{"type":"cell","id":"62d959","pos":140,"input":"**Lab 4 Question 7**","cell_type":"markdown"}
-{"type":"cell","id":"65cf78","pos":139,"input":"Consequently, \n$$\nf_{3}=(-14)\\cdot{}f_{1}+8\\cdot{}f_{2}\n$$","cell_type":"markdown"}
-{"type":"cell","id":"65d867","pos":85.5,"input":"$3+4i\\approx{}5\\cdot(\\cos(53.13^{\\circ})+i\\cdot\\sin(53.13^{\\circ}))$","cell_type":"markdown"}
-{"type":"cell","id":"6e58e2","pos":142,"input":"Consider the determinant of the following matrix.","cell_type":"markdown"}
-{"type":"cell","id":"70a39d","pos":63,"input":"**Lab 3 Question 1**","cell_type":"markdown"}
-{"type":"cell","id":"748575","pos":120,"input":"The answers are $-32i$; $512((1-\\sqrt{3})+(1+\\sqrt{3})i)$; $-\\frac{1}{512}\\left(1+\\sqrt{3}\\cdot{}i\\right)$. They are found by converting to polar form first, then using Euler's formula to work out the exponents, then reconverting to polar and finally to rectangular form.","cell_type":"markdown"}
-{"type":"cell","id":"774df2","pos":103,"input":"The answers are $-67+36i$; $-18\\sqrt{2}i$; $2-2i$; $\\frac{3}{40}+\\frac{i}{40}$; $-\\frac{2}{25}+\\frac{39}{25}i$, $-\\frac{7}{8}+4i$.","cell_type":"markdown"}
-{"type":"cell","id":"786ebc","pos":122,"input":"Show that $\\frac{1}{2}(1+\\sqrt{-3})$ is the reciprocal of\nits conjugate. (The reciprocal of $x$ is $1/x$.)","cell_type":"markdown"}
-{"type":"cell","id":"7ec229","pos":133,"input":"Consider the determinant of the following matrix.","cell_type":"markdown"}
+{"type":"cell","id":"5d1240","pos":138,"input":"$$\\frac{1}{\\frac{1}{2}(1-i\\sqrt{3})}=\\frac{2\\cdot(1+i\\sqrt{3})}{(1-i\\sqrt{3})(1+i\\sqrt{3})}=\\frac{1}{2}(1+i\\sqrt{3})$$","cell_type":"markdown"}
+{"type":"cell","id":"5fa2fb","pos":72,"input":"**Lab 3 Question 2**","cell_type":"markdown"}
+{"type":"cell","id":"62d959","pos":155,"input":"**Lab 4 Question 7**","cell_type":"markdown"}
+{"type":"cell","id":"65cf78","pos":154,"input":"Consequently, \n$$\nf_{3}=(-14)\\cdot{}f_{1}+8\\cdot{}f_{2}\n$$","cell_type":"markdown"}
+{"type":"cell","id":"65d867","pos":89,"input":"$3+4i\\approx{}5\\cdot(\\cos(53.13^{\\circ})+i\\cdot\\sin(53.13^{\\circ}))$","cell_type":"markdown"}
+{"type":"cell","id":"6e58e2","pos":157,"input":"Consider the determinant of the following matrix.","cell_type":"markdown"}
+{"type":"cell","id":"70a39d","pos":66,"input":"**Lab 3 Question 1**","cell_type":"markdown"}
+{"type":"cell","id":"748575","pos":133,"input":"The answers are $-32i$; $512((1-\\sqrt{3})+(1+\\sqrt{3})i)$; $-\\frac{1}{512}\\left(1+\\sqrt{3}\\cdot{}i\\right)$. They are found by converting to polar form first, then using Euler's formula to work out the exponents, then reconverting to polar and finally to rectangular form.","cell_type":"markdown"}
+{"type":"cell","id":"774df2","pos":114,"input":"The answers are $-67+36i$; $-18\\sqrt{2}i$; $2-2i$; $\\frac{3}{40}+\\frac{i}{40}$; $-\\frac{2}{25}+\\frac{39}{25}i$, $-\\frac{7}{8}+4i$.","cell_type":"markdown"}
+{"type":"cell","id":"786ebc","pos":137,"input":"Show that $\\frac{1}{2}(1+\\sqrt{-3})$ is the reciprocal of\nits conjugate. (The reciprocal of $x$ is $1/x$.)","cell_type":"markdown"}
+{"type":"cell","id":"7ec229","pos":148,"input":"Consider the determinant of the following matrix.","cell_type":"markdown"}
 {"type":"cell","id":"7f61cd","pos":46,"input":"The Arcadium arcade in Lynchburg, Tennessee uses 3\n  different colored tokens for their game machines. For \\$20 you can\n  purchase any of the following mixtures of tokens: 14 gold, 20\n  silver, and 24 bronze; OR, 20 gold, 15 silver, and 19 bronze; OR, 30\n  gold, 5 silver, and 13 bronze. What is the monetary value of the\n  bronze token? (Use Cramer's Rule.)","cell_type":"markdown"}
 {"type":"cell","id":"825683","pos":28,"input":"A triangle has vertices $(1,2),(3,-4),(-2,3)$. Find the\narea of the triangle.","cell_type":"markdown"}
-{"type":"cell","id":"827e01","pos":115,"input":"Perform the indicated operations.\n$$\n(1-i)^{10}  \n$$\n<hr>\n$$\n(\\sqrt{3}+i)^{8}(1+i)^{5}  \n$$\n<hr>\n$$\n(\\sqrt{3}-i)^{-8}  \n$$","cell_type":"markdown"}
+{"type":"cell","id":"827e01","pos":127,"input":"Perform the indicated operations.\n$$\n(1-i)^{10}  \n$$\n<hr>\n$$\n(\\sqrt{3}+i)^{8}(1+i)^{5}  \n$$\n<hr>\n$$\n(\\sqrt{3}-i)^{-8}  \n$$","cell_type":"markdown"}
 {"type":"cell","id":"840629","pos":10,"input":"**Lab 1 Question 3**","cell_type":"markdown"}
-{"type":"cell","id":"8695bd","pos":94,"input":"$Z\\approx{}3005.81-1907.54i$","cell_type":"markdown"}
-{"type":"cell","id":"8dcd04","pos":148,"input":"Consequently,\n$$\nL=2L_{1}+L_{2}-3L_{3}\n$$","cell_type":"markdown"}
+{"type":"cell","id":"8695bd","pos":98,"input":"$Z\\approx{}3005.81-1907.54i$","cell_type":"markdown"}
+{"type":"cell","id":"8dcd04","pos":163,"input":"Consequently,\n$$\nL=2L_{1}+L_{2}-3L_{3}\n$$","cell_type":"markdown"}
 {"type":"cell","id":"928dbe","pos":11,"input":"Find the determinant of the following matrix.\n\n$$\n  D=\\left[\n    \\begin{array}{cccc}\n      -5 & -4 & -5 & -6 \\\\\n      0 & 2 & 0 & -3 \\\\\n      -6 & 5 & 3 & 8 \\\\\n      5 & 1 & -9 & 5 \\\\\n    \\end{array}\\right]\n$$","cell_type":"markdown"}
-{"type":"cell","id":"93d086","pos":127,"input":"$18^{\\circ}$ is only one possible angle. The others are $90^{\\circ},162^{\\circ},234^{\\circ}$, and $306^{\\circ}$.","cell_type":"markdown"}
+{"type":"cell","id":"93d086","pos":142,"input":"$18^{\\circ}$ is only one possible angle. The others are $90^{\\circ},162^{\\circ},234^{\\circ}$, and $306^{\\circ}$.","cell_type":"markdown"}
 {"type":"cell","id":"982daa","pos":23,"input":"You receive a coded message. You know that each letter of\nthe original message was replaced with a one- or two-digit number\ncorresponding to its placement in the English alphabet, so &quot;E&quot; is\nrepresented by &quot;5&quot; and &quot;W&quot; by &quot;23&quot;; spaces in the message are\nindicated by zeroes. You also know that the message was transformed\n(encoded) by multiplying the message by the following\nmatrix:\n\n$$\n  \\left[\n    \\begin{array}{ccc}\n    1 & 2 & 3 \\\\\n    0 & 1 & 4 \\\\\n    5 & 6 & 0 \n  \\end{array}\\right]\n$$\n\nTranslate the coded message:\n\n$$\n  \\left[\n    \\begin{array}{cccccc}\n    108 & 8 & 26 & 95 & 69 & 3 \\\\\n    79 & 0 & 13 & 95 & 76 & 1 \\\\\n    238 & 40 & 79 & 114 & 60 & 11\n  \\end{array}\\right]\n$$\n","cell_type":"markdown"}
-{"type":"cell","id":"986141","pos":70,"input":"Find the determinant for the following Hermitian matrix.\n  What do you notice?\n $$\n    \\left[\n      \\begin{array}{ccc}\n        4 & 3-2i & -3i \\\\\n        3+2i & 1 & -5+2i \\\\\n        3i & -5-2i & 2\n      \\end{array}\\right]\n $$","cell_type":"markdown"}
-{"type":"cell","id":"99be1b","pos":57,"input":"**Lab 2 Question 6**","cell_type":"markdown"}
+{"type":"cell","id":"986141","pos":73,"input":"Find the determinant for the following Hermitian matrix.\n  What do you notice?\n $$\n    \\left[\n      \\begin{array}{ccc}\n        4 & 3-2i & -3i \\\\\n        3+2i & 1 & -5+2i \\\\\n        3i & -5-2i & 2\n      \\end{array}\\right]\n $$","cell_type":"markdown"}
+{"type":"cell","id":"99be1b","pos":60,"input":"**Lab 2 Question 6**","cell_type":"markdown"}
 {"type":"cell","id":"a81231","pos":39,"input":"Find the equation of the parabola $y=ax^{2}+bx+c$ that\n  passes through the following three points: $(-2,40),(1,7),(3,15)$.\n  (Use the determinant/adjugate method to find the inverse matrix.)","cell_type":"markdown"}
-{"type":"cell","id":"a83e74","pos":120.625,"input":"<img src=\"la-lab-4-q3-answer.png\">","cell_type":"markdown"}
-{"type":"cell","id":"a9703e","pos":77,"input":"$S=\\{(x,y,z)\\in\\mathbb{R}^{3}|x=1,y=3,z=-2\\}$","cell_type":"markdown"}
-{"type":"cell","id":"af68b4","pos":82,"input":"Represent the following complex numbers in polar form\n  $r(\\cos\\theta+i\\sin\\theta)$.\n$$\n    3+4i\n$$\n<hr>\n$$\n    -1.04-1.56i\n$$","cell_type":"markdown"}
-{"type":"cell","id":"b0e9fd","pos":114.5,"input":"**Lab 4 Question 3**","cell_type":"markdown"}
-{"type":"cell","id":"b42757","pos":132,"input":"Consider the vector space of quadratic polynomials\n$$\nV=\\{f|f(x)=ax^{2}+bx+c\\}  \n$$\nAre the following three quadratic polynomials a basis for $V$?\n$$\n  \\begin{array}{rcl}\n    f_{1}(x)&=&3x^{2}+x+6 \\\\\n    f_{2}(x)&=&5x^{2}+x+11 \\\\\n    f_{3}(x)&=&-2x^{2}-6x+4\n  \\end{array}\n$$\n\n* If yes, find the coordinates in terms of this basis for $7x^{2}-x-4$.\n* If no, express one of the $f_{i}$ by the others, $i=1,2,3$. \n","cell_type":"markdown"}
-{"type":"cell","id":"b6265b","pos":130,"input":"The roots are $1.90+0.62i,2i,-1.90+0.62i,-1.18-1.62i,1.18-1.62i$. You can verify that they are the vertices of a pentagon.","cell_type":"markdown"}
-{"type":"cell","id":"ba5c6e","pos":110,"input":"$S=\\{(x,y)\\in\\mathbb{R}^{2}|x=-\\frac{35}{58},y=\\frac{10}{29}\\}$","cell_type":"markdown"}
-{"type":"cell","id":"bab7db","pos":124,"input":"**Lab 4 Question 5**","cell_type":"markdown"}
-{"type":"cell","id":"bfebc5","pos":125,"input":"Find the fifth roots of $\\sqrt{-1024}$.","cell_type":"markdown"}
-{"type":"cell","id":"c1dcdd","pos":105,"input":"Solve the following equation for $x$ and $y$.\n$$\n(x+y\\cdot{}i)(7\\cdot{}i-4)=i\\cdot{}(x-5)  \n$$","cell_type":"markdown"}
+{"type":"cell","id":"a83e74","pos":135,"input":"<img src=\"la-lab-4-q3-answer.png\">","cell_type":"markdown"}
+{"type":"cell","id":"a9703e","pos":80,"input":"$S=\\{(x,y,z)\\in\\mathbb{R}^{3}|x=1,y=3,z=-2\\}$","cell_type":"markdown"}
+{"type":"cell","id":"af68b4","pos":85,"input":"Represent the following complex numbers in polar form\n  $r(\\cos\\theta+i\\sin\\theta)$.\n$$\n    3+4i\n$$\n<hr>\n$$\n    -1.04-1.56i\n$$","cell_type":"markdown"}
+{"type":"cell","id":"b0e9fd","pos":126,"input":"**Lab 4 Question 3**","cell_type":"markdown"}
+{"type":"cell","id":"b42757","pos":147,"input":"Consider the vector space of quadratic polynomials\n$$\nV=\\{f|f(x)=ax^{2}+bx+c\\}  \n$$\nAre the following three quadratic polynomials a basis for $V$?\n$$\n  \\begin{array}{rcl}\n    f_{1}(x)&=&3x^{2}+x+6 \\\\\n    f_{2}(x)&=&5x^{2}+x+11 \\\\\n    f_{3}(x)&=&-2x^{2}-6x+4\n  \\end{array}\n$$\n\n* If yes, find the coordinates in terms of this basis for $7x^{2}-x-4$.\n* If no, express one of the $f_{i}$ by the others, $i=1,2,3$. \n","cell_type":"markdown"}
+{"type":"cell","id":"b6265b","pos":145,"input":"The roots are $1.90+0.62i,2i,-1.90+0.62i,-1.18-1.62i,1.18-1.62i$. You can verify that they are the vertices of a pentagon.","cell_type":"markdown"}
+{"type":"cell","id":"ba5c6e","pos":121,"input":"$S=\\{(x,y)\\in\\mathbb{R}^{2}|x=-\\frac{35}{58},y=\\frac{10}{29}\\}$","cell_type":"markdown"}
+{"type":"cell","id":"bab7db","pos":139,"input":"**Lab 4 Question 5**","cell_type":"markdown"}
+{"type":"cell","id":"bfebc5","pos":140,"input":"Find the fifth roots of $\\sqrt{-1024}$.","cell_type":"markdown"}
+{"type":"cell","id":"c1dcdd","pos":116,"input":"Solve the following equation for $x$ and $y$.\n$$\n(x+y\\cdot{}i)(7\\cdot{}i-4)=i\\cdot{}(x-5)  \n$$","cell_type":"markdown"}
 {"type":"cell","id":"c49e0c","pos":50,"input":"The gold token is 50 cents; the silver token is 35 cents; the bronze token is 25 cents.","cell_type":"markdown"}
 {"type":"cell","id":"c4ca9e","pos":1,"input":"Multiply the following two matrices, if possible. \n$$\n   A=\\left[\n    \\begin{array}{ccc}\n      -8 & 7 & 5 \\\\\n      -8 & 1 & 4\n    \\end{array}\\right]\\hspace{.5in}B=\\left[\n    \\begin{array}{cc}\n      1 & -8 \\\\\n      0 & 7 \\\\\n      0 & 1 \n    \\end{array}\\right]\n$$\n","cell_type":"markdown"}
-{"type":"cell","id":"c6e57b","pos":102,"input":"Use complex arithmetic to provide the following in\n  rectangular form. \n$$\n    (8i-5)(7+4i)\n$$\n<hr>\n$$\n    (\\sqrt{-18}\\sqrt{-4})\\cdot{}3i\n$$\n<hr>\n$$\n(1+i)(1-i)^{2}\n  $$\n<hr>\n  $$\n        \\frac{0.25}{3-\\sqrt{-1}}\n  $$\n<hr>\n $$\n    \\frac{6+5i}{3-4i}\n  $$\n<hr>\n  $$\n    \\frac{(2-i^{3})^{4}}{(i^{8}-i^{6})^{3}}+i\n  $$","cell_type":"markdown"}
+{"type":"cell","id":"c6e57b","pos":106,"input":"Use complex arithmetic to provide the following in\n  rectangular form. \n$$\n    (8i-5)(7+4i)\n$$\n<hr>\n$$\n    (\\sqrt{-18}\\sqrt{-4})\\cdot{}3i\n$$\n<hr>\n$$\n(1+i)(1-i)^{2}\n  $$\n<hr>\n  $$\n        \\frac{0.25}{3-\\sqrt{-1}}\n  $$\n<hr>\n $$\n    \\frac{6+5i}{3-4i}\n  $$\n<hr>\n  $$\n    \\frac{(2-i^{3})^{4}}{(i^{8}-i^{6})^{3}}+i\n  $$","cell_type":"markdown"}
 {"type":"cell","id":"c95314","pos":27,"input":"**Lab 2 Question 1**","cell_type":"markdown"}
-{"type":"cell","id":"cceb66","pos":136,"input":"This means that the three polynomials are linearly dependent. Set up the following augmented matrix to express $f_{3}$ as a linear combination of $f_{1}$ and $f_{2}$.","cell_type":"markdown"}
-{"type":"cell","id":"d0f7c9","pos":89,"input":"$-1.04-1.56i\\approx{}1.8749\\cdot(\\cos(236.31^{\\circ})+i\\cdot\\sin(236.31^{\\circ}))$","cell_type":"markdown"}
-{"type":"cell","id":"d16b52","pos":104,"input":"**Lab 4 Question 1**","cell_type":"markdown"}
-{"type":"cell","id":"d348c9","pos":68,"input":"The equation of the quadratic is $y=2.5x^{2}-0.5x$.","cell_type":"markdown"}
-{"type":"cell","id":"d55fe5","pos":126,"input":"$$  \\sqrt[5]{\\sqrt{-1024}}=(32i)^{\\frac{1}{5}}=\\left(32\\cdot(\\cos(90^{\\circ})+i\\sin(90^{\\circ}))\\right)^{\\frac{1}{5}}=\\left(32\\cdot{}e^{i\\cdot{}90^{\\circ}}\\right)^{\\frac{1}{5}}=2\\cdot\\left(\\cos(18^{\\circ})+i\\sin(18^{\\circ})\\right)$$","cell_type":"markdown"}
+{"type":"cell","id":"cceb66","pos":151,"input":"This means that the three polynomials are linearly dependent. Set up the following augmented matrix to express $f_{3}$ as a linear combination of $f_{1}$ and $f_{2}$.","cell_type":"markdown"}
+{"type":"cell","id":"d0f7c9","pos":93,"input":"$-1.04-1.56i\\approx{}1.8749\\cdot(\\cos(236.31^{\\circ})+i\\cdot\\sin(236.31^{\\circ}))$","cell_type":"markdown"}
+{"type":"cell","id":"d16b52","pos":115,"input":"**Lab 4 Question 1**","cell_type":"markdown"}
+{"type":"cell","id":"d348c9","pos":71,"input":"The equation of the quadratic is $y=2.5x^{2}-0.5x$.","cell_type":"markdown"}
+{"type":"cell","id":"d55fe5","pos":141,"input":"$$  \\sqrt[5]{\\sqrt{-1024}}=(32i)^{\\frac{1}{5}}=\\left(32\\cdot(\\cos(90^{\\circ})+i\\sin(90^{\\circ}))\\right)^{\\frac{1}{5}}=\\left(32\\cdot{}e^{i\\cdot{}90^{\\circ}}\\right)^{\\frac{1}{5}}=2\\cdot\\left(\\cos(18^{\\circ})+i\\sin(18^{\\circ})\\right)$$","cell_type":"markdown"}
 {"type":"cell","id":"d75fe3","pos":0,"input":"**Lab 1 Question 1**","cell_type":"markdown"}
-{"type":"cell","id":"dd012a","pos":62,"input":"The following were sold: 900 matinee tickets, 1800 student tickets, 5800 regular tickets.","cell_type":"markdown"}
-{"type":"cell","id":"de2fa4","pos":111,"input":"**Lab 4 Question 2**","cell_type":"markdown"}
-{"type":"cell","id":"e93db8","pos":80,"input":"$S=\\{\\}$","cell_type":"markdown"}
+{"type":"cell","id":"db08d0","pos":164,"input":"**Lab 5 All Questions**","cell_type":"markdown"}
+{"type":"cell","id":"dd012a","pos":65,"input":"The following were sold: 900 matinee tickets, 1800 student tickets, 5800 regular tickets.","cell_type":"markdown"}
+{"type":"cell","id":"de2fa4","pos":122,"input":"**Lab 4 Question 2**","cell_type":"markdown"}
+{"type":"cell","id":"e93db8","pos":83,"input":"$S=\\{\\}$","cell_type":"markdown"}
 {"type":"cell","id":"eb8bb1","pos":52,"input":"In the position function for vertical height\n$$\n    s(t)=\\frac{1}{2}at^{2}+v_{0}t+s_{0}\n$$\n  $s(t)$ represents height in meters and $t$ represents time in\n  seconds.\n\n  * Find the position function for a volleyball served at an\n    initial height of one meter, with height of 6.275 meters 0.5\n    seconds after serve, and height of 9.1 meters one second after\n    serve.\n  * How long until the ball hits the ground on the other side of\n    the net if everyone on that team completely misses it?\n","cell_type":"markdown"}
-{"type":"cell","id":"ecc55b","pos":100,"input":"The voltage of a generator is approximately $3.031\\cdot(\\cos(339.53^{\\circ})+\\sin(339.53^{\\circ}))$.","cell_type":"markdown"}
+{"type":"cell","id":"ecc55b","pos":104,"input":"The voltage of a generator is approximately $3.031\\cdot(\\cos(339.53^{\\circ})+\\sin(339.53^{\\circ}))$.","cell_type":"markdown"}
 {"type":"cell","id":"f022fe","pos":45,"input":"**Lab 2 Question 4**","cell_type":"markdown"}
-{"type":"cell","id":"f3324c","pos":101,"input":"**Lab 3 Question 6**","cell_type":"markdown"}
+{"type":"cell","id":"f3324c","pos":105,"input":"**Lab 3 Question 6**","cell_type":"markdown"}
 {"type":"cell","id":"f59d92","pos":18,"input":"**Lab 1 Question 5**","cell_type":"markdown"}
-{"type":"cell","id":"f6bd1b","pos":120.5,"input":"Here is an alternative but equivalent solution for $(\\sqrt{3}+i)^{8}(1+i)^{5}$:","cell_type":"markdown"}
-{"type":"cell","id":"f98693","pos":144.5,"input":"This means that the three lines are linearly independent. Set up the following system of linear equations to express $L$ as a linear combination of $L_{1},L_{2}$ and $L_{3}$.","cell_type":"markdown"}
-{"type":"cell","id":"fb1574","pos":64,"input":"Find the equation of the quadratic\n$$\n    y=ax^{2}+bx+c\n$$\n  which passes through $(0,0),(1,2),(-1,3)$.","cell_type":"markdown"}
-{"type":"file","last_load":1538593075716}
-{"type":"nbconvert","args":["--to","html"],"state":"done","start":1539544062896,"time":1539544072151}
-{"type":"settings","backend_state":"running","trust":true,"kernel":"sage-8.3","kernel_usage":{"cpu":0,"memory":199303168},"kernel_state":"idle"}
+{"type":"cell","id":"f6bd1b","pos":134,"input":"Here is an alternative but equivalent solution for $(\\sqrt{3}+i)^{8}(1+i)^{5}$:","cell_type":"markdown"}
+{"type":"cell","id":"f98693","pos":160,"input":"This means that the three lines are linearly independent. Set up the following system of linear equations to express $L$ as a linear combination of $L_{1},L_{2}$ and $L_{3}$.","cell_type":"markdown"}
+{"type":"cell","id":"fb1574","pos":67,"input":"Find the equation of the quadratic\n$$\n    y=ax^{2}+bx+c\n$$\n  which passes through $(0,0),(1,2),(-1,3)$.","cell_type":"markdown"}
+{"type":"cell","input":"$y=3x^{2}-8x+12$","id":"2063f0","pos":44,"cell_type":"markdown"}
+{"type":"file","last_load":1539974443669}
+{"type":"nbconvert","args":["--to","html"],"state":"done","start":1539974630347,"time":1539974635361}
+{"type":"settings","backend_state":"running","trust":true,"kernel":"sage-8.3","metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.15"}},"kernel_usage":{"cpu":0,"memory":265576448},"kernel_state":"idle"}
