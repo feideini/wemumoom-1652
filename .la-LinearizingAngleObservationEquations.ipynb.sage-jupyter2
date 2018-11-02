@@ -42,4 +42,4 @@
 {"output":{"0":{"data":{"text/plain":"pi - 0.00166114538617644*u - 0.00131792997179506*v + 0.00362648732540653*w + 0.00379318209826389*x + 0.00494441729720159*y + 0.00213203671208745*z - 9.72791587978709"},"exec_count":44}},"exec_count":44,"start":1539818925464,"input":"f","state":"done","pos":-5,"type":"cell","end":1539818925558,"id":"70ba22","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"pi - 0.00166317554601289*u - 0.00132006217838228*v + 0.00362109011832638*w + 0.00379297940350206*x + 0.00494115229670866*y + 0.00212980385748917*z - 9.71163063930754"},"exec_count":22}},"exec_count":22,"start":1539818922041,"input":"f","state":"done","pos":-27,"cell_type":"code","type":"cell","end":1539818922093,"id":"c4d2ea","kernel":"sagemath"}
 {"type":"file","last_load":1539818845824}
-{"type":"settings","backend_state":"running","trust":true,"kernel":"sagemath","kernel_usage":{"cpu":0,"memory":201977856},"kernel_state":"idle"}
+{"type":"settings","backend_state":"running","trust":true,"kernel":"sagemath","kernel_usage":{"cpu":0,"memory":200949760},"kernel_state":"idle"}

@@ -1,0 +1,25 @@
+{"exec_count":13,"start":1540488846326,"input":"g=n(arctan(-4335/2312)*180/pi)+360","state":"done","pos":1.984375,"type":"cell","end":1540488846334,"id":"3372b0","kernel":"sagemath"}
+{"exec_count":17,"start":1540489039938,"input":"K=matrix([[7,-8+9*I,-9+I],[-7-8*I,2+9*I,0],[6+3*I,5*I,1+2*I]])","state":"done","pos":3.5,"type":"cell","end":1540489039972,"id":"eb590f","kernel":"sagemath"}
+{"exec_count":20,"start":1540489339549,"input":"L=matrix([[3,5,-2,15],[11,13,-14,63],[1,-1,-4,9]])","state":"done","pos":6,"type":"cell","end":1540489339554,"id":"072c68","kernel":"sagemath"}
+{"exec_count":4,"start":1540488556467,"input":"z=2312-sqrt(4335)*I","state":"done","pos":1.5,"type":"cell","end":1540488556474,"id":"07c475","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"-0.0284701240936331"},"exec_count":7}},"exec_count":7,"start":1540488571036,"input":"n(arg(z))","state":"done","pos":1.75,"type":"cell","end":1540488573115,"id":"a4881a","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"-arctan(15/8)"},"exec_count":10}},"exec_count":10,"start":1540488734931,"input":"arctan(-4335/2312)","state":"done","pos":1.96875,"type":"cell","end":1540488734947,"id":"580190","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"17"},"exec_count":9}},"exec_count":9,"start":1540488631434,"input":"4913^(1/3)","state":"done","pos":1.9375,"type":"cell","end":1540488631444,"id":"648d04","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"219.357495645284"},"exec_count":14}},"exec_count":14,"start":1540488859426,"input":"(g+360)/3","state":"done","pos":1.9921875,"type":"cell","end":1540488859449,"id":"dee677","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"2312.93731000215"},"exec_count":8}},"exec_count":8,"start":1540488579690,"input":"n(abs(z))","state":"done","pos":1.875,"type":"cell","end":1540488579709,"id":"15da40","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"339.357495645284"},"exec_count":15}},"exec_count":15,"start":1540488870726,"input":"(g+720)/3","state":"done","pos":1.99609375,"type":"cell","end":1540488870746,"id":"1c3225","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"744*I - 638"},"exec_count":19}},"exec_count":19,"start":1540489069837,"input":"det(K)","state":"done","pos":3.875,"type":"cell","end":1540489069861,"id":"7571d8","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"99.3574956452843"},"exec_count":16}},"exec_count":16,"start":1540488939329,"input":"g/3","state":"done","pos":1.98828125,"type":"cell","end":1540488939348,"id":"9aa1d4","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"[       7  9*I - 8    I - 9]\n[-8*I - 7  9*I + 2        0]\n[ 3*I + 6      5*I  2*I + 1]"},"exec_count":18}},"exec_count":18,"start":1540489048511,"input":"K","state":"done","pos":3.75,"type":"cell","end":1540489048531,"id":"a03cc4","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"[  1   7   6  -3]\n[  0   8  10 -12]\n[  0   0   0   0]"},"exec_count":21}},"exec_count":21,"start":1540489348662,"input":"L.echelon_form()","state":"done","pos":7,"type":"cell","end":1540489348701,"id":"3db05d","kernel":"sagemath"}
+{"type":"cell","id":"1aeb73","pos":4,"input":"*Question 4* The following points lie on a circle: $P=(10,2),Q=(13,3),R=(6,10)$. Find the centre $(a,b)$ and the radius $r$ for the circle. The circle equation in general is $$(x-a)^{2}+(y-b)^{2}=r^{2}$$ Hint: Replace $c=r^{2}-a^{2}-b^{2}$ and solve for $a,b,c$.","cell_type":"markdown"}
+{"type":"cell","id":"40733c","pos":1.25,"input":"Correction: $2312-4335i$","cell_type":"markdown"}
+{"type":"cell","id":"53c13c","pos":0,"input":"**Term Test A Make-Up for Marcus Manson**","cell_type":"markdown"}
+{"type":"cell","id":"866697","pos":2,"input":"*Question 2* Solve the following system of equations: $$7y-4z=38-2x$$ $$11z+5y=3x$$ $$x=-3z$$","cell_type":"markdown"}
+{"type":"cell","id":"a68952","pos":2.5,"input":"The solution is $x=3,y=4,z=-1$.","cell_type":"markdown"}
+{"type":"cell","id":"d91d75","pos":1,"input":"*Question 1* Find the solutions for the following equation (the square root is not meant to go over the 4335 as well): $$x^{3}=2312-\\sqrt{-4335}$$","cell_type":"markdown"}
+{"type":"cell","id":"e3d96b","pos":3,"input":"*Question 3* Find the rectangular form of the following matrix's determinant: $$\\left[\\begin{array}{ccc} 7 & -8+9i & -9+i \\\\ -7-8i & 2+9i & 0 \\\\ 3i+6 & 5i & 1+2i\\end{array}\\right]$$","cell_type":"markdown"}
+{"type":"cell","id":"ff858c","pos":5,"input":"*Question 5* How many solutions does the following system of equations have (none, one, infinitely many)? You will be marked on your work, not just the final answer. Show all your steps. $$3u+5v-2w=15$$ $$11u+13v-14w=63$$ $$u-v-4w=9$$","cell_type":"markdown"}
+{"type":"file","last_load":1540339484750}
+{"type":"nbconvert","args":["--to","html"],"state":"done","start":1540395963865,"time":1540395967074}
+{"type":"settings","backend_state":"running","trust":true,"kernel":"sagemath","kernel_usage":{"cpu":0,"memory":201048064},"kernel_state":"idle"}
