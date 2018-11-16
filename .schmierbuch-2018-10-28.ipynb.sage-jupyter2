@@ -17,4 +17,4 @@
 {"output":{"0":{"data":{"text/plain":"[(0, [\n  (1, 133/106, 349/106, 104/53)\n  ], 1),\n (-186.4645842626508?,\n  [(1, -0.4161621375418609?, -0.09382008930665501?, -0.0860924256678361?)],\n  1),\n (249.0900142338555?,\n  [(1, 2.871997066519129?, -0.1335005468069264?, -2.122038072170322?)],\n  1),\n (3508.374570028796?,\n  [(1, 2.391736215991625?, -3.558698342909370?, 3.932138485329251?)],\n  1)]"},"exec_count":38}},"exec_count":38,"start":1540766345729,"input":"Ahat.eigenvectors_right()","scrolled":true,"state":"done","pos":-3,"type":"cell","end":1540766345821,"id":"16707f","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"[-6]\n[ 1]\n[ 3]\n[-5]"},"exec_count":22}},"exec_count":22,"start":1540765326732,"input":"u1","state":"done","pos":-13,"type":"cell","end":1540765326765,"id":"745a99","kernel":"sagemath"}
 {"type":"file","last_load":1540766667218}
-{"type":"settings","backend_state":"running","trust":true,"kernel":"sagemath","kernel_usage":{"cpu":0,"memory":221057024},"kernel_state":"idle"}
+{"type":"settings","backend_state":"ready","trust":true,"kernel":"sagemath","kernel_usage":{"cpu":0,"memory":210477056}}

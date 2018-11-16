@@ -1,9 +1,14 @@
 {"exec_count":1,"input":"**Ba1Q1**","state":"done","pos":2,"cell_type":"markdown","type":"cell","id":"d60f58","kernel":"sagemath"}
+{"exec_count":1,"start":1542055812646,"input":"vop=vector([-7,-2,3])","state":"done","pos":28.5,"type":"cell","end":1542055812691,"id":"a4252a","kernel":"sagemath"}
+{"exec_count":10,"start":1542055990467,"input":"y=var('y')","state":"done","pos":28.9990234375,"type":"cell","end":1542055990475,"id":"78c79f","kernel":"sagemath"}
 {"exec_count":100,"start":1541115585043,"input":"A=matrix([[4,-1,-8],[-2,1/2,4]])","state":"done","pos":54.333333333333336,"type":"cell","end":1541115585048,"id":"e20a0c","kernel":"sagemath"}
 {"exec_count":102,"start":1541117104941,"input":"Y=matrix([[219,182,122,110]]).transpose()","state":"done","pos":57,"type":"cell","end":1541117104954,"id":"e79a58","kernel":"sagemath"}
 {"exec_count":106,"start":1541117150905,"input":"A=matrix([[33.0,37.5,41.5,44.5],[1,1,1,1]]).transpose()","state":"done","pos":59,"type":"cell","end":1541117150912,"id":"603984","kernel":"sagemath"}
+{"exec_count":11,"start":1541901860646,"input":"vpr=vor-vop","state":"done","pos":100,"type":"cell","end":1541901860654,"id":"23835b","kernel":"sagemath"}
+{"exec_count":11,"start":1542055997115,"input":"z=var('z')","state":"done","pos":28.99951171875,"type":"cell","end":1542055997142,"id":"703054","kernel":"sagemath"}
 {"exec_count":118,"start":1541118234505,"input":"v1=matrix([33.0,37.5,41.5,44.5]).transpose()","state":"done","pos":61,"type":"cell","end":1541118234515,"id":"65fadd","kernel":"sagemath"}
 {"exec_count":119,"start":1541118236669,"input":"v2h=matrix([1,1,1,1]).transpose()","state":"done","pos":62,"type":"cell","end":1541118236681,"id":"b507f1","kernel":"sagemath"}
+{"exec_count":12,"start":1542056091709,"input":"f(x,y,z)=(-37)*(x+7)+(-89)*(y+2)+135*(z-3)","state":"done","pos":28.999755859375,"type":"cell","end":1542056091718,"id":"cb1821","kernel":"sagemath"}
 {"exec_count":120,"start":1541118239438,"input":"v2=v2h-((v2h.transpose()*v1)[0,0]/norm(v1)^2)*v1","state":"done","pos":63,"type":"cell","end":1541118239452,"id":"3386b8","kernel":"sagemath"}
 {"exec_count":122,"start":1541118341539,"input":"Yh=((Y.transpose()*v1)[0,0]/norm(v1)^2)*v1+((Y.transpose()*v2)[0,0]/norm(v2)^2)*v2","state":"done","pos":65,"type":"cell","end":1541118341550,"id":"e22bc4","kernel":"sagemath"}
 {"exec_count":125,"start":1541118459571,"input":"G=block_matrix([[A,Yh]])","state":"done","pos":67,"type":"cell","end":1541118459579,"id":"a061a0","kernel":"sagemath"}
@@ -14,71 +19,82 @@
 {"exec_count":137,"input":"x=var('x')","state":"done","pos":76,"type":"cell","id":"1db3e2","kernel":"sagemath"}
 {"exec_count":139,"start":1541119151329,"input":"y=var('y')","state":"done","pos":107.1,"type":"cell","end":1541119151336,"id":"b508a8","kernel":"sagemath"}
 {"exec_count":139,"start":1541119151329,"input":"y=var('y')","state":"done","pos":76.5,"type":"cell","end":1541119151336,"id":"fcc892","kernel":"sagemath"}
+{"exec_count":15,"start":1541901976220,"input":"v1=vpq","state":"done","pos":101,"type":"cell","end":1541901976227,"id":"b69cf0","kernel":"sagemath"}
+{"exec_count":15,"start":1542075652342,"input":"vop=vector([-8,-10,2])","state":"done","pos":41.035714285714285,"type":"cell","end":1542075652350,"id":"1059c5","kernel":"sagemath"}
 {"exec_count":157,"start":1541119320607,"input":"f1(x,y)=x*cos(x*y)","state":"done","pos":77,"type":"cell","end":1541119320615,"id":"a4c9f8","kernel":"sagemath"}
 {"exec_count":158,"start":1541119323503,"input":"f2(x,y)=x^2+2*y^2","state":"done","pos":77.5,"type":"cell","end":1541119323511,"id":"50d74c","kernel":"sagemath"}
 {"exec_count":159,"start":1541119325409,"input":"G11(x,y)=diff(f1(x,y),x)","state":"done","pos":78,"type":"cell","end":1541119325418,"id":"31629a","kernel":"sagemath"}
+{"exec_count":16,"start":1541901979186,"input":"v2=vpr-(vpr.dot_product(vpq)/norm(vpq)^2)*vpq","state":"done","pos":102,"type":"cell","end":1541901979825,"id":"0f74fb","kernel":"sagemath"}
+{"exec_count":16,"start":1542075665647,"input":"voq=vector([0,-1,-3])","state":"done","pos":41.07142857142857,"type":"cell","end":1542075665654,"id":"8c07f7","kernel":"sagemath"}
 {"exec_count":160,"start":1541119327506,"input":"G12(x,y)=diff(f1(x,y),y)","state":"done","pos":79,"type":"cell","end":1541119327517,"id":"333389","kernel":"sagemath"}
 {"exec_count":161,"start":1541119329743,"input":"G21(x,y)=diff(f2(x,y),x)","state":"done","pos":80,"type":"cell","end":1541119329756,"id":"96c0c1","kernel":"sagemath"}
 {"exec_count":162,"start":1541119331331,"input":"G22(x,y)=diff(f2(x,y),y)","state":"done","pos":81,"type":"cell","end":1541119331343,"id":"a65df3","kernel":"sagemath"}
+{"exec_count":17,"start":1542075674343,"input":"vor=vector([-2,6,5])","state":"done","pos":41.107142857142854,"type":"cell","end":1542075674354,"id":"f8061d","kernel":"sagemath"}
 {"exec_count":173,"start":1541119466830,"input":"J(x,y)=matrix([[G11(x,y),G12(x,y)],[G21(x,y),G22(x,y)]])","state":"done","pos":82,"type":"cell","end":1541119466832,"id":"2ac7e4","kernel":"sagemath"}
 {"exec_count":176,"start":1541119523441,"input":"J11(x,y)=-x*y*sin(x*y) + cos(x*y)","state":"done","pos":87,"type":"cell","end":1541119523450,"id":"15cd9b","kernel":"sagemath"}
 {"exec_count":177,"start":1541119540485,"input":"J12(x,y)=-x^2*sin(x*y)","state":"done","pos":88,"type":"cell","end":1541119540493,"id":"6fb962","kernel":"sagemath"}
 {"exec_count":178,"start":1541119553550,"input":"J21(x,y)=2*x","state":"done","pos":89,"type":"cell","end":1541119553570,"id":"2b3bab","kernel":"sagemath"}
 {"exec_count":179,"start":1541119560451,"input":"J22(x,y)=4*y","state":"done","pos":90,"type":"cell","end":1541119560462,"id":"1db19e","kernel":"sagemath"}
+{"exec_count":18,"start":1542075677543,"input":"vpq=voq-vop","state":"done","pos":41.14285714285714,"type":"cell","end":1542075677556,"id":"fab8b1","kernel":"sagemath"}
 {"exec_count":180,"start":1541119603847,"input":"K=matrix([[J11(2,pi),J12(2,pi)],[J21(2,pi),J22(2,pi)]])","state":"done","pos":91,"type":"cell","end":1541119603855,"id":"435e00","kernel":"sagemath"}
-{"exec_count":182,"start":1541119695386,"input":"vot=vector([2,7,5])","state":"done","pos":94,"type":"cell","end":1541119695396,"id":"394296","kernel":"sagemath"}
-{"exec_count":183,"start":1541119711011,"input":"vop=vector([5,3,-6])","state":"done","pos":95,"type":"cell","end":1541119711026,"id":"328585","kernel":"sagemath"}
-{"exec_count":184,"start":1541119724316,"input":"voq=vector([5,10,-10])","state":"done","pos":96,"type":"cell","end":1541119724328,"id":"340ac2","kernel":"sagemath"}
-{"exec_count":185,"start":1541119738414,"input":"vor=vector([-9,-11,10])","state":"done","pos":97,"type":"cell","end":1541119738431,"id":"d67430","kernel":"sagemath"}
-{"exec_count":186,"start":1541119759515,"input":"vpt=vot-vop","state":"done","pos":98,"type":"cell","end":1541119759527,"id":"305752","kernel":"sagemath"}
-{"exec_count":187,"start":1541119774242,"input":"vpq=voq-vop","state":"done","pos":99,"type":"cell","end":1541119774255,"id":"7c788b","kernel":"sagemath"}
-{"exec_count":188,"start":1541119786203,"input":"vpr=vor-vop","state":"done","pos":100,"type":"cell","end":1541119786211,"id":"23835b","kernel":"sagemath"}
-{"exec_count":189,"start":1541119813549,"input":"v1=vpq","state":"done","pos":101,"type":"cell","end":1541119813557,"id":"b69cf0","kernel":"sagemath"}
-{"exec_count":190,"start":1541119896228,"input":"v2=vpr-(vpr.dot_product(vpq)/norm(vpq)^2)*vpq","state":"done","pos":102,"type":"cell","end":1541119897288,"id":"0f74fb","kernel":"sagemath"}
+{"exec_count":19,"start":1541920849222,"input":"vot=vector([7,-2,12])","state":"done","pos":109.07142857142857,"type":"cell","end":1541920849237,"id":"2de7e0","kernel":"sagemath"}
 {"exec_count":192,"start":1541120019478,"input":"vst=vpt-(vpt.dot_product(v1)/norm(v1)^2)*v1-(vpt.dot_product(v2)/norm(v2)^2)*v2","state":"done","pos":104,"type":"cell","end":1541120019485,"id":"909995","kernel":"sagemath"}
 {"exec_count":195,"input":"**Bb2Q1**","state":"done","pos":107,"cell_type":"markdown","type":"cell","id":"200165","kernel":"sagemath"}
 {"exec_count":196,"start":1541120104099,"input":"f1(x,y)=y*cos(x*y)","state":"done","pos":107.14999999999999,"type":"cell","end":1541120104107,"id":"80461c","kernel":"sagemath"}
 {"exec_count":197,"start":1541120113010,"input":"f2(x,y)=2*x^2+y^2","state":"done","pos":107.19999999999999,"type":"cell","end":1541120113020,"id":"5f3f89","kernel":"sagemath"}
 {"exec_count":198,"start":1541120114759,"input":"G11(x,y)=diff(f1(x,y),x)","state":"done","pos":107.24999999999999,"type":"cell","end":1541120114766,"id":"f1e7f4","kernel":"sagemath"}
 {"exec_count":199,"start":1541120117216,"input":"G12(x,y)=diff(f1(x,y),y)","state":"done","pos":107.29999999999998,"type":"cell","end":1541120117223,"id":"6d55a9","kernel":"sagemath"}
+{"exec_count":2,"start":1542055829843,"input":"voq=vector([-6,-10,-2])","state":"done","pos":28.75,"type":"cell","end":1542055829856,"id":"3a3860","kernel":"sagemath"}
+{"exec_count":20,"start":1541920851972,"input":"vop=vector([8,-8,-1])","state":"done","pos":109.14285714285714,"type":"cell","end":1541920851981,"id":"10ee5d","kernel":"sagemath"}
+{"exec_count":20,"start":1542075684442,"input":"vpr=vor-vop","state":"done","pos":41.21428571428571,"type":"cell","end":1542075684513,"id":"09573b","kernel":"sagemath"}
 {"exec_count":200,"start":1541120118842,"input":"G21(x,y)=diff(f2(x,y),x)","state":"done","pos":107.34999999999998,"type":"cell","end":1541120118859,"id":"2c34c7","kernel":"sagemath"}
 {"exec_count":201,"start":1541120120724,"input":"G22(x,y)=diff(f2(x,y),y)","state":"done","pos":107.39999999999998,"type":"cell","end":1541120120736,"id":"f119fd","kernel":"sagemath"}
 {"exec_count":202,"start":1541120123216,"input":"J(x,y)=matrix([[G11(x,y),G12(x,y)],[G21(x,y),G22(x,y)]])","state":"done","pos":107.44999999999997,"type":"cell","end":1541120123222,"id":"90f408","kernel":"sagemath"}
 {"exec_count":207,"start":1541120181521,"input":"J11(x,y)=-y^2*sin(x*y)","state":"done","pos":107.69999999999996,"type":"cell","end":1541120181528,"id":"a3ce4a","kernel":"sagemath"}
 {"exec_count":208,"start":1541120194308,"input":"J12(x,y)=-x*y*sin(x*y) + cos(x*y)","state":"done","pos":107.74999999999996,"type":"cell","end":1541120194316,"id":"b82995","kernel":"sagemath"}
 {"exec_count":209,"start":1541120197636,"input":"J21(x,y)=4*x","state":"done","pos":107.79999999999995,"type":"cell","end":1541120197643,"id":"f36e0b","kernel":"sagemath"}
+{"exec_count":21,"start":1541920854272,"input":"voq=vector([1,-1,-1])","state":"done","pos":109.21428571428571,"type":"cell","end":1541920854283,"id":"bdc944","kernel":"sagemath"}
 {"exec_count":210,"start":1541120201637,"input":"J22(x,y)=2*y","state":"done","pos":107.84999999999995,"type":"cell","end":1541120201643,"id":"6d6257","kernel":"sagemath"}
 {"exec_count":212,"start":1541120222325,"input":"K=matrix([[J11(pi,2),J12(pi,2)],[J21(pi,2),J22(pi,2)]])","state":"done","pos":107.89999999999995,"type":"cell","end":1541120222335,"id":"bc14ee","kernel":"sagemath"}
 {"exec_count":214,"input":"**Bb2Q2**","state":"done","pos":108,"cell_type":"markdown","type":"cell","id":"74dfff","kernel":"sagemath"}
 {"exec_count":215,"start":1541120287753,"input":"Y=matrix([[214,116,147,152]]).transpose()","state":"done","pos":108.05,"type":"cell","end":1541120287765,"id":"d37186","kernel":"sagemath"}
 {"exec_count":217,"start":1541120309217,"input":"A=matrix([[33.0,44.5,37.8,43],[1,1,1,1]]).transpose()","state":"done","pos":108.14999999999999,"type":"cell","end":1541120309223,"id":"e0a80a","kernel":"sagemath"}
 {"exec_count":219,"start":1541120328752,"input":"v1=matrix([33.0,44.5,37.8,43]).transpose()","state":"done","pos":108.24999999999999,"type":"cell","end":1541120328767,"id":"8492ee","kernel":"sagemath"}
+{"exec_count":22,"start":1541920859372,"input":"vor=vector([8,-22,11])","state":"done","pos":109.28571428571428,"type":"cell","end":1541920859383,"id":"5b0646","kernel":"sagemath"}
 {"exec_count":220,"start":1541120331104,"input":"v2h=matrix([1,1,1,1]).transpose()","state":"done","pos":108.29999999999998,"type":"cell","end":1541120331117,"id":"cd59d8","kernel":"sagemath"}
 {"exec_count":221,"start":1541120334244,"input":"v2=v2h-((v2h.transpose()*v1)[0,0]/norm(v1)^2)*v1","state":"done","pos":108.34999999999998,"type":"cell","end":1541120334259,"id":"fc1ab6","kernel":"sagemath"}
 {"exec_count":225,"start":1541120416046,"input":"Yh=((Y.transpose()*v1)[0,0]/norm(v1)^2)*v1+((Y.transpose()*v2)[0,0]/norm(v2)^2)*v2","state":"done","pos":108.44999999999997,"type":"cell","end":1541120416053,"id":"a43fe0","kernel":"sagemath"}
 {"exec_count":227,"input":"**Bb2Q3**","state":"done","pos":109,"cell_type":"markdown","type":"cell","id":"6b4891","kernel":"sagemath"}
-{"exec_count":228,"start":1541120469471,"input":"vot=vector([7,-2,12])","state":"done","pos":109.07142857142857,"type":"cell","end":1541120469479,"id":"2de7e0","kernel":"sagemath"}
-{"exec_count":229,"start":1541120479287,"input":"vop=vector([8,-8,-1])","state":"done","pos":109.14285714285714,"type":"cell","end":1541120479294,"id":"10ee5d","kernel":"sagemath"}
-{"exec_count":230,"start":1541120489817,"input":"voq=vector([1,-1,-1])","state":"done","pos":109.21428571428571,"type":"cell","end":1541120489825,"id":"bdc944","kernel":"sagemath"}
-{"exec_count":231,"start":1541120496838,"input":"vor=vector([8,-22,11])","state":"done","pos":109.28571428571428,"type":"cell","end":1541120496844,"id":"5b0646","kernel":"sagemath"}
-{"exec_count":232,"start":1541120499921,"input":"vpt=vot-vop","state":"done","pos":109.35714285714285,"type":"cell","end":1541120499931,"id":"c73255","kernel":"sagemath"}
-{"exec_count":233,"start":1541120530113,"input":"vpq=voq-vop","state":"done","pos":109.42857142857142,"type":"cell","end":1541120530127,"id":"f3247e","kernel":"sagemath"}
-{"exec_count":234,"start":1541120533392,"input":"vpr=vor-vop","state":"done","pos":109.49999999999999,"type":"cell","end":1541120533403,"id":"1eeaa6","kernel":"sagemath"}
+{"exec_count":23,"start":1541920862572,"input":"vpt=vot-vop","state":"done","pos":109.35714285714285,"type":"cell","end":1541920862580,"id":"c73255","kernel":"sagemath"}
+{"exec_count":23,"start":1542075693242,"input":"x=var('x')","state":"done","pos":41.32142857142856,"type":"cell","end":1542075693250,"id":"b668da","kernel":"sagemath"}
 {"exec_count":235,"start":1541120535314,"input":"v1=vpq","state":"done","pos":109.57142857142856,"type":"cell","end":1541120535321,"id":"e3304f","kernel":"sagemath"}
 {"exec_count":236,"start":1541120537312,"input":"v2=vpr-(vpr.dot_product(vpq)/norm(vpq)^2)*vpq","state":"done","pos":109.64285714285712,"type":"cell","end":1541120537320,"id":"80e00b","kernel":"sagemath"}
 {"exec_count":238,"start":1541120542500,"input":"vst=vpt-(vpt.dot_product(v1)/norm(v1)^2)*v1-(vpt.dot_product(v2)/norm(v2)^2)*v2","state":"done","pos":109.78571428571426,"type":"cell","end":1541120542507,"id":"8a8109","kernel":"sagemath"}
+{"exec_count":24,"start":1542075695971,"input":"y=var('y')","state":"done","pos":41.35714285714285,"type":"cell","end":1542075695978,"id":"c5132e","kernel":"sagemath"}
 {"exec_count":241,"start":1541120559506,"input":"G=block_matrix([[A,Yh]])","state":"done","pos":108.54999999999997,"type":"cell","end":1541120559517,"id":"ae8e0d","kernel":"sagemath"}
 {"exec_count":244,"start":1541120594497,"input":"J=matrix([[33,1],[44.5,1]])","state":"done","pos":108.74999999999996,"type":"cell","end":1541120594505,"id":"839c83","kernel":"sagemath"}
 {"exec_count":245,"start":1541120596804,"input":"c=matrix([[G[0,2],G[1,2]]]).transpose()","state":"done","pos":108.79999999999995,"type":"cell","end":1541120596811,"id":"a28173","kernel":"sagemath"}
+{"exec_count":25,"start":1541920872272,"input":"vpq=voq-vop","state":"done","pos":109.42857142857142,"type":"cell","end":1541920872281,"id":"f3247e","kernel":"sagemath"}
+{"exec_count":25,"start":1542075697843,"input":"z=var('z')","state":"done","pos":41.39285714285713,"type":"cell","end":1542075697856,"id":"f10974","kernel":"sagemath"}
+{"exec_count":26,"start":1542075740354,"input":"f(x,y,z)=(107)*(x+8)+(-54)*(y+10)+74*(z-2)","state":"done","pos":41.428571428571416,"type":"cell","end":1542075740357,"id":"f7d79c","kernel":"sagemath"}
+{"exec_count":27,"start":1541920882474,"input":"vpr=vor-vop","state":"done","pos":109.49999999999999,"type":"cell","end":1541920882482,"id":"1eeaa6","kernel":"sagemath"}
 {"exec_count":29,"start":1541099959339,"input":"A=matrix([[2,-5,6],[-1,5/2,-3]])","state":"done","pos":13,"type":"cell","end":1541099959352,"id":"a78e0f","kernel":"sagemath"}
+{"exec_count":3,"start":1541901832764,"input":"vot=vector([2,7,5])","state":"done","pos":94,"type":"cell","end":1541901832775,"id":"394296","kernel":"sagemath"}
+{"exec_count":3,"start":1542055842849,"input":"vor=vector([10,-3,7])","state":"done","pos":28.875,"type":"cell","end":1542055842858,"id":"c3f505","kernel":"sagemath"}
 {"exec_count":31,"input":"**Ba1Q3**","state":"done","pos":16,"cell_type":"markdown","type":"cell","id":"61166e","kernel":"sagemath"}
 {"exec_count":31,"input":"**Ba2Q1**","state":"done","pos":29,"cell_type":"markdown","type":"cell","id":"9a15aa","kernel":"sagemath"}
 {"exec_count":34,"start":1541100260426,"input":"v1=matrix([[-7,-2,3]]).transpose()","state":"done","pos":17,"type":"cell","end":1541100260439,"id":"1b3387","kernel":"sagemath"}
 {"exec_count":35,"start":1541100265125,"input":"v2=matrix([[-6,-10,-2]]).transpose()","state":"done","pos":18,"type":"cell","end":1541100265134,"id":"3586b8","kernel":"sagemath"}
 {"exec_count":36,"start":1541100285708,"input":"v3=matrix([[10,-3,7]]).transpose()","state":"done","pos":19,"type":"cell","end":1541100285717,"id":"210130","kernel":"sagemath"}
+{"exec_count":4,"start":1541901835650,"input":"vop=vector([5,3,-6])","state":"done","pos":95,"type":"cell","end":1541901835661,"id":"328585","kernel":"sagemath"}
+{"exec_count":4,"start":1542055856926,"input":"vpq=voq-vop","state":"done","pos":28.9375,"type":"cell","end":1542055856958,"id":"94f929","kernel":"sagemath"}
+{"exec_count":5,"start":1541901837774,"input":"voq=vector([5,10,-10])","state":"done","pos":96,"type":"cell","end":1541901837783,"id":"340ac2","kernel":"sagemath"}
 {"exec_count":57,"start":1541114691462,"input":"v1=matrix([[-8,-10,2]]).transpose()","state":"done","pos":30,"type":"cell","end":1541114691475,"id":"3363cc","kernel":"sagemath"}
 {"exec_count":58,"start":1541114706386,"input":"v2=matrix([[0,-1,-3]]).transpose()","state":"done","pos":31,"type":"cell","end":1541114706396,"id":"d9cda6","kernel":"sagemath"}
 {"exec_count":59,"start":1541114716998,"input":"v3=matrix([[-2,6,5]]).transpose()","state":"done","pos":32,"type":"cell","end":1541114717004,"id":"c7be8e","kernel":"sagemath"}
+{"exec_count":6,"start":1541901840472,"input":"vor=vector([-9,-11,10])","state":"done","pos":97,"type":"cell","end":1541901840481,"id":"d67430","kernel":"sagemath"}
+{"exec_count":6,"start":1542055875848,"input":"vpr=vor-vop","state":"done","pos":28.984375,"type":"cell","end":1542055875852,"id":"a97620","kernel":"sagemath"}
+{"exec_count":7,"start":1541901842683,"input":"vpt=vot-vop","state":"done","pos":98,"type":"cell","end":1541901842694,"id":"305752","kernel":"sagemath"}
 {"exec_count":70,"start":1541114931357,"input":"A=matrix([[8,-10,-3,-9]])","state":"done","pos":42,"type":"cell","end":1541114931368,"id":"5214bf","kernel":"sagemath"}
 {"exec_count":71,"start":1541114941716,"input":"B=matrix([[-5,0,-4,1]])","state":"done","pos":43,"type":"cell","end":1541114941727,"id":"8e269b","kernel":"sagemath"}
 {"exec_count":72,"start":1541114953603,"input":"C=matrix([[2,-1,-7,-16]])","state":"done","pos":44,"type":"cell","end":1541114953614,"id":"07cadc","kernel":"sagemath"}
@@ -91,17 +107,34 @@
 {"exec_count":87,"start":1541115365075,"input":"B=matrix([[-5,2,-6,-5]])","state":"done","pos":4,"type":"cell","end":1541115365082,"id":"b36980","kernel":"sagemath"}
 {"exec_count":88,"start":1541115366241,"input":"C=matrix([[0,-14,1,14]])","state":"done","pos":5,"type":"cell","end":1541115366249,"id":"9df291","kernel":"sagemath"}
 {"exec_count":89,"start":1541115367406,"input":"D=matrix([[4,-8,-2,7]])","state":"done","pos":6,"type":"cell","end":1541115367414,"id":"3c1ed2","kernel":"sagemath"}
+{"exec_count":9,"start":1541901852373,"input":"vpq=voq-vop","state":"done","pos":99,"type":"cell","end":1541901852381,"id":"7c788b","kernel":"sagemath"}
+{"exec_count":9,"start":1542055982567,"input":"x=var('x')","state":"done","pos":28.998046875,"type":"cell","end":1542055982574,"id":"54be8e","kernel":"sagemath"}
 {"exec_count":90,"start":1541115369425,"input":"F=block_matrix([[A],[B],[C],[D]])","state":"done","pos":7,"type":"cell","end":1541115369437,"id":"1f3131","kernel":"sagemath"}
 {"exec_count":93,"start":1541115376082,"input":"G=F.transpose()","state":"done","pos":10,"type":"cell","end":1541115376096,"id":"681d8a","kernel":"sagemath"}
 {"exec_count":95,"start":1541115404537,"input":"H=matrix([[-9,-5,0],[-4,2,-14],[-3,-6,1]])","state":"done","pos":10.666666666666666,"type":"cell","end":1541115404548,"id":"aa5f49","kernel":"sagemath"}
 {"exec_count":98,"start":1541115440617,"input":"b=matrix([[4,-8,-2]]).transpose()","state":"done","pos":10.833333333333332,"type":"cell","end":1541115440632,"id":"cd287a","kernel":"sagemath"}
-{"output":{"0":{"data":{"text/plain":"(-14, 224/65, 392/65)"},"exec_count":191}},"exec_count":191,"start":1541119914559,"input":"v2","state":"done","pos":103,"type":"cell","end":1541119914620,"id":"533d83","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"(-1, 6, 13)"},"exec_count":24}},"exec_count":24,"start":1541920869777,"input":"vpt","state":"done","pos":109.39285714285714,"type":"cell","end":1541920869802,"id":"ce355a","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"(-14, -14, 16)"},"exec_count":12}},"exec_count":12,"start":1541901865079,"input":"vpr","state":"done","pos":100.5,"type":"cell","end":1541901865105,"id":"c6ff6b","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"(-14, 224/65, 392/65)"},"exec_count":17}},"exec_count":17,"start":1541901982373,"input":"v2","state":"done","pos":103,"type":"cell","end":1541901982403,"id":"533d83","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"(-14.0000000000000, 3.44615384615385, 6.03076923076923)"},"exec_count":18}},"exec_count":18,"start":1541901985217,"input":"n(v2)","state":"done","pos":103.5,"type":"cell","end":1541901988568,"id":"7602e7","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"(-3, 4, 11)"},"exec_count":8}},"exec_count":8,"start":1541901849974,"input":"vpt","state":"done","pos":98.5,"type":"cell","end":1541901850000,"id":"5f2832","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"(-37, -89, 135)"},"exec_count":8}},"exec_count":8,"start":1542055916575,"input":"vpq.cross_product(vpr)","state":"done","pos":28.99609375,"type":"cell","end":1542055916644,"id":"79e42a","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"(-7, -7, 12)"},"exec_count":237}},"exec_count":237,"start":1541120539334,"input":"v2","state":"done","pos":109.7142857142857,"type":"cell","end":1541120539387,"id":"0d0988","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"(-7, 7, 0)"},"exec_count":26}},"exec_count":26,"start":1541920878373,"input":"vpq","state":"done","pos":109.4642857142857,"type":"cell","end":1541920878396,"id":"f2b062","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"(0, -14, 12)"},"exec_count":28}},"exec_count":28,"start":1541920886272,"input":"vpr","state":"done","pos":109.53571428571428,"type":"cell","end":1541920886303,"id":"67840b","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"(0, 7, -4)"},"exec_count":10}},"exec_count":10,"start":1541901858473,"input":"vpq","state":"done","pos":99.5,"type":"cell","end":1541901858497,"id":"79929e","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"(1, -8, -5)"},"exec_count":5}},"exec_count":5,"start":1542055862410,"input":"vpq","state":"done","pos":28.96875,"type":"cell","end":1542055862466,"id":"5a3f41","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"(107, -54, 74)"},"exec_count":22}},"exec_count":22,"start":1542075690255,"input":"vpq.cross_product(vpr)","state":"done","pos":41.28571428571428,"type":"cell","end":1542075690261,"id":"ec8615","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"(17, -1, 4)"},"exec_count":7}},"exec_count":7,"start":1542055882443,"input":"vpr","state":"done","pos":28.9921875,"type":"cell","end":1542055882467,"id":"20316b","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"(4, 4, 7)"},"exec_count":193}},"exec_count":193,"start":1541120029679,"input":"vst","state":"done","pos":105,"type":"cell","end":1541120029736,"id":"06e4f8","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"(6, 16, 3)"},"exec_count":21}},"exec_count":21,"start":1542075686956,"input":"vpr","state":"done","pos":41.24999999999999,"type":"cell","end":1542075686989,"id":"c15939","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"(6, 6, 7)"},"exec_count":239}},"exec_count":239,"start":1541120544310,"input":"vst","state":"done","pos":109.85714285714283,"type":"cell","end":1541120544531,"id":"44f9c9","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"(8, 9, -5)"},"exec_count":19}},"exec_count":19,"start":1542075681559,"input":"vpq","state":"done","pos":41.17857142857142,"type":"cell","end":1542075681585,"id":"bb72ed","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"(x, y, z) |--> -37*x - 89*y + 135*z - 842"},"exec_count":14}},"exec_count":14,"start":1542056112845,"input":"f","state":"done","pos":28.9998779296875,"type":"cell","end":1542056112866,"id":"b3457a","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"(x, y, z) |--> 107*x - 54*y + 74*z + 168"},"exec_count":27}},"exec_count":27,"start":1542075742343,"input":"f","state":"done","pos":41.4642857142857,"type":"cell","end":1542075742368,"id":"f074fd","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"0"},"exec_count":76}},"exec_count":76,"start":1541114973571,"input":"det(F)","state":"done","pos":48,"type":"cell","end":1541114973605,"id":"ea5b59","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"0"},"exec_count":92}},"exec_count":92,"start":1541115374580,"input":"det(F)","state":"done","pos":9,"type":"cell","end":1541115374616,"id":"2f490f","kernel":"sagemath"}
-{"output":{"0":{"data":{"text/plain":"107.208045897348"},"exec_count":47}},"exec_count":47,"start":1541103820876,"input":"n(acos((v3.transpose()*v2)[0,0]/(norm(v3)*norm(v2)))*180/pi)","state":"done","pos":28,"type":"cell","end":1541103820918,"id":"58d451","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"107.208045897348"},"exec_count":47}},"exec_count":47,"input":"n(acos((v3.transpose()*v2)[0,0]/(norm(v3)*norm(v2)))*180/pi)","scrolled":true,"state":"done","pos":28,"type":"cell","id":"58d451","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"108.987542986968"},"exec_count":68}},"exec_count":68,"start":1541114779820,"input":"n(acos((v1.transpose()*v3)[0,0]/(norm(v1)*norm(v3)))*180/pi)","state":"done","pos":40,"type":"cell","end":1541114779859,"id":"63c3bf","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"11"},"exec_count":240}},"exec_count":240,"start":1541120546603,"input":"norm(vst)","state":"done","pos":109.9285714285714,"type":"cell","end":1541120546668,"id":"2d7144","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"11.832159566199232"},"exec_count":39}},"exec_count":39,"start":1541100361119,"input":"norm(v2)","state":"done","pos":22,"type":"cell","end":1541100361140,"id":"3c6544","kernel":"sagemath"}
@@ -169,5 +202,4 @@
 {"type":"cell","id":"e3b2dd","pos":41.5,"input":"**Ba2Q2**","cell_type":"markdown"}
 {"type":"cell","id":"f5041d","pos":15,"input":"$$S=\\{x\\in\\mathbb{R}^{2}|x=(3,0)+\\lambda(5,2)\\}$$","cell_type":"markdown"}
 {"type":"file","last_load":1541097240031}
-{"type":"nbconvert","args":["--to","html"],"state":"done","start":1541120657825,"time":1541120664303}
-{"type":"settings","backend_state":"running","trust":true,"kernel":"sagemath","kernel_usage":{"cpu":0,"memory":296030208},"kernel_state":"idle"}
+{"type":"settings","backend_state":"running","trust":true,"kernel":"sagemath","kernel_usage":{"cpu":0,"memory":217612288},"kernel_state":"idle"}

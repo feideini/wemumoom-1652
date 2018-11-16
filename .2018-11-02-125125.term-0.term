@@ -1,0 +1,311 @@
+]0;~/jupyter[01;34m~/jupyter[00m$ bb
+enter aes-256-cbc decryption password:
+Welcome to Ubuntu 16.04.2 LTS (GNU/Linux 4.4.0-96-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+164 packages can be updated.
+0 updates are security updates.
+
+New release '18.04.1 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+*** System restart required ***
+Last login: Fri Nov  2 18:03:41 2018 from 35.237.22.11
+]0;ubuntu@ip-172-31-9-42: ~[01;32mubuntu@ip-172-31-9-42[00m:[01;34m~[00m$ cd /opt/webwork/courses/MATH1441-2018/templates/
+]0;ubuntu@ip-172-31-9-42: /opt/webwork/courses/MATH1441-2018/templates[01;32mubuntu@ip-172-31-9-42[00m:[01;34m/opt/webwork/courses/MATH1441-2018/templates[00m$ ls
+ASimpleCombinedHeaderFile.pg  [0m[01;36mLibrary[0m          demoCourse.lst   [01;34mft-02-LabReport[0m  [01;34mft-05-LabReport[0m  math1441a.lst  [01;34msetDemo[0m         setMAAtutorial.def  [01;34mtmpEdit[0m
+ASimpleHardCopyHeaderFile.pg  [01;34machievements[0m     [01;34memail[0m            [01;34mft-03-LabReport[0m  [01;34mft-06-LabReport[0m  [01;34mset0[0m           setDemo.def     [01;34msetOrientation[0m
+ASimpleScreenHeaderFile.pg    course_info.txt  [01;34mft-01-LabReport[0m  [01;34mft-04-LabReport[0m  [01;34mmacros[0m           set0.def       [01;34msetMAAtutorial[0m  setOrientation.def
+]0;ubuntu@ip-172-31-9-42: /opt/webwork/courses/MATH1441-2018/templates[01;32mubuntu@ip-172-31-9-42[00m:[01;34m/opt/webwork/courses/MATH1441-2018/templates[00m$ mkd[K[K[Ksudo mkdir ft-07-LabReport
+]0;ubuntu@ip-172-31-9-42: /opt/webwork/courses/MATH1441-2018/templates[01;32mubuntu@ip-172-31-9-42[00m:[01;34m/opt/webwork/courses/MATH1441-2018/templates[00m$ ls -l
+total 104
+-rw-r--r-- 1 www-data wwdata 2577 Sep  6 15:01 ASimpleCombinedHeaderFile.pg
+-rw-r--r-- 1 www-data wwdata  910 Sep  6 15:01 ASimpleHardCopyHeaderFile.pg
+-rw-r--r-- 1 www-data wwdata  614 Sep  6 15:01 ASimpleScreenHeaderFile.pg
+lrwxrwxrwx 1 www-data wwdata   70 Sep  6 15:01 [0m[01;36mLibrary[0m -> [01;34m/opt/webwork/libraries/webwork-open-problem-library/OpenProblemLibrary[0m
+drwxr-sr-x 2 www-data wwdata 4096 Sep  6 15:01 [01;34machievements[0m
+-rw-r--r-- 1 www-data wwdata   94 Sep  6 15:01 course_info.txt
+-rw-r--r-- 1 www-data wwdata  693 Sep  6 15:01 demoCourse.lst
+drwxr-sr-x 2 www-data wwdata 4096 Sep  6 15:01 [01;34memail[0m
+drwxr-sr-x 2 www-data wwdata 4096 Sep  6 15:04 [01;34mft-01-LabReport[0m
+drwxr-sr-x 2 www-data wwdata 4096 Sep 15 17:16 [01;34mft-02-LabReport[0m
+drwxr-sr-x 2 www-data wwdata 4096 Sep 21 22:26 [01;34mft-03-LabReport[0m
+drwxr-sr-x 2 www-data wwdata 4096 Oct  2 19:43 [01;34mft-04-LabReport[0m
+drwxr-sr-x 2 www-data wwdata 4096 Oct 13 21:43 [01;34mft-05-LabReport[0m
+drwxr-sr-x 2 www-data wwdata 4096 Oct 19 22:40 [01;34mft-06-LabReport[0m
+drwxr-sr-x 2 root     wwdata 4096 Nov  2 19:52 [01;34mft-07-LabReport[0m
+drwxr-sr-x 2 www-data wwdata 4096 Sep  6 15:01 [01;34mmacros[0m
+-rw-r--r-- 1 ubuntu   ubuntu  931 Sep  6 15:09 math1441a.lst
+drwxr-sr-x 3 www-data wwdata 4096 Sep  6 15:01 [01;34mset0[0m
+-rw-r--r-- 1 www-data wwdata 1589 Sep  6 15:01 set0.def
+drwxr-sr-x 2 www-data wwdata 4096 Sep  6 15:01 [01;34msetDemo[0m
+-rw-r--r-- 1 www-data wwdata 1809 Sep  6 15:01 setDemo.def
+drwxr-sr-x 4 www-data wwdata 4096 Sep  6 15:01 [01;34msetMAAtutorial[0m
+-rw-r--r-- 1 www-data wwdata 3720 Sep  6 15:01 setMAAtutorial.def
+drwxr-sr-x 4 www-data wwdata 4096 Sep  6 15:01 [01;34msetOrientation[0m
+-rw-r--r-- 1 www-data wwdata 3099 Sep  6 15:01 setOrientation.def
+drwxr-sr-x 2 www-data wwdata 4096 Sep  6 15:01 [01;34mtmpEdit[0m
+]0;ubuntu@ip-172-31-9-42: /opt/webwork/courses/MATH1441-2018/templates[01;32mubuntu@ip-172-31-9-42[00m:[01;34m/opt/webwork/courses/MATH1441-2018/templates[00m$ sudo chown www-data:wwdata ft-06-LabReport/[K[K[K[K[K[K[K[K[K[K[K[K[K07-LabReport/
+]0;ubuntu@ip-172-31-9-42: /opt/webwork/courses/MATH1441-2018/templates[01;32mubuntu@ip-172-31-9-42[00m:[01;34m/opt/webwork/courses/MATH1441-2018/templates[00m$ sudo chown www-data:wwdata ft-07-LabReport/ls -l[K
+total 104
+-rw-r--r-- 1 www-data wwdata 2577 Sep  6 15:01 ASimpleCombinedHeaderFile.pg
+-rw-r--r-- 1 www-data wwdata  910 Sep  6 15:01 ASimpleHardCopyHeaderFile.pg
+-rw-r--r-- 1 www-data wwdata  614 Sep  6 15:01 ASimpleScreenHeaderFile.pg
+lrwxrwxrwx 1 www-data wwdata   70 Sep  6 15:01 [0m[01;36mLibrary[0m -> [01;34m/opt/webwork/libraries/webwork-open-problem-library/OpenProblemLibrary[0m
+drwxr-sr-x 2 www-data wwdata 4096 Sep  6 15:01 [01;34machievements[0m
+-rw-r--r-- 1 www-data wwdata   94 Sep  6 15:01 course_info.txt
+-rw-r--r-- 1 www-data wwdata  693 Sep  6 15:01 demoCourse.lst
+drwxr-sr-x 2 www-data wwdata 4096 Sep  6 15:01 [01;34memail[0m
+drwxr-sr-x 2 www-data wwdata 4096 Sep  6 15:04 [01;34mft-01-LabReport[0m
+drwxr-sr-x 2 www-data wwdata 4096 Sep 15 17:16 [01;34mft-02-LabReport[0m
+drwxr-sr-x 2 www-data wwdata 4096 Sep 21 22:26 [01;34mft-03-LabReport[0m
+drwxr-sr-x 2 www-data wwdata 4096 Oct  2 19:43 [01;34mft-04-LabReport[0m
+drwxr-sr-x 2 www-data wwdata 4096 Oct 13 21:43 [01;34mft-05-LabReport[0m
+drwxr-sr-x 2 www-data wwdata 4096 Oct 19 22:40 [01;34mft-06-LabReport[0m
+drwxr-sr-x 2 www-data wwdata 4096 Nov  2 19:52 [01;34mft-07-LabReport[0m
+drwxr-sr-x 2 www-data wwdata 4096 Sep  6 15:01 [01;34mmacros[0m
+-rw-r--r-- 1 ubuntu   ubuntu  931 Sep  6 15:09 math1441a.lst
+drwxr-sr-x 3 www-data wwdata 4096 Sep  6 15:01 [01;34mset0[0m
+-rw-r--r-- 1 www-data wwdata 1589 Sep  6 15:01 set0.def
+drwxr-sr-x 2 www-data wwdata 4096 Sep  6 15:01 [01;34msetDemo[0m
+-rw-r--r-- 1 www-data wwdata 1809 Sep  6 15:01 setDemo.def
+drwxr-sr-x 4 www-data wwdata 4096 Sep  6 15:01 [01;34msetMAAtutorial[0m
+-rw-r--r-- 1 www-data wwdata 3720 Sep  6 15:01 setMAAtutorial.def
+drwxr-sr-x 4 www-data wwdata 4096 Sep  6 15:01 [01;34msetOrientation[0m
+-rw-r--r-- 1 www-data wwdata 3099 Sep  6 15:01 setOrientation.def
+drwxr-sr-x 2 www-data wwdata 4096 Sep  6 15:01 [01;34mtmpEdit[0m
+]0;ubuntu@ip-172-31-9-42: /opt/webwork/courses/MATH1441-2018/templates[01;32mubuntu@ip-172-31-9-42[00m:[01;34m/opt/webwork/courses/MATH1441-2018/templates[00m$ cp [K[K[Ksudo cp -v /opt/webwork/courses/MATH1441-2017/templates/ft-06-LabReport/* ./
+'/opt/webwork/courses/MATH1441-2017/templates/ft-06-LabReport/fnames.data' -> './fnames.data'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-06-LabReport/q01.pg' -> './q01.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-06-LabReport/q02.pg' -> './q02.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-06-LabReport/q03.pg' -> './q03.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-06-LabReport/q04.pg' -> './q04.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-06-LabReport/q05.pg' -> './q05.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-06-LabReport/q06.pg' -> './q06.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-06-LabReport/q07.pg' -> './q07.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-06-LabReport/q08.pg' -> './q08.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-06-LabReport/q09.pg' -> './q09.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-06-LabReport/q10.pg' -> './q10.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-06-LabReport/q11.pg' -> './q11.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-06-LabReport/q12.pg' -> './q12.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-06-LabReport/shuffleqs.pl' -> './shuffleqs.pl'
+]0;ubuntu@ip-172-31-9-42: /opt/webwork/courses/MATH1441-2018/templates[01;32mubuntu@ip-172-31-9-42[00m:[01;34m/opt/webwork/courses/MATH1441-2018/templates[00m$ ls -l
+total 160
+-rw-r--r-- 1 www-data wwdata 2577 Sep  6 15:01 ASimpleCombinedHeaderFile.pg
+-rw-r--r-- 1 www-data wwdata  910 Sep  6 15:01 ASimpleHardCopyHeaderFile.pg
+-rw-r--r-- 1 www-data wwdata  614 Sep  6 15:01 ASimpleScreenHeaderFile.pg
+lrwxrwxrwx 1 www-data wwdata   70 Sep  6 15:01 [0m[01;36mLibrary[0m -> [01;34m/opt/webwork/libraries/webwork-open-problem-library/OpenProblemLibrary[0m
+drwxr-sr-x 2 www-data wwdata 4096 Sep  6 15:01 [01;34machievements[0m
+-rw-r--r-- 1 www-data wwdata   94 Sep  6 15:01 course_info.txt
+-rw-r--r-- 1 www-data wwdata  693 Sep  6 15:01 demoCourse.lst
+drwxr-sr-x 2 www-data wwdata 4096 Sep  6 15:01 [01;34memail[0m
+-rw-r--r-- 1 root     wwdata  648 Nov  2 19:53 fnames.data
+drwxr-sr-x 2 www-data wwdata 4096 Sep  6 15:04 [01;34mft-01-LabReport[0m
+drwxr-sr-x 2 www-data wwdata 4096 Sep 15 17:16 [01;34mft-02-LabReport[0m
+drwxr-sr-x 2 www-data wwdata 4096 Sep 21 22:26 [01;34mft-03-LabReport[0m
+drwxr-sr-x 2 www-data wwdata 4096 Oct  2 19:43 [01;34mft-04-LabReport[0m
+drwxr-sr-x 2 www-data wwdata 4096 Oct 13 21:43 [01;34mft-05-LabReport[0m
+drwxr-sr-x 2 www-data wwdata 4096 Oct 19 22:40 [01;34mft-06-LabReport[0m
+drwxr-sr-x 2 www-data wwdata 4096 Nov  2 19:52 [01;34mft-07-LabReport[0m
+drwxr-sr-x 2 www-data wwdata 4096 Sep  6 15:01 [01;34mmacros[0m
+-rw-r--r-- 1 ubuntu   ubuntu  931 Sep  6 15:09 math1441a.lst
+-rw-r--r-- 1 root     wwdata 1586 Nov  2 19:53 q01.pg
+-rw-r--r-- 1 root     wwdata 2948 Nov  2 19:53 q02.pg
+-rw-r--r-- 1 root     wwdata  763 Nov  2 19:53 q03.pg
+-rw-r--r-- 1 root     wwdata  777 Nov  2 19:53 q04.pg
+-rw-r--r-- 1 root     wwdata 1702 Nov  2 19:53 q05.pg
+-rw-r--r-- 1 root     wwdata 3121 Nov  2 19:53 q06.pg
+-rw-r--r-- 1 root     wwdata 2380 Nov  2 19:53 q07.pg
+-rw-r--r-- 1 root     wwdata 3750 Nov  2 19:53 q08.pg
+-rw-r--r-- 1 root     wwdata 1977 Nov  2 19:53 q09.pg
+-rw-r--r-- 1 root     wwdata 2748 Nov  2 19:53 q10.pg
+-rw-r--r-- 1 root     wwdata 1636 Nov  2 19:53 q11.pg
+-rw-r--r-- 1 root     wwdata 1587 Nov  2 19:53 q12.pg
+drwxr-sr-x 3 www-data wwdata 4096 Sep  6 15:01 [01;34mset0[0m
+-rw-r--r-- 1 www-data wwdata 1589 Sep  6 15:01 set0.def
+drwxr-sr-x 2 www-data wwdata 4096 Sep  6 15:01 [01;34msetDemo[0m
+-rw-r--r-- 1 www-data wwdata 1809 Sep  6 15:01 setDemo.def
+drwxr-sr-x 4 www-data wwdata 4096 Sep  6 15:01 [01;34msetMAAtutorial[0m
+-rw-r--r-- 1 www-data wwdata 3720 Sep  6 15:01 setMAAtutorial.def
+drwxr-sr-x 4 www-data wwdata 4096 Sep  6 15:01 [01;34msetOrientation[0m
+-rw-r--r-- 1 www-data wwdata 3099 Sep  6 15:01 setOrientation.def
+-rw-r--r-- 1 root     wwdata 1097 Nov  2 19:53 shuffleqs.pl
+drwxr-sr-x 2 www-data wwdata 4096 Sep  6 15:01 [01;34mtmpEdit[0m
+]0;ubuntu@ip-172-31-9-42: /opt/webwork/courses/MATH1441-2018/templates[01;32mubuntu@ip-172-31-9-42[00m:[01;34m/opt/webwork/courses/MATH1441-2018/templates[00m$ cd f[K[K[K[Kmv fnames.data ./ft-07-LabReport/
+mv: cannot move 'fnames.data' to './ft-07-LabReport/fnames.data': Permission denied
+]0;ubuntu@ip-172-31-9-42: /opt/webwork/courses/MATH1441-2018/templates[01;32mubuntu@ip-172-31-9-42[00m:[01;34m/opt/webwork/courses/MATH1441-2018/templates[00m$ mv fnames.data ./ft-07-LabReport/[1@s[1@u[1@d[1@o[1@ [C[C[C[C[1@-[1@v[1@ 
+'fnames.data' -> './ft-07-LabReport/fnames.data'
+]0;ubuntu@ip-172-31-9-42: /opt/webwork/courses/MATH1441-2018/templates[01;32mubuntu@ip-172-31-9-42[00m:[01;34m/opt/webwork/courses/MATH1441-2018/templates[00m$ sudo mv -v shuffleqs.pl ./ft-07-LabReport/
+'shuffleqs.pl' -> './ft-07-LabReport/shuffleqs.pl'
+]0;ubuntu@ip-172-31-9-42: /opt/webwork/courses/MATH1441-2018/templates[01;32mubuntu@ip-172-31-9-42[00m:[01;34m/opt/webwork/courses/MATH1441-2018/templates[00m$ sudo mv -v q*.pg ./ft-07-LabReport/
+'q01.pg' -> './ft-07-LabReport/q01.pg'
+'q02.pg' -> './ft-07-LabReport/q02.pg'
+'q03.pg' -> './ft-07-LabReport/q03.pg'
+'q04.pg' -> './ft-07-LabReport/q04.pg'
+'q05.pg' -> './ft-07-LabReport/q05.pg'
+'q06.pg' -> './ft-07-LabReport/q06.pg'
+'q07.pg' -> './ft-07-LabReport/q07.pg'
+'q08.pg' -> './ft-07-LabReport/q08.pg'
+'q09.pg' -> './ft-07-LabReport/q09.pg'
+'q10.pg' -> './ft-07-LabReport/q10.pg'
+'q11.pg' -> './ft-07-LabReport/q11.pg'
+'q12.pg' -> './ft-07-LabReport/q12.pg'
+]0;ubuntu@ip-172-31-9-42: /opt/webwork/courses/MATH1441-2018/templates[01;32mubuntu@ip-172-31-9-42[00m:[01;34m/opt/webwork/courses/MATH1441-2018/templates[00m$ cd ft-07-LabReport/
+]0;ubuntu@ip-172-31-9-42: /opt/webwork/courses/MATH1441-2018/templates/ft-07-LabReport[01;32mubuntu@ip-172-31-9-42[00m:[01;34m/opt/webwork/courses/MATH1441-2018/templates/ft-07-LabReport[00m$ ls -l
+total 56
+-rw-r--r-- 1 root wwdata  648 Nov  2 19:53 fnames.data
+-rw-r--r-- 1 root wwdata 1586 Nov  2 19:53 q01.pg
+-rw-r--r-- 1 root wwdata 2948 Nov  2 19:53 q02.pg
+-rw-r--r-- 1 root wwdata  763 Nov  2 19:53 q03.pg
+-rw-r--r-- 1 root wwdata  777 Nov  2 19:53 q04.pg
+-rw-r--r-- 1 root wwdata 1702 Nov  2 19:53 q05.pg
+-rw-r--r-- 1 root wwdata 3121 Nov  2 19:53 q06.pg
+-rw-r--r-- 1 root wwdata 2380 Nov  2 19:53 q07.pg
+-rw-r--r-- 1 root wwdata 3750 Nov  2 19:53 q08.pg
+-rw-r--r-- 1 root wwdata 1977 Nov  2 19:53 q09.pg
+-rw-r--r-- 1 root wwdata 2748 Nov  2 19:53 q10.pg
+-rw-r--r-- 1 root wwdata 1636 Nov  2 19:53 q11.pg
+-rw-r--r-- 1 root wwdata 1587 Nov  2 19:53 q12.pg
+-rw-r--r-- 1 root wwdata 1097 Nov  2 19:53 shuffleqs.pl
+]0;ubuntu@ip-172-31-9-42: /opt/webwork/courses/MATH1441-2018/templates/ft-07-LabReport[01;32mubuntu@ip-172-31-9-42[00m:[01;34m/opt/webwork/courses/MATH1441-2018/templates/ft-07-LabReport[00m$ sudo chown *[Kwww-data:wwdata *
+]0;ubuntu@ip-172-31-9-42: /opt/webwork/courses/MATH1441-2018/templates/ft-07-LabReport[01;32mubuntu@ip-172-31-9-42[00m:[01;34m/opt/webwork/courses/MATH1441-2018/templates/ft-07-LabReport[00m$ ls -l
+total 56
+-rw-r--r-- 1 www-data wwdata  648 Nov  2 19:53 fnames.data
+-rw-r--r-- 1 www-data wwdata 1586 Nov  2 19:53 q01.pg
+-rw-r--r-- 1 www-data wwdata 2948 Nov  2 19:53 q02.pg
+-rw-r--r-- 1 www-data wwdata  763 Nov  2 19:53 q03.pg
+-rw-r--r-- 1 www-data wwdata  777 Nov  2 19:53 q04.pg
+-rw-r--r-- 1 www-data wwdata 1702 Nov  2 19:53 q05.pg
+-rw-r--r-- 1 www-data wwdata 3121 Nov  2 19:53 q06.pg
+-rw-r--r-- 1 www-data wwdata 2380 Nov  2 19:53 q07.pg
+-rw-r--r-- 1 www-data wwdata 3750 Nov  2 19:53 q08.pg
+-rw-r--r-- 1 www-data wwdata 1977 Nov  2 19:53 q09.pg
+-rw-r--r-- 1 www-data wwdata 2748 Nov  2 19:53 q10.pg
+-rw-r--r-- 1 www-data wwdata 1636 Nov  2 19:53 q11.pg
+-rw-r--r-- 1 www-data wwdata 1587 Nov  2 19:53 q12.pg
+-rw-r--r-- 1 www-data wwdata 1097 Nov  2 19:53 shuffleqs.pl
+]0;ubuntu@ip-172-31-9-42: /opt/webwork/courses/MATH1441-2018/templates/ft-07-LabReport[01;32mubuntu@ip-172-31-9-42[00m:[01;34m/opt/webwork/courses/MATH1441-2018/templates/ft-07-LabReport[00m$ cd ..
+]0;ubuntu@ip-172-31-9-42: /opt/webwork/courses/MATH1441-2018/templates[01;32mubuntu@ip-172-31-9-42[00m:[01;34m/opt/webwork/courses/MATH1441-2018/templates[00m$ cd ..ls -lsudo chown www-data:wwdata *ls -l[Kcd ft-07-LabReport/sudo mv -v q*.pg ./ft-07-LabReport/[7@shuffleqs.pl[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pfnames.data[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -l[Ksudo cp -v /opt/webwork/courses/MATH1441-2017/templates/ft-06-LabReport/* ./[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -l[Ksudo chown www-data:wwdata ft-07-LabReport/ls -l[Ksudo mkdir ft-07-LabReport[1P-LabReport8-LabReport
+]0;ubuntu@ip-172-31-9-42: /opt/webwork/courses/MATH1441-2018/templates[01;32mubuntu@ip-172-31-9-42[00m:[01;34m/opt/webwork/courses/MATH1441-2018/templates[00m$ sudo mkdir ft-08-LabReportcd ..[Kls -lsudo chown www-data:wwdata *ls -l[Kcd ft-07-LabReport/sudo mv -v q*.pg ./ft-07-LabReport/[7@shuffleqs.pl[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pfnames.data[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -l[Ksudo cp -v /opt/webwork/courses/MATH1441-2017/templates/ft-06-LabReport/* ./[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -l[Ksudo chown www-data:wwdata ft-07-LabReport/ls -l[Ksudo chown www-data:wwdata ft-07-LabReport/[1P-LabReport/8-LabReport/
+]0;ubuntu@ip-172-31-9-42: /opt/webwork/courses/MATH1441-2018/templates[01;32mubuntu@ip-172-31-9-42[00m:[01;34m/opt/webwork/courses/MATH1441-2018/templates[00m$ ls -l
+total 108
+-rw-r--r-- 1 www-data wwdata 2577 Sep  6 15:01 ASimpleCombinedHeaderFile.pg
+-rw-r--r-- 1 www-data wwdata  910 Sep  6 15:01 ASimpleHardCopyHeaderFile.pg
+-rw-r--r-- 1 www-data wwdata  614 Sep  6 15:01 ASimpleScreenHeaderFile.pg
+lrwxrwxrwx 1 www-data wwdata   70 Sep  6 15:01 [0m[01;36mLibrary[0m -> [01;34m/opt/webwork/libraries/webwork-open-problem-library/OpenProblemLibrary[0m
+drwxr-sr-x 2 www-data wwdata 4096 Sep  6 15:01 [01;34machievements[0m
+-rw-r--r-- 1 www-data wwdata   94 Sep  6 15:01 course_info.txt
+-rw-r--r-- 1 www-data wwdata  693 Sep  6 15:01 demoCourse.lst
+drwxr-sr-x 2 www-data wwdata 4096 Sep  6 15:01 [01;34memail[0m
+drwxr-sr-x 2 www-data wwdata 4096 Sep  6 15:04 [01;34mft-01-LabReport[0m
+drwxr-sr-x 2 www-data wwdata 4096 Sep 15 17:16 [01;34mft-02-LabReport[0m
+drwxr-sr-x 2 www-data wwdata 4096 Sep 21 22:26 [01;34mft-03-LabReport[0m
+drwxr-sr-x 2 www-data wwdata 4096 Oct  2 19:43 [01;34mft-04-LabReport[0m
+drwxr-sr-x 2 www-data wwdata 4096 Oct 13 21:43 [01;34mft-05-LabReport[0m
+drwxr-sr-x 2 www-data wwdata 4096 Oct 19 22:40 [01;34mft-06-LabReport[0m
+drwxr-sr-x 2 www-data wwdata 4096 Nov  2 19:56 [01;34mft-07-LabReport[0m
+drwxr-sr-x 2 www-data wwdata 4096 Nov  2 20:01 [01;34mft-08-LabReport[0m
+drwxr-sr-x 2 www-data wwdata 4096 Sep  6 15:01 [01;34mmacros[0m
+-rw-r--r-- 1 ubuntu   ubuntu  931 Sep  6 15:09 math1441a.lst
+drwxr-sr-x 3 www-data wwdata 4096 Sep  6 15:01 [01;34mset0[0m
+-rw-r--r-- 1 www-data wwdata 1589 Sep  6 15:01 set0.def
+drwxr-sr-x 2 www-data wwdata 4096 Sep  6 15:01 [01;34msetDemo[0m
+-rw-r--r-- 1 www-data wwdata 1809 Sep  6 15:01 setDemo.def
+drwxr-sr-x 4 www-data wwdata 4096 Sep  6 15:01 [01;34msetMAAtutorial[0m
+-rw-r--r-- 1 www-data wwdata 3720 Sep  6 15:01 setMAAtutorial.def
+drwxr-sr-x 4 www-data wwdata 4096 Sep  6 15:01 [01;34msetOrientation[0m
+-rw-r--r-- 1 www-data wwdata 3099 Sep  6 15:01 setOrientation.def
+drwxr-sr-x 2 www-data wwdata 4096 Sep  6 15:01 [01;34mtmpEdit[0m
+]0;ubuntu@ip-172-31-9-42: /opt/webwork/courses/MATH1441-2018/templates[01;32mubuntu@ip-172-31-9-42[00m:[01;34m/opt/webwork/courses/MATH1441-2018/templates[00m$ cd ft-08-LabReport/
+]0;ubuntu@ip-172-31-9-42: /opt/webwork/courses/MATH1441-2018/templates/ft-08-LabReport[01;32mubuntu@ip-172-31-9-42[00m:[01;34m/opt/webwork/courses/MATH1441-2018/templates/ft-08-LabReport[00m$ sudo cp -v /opt/webwork/courses/MATH1441-2017/templates/ft-08[K9[K7-LabReport/* .?[K/
+'/opt/webwork/courses/MATH1441-2017/templates/ft-07-LabReport/4et0307x01.png' -> './4et0307x01.png'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-07-LabReport/q01.pg' -> './q01.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-07-LabReport/q02.pg' -> './q02.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-07-LabReport/q03.pg' -> './q03.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-07-LabReport/q04.pg' -> './q04.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-07-LabReport/q05.pg' -> './q05.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-07-LabReport/q06.pg' -> './q06.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-07-LabReport/q07.pg' -> './q07.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-07-LabReport/q08.pg' -> './q08.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-07-LabReport/q09.pg' -> './q09.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-07-LabReport/q10.pg' -> './q10.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-07-LabReport/q11.pg' -> './q11.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-07-LabReport/q12.pg' -> './q12.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-07-LabReport/q13.pg' -> './q13.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-07-LabReport/q14.pg' -> './q14.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-07-LabReport/q15.pg' -> './q15.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-07-LabReport/q16.pg' -> './q16.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-07-LabReport/q17.pg' -> './q17.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-07-LabReport/q18.pg' -> './q18.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-07-LabReport/q19.pg' -> './q19.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-07-LabReport/q20.pg' -> './q20.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-07-LabReport/q21.pg' -> './q21.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-07-LabReport/q22.pg' -> './q22.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-07-LabReport/q23.pg' -> './q23.pg'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-07-LabReport/rename.sh' -> './rename.sh'
+'/opt/webwork/courses/MATH1441-2017/templates/ft-07-LabReport/shuffleqs.pl' -> './shuffleqs.pl'
+]0;ubuntu@ip-172-31-9-42: /opt/webwork/courses/MATH1441-2018/templates/ft-08-LabReport[01;32mubuntu@ip-172-31-9-42[00m:[01;34m/opt/webwork/courses/MATH1441-2018/templates/ft-08-LabReport[00m$ ls -l
+total 112
+-rwxr-xr-x 1 root wwdata 5704 Nov  2 20:02 [0m[01;32m4et0307x01.png[0m
+-rw-r--r-- 1 root wwdata 1637 Nov  2 20:02 q01.pg
+-rw-r--r-- 1 root wwdata 1640 Nov  2 20:02 q02.pg
+-rw-r--r-- 1 root wwdata 1014 Nov  2 20:02 q03.pg
+-rw-r--r-- 1 root wwdata 1221 Nov  2 20:02 q04.pg
+-rw-r--r-- 1 root wwdata 1289 Nov  2 20:02 q05.pg
+-rw-r--r-- 1 root wwdata  826 Nov  2 20:02 q06.pg
+-rw-r--r-- 1 root wwdata 1578 Nov  2 20:02 q07.pg
+-rw-r--r-- 1 root wwdata 1129 Nov  2 20:02 q08.pg
+-rw-r--r-- 1 root wwdata 2253 Nov  2 20:02 q09.pg
+-rw-r--r-- 1 root wwdata 2040 Nov  2 20:02 q10.pg
+-rw-r--r-- 1 root wwdata 1207 Nov  2 20:02 q11.pg
+-rw-r--r-- 1 root wwdata 1713 Nov  2 20:02 q12.pg
+-rw-r--r-- 1 root wwdata 2935 Nov  2 20:02 q13.pg
+-rw-r--r-- 1 root wwdata 1752 Nov  2 20:02 q14.pg
+-rw-r--r-- 1 root wwdata 2218 Nov  2 20:02 q15.pg
+-rw-r--r-- 1 root wwdata 1077 Nov  2 20:02 q16.pg
+-rw-r--r-- 1 root wwdata 1850 Nov  2 20:02 q17.pg
+-rw-r--r-- 1 root wwdata 6542 Nov  2 20:02 q18.pg
+-rw-r--r-- 1 root wwdata  919 Nov  2 20:02 q19.pg
+-rw-r--r-- 1 root wwdata 1078 Nov  2 20:02 q20.pg
+-rw-r--r-- 1 root wwdata 1267 Nov  2 20:02 q21.pg
+-rw-r--r-- 1 root wwdata 1295 Nov  2 20:02 q22.pg
+-rw-r--r-- 1 root wwdata 1872 Nov  2 20:02 q23.pg
+-rw-r--r-- 1 root wwdata  232 Nov  2 20:02 rename.sh
+-rw-r--r-- 1 root wwdata 1097 Nov  2 20:02 shuffleqs.pl
+]0;ubuntu@ip-172-31-9-42: /opt/webwork/courses/MATH1441-2018/templates/ft-08-LabReport[01;32mubuntu@ip-172-31-9-42[00m:[01;34m/opt/webwork/courses/MATH1441-2018/templates/ft-08-LabReport[00m$ ls -lsudo cp -v /opt/webwork/courses/MATH1441-2017/templates/ft-07-LabReport/* ./cd ft-08-LabReport/[Kls -l[Ksudo chown www-data:wwdata ft-08-LabReport/[17Pmkdir ft-08-LabReportcd ..[Kls -lsudo chown www-data:wwdata *
+]0;ubuntu@ip-172-31-9-42: /opt/webwork/courses/MATH1441-2018/templates/ft-08-LabReport[01;32mubuntu@ip-172-31-9-42[00m:[01;34m/opt/webwork/courses/MATH1441-2018/templates/ft-08-LabReport[00m$ sudo chown www-data:wwdata *ls -l[K
+total 112
+-rwxr-xr-x 1 www-data wwdata 5704 Nov  2 20:02 [0m[01;32m4et0307x01.png[0m
+-rw-r--r-- 1 www-data wwdata 1637 Nov  2 20:02 q01.pg
+-rw-r--r-- 1 www-data wwdata 1640 Nov  2 20:02 q02.pg
+-rw-r--r-- 1 www-data wwdata 1014 Nov  2 20:02 q03.pg
+-rw-r--r-- 1 www-data wwdata 1221 Nov  2 20:02 q04.pg
+-rw-r--r-- 1 www-data wwdata 1289 Nov  2 20:02 q05.pg
+-rw-r--r-- 1 www-data wwdata  826 Nov  2 20:02 q06.pg
+-rw-r--r-- 1 www-data wwdata 1578 Nov  2 20:02 q07.pg
+-rw-r--r-- 1 www-data wwdata 1129 Nov  2 20:02 q08.pg
+-rw-r--r-- 1 www-data wwdata 2253 Nov  2 20:02 q09.pg
+-rw-r--r-- 1 www-data wwdata 2040 Nov  2 20:02 q10.pg
+-rw-r--r-- 1 www-data wwdata 1207 Nov  2 20:02 q11.pg
+-rw-r--r-- 1 www-data wwdata 1713 Nov  2 20:02 q12.pg
+-rw-r--r-- 1 www-data wwdata 2935 Nov  2 20:02 q13.pg
+-rw-r--r-- 1 www-data wwdata 1752 Nov  2 20:02 q14.pg
+-rw-r--r-- 1 www-data wwdata 2218 Nov  2 20:02 q15.pg
+-rw-r--r-- 1 www-data wwdata 1077 Nov  2 20:02 q16.pg
+-rw-r--r-- 1 www-data wwdata 1850 Nov  2 20:02 q17.pg
+-rw-r--r-- 1 www-data wwdata 6542 Nov  2 20:02 q18.pg
+-rw-r--r-- 1 www-data wwdata  919 Nov  2 20:02 q19.pg
+-rw-r--r-- 1 www-data wwdata 1078 Nov  2 20:02 q20.pg
+-rw-r--r-- 1 www-data wwdata 1267 Nov  2 20:02 q21.pg
+-rw-r--r-- 1 www-data wwdata 1295 Nov  2 20:02 q22.pg
+-rw-r--r-- 1 www-data wwdata 1872 Nov  2 20:02 q23.pg
+-rw-r--r-- 1 www-data wwdata  232 Nov  2 20:02 rename.sh
+-rw-r--r-- 1 www-data wwdata 1097 Nov  2 20:02 shuffleqs.pl
+]0;ubuntu@ip-172-31-9-42: /opt/webwork/courses/MATH1441-2018/templates/ft-08-LabReport[01;32mubuntu@ip-172-31-9-42[00m:[01;34m/opt/webwork/courses/MATH1441-2018/templates/ft-08-LabReport[00m$ 

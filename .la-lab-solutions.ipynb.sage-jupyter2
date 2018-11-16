@@ -165,4 +165,4 @@
 {"type":"cell","id":"fb1574","pos":67,"input":"Find the equation of the quadratic\n$$\n    y=ax^{2}+bx+c\n$$\n  which passes through $(0,0),(1,2),(-1,3)$.","cell_type":"markdown"}
 {"type":"cell","input":"$y=3x^{2}-8x+12$","id":"2063f0","pos":44,"cell_type":"markdown"}
 {"type":"file","last_load":1539974443669}
-{"type":"settings","backend_state":"running","trust":true,"kernel":"sage-8.3","metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.15"}},"kernel_usage":{"cpu":0,"memory":182861824},"kernel_state":"idle"}
+{"type":"settings","backend_state":"running","trust":true,"kernel":"sage-8.3","metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.15"}},"kernel_usage":{"cpu":0,"memory":182804480},"kernel_state":"idle"}
