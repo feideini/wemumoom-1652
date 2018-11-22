@@ -1,0 +1,556 @@
+]0;~/jupyter[01;34m~/jupyter[00m$ bb
+enter aes-256-cbc decryption password:
+Welcome to Ubuntu 16.04.2 LTS (GNU/Linux 4.4.0-96-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+155 packages can be updated.
+0 updates are security updates.
+
+New release '18.04.1 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+*** System restart required ***
+Last login: Wed Nov 21 19:30:55 2018 from 142.232.88.233
+]0;ubuntu@ip-172-31-9-42: ~[01;32mubuntu@ip-172-31-9-42[00m:[01;34m~[00m$ mutt
+[?1049h[1;33r(B[m[4l[?7h[39;49m[?1h=[39;49m[37m[40m[H[2J[39;49m[37m[40m[33d[K[33;1H[?1049l[?1l>[39;49m[37m[40m[K[33;1H[?1049l[?1l>[?1049h[1;33r[39;49m(B[m[4l[?7h[39;49m[37m[40m[37m[40m[H[2J[33d(B[m[39;49m[37m[40mReading imaps://imap.gmail.com:993/INBOX...Looking up imap.gmail.com...[37m[40m[K(B[m[39;49m[37m[40mConnecting to imap.gmail.com...SSL/TLS connection using TLS1.2 (ECDHE-RSA/AES-128-GCM/AEAD)Authenticating (PLAIN)...[37m[40m[K(B[m[39;49m[37m[40mSelecting INBOX...[37m[40m[K(B[m[39;49m[37m[40mEvaluating cache... 0/4223 (0%)[33;21H10/4223 (0%)Fetching message headers... 0/4223 (0%)Sorting mailbox...[37m[40m[K(B[m[39;49m[37m[40m[?25l[?12l[?25h[?25l[37m[40m[J[H(B[0;1m[32m[44mq:Quit  d:Del  u:Undel  s:Save  m:Mail  r:Reply  g:Group  ?:Help[K
+(B[0m[30m[46m   1 N + Nov 21 Silverback Tree (102K) Quote from Silverback Treeworks Ltd. - 37947 Magnolia Cres / Squamish, British Columbia  V8B[K
+[4G[37m[40m2 r   Nov 21 Google Calendar (  81) Notification: Dr. Merkeley [Stefan] @ Wed Nov 28, 2018 10:30am - 11:30am (PST) (xootesei@gmail.com)
+   3 r   Nov 21 craigslist 6743 (  41) Re: Yamaha Clavinova Brown Electric Piano - $1000 (Vancouver)
+   4     Nov 21 alumni UBC[33G( 538) Award recipient videos | Whisky barrels and whales podcast | Travel Club sneak peek | Living your best life
+   5     Nov 21 Google Calendar (  91) Notification: Soccer Practice [Anderson] @ Wed Nov 21, 2018 7:30pm - 8:30pm (PST) (xootesei@gmail.com)
+   6     Nov 21 Google Calendar (  83) Notification: Soccer Practice [Evelyn] @ Wed Nov 21, 2018 6pm - 7:30pm (PST) (xootesei@gmail.com)
+   7 r + Nov 21 Kamani Thilakar (1679) Endabrechnung 2017
+   8   + Nov 21 VAFC Thunderbol (1687) Updated Repeating Event: Tuesday Practice - turf, November 27, 5:00 PM
+   9   T Nov 21 VAFC Thunderbol (1316) Event Reminder: Thursday practice - turf, November 22, 5:00 PM
+  10     Nov 20 Graham Moore    (2111) Re: Epistemology group tonight
+  11 r   Nov 20 craigslist 6730 ( 109) Re: Tree Removal and Trimming Rope Access (Squamish-Whistler)
+  12 r + Nov 21 Duncan Morgan   (  57) Re: Faucets for Magnolia
+  13 r C Nov 20 Brunhoff Stefan ( 312) Re: Amendment meeting
+  14   C Nov 20 Michael Hicks   ( 270) RE: Amendment meeting
+  15 r C Nov 20 Brunhoff Stefan (  80) Amendment meeting
+  16   + Nov 20 Nick Portengen  (1532) Youth Weekly Email | November 19 - 25
+  17 r + Nov 20 Sherry Lukits   (  31) Re: Shaw
+  18 r + Nov 20 Sherry Lukits   (  16) Shaw
+  19   T Nov 20 Sherry Lukits   (  45) Re: Checking re: Galiano retreat
+  20   T Nov 20 Thomas Groppi   (  71) Re: wood splitter
+  21   T Nov 20 Michael Hicks   (  51) RE: City Intake
+  22   + Nov 20 Philosophy Unde ( 121) RE: FW: (Reminder) 2018W Term 1 Course Syllabi
+  23     Nov 20 Jonathan Jenkin ( 115) Epistemology group tonight
+  24     Nov 20 Google Calendar (  86) Notification: download TD credit card csv files for last six months @ Wed Nov 21, 2018 (zeimiewo@gmail.com)
+  25     Nov 20 Google Calendar (  85) Notification: check UBC/VCC/UofT/BCIT email @ Wed Nov 21, 2018 (zeimiewo@gmail.com)
+  26     Nov 20 Google Calendar (  85) Notification: check Philos @ Wed Nov 21, 2018 (zeimiewo@gmail.com)
+  27   + Nov 20 IMPACT[28;33H(1794) New Game at VUFC Stallions, November 24, 10:45 AM
+  28     Nov 20 Google Calendar (  91) Notification: Soccer Practice [Josephine] @ Tue Nov 20, 2018 5pm - 6pm (PST) (xootesei@gmail.com)
+  29     Nov 20 Google Calendar (  91) Notification: Soccer Practice [Josephine] @ Tue Nov 20, 2018 5pm - 6pm (PST) (xootesei@gmail.com)
+  30   + Nov 20 David Titheridg (1099) TitheridgeTrip 2018-6: Leaving Home, Coming Home
+(B[0;1m[32m[44m---Mutt: imaps://imap.gmail.com:993/INBOX [Msgs:4223 New:1 388M]---(reverse-date/date)-------------------------------------------------------------------------------------(0%)---[2;178H(B[m[39;49m[37m[40m[?1h=[?12l[?25h[33dFetching message... 0K/102K (0%)Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-22091-12690455851366495508.html'[?25l[37m[40m[J[H(B[0;1m[32m[44mi:Exit  -:PrevPg  <Space>:NextPg v:View Attachm.  d:Del  r:Reply  j:Next ?:Help
+(B[0m[36m[40mDate: Wed, 21 Nov 2018 19:54:46 +0000 (UTC)[K
+From: "Silverback Treeworks Ltd." <notification@getjobber.com>[K
+To: sediomyle@gmail.com[K
+Subject: Quote from Silverback Treeworks Ltd. - 37947 Magnolia Cres / Squamish, British Columbia  V8B[K
+[37m[40m[K
+(B[0;1m[33m[40m[-- Attachment #1 --][K
+[-- Type: multipart/alternative, Encoding: 7bit, Size: 16K --][K
+(B[0m[37m[40m[K
+(B[0;1m[33m[40m[-- Autoview using /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-22091-12690455851366495508.html' --][K
+(B[0m[37m[40m[K
+[K
+   Logo[K
+[K
+[K
+[K
+[K
+[K
+[K
+Quote[K
+[K
+   Greetings Stefan Lukits,[K
+   Thank you for asking us to quote on your project at 37947 Magnolia Cres[K
+   / Squamish, British Columbia V8B. Please find a detailed copy of our
+   quote attached to this e-mail.[K
+   The quote total is $987.00 including GST as of 06/11/2018.[K
+   We would be happy to schedule this work at your convenience and[K
+   appreciate the opportunity.[K
+   If you have any questions or concerns regarding this quote, please[K
+   don't hesitate to get in touch with us at info@silverbacktreeworks.com.[K
+   Sincerely,[K
+[C(B[0;1m[32m[44mN +- 1/4223: Silverback Treeworks   Quote from Silverback Treeworks Ltd. - 37947 Magnolia Cres / Squamish, British Columbia  V8B[41X[171G-- (69%)[32;178H(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[H(B[0;1m[32m[44mq:Quit  d:Del  u:Undel  s:Save  m:Mail  r:Reply  g:Group [15P
+(B[0m[30m[46m   1   + Nov 21 Silverback Tree (1470) Quote from Silverback Treeworks Ltd. - 37947 Magnolia Cres / Squamish, British Columbia  V8B[K
+[37m[40m   2 r   Nov 21 Google Calendar (  81) Notification: Dr. Merkeley [Stefan] @ Wed Nov 28, 2018 10:30am - 11:30am (PST) (xootesei@gmail.com)[K
+   3 r   Nov 21 craigslist 6743 (  41) Re: Yamaha Clavinova Brown Electric Piano - $1000 (Vancouver)[K
+   4     Nov 21 alumni UBC      ( 538) Award recipient videos | Whisky barrels and whales podcast | Travel Club sneak peek | Living your best life[K
+   5     Nov 21 Google Calendar (  91) Notification: Soccer Practice [Anderson] @ Wed Nov 21, 2018 7:30pm - 8:30pm (PST) (xootesei@gmail.com)
+   6     Nov 21 Google Calendar (  83) Notification: Soccer Practice [Evelyn] @ Wed Nov 21, 2018 6pm - 7:30pm (PST) (xootesei@gmail.com)[K
+   7 r + Nov 21 Kamani Thilakar (1679) Endabrechnung 2017[K
+   8   + Nov 21 VAFC Thunderbol (1687) Updated Repeating Event: Tuesday Practice - turf, November 27, 5:00 PM
+   9   T Nov 21 VAFC Thunderbol (1316) Event Reminder: Thursday practice - turf, November 22, 5:00 PM[K
+  10     Nov 20 Graham Moore    (2111) Re: Epistemology group tonight
+  11 r   Nov 20 craigslist 6730 ( 109) Re: Tree Removal and Trimming Rope Access (Squamish-Whistler)
+  12 r + Nov 21 Duncan Morgan   (  57) Re: Faucets for Magnolia
+  13 r C Nov 20 Brunhoff Stefan ( 312) Re: Amendment meeting
+  14   C Nov 20 Michael Hicks   ( 270) RE: Amendment meeting
+  15 r C Nov 20 Brunhoff Stefan (  80) Amendment meeting
+  16   + Nov 20 Nick Portengen  (1532) Youth Weekly Email | November 19 - 25
+  17 r + Nov 20 Sherry Lukits   (  31) Re: Shaw
+  18 r + Nov 20 Sherry Lukits   (  16) Shaw
+  19   T Nov 20 Sherry Lukits   (  45) Re: Checking re: Galiano retreat
+  20   T Nov 20 Thomas Groppi   (  71) Re: wood splitter
+  21   T Nov 20 Michael Hicks   (  51) RE: City Intake
+  22   + Nov 20 Philosophy Unde ( 121) RE: FW: (Reminder) 2018W Term 1 Course Syllabi
+  23     Nov 20 Jonathan Jenkin ( 115) Epistemology group tonight[K
+  24     Nov 20 Google Calendar (  86) Notification: download TD credit card csv files for last six months @ Wed Nov 21, 2018 (zeimiewo@gmail.com)
+  25     Nov 20 Google Calendar (  85) Notification: check UBC/VCC/UofT/BCIT email @ Wed Nov 21, 2018 (zeimiewo@gmail.com)
+  26     Nov 20 Google Calendar (  85) Notification: check Philos @ Wed Nov 21, 2018 (zeimiewo@gmail.com)
+  27   + Nov 20 IMPACT          (1794) New Game at VUFC Stallions, November 24, 10:45 AM
+  28     Nov 20 Google Calendar (  91) Notification: Soccer Practice [Josephine] @ Tue Nov 20, 2018 5pm - 6pm (PST) (xootesei@gmail.com)
+  29     Nov 20 Google Calendar (  91) Notification: Soccer Practice [Josephine] @ Tue Nov 20, 2018 5pm - 6pm (PST) (xootesei@gmail.com)
+  30   + Nov 20 David Titheridg (1099) TitheridgeTrip 2018-6: Leaving Home, Coming Home
+[C(B[0;1m[32m[44m*-Mutt: imaps://imap.gmail.com:993/INBOX [Msgs:4223 388M]---(reverse-date/date)-------------------------------------------------------------------------------------------(0%)---[2;178H(B[m[39;49m[37m[40m[?12l[?25h[33dTo: [37m[40ms(B[m[39;49m[37m[40m[37m[40mh(B[m[39;49m[37m[40m[37m[40me(B[m[39;49m[37m[40m[37m[40mr(B[m[39;49m[37m[40m[37m[40mr(B[m[39;49m[37m[40m[37m[40my(B[m[39;49m[37m[40mSubject: [37m[40m[K(B[m[39;49m[37m[40m[37m[40mg(B[m[39;49m[37m[40m[37m[40ma(B[m[39;49m[37m[40m[37m[40ml(B[m[39;49m[37m[40m[37m[40mi(B[m[39;49m[37m[40m[37m[40ma(B[m[39;49m[37m[40m[37m[40mn(B[m[39;49m[37m[40m[37m[40mo(B[m[39;49m[37m[40m[C[37m[40m-(B[m[39;49m[37m[40m[37m[40m-(B[m[39;49m[37m[40m[C[37m[40mI(B[m[39;49m[37m[40m[C[37m[40mf(B[m[39;49m[37m[40m[37m[40mo(B[m[39;49m[37m[40m[37m[40mu(B[m[39;49m[37m[40m[37m[40mn(B[m[39;49m[37m[40m[37m[40md(B[m[39;49m[37m[40m[C[37m[40ma(B[m[39;49m[37m[40m[37m[40mn(B[m[39;49m[37m[40m[C[37m[40mi(B[m[39;49m[37m[40m[37m[40mn(B[m[39;49m[37m[40m[37m[40mv(B[m[39;49m[37m[40m[37m[40mi(B[m[39;49m[37m[40m[37m[40mg(B[m[39;49m[37m[40m[37m[40mi(B[m[39;49m[37m[40m[37m[40ml(B[m[39;49m[37m[40m[37m[40ma(B[m[39;49m[37m[40m[37m[40mt(B[m[39;49m[37m[40m[37m[40mo(B[m[39;49m[37m[40m[37m[40mr(B[m[39;49m[37m[40m[37m[40m[J(B[m[39;49m[37m[40m[39;49m[37m[40m[K[33;1H[?1049l[?1l>[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;33r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[33;1H"/tmp/mutt-ip-172-31-9-42-1000-22091-371483026458286461" 7L, 160C[>c[1;1H[32mFrom: Stefan Lukits [m[35m<sediomyle@gmail.com>[m
+[32mTo: Sherry Suzanne Kuhn Lukits [m[35m<sklukits@gmail.com>[m
+[32mCc: 
+Bcc: [m
+[35mSubject: galiano -- I found an invigilator[m
+[32mReply-To: [m
+
+[94m~                                                                                                                                                                                 [9;1H~                                                                                                                                                                                 [10;1H~                                                                                                                                                                                 [11;1H~                                                                                                                                                                                 [12;1H~                                                                                                                                                                                 [13;1H~                                                                                                                                                                                 [14;1H~                                                                                                                                                                                 [15;1H~                                                                                                                                                                                 [16;1H~                                                                                                                                                                                 [17;1H~                                                                                                                                                                                 [18;1H~                                                                                                                                                                                 [19;1H~                                                                                                                                                                                 [20;1H~                                                                                                                                                                                 [21;1H~                                                                                                                                                                                 [22;1H~                                                                                                                                                                                 [23;1H~                                                                                                                                                                                 [24;1H~                                                                                                                                                                                 [25;1H~                                                                                                                                                                                 [26;1H~                                                                                                                                                                                 [27;1H~                                                                                                                                                                                 [28;1H~                                                                                                                                                                                 [29;1H~                                                                                                                                                                                 [30;1H~                                                                                                                                                                                 [31;1H~                                                                                                                                                                                 [m[32;1H[1m[7m/tmp/mutt-ip-172-31-9-42-1000-22091-371483026458286461                                                                                                          1,1            All[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\P+q6b32\P+q6b33\P+q6b34\P+q6b35\P+q6b36\P+q6b37\P+q6b38\P+q6b39\P+q6b3b\P+q4631\P+q4632\P+q2531\P+q2638\P+q6b62\P+q6b49\P+q6b44\[?25l[m[33;168H^[[1;1H[?12l[?25h[?25l[33;168H  [1;1HP+q6b68\P+q4037\P+q6b50\P+q6b4e\[?12l[?25hP+q4b31\P+q4b33\P+q4b34\P+q4b35\[?25l[33;168H^[[1;1H[33;170HP[1;1H[33;171H0[1;1H[33;172H+[1;1H[33;173Hr[1;1H[33;174H6[1;1H[33;175Hb[1;1H[33;176H4[1;1H[33;177H9[1;1H[?12l[?25h[?25l[33;168H          [1;1HP+q6b42\[?12l[?25h[?25l[33;1H[K[33;1H/\n\n[32;161H[1m[7m6,10[6;10H[?12l[?25h[?25l[m[33;1H[K[7;31r[7;1H[2L[1;33r[8;1HStefan[32;56H[1m[7m[+][102C8,6  [8;6H[?12l[?25h[?25l[8;31r[m[8;1H[2L[1;33r[32;161H[1m[7m9,0-1[9;1H[?12l[?25h[?25l[32;161H8,[8;1H[?12l[?25h[?25l[m[33;168Hi[8;1H[33;168H [8;1H[33;1H[1m-- INSERT --[m[32;163H[1m[7m1   [8;1H[?12l[?25h[?25l[mS[32;163H[1m[7m2 [8;2H[?12l[?25h[?25l[mh[32;163H[1m[7m3 [8;3H[?12l[?25h[?25l[me[32;163H[1m[7m4 [8;4H[?12l[?25h[?25l[mr[32;163H[1m[7m5 [8;5H[?12l[?25h[?25l[mr[32;163H[1m[7m6 [8;6H[?12l[?25h[?25l[my[32;163H[1m[7m7 [8;7H[?12l[?25h[?25l[m,[32;163H[1m[7m8 [8;8H[?12l[?25h[?25l[9;31r[m[9;1H[L[1;33r[32;161H[1m[7m9,1 [9;1H[?12l[?25h[?25l[10;31r[m[10;1H[L[1;33r[32;161H[1m[7m10,1[10;1H[?12l[?25h[?25l[mI[32;164H[1m[7m2 [10;2H[?12l[?25h[?25l[mt[32;164H[1m[7m3 [10;3H[?12l[?25h[?25l[32;164H4 [10;4H[?12l[?25h[?25l[ml[32;164H[1m[7m5 [10;5H[?12l[?25h[?25l[mo[32;164H[1m[7m6 [10;6H[?12l[?25h[?25l[mo[32;164H[1m[7m7 [10;7H[?12l[?25h[?25l[mk[32;164H[1m[7m8 [10;8H[?12l[?25h[?25l[ms[32;164H[1m[7m9 [10;9H[?12l[?25h[?25l[32;164H10[10;10H[?12l[?25h[?25l[ml[32;165H[1m[7m1 [10;11H[?12l[?25h[?25l[mi[32;165H[1m[7m2 [10;12H[?12l[?25h[?25l[mk[32;165H[1m[7m3 [10;13H[?12l[?25h[?25l[me[32;165H[1m[7m4 [10;14H[?12l[?25h[?25l[32;165H5 [10;15H[?12l[?25h[?25l[mI[32;165H[1m[7m6 [10;16H[?12l[?25h[?25l[32;165H7 [10;17H[?12l[?25h[?25l[mf[32;165H[1m[7m8 [10;18H[?12l[?25h[?25l[mo[32;165H[1m[7m9 [10;19H[?12l[?25h[?25l[mu[32;164H[1m[7m20 [10;20H[?12l[?25h[?25l[mn[32;165H[1m[7m1 [10;21H[?12l[?25h[?25l[md[32;165H[1m[7m2 [10;22H[?12l[?25h[?25l[32;165H3 [10;23H[?12l[?25h[?25l[ma[32;165H[1m[7m4 [10;24H[?12l[?25h[?25l[mn[32;165H[1m[7m5 [10;25H[?12l[?25h[?25l[32;165H6 [10;26H[?12l[?25h[?25l[mi[32;165H[1m[7m7 [10;27H[?12l[?25h[?25l[mn[32;165H[1m[7m8 [10;28H[?12l[?25h[?25l[mv[32;165H[1m[7m9 [10;29H[?12l[?25h[?25l[mi[32;164H[1m[7m30 [10;30H[?12l[?25h[?25l[mg[32;165H[1m[7m1 [10;31H[?12l[?25h[?25l[mi[32;165H[1m[7m2 [10;32H[?12l[?25h[?25l[ml[32;165H[1m[7m3 [10;33H[?12l[?25h[?25l[ma[32;165H[1m[7m4 [10;34H[?12l[?25h[?25l[mt[32;165H[1m[7m5 [10;35H[?12l[?25h[?25l[mo[32;165H[1m[7m6 [10;36H[?12l[?25h[?25l[mr[32;165H[1m[7m7 [10;37H[?12l[?25h[?25l[m,[32;165H[1m[7m8 [10;38H[?12l[?25h[?25l[32;165H9 [10;39H[?12l[?25h[?25l[ma[32;164H[1m[7m40 [10;40H[?12l[?25h[?25l[mn[32;165H[1m[7m1 [10;41H[?12l[?25h[?25l[md[32;165H[1m[7m2 [10;42H[?12l[?25h[?25l[32;165H3 [10;43H[?12l[?25h[?25l[mw[32;165H[1m[7m4 [10;44H[?12l[?25h[?25l[me[32;165H[1m[7m5 [10;45H[?12l[?25h[?25l[32;165H6 [10;46H[?12l[?25h[?25l[mc[32;165H[1m[7m7 [10;47H[?12l[?25h[?25l[ma[32;165H[1m[7m8 [10;48H[?12l[?25h[?25l[mn[32;165H[1m[7m9 [10;49H[?12l[?25h[?25l[32;164H50 [10;50H[?12l[?25h[?25l[ml[32;165H[1m[7m1 [10;51H[?12l[?25h[?25l[me[32;165H[1m[7m2 [10;52H[?12l[?25h[?25l[ma[32;165H[1m[7m3 [10;53H[?12l[?25h[?25l[mv[32;165H[1m[7m4 [10;54H[?12l[?25h[?25l[me[32;165H[1m[7m5 [10;55H[?12l[?25h[?25l[32;165H6 [10;56H[?12l[?25h[?25l[mo[32;165H[1m[7m7 [10;57H[?12l[?25h[?25l[mn[32;165H[1m[7m8 [10;58H[?12l[?25h[?25l[32;165H9 [10;59H[?12l[?25h[?25l[mT[32;164H[1m[7m60 [10;60H[?12l[?25h[?25l[mh[32;165H[1m[7m1 [10;61H[?12l[?25h[?25l[mur[32;165H[1m[7m3 [10;63H[?12l[?25h[?25l[msd[32;165H[1m[7m5 [10;65H[?12l[?25h[?25l[may[32;165H[1m[7m7 [10;67H[?12l[?25h[?25l[m.[32;165H[1m[7m8 [10;68H[?12l[?25h[?25l[11;31r[m[11;1H[L[1;33r[32;162H[1m[7m1,1  [11;1H[?12l[?25h[?25l[12;31r[m[12;1H[L[1;33r[32;162H[1m[7m2,[12;1H[?12l[?25h[?25l[mI[32;164H[1m[7m2 [12;2H[?12l[?25h[?25l[32;164H3 [12;3H[?12l[?25h[?25l[mh[32;164H[1m[7m4 [12;4H[?12l[?25h[?25l[ma[32;164H[1m[7m5 [12;5H[?12l[?25h[?25l[mv[32;164H[1m[7m6 [12;6H[?12l[?25h[?25l[me[32;164H[1m[7m7 [12;7H[?12l[?25h[?25l[mn[32;164H[1m[7m8 [12;8H[?12l[?25h[?25l[m'[32;164H[1m[7m9 [12;9H[?12l[?25h[?25l[mt[32;164H[1m[7m10[12;10H[?12l[?25h[?25l[32;165H1 [12;11H[?12l[?25h[?25l[mh[32;165H[1m[7m2 [12;12H[?12l[?25h[?25l[me[32;165H[1m[7m3 [12;13H[?12l[?25h[?25l[ma[32;165H[1m[7m4 [12;14H[?12l[?25h[?25l[mr[32;165H[1m[7m5 [12;15H[?12l[?25h[?25l[md[32;165H[1m[7m6 [12;16H[?12l[?25h[?25l[32;165H7 [12;17H[?12l[?25h[?25l[ma[32;165H[1m[7m8 [12;18H[?12l[?25h[?25l[mn[32;165H[1m[7m9 [12;19H[?12l[?25h[?25l[my[32;164H[1m[7m20 [12;20H[?12l[?25h[?25l[mt[32;165H[1m[7m1 [12;21H[?12l[?25h[?25l[mh[32;165H[1m[7m2 [12;22H[?12l[?25h[?25l[mi[32;165H[1m[7m3 [12;23H[?12l[?25h[?25l[mn[32;165H[1m[7m4 [12;24H[?12l[?25h[?25l[mg[32;165H[1m[7m5 [12;25H[?12l[?25h[?25l[32;165H6 [12;26H[?12l[?25h[?25l[mab[32;165H[1m[7m8 [12;28H[?12l[?25h[?25l[mo[32;165H[1m[7m9 [12;29H[?12l[?25h[?25l[mu[32;164H[1m[7m30 [12;30H[?12l[?25h[?25l[mt[32;165H[1m[7m1 [12;31H[?12l[?25h[?25l[32;165H2 [12;32H[?12l[?25h[?25l[mp[32;165H[1m[7m3 [12;33H[?12l[?25h[?25l[mi[32;165H[1m[7m4 [12;34H[?12l[?25h[?25l[mc[32;165H[1m[7m5 [12;35H[?12l[?25h[?25l[mk[32;165H[1m[7m6 [12;36H[?12l[?25h[?25l[mi[32;165H[1m[7m7 [12;37H[?12l[?25h[?25l[mn[32;165H[1m[7m8 [12;38H[?12l[?25h[?25l[mg[32;165H[1m[7m9 [12;39H[?12l[?25h[?25l[32;164H40 [12;40H[?12l[?25h[?25l[mu[32;165H[1m[7m1 [12;41H[?12l[?25h[?25l[mp[32;165H[1m[7m2 [12;42H[?12l[?25h[?25l[32;165H3 [12;43H[?12l[?25h[?25l[mt[32;165H[1m[7m4 [12;44H[?12l[?25h[?25l[mh[32;165H[1m[7m5 [12;45H[?12l[?25h[?25l[me[32;165H[1m[7m6 [12;46H[?12l[?25h[?25l[32;165H7 [12;47H[?12l[?25h[?25l[mk[32;165H[1m[7m8 [12;48H[?12l[?25h[?25l[me[32;165H[1m[7m9 [12;49H[?12l[?25h[?25l[my[32;164H[1m[7m50 [12;50H[?12l[?25h[?25l[m.[32;165H[1m[7m1 [12;51H[?12l[?25h[?25l[32;165H2 [12;52H[?12l[?25h[?25l[13;31r[m[13;1H[L[1;33r[32;162H[1m[7m3,1  [13;1H[?12l[?25h[?25l[14;31r[m[14;1H[L[1;33r[32;162H[1m[7m4,[14;1H[?12l[?25h[?25l[mI[32;164H[1m[7m2 [14;2H[?12l[?25h[?25l[32;164H3 [14;3H[?12l[?25h[?25l[ms[32;164H[1m[7m4 [14;4H[?12l[?25h[?25l[mt[32;164H[1m[7m5 [14;5H[?12l[?25h[?25l[mi[32;164H[1m[7m6 [14;6H[?12l[?25h[?25l[ml[32;164H[1m[7m7 [14;7H[?12l[?25h[?25l[ml[32;164H[1m[7m8 [14;8H[?12l[?25h[?25l[32;164H9 [14;9H[?12l[?25h[?25l[mn[32;164H[1m[7m10[14;10H[?12l[?25h[?25l[me[32;165H[1m[7m1 [14;11H[?12l[?25h[?25l[me[32;165H[1m[7m2 [14;12H[?12l[?25h[?25l[md[32;165H[1m[7m3 [14;13H[?12l[?25h[?25l[32;165H4 [14;14H[?12l[?25h[?25l[mt[32;165H[1m[7m5 [14;15H[?12l[?25h[?25l[mo[32;165H[1m[7m7 [14;17H[?12l[?25h[?25l[mf[32;165H[1m[7m8 [14;18H[?12l[?25h[?25l[mi[32;165H[1m[7m9 [14;19H[?12l[?25h[?25l[mg[32;164H[1m[7m20 [14;20H[?12l[?25h[?25l[mu[32;165H[1m[7m1 [14;21H[?12l[?25h[?25l[mr[32;165H[1m[7m2 [14;22H[?12l[?25h[?25l[me[32;165H[1m[7m3 [14;23H[?12l[?25h[?25l[32;165H4 [14;24H[?12l[?25h[?25l[mo[32;165H[1m[7m5 [14;25H[?12l[?25h[?25l[mu[32;165H[1m[7m6 [14;26H[?12l[?25h[?25l[mt[32;165H[1m[7m7 [14;27H[?12l[?25h[?25l[32;165H8 [14;28H[?12l[?25h[?25l[mF[32;165H[1m[7m9 [14;29H[?12l[?25h[?25l[mr[32;164H[1m[7m30 [14;30H[?12l[?25h[?25l[mi[32;165H[1m[7m1 [14;31H[?12l[?25h[?25l[md[32;165H[1m[7m2 [14;32H[?12l[?25h[?25l[ma[32;165H[1m[7m3 [14;33H[?12l[?25h[?25l[my[32;165H[1m[7m4 [14;34H[?12l[?25h[?25l[32;165H5 [14;35H[?12l[?25h[?25l[mm[32;165H[1m[7m6 [14;36H[?12l[?25h[?25l[mo[32;165H[1m[7m7 [14;37H[?12l[?25h[?25l[mr[32;165H[1m[7m8 [14;38H[?12l[?25h[?25l[mn[32;165H[1m[7m9 [14;39H[?12l[?25h[?25l[mi[32;164H[1m[7m40 [14;40H[?12l[?25h[?25l[mn[32;165H[1m[7m1 [14;41H[?12l[?25h[?25l[mg[32;165H[1m[7m2 [14;42H[?12l[?25h[?25l[m,[32;165H[1m[7m3 [14;43H[?12l[?25h[?25l[32;165H4 [14;44H[?12l[?25h[?25l[mb[32;165H[1m[7m5 [14;45H[?12l[?25h[?25l[mu[32;165H[1m[7m6 [14;46H[?12l[?25h[?25l[mt[32;165H[1m[7m7 [14;47H[?12l[?25h[?25l[32;165H8 [14;48H[?12l[?25h[?25l[mI[32;165H[1m[7m9 [14;49H[?12l[?25h[?25l[32;164H50 [14;50H[?12l[?25h[?25l[mt[32;165H[1m[7m1 [14;51H[?12l[?25h[?25l[mh[32;165H[1m[7m2 [14;52H[?12l[?25h[?25l[mi[32;165H[1m[7m3 [14;53H[?12l[?25h[?25l[mnk[32;165H[1m[7m6 [14;56H[?12l[?25h[?25l[mI[32;165H[1m[7m7 [14;57H[?12l[?25h[?25l[32;165H8 [14;58H[?12l[?25h[?25l[mc[32;165H[1m[7m9 [14;59H[?12l[?25h[?25l[ma[32;164H[1m[7m60 [14;60H[?12l[?25h[?25l[mn[32;165H[1m[7m1 [14;61H[?12l[?25h[?25l[32;165H2 [14;62H[?12l[?25h[?25l[md[32;165H[1m[7m3 [14;63H[?12l[?25h[?25l[mo[32;165H[1m[7m4 [14;64H[?12l[?25h[?25l[32;165H5 [14;65H[?12l[?25h[?25l[mi[32;165H[1m[7m6 [14;66H[?12l[?25h[?25l[mt[32;165H[1m[7m7 [14;67H[?12l[?25h[?25l[m.[32;165H[1m[7m8 [14;68H[?12l[?25h[m[33;1H[K[14;67H[?25l[33;168H^[[14;67H[?12l[?25h[?25l[33;168H  [14;68H[32;165H[1m[7m7 [14;67H[?12l[?25h[?25l[m[33;168H:[14;67H[33;168H[K[33;1H:[?12l[?25hx[?25l[?12l[?25h[?25l"/tmp/mutt-ip-172-31-9-42-1000-22091-371483026458286461" 17L, 368C written
+[?1l>[?12l[?25h[?1049l[?1h=[?25l[?1h=[?1049h[1;33r[?25l[39;49m(B[m[4l[?7h[39;49m[37m[40m[37m[40m[H[2J(B[0;1m[32m[44my:Send  q:Abort  t:To  c:CC  s:Subj  a:Attach file  d:Descrip  ?:Help[K
+[5G(B[0m[37m[40mFrom: Stefan Lukits <sediomyle@gmail.com>
+[7GTo: Sherry Suzanne Kuhn Lukits <sklukits@gmail.com>
+[7GCc:
+Bcc:
+ Subject: galiano -- I found an invigilator
+Reply-To:
+Fcc: ~/mail/Sent
+[6GMix: <no chain defined>
+Security: None
+
+(B[0;1m[32m[44m-- Attachments[K
+(B[0m[30m[46m- I     1 /tmp/mutt-ip-172-31-9-42-1000-22091-1749[93X[13;144H[text/plain, 7bit, us-ascii, 0.2K][K[32d(B[0;1m[32m[44m-- Mutt: Compose  [Approx. msg size: 0.2K   Atts: 1]------------------------------------------------------------------------------------------------------------------------------[13;178H(B[m[39;49m[37m[40m[?12l[?25h[33dSending message...Looking up smtp.gmail.com...Connecting to smtp.gmail.com...SSL/TLS connection using TLS1.2 (ECDHE-RSA/AES-128-GCM/AEAD)Authenticating (LOGIN)...[37m[40m[K(B[m[39;49m[37m[40mSending message... 0K/0.6K (0%)Mail sent.[37m[40m[K(B[m[39;49m[37m[40m[?25l[H(B[0;1m[32m[44mq:Quit  d:Del  u:Undel  s:Save  m:Mail  r:Reply  g:Grou[5P
+(B[0m[30m[46m   1   + Nov 21 Silverback Tree (1470) Quote from Silverback Treeworks Ltd. - 37947 Magnolia Cres / Squamish, British Columbia  V8B[K
+[4G[37m[40m2 r   Nov 21 Google Calendar (  81) Notification: Dr. Merkeley [Stefan] @ Wed Nov 28, 2018 10:30am - 11:30am (PST) (xootesei@gmail.com)
+   3 r   Nov 21 craigslist 6743 (  41) Re: Yamaha Clavinova Brown Electric Piano - $1000 (Vancouver)
+   4     Nov 21 alumni UBC[33G( 538) Award recipient videos | Whisky barrels and whales podcast | Travel Club sneak peek | Living your best life
+   5     Nov 21 Google Calendar (  91) Notification: Soccer Practice [Anderson] @ Wed Nov 21, 2018 7:30pm - 8:30pm (PST) (xootesei@gmail.com)
+   6     Nov 21 Google Calendar (  83) Notification: Soccer Practice [Evelyn] @ Wed Nov 21, 2018 6pm - 7:30pm (PST) (xootesei@gmail.com)
+   7 r + Nov 21 Kamani Thilakar (1679) Endabrechnung 2017
+   8   + Nov 21 VAFC Thunderbol (1687) Updated Repeating Event: Tuesday Practice - turf, November 27, 5:00 PM
+   9   T Nov 21 VAFC Thunderbol (1316) Event Reminder: Thursday practice - turf, November 22, 5:00 PM
+  10     Nov 20 Graham Moore    (2111) Re: Epistemology group tonight
+  11 r   Nov 20 craigslist 6730 ( 109) Re: Tree Removal and Trimming Rope Access (Squamish-Whistler)[K
+  12 r + Nov 21 Duncan Morgan   (  57) Re: Faucets for Magnolia[K
+  13 r C Nov 20 Brunhoff Stefan ( 312) Re: Amendment meeting
+  14   C Nov 20 Michael Hicks   ( 270) RE: Amendment meeting
+  15 r C Nov 20 Brunhoff Stefan (  80) Amendment meeting
+  16   + Nov 20 Nick Portengen  (1532) Youth Weekly Email | November 19 - 25
+  17 r + Nov 20 Sherry Lukits   (  31) Re: Shaw
+  18 r + Nov 20 Sherry Lukits   (  16) Shaw
+  19   T Nov 20 Sherry Lukits   (  45) Re: Checking re: Galiano retreat
+  20   T Nov 20 Thomas Groppi   (  71) Re: wood splitter
+  21   T Nov 20 Michael Hicks   (  51) RE: City Intake
+  22   + Nov 20 Philosophy Unde ( 121) RE: FW: (Reminder) 2018W Term 1 Course Syllabi
+  23     Nov 20 Jonathan Jenkin ( 115) Epistemology group tonight
+  24     Nov 20 Google Calendar (  86) Notification: download TD credit card csv files for last six months @ Wed Nov 21, 2018 (zeimiewo@gmail.com)
+  25     Nov 20 Google Calendar (  85) Notification: check UBC/VCC/UofT/BCIT email @ Wed Nov 21, 2018 (zeimiewo@gmail.com)
+  26     Nov 20 Google Calendar (  85) Notification: check Philos @ Wed Nov 21, 2018 (zeimiewo@gmail.com)
+  27   + Nov 20 IMPACT[28;33H(1794) New Game at VUFC Stallions, November 24, 10:45 AM
+  28     Nov 20 Google Calendar (  91) Notification: Soccer Practice [Josephine] @ Tue Nov 20, 2018 5pm - 6pm (PST) (xootesei@gmail.com)
+  29     Nov 20 Google Calendar (  91) Notification: Soccer Practice [Josephine] @ Tue Nov 20, 2018 5pm - 6pm (PST) (xootesei@gmail.com)
+  30   + Nov 20 David Titheridg (1099) TitheridgeTrip 2018-6: Leaving Home, Coming Home
+[C(B[0;1m[32m[44m*-[10Gimaps://imap.gmail.com:993/INBOX [Msgs:4223 388M]---(reverse-date/date)[172G(0%)[2;178H(B[m[39;49m[37m[40m[?12l[?25h[33d4223 kept, 0 deleted.Closing connection to imap.gmail.com...[37m[40m[J(B[m[39;49m[37m[40m[39;49m[37m[40m[K[33;1H[?1049l[?1l>]0;ubuntu@ip-172-31-9-42: ~[01;32mubuntu@ip-172-31-9-42[00m:[01;34m~[00m$ exit
+logout
+Connection to 35.160.211.119 closed.
+]0;~/jupyter[01;34m~/jupyter[00m$ e]0;~/jupyter[01;34m~/jupyter[00m$ ff
+Welcome to Ubuntu 16.04.2 LTS (GNU/Linux 4.4.0-96-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+155 packages can be updated.
+0 updates are security updates.
+
+New release '18.04.1 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+*** System restart required ***
+Last login: Wed Nov 21 20:40:27 2018 from 35.237.203.29
+]0;ubuntu@ip-172-31-9-42: ~[01;32mubuntu@ip-172-31-9-42[00m:[01;34m~[00m$ mutt
+[?1049h[1;24r(B[m[4l[?7h[39;49m[?1h=[39;49m[37m[40m[H[2J[39;49m[37m[40m[24d[K[24;1H[?1049l[?1l>[39;49m[37m[40m[K[24;1H[?1049l[?1l>[?1049h[1;24r[39;49m(B[m[4l[?7h[39;49m[37m[40m[37m[40m[H[2J[24d(B[m[39;49m[37m[40mReading imaps://imap.gmail.com:993/INBOX...Looking up imap.gmail.com...[37m[40m[K(B[m[39;49m[37m[40mConnecting to imap.gmail.com...SSL/TLS connection using TLS1.2 (ECDHE-RSA/AES-128-GCM/AEAD)Authenticating (PLAIN)...[37m[40m[K(B[m[39;49m[37m[40mSelecting INBOX...[37m[40m[K(B[m[39;49m[37m[40mEvaluating cache... 0/4227 (0%)[24;21H10/4227 (0%)Fetching message headers... 0/4227 (0%)Sorting mailbox...[37m[40m[K(B[m[39;49m[37m[40m[?25l[?12l[?25h[?25l[37m[40m[J[H(B[0;1m[32m[44mq:Quit  d:Del  u:Undel  s:Save  m:Mail  r:Reply  g:Group  ?:Help[K
+(B[0m[30m[46m   1 N + Nov 21 Sherry Lukits   ( 10K) Fwd: Notification: Dr. Merkeley [Stefan][K
+[4G[37m[40m2 N T Nov 21 Sherry Lukits   ( 40K) Fwd: Appt
+   3 N + Nov 21 Sherry Lukits   (8.1K) Fwd: Checking re: Galiano retreat
+   4 N + Nov 21 Sherry Lukits   (5.7K) Re: galiano -- I found an invigilator
+   5   + Nov 21 Silverback Tree (1470) Quote from Silverback Treeworks Ltd. - 37[7;4H6 r   Nov 21 Google Calendar (  81) Notification: Dr. Merkeley [Stefan] @ Wed[8;4H7 r   Nov 21 craigslist 6743 (  41) Re: Yamaha Clavinova Brown Electric Piano[9;4H8     Nov 21 alumni UBC[33G( 538) Award recipient videos | Whisky barrels a[10;4H9     Nov 21 Google Calendar (  91) Notification: Soccer Practice [Anderson]
+  10     Nov 21 Google Calendar (  83) Notification: Soccer Practice [Evelyn] @
+  11 r + Nov 21 Kamani Thilakar (1679) Endabrechnung 2017
+  12   + Nov 21 VAFC Thunderbol (1687) Updated Repeating Event: Tuesday Practice[14;3H13   T Nov 21 VAFC Thunderbol (1316) Event Reminder: Thursday practice - turf,[15;3H14     Nov 20 Graham Moore    (2111) Re: Epistemology group tonight
+  15 r   Nov 20 craigslist 6730 ( 109) Re: Tree Removal and Trimming Rope Access[17;3H16 r + Nov 21 Duncan Morgan   (  57) Re: Faucets for Magnolia
+  17 r C Nov 20 Brunhoff Stefan ( 312) Re: Amendment meeting
+  18   C Nov 20 Michael Hicks   ( 270) RE: Amendment meeting
+  19 r C Nov 20 Brunhoff Stefan (  80) Amendment meeting
+  20   + Nov 20 Nick Portengen  (1532) Youth Weekly Email | November 19 - 25
+  21 r + Nov 20 Sherry Lukits   (  31) Re: Shaw
+(B[0;1m[32m[44m---Mutt: imaps://imap.gmail.com:993/INBOX [Msgs:4227 New:4 388M]---(reverse-date[2;80H(B[m[39;49m[37m[40m[?1h=[?12l[?25h[?25l[37m[40m   1 N + Nov 21 Sherry Lukits   ( 10K) Fwd: Notification: Dr. Merkeley [Stefan][K
+[30m[46m   2 N T Nov 21 Sherry Lukits   ( 40K) Fwd: Appt[K[80G(B[m[39;49m[37m[40m[?12l[?25h[?25l[37m[40m   2 N T Nov 21 Sherry Lukits   ( 40K) Fwd: Appt[K
+[30m[46m   3 N + Nov 21 Sherry Lukits   (8.1K) Fwd: Checking re: Galiano retreat[K[80G(B[m[39;49m[37m[40m[?12l[?25h[?25l[37m[40m   3 N + Nov 21 Sherry Lukits   (8.1K) Fwd: Checking re: Galiano retreat[K
+[30m[46m   4 N + Nov 21 Sherry Lukits   (5.7K) Re: galiano -- I found an invigilator[K   (B[m[39;49m[37m[40m[?12l[?25h[24dFetching message... 0K/6.2K (0%)Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-4[?7l2[?7h[?25l[37m[40m[J[H(B[0;1m[32m[44mi:Exit  -:PrevPg  <Space>:NextPg v:View Attachm.  d:Del  r:Reply  j:Next ?:Help
+(B[0m[36m[40mDate: Wed, 21 Nov 2018 12:45:43 -0800[K
+From: Sherry Lukits <sklukits@gmail.com>[K
+To: Stefan Lukits <sediomyle@gmail.com>[K
+Subject: Re: galiano -- I found an invigilator[K
+[37m[40m[K
+(B[0;1m[33m[40m[-- Autoview using /usr/bin/lynx -nolist -dump[K
+[31m[40m+[33m[40m'/tmp/mutt-ip-172-31-9-42-1000-22232-19666150301046909835.html' --][K
+[4G(B[0m[37m[40mThat's great news! I wrote the key email yesterday. I'll forward her[K
+   answer. I think she said any time.[K
+[K
+   On Wed, Nov 21, 2018 at 12:42 PM Stefan Lukits <sediomyle@gmail.com>
+   wrote:[K
+[K
+     Sherry,[K
+     It looks like I found an invigilator, and we can leave on Thursday.[K
+     I haven't heard anything about picking up the key.[K
+     I still need to figure out Friday morning, but I think I can do it.
+     Stefan[K
+[K
+   --[K
+[K
+[C(B[0;1m[32m[44mN +- 4/4227: Sherry Lukits          Re: galiano -- I found an invigila -- (98%)[23;80H(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
+Fetching message... 0K/8.6K (0%)Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-4[?7l2[?7h[?25l[37m[40m[J[2;28H[36m[40m6:45[5;10HFwd: Checking re: Galiano retreat[K
+
+
+(B[0;1m[33m[40m543902859317742810[1P
+[4G(B[0m[37m[40m---------- Forwarded message ---------[K
+   From: <msmarriott@telus.net>[K
+   Date: Tue, Nov 20, 2018 at 5:30 PM
+   Subject: RE: Checking re: Galiano retreat[K
+   To: Sherry Lukits <sklukits@gmail.com>
+
+   Sorry I just got your message now. Anytime is fine with us.
+[K
+   Martha[K
+[K
+[K
+   From: Sherry Lukits <sklukits@gmail.com>
+   Sent: November 20, 2018 2:10 PM
+   To: Stefan Lukits <Sediomyle@gmail.com>; msmarriott@telus.net
+[7G(B[0;1m[32m[44m3[23;38HFwd: Checking re: Galiano retreat  -- (59%(B[m[39;49m[37m[40m[?12l[?25h
+To: [37m[40mSherry Lukits <sklukits@gmail.com>(B[m[39;49m[37m[40mSubject: [37m[40m[K(B[m[39;49m[37m[40m[37m[40mRe: Fwd: Checking re: Galiano retreat(B[m[39;49m[37m[40mInclude message in reply? ([yes]/no): [37m[40m[K(B[m[39;49m[37m[40m[37m[40myes(B[m[39;49m[37m[40m[7Ging quoted message...[37m[40m[K(B[m[39;49m[37m[40m[37m[40m[J(B[m[39;49m[37m[40m[39;49m[37m[40m[K[24;1H[?1049l[?1l>[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H"/tmp/mutt-ip-172-31-9-42-1000-22232-649234271968547704" 50L, 1289C[>c[1;1H[32mFrom: Stefan Lukits [m[35m<sediomyle@gmail.com>[m
+[32mTo: Sherry Lukits [m[35m<sklukits@gmail.com>[m
+[32mCc: 
+Bcc: [m
+[35mSubject: Re: Fwd: Checking re: Galiano retreat[m
+[32mReply-To: [m
+[38;5;130mIn-Reply-To: [m[35m<CANvkWBp0SbcMM-6zuTT55VjJuX=5S=qpxwpA5c8F=mMp0H4jEg@mail.gmail.comm[8;1H>[m
+
+On Wed, Nov 21, 2018 at 12:46:45PM -0800, Sherry Lukits wrote:
+[34m>    ---------- Forwarded message ---------
+>    From: <[m[35mmsmarriott@telus.net[m[34m>
+>    Date: Tue, Nov 20, 2018 at 5:30 PM
+>    Subject: RE: Checking re: Galiano retreat
+>    To: Sherry Lukits <[m[35msklukits@gmail.com[m[34m>
+> 
+>    Sorry I just got your message now. Anytime is fine with us.
+> 
+>    Martha
+> 
+> 
+>    From: Sherry Lukits <[m[35msklukits@gmail.com[m[34m>[m
+[1m[7m/tmp/mutt-ip-172-31-9-42-1000-22232-649234271968547704        1,1            Top[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\P+q6b32\P+q6b33\P+q6b34\P+q6b35\P+q6b36\P+q6b37\P+q6b38\P+q6b39\P+q6b3b\P+q4631\P+q4632\P+q2531\P+q2638\P+q6b62\P+q6b49\P+q6b44\[?25l[m[24;70H^[[1;1H[?12l[?25h[?25l[24;70H  [1;1HP+q6b68\[?12l[?25hP+q4037\P+q6b50\P+q6b4e\P+q4b31\P+q4b33\P+q4b34\P+q4b35\[?25l[24;70H^[[1;1H[24;72HP[1;1H[24;73H0[1;1H[24;74H+[1;1H[24;75Hr[1;1H[24;76H6[1;1H[24;77Hb[1;1H[24;78H4[1;1H[24;79H9[1;1H[?12l[?25h[?25l[24;70H          [1;1HP+q6b42\[?12l[?25h[?25l[24;70Hj[1;1H[24;70H [2;1H[23;63H[1m[7m2,[2;1H[?12l[?25h[?25l[m[24;70Hj[2;1H[24;70H [3;1H[23;63H[1m[7m3,[3;1H[?12l[?25h[?25l[m[24;70Hj[3;1H[24;70H [4;1H[23;63H[1m[7m4,[4;1H[?12l[?25h[?25l[m[24;70Hj[4;1H[24;70H [5;1H[23;63H[1m[7m5,[5;1H[?12l[?25h[?25l[m[24;70Hj[5;1H[24;70H [6;1H[23;63H[1m[7m6,[6;1H[?12l[?25h[?25l[m[24;70Hj[6;1H[24;70H [7;1H[23;63H[1m[7m7,[7;1H[?12l[?25h[?25l[m[24;70Hj[7;1H[24;70H [9;1H[23;63H[1m[7m8,0-1[9;1H[?12l[?25h[?25l[m[24;70Hj[9;1H[24;70H [10;1H[23;63H[1m[7m9,1   [10;1H[?12l[?25h[?25l[m[24;70Hj[10;1H[24;70H [11;1H[23;63H[1m[7m10,1[11;1H[?12l[?25h[?25l[m[24;70Hj[11;1H[24;70H [12;1H[23;64H[1m[7m1,[12;1H[?12l[?25h[?25l[23;64H2,[13;1H[?12l[?25h[?25l[m[24;70Hj[13;1H[24;70H [14;1H[23;64H[1m[7m3,[14;1H[?12l[?25h[?25l[m[24;70Hj[14;1H[24;70H [15;1H[23;64H[1m[7m4,[15;1H[?12l[?25h[?25l[m[24;70Hj[15;1H[24;70H [16;1H[23;64H[1m[7m5,[16;1H[?12l[?25h[?25l[m[24;70Hk[16;1H[24;70H [15;1H[23;64H[1m[7m4,[15;1H[?12l[?25h[?25l[m[24;70Hk[15;1H[24;70H [14;1H[23;64H[1m[7m3,[14;1H[?12l[?25h[?25l[m[24;70Hk[14;1H[24;70H [13;1H[23;64H[1m[7m2,[13;1H[?12l[?25h[?25l[m[24;70Hk[13;1H[24;70H [12;1H[23;64H[1m[7m1,[12;1H[?12l[?25h[?25l[m[24;70Hk[12;1H[24;70H [11;1H[23;64H[1m[7m0,[11;1H[?12l[?25h[?25l[m[24;70Hl[11;1H[24;70H [11;2H[23;66H[1m[7m2 [11;2H[?12l[?25h[?25l[m[24;70Hj[11;2H[24;70H [12;2H[23;64H[1m[7m1,[12;2H[?12l[?25h[?25l[m[24;70Hl[12;2H[24;70H [12;3H[23;66H[1m[7m3 [12;3H[?12l[?25h[?25l[m[24;70Hl[12;3H[24;70H [12;4H[23;66H[1m[7m4 [12;4H[?12l[?25h[?25l[m[24;70Hl[12;4H[24;70H [12;5H[23;66H[1m[7m5 [12;5H[?12l[?25h[?25l[m[24;70Hl[12;5H[24;70H [12;6H[23;66H[1m[7m6 [12;6H[?12l[?25h[?25l[m[24;70Hl[12;6H[24;70H [12;7H[23;66H[1m[7m7 [12;7H[?12l[?25h[?25l[m[24;70Hl[12;7H[24;70H [12;8H[23;66H[1m[7m8 [12;8H[?12l[?25h[?25l[m[24;70Hl[12;8H[24;70H [12;9H[23;66H[1m[7m9 [12;9H[?12l[?25h[?25l[m[24;70Hl[12;9H[24;70H [12;10H[23;66H[1m[7m10[12;10H[?12l[?25h[?25l[m[24;70Hl[12;10H[24;70H [12;11H[23;67H[1m[7m1 [12;11H[?12l[?25h[?25l[m[24;70Hl[12;11H[24;70H [12;12H[23;67H[1m[7m2 [12;12H[?12l[?25h[?25l[m[24;70Hy[12;12H[?12l[?25h[?25l[24;71H$[12;12H[24;70H  [12;12H[?12l[?25h[?25l[24;70Hk[12;12H[24;70H [11;12H[23;64H[1m[7m0,[11;12H[?12l[?25h[?25l[m[24;70Hk[11;12H[24;70H [10;12H[23;63H[1m[7m9,12  [10;12H[?12l[?25h[?25l[m[24;70Hk[10;12H[24;70H [9;1H[23;63H[1m[7m8,0-1[9;1H[?12l[?25h[?25l[m[24;70Hk[9;1H[24;70H [7;12H[23;63H[1m[7m7,12  [7;12H[?12l[?25h[?25l[m[24;70Hk[7;12H[24;70H [6;10H[23;63H[1m[7m6,10 [6;10H[?12l[?25h[?25l[m[24;70Hk[6;10H[24;70H [5;12H[23;63H[1m[7m5,12 [5;12H[?12l[?25h[?25l[m[24;70Hk[5;12H[24;70H [4;5H[23;63H[1m[7m4,5  [4;5H[?12l[?25h[?25l[m[24;70Hk[4;5H[24;70H [3;4H[23;63H[1m[7m3,4 [3;4H[?12l[?25h[?25l[m[24;70Hk[3;4H[24;70H [2;12H[23;63H[1m[7m2,12[2;12H[?12l[?25h[?25l[m[24;70Hk[2;12H[24;70H [1;12H[23;63H[1m[7m1,[1;12H[?12l[?25h[?25l[m[24;70Hk[1;12H[?5h[?5l[24;70H [1;12H[?12l[?25h[?25l[24;70Hk[1;12H[?5h[?5l[24;70H [1;12H[?12l[?25h[?25l[24;70Hk[1;12H[?5h[?5l[24;70H [1;12H[?12l[?25h[?25l[24;70Hj[1;12H[24;70H [2;12H[23;63H[1m[7m2,[2;12H[?12l[?25h[?25l[m[24;70HA[2;12H[24;70H [2;39H[24;1H[1m-- INSERT --[m[24;13H[K[23;65H[1m[7m39 [2;39H[?12l[?25h[?25l[m[32m,[m[23;56H[1m[7m[+]    2,40 [2;40H[?12l[?25h[?25l[m[32m [m[23;66H[1m[7m1 [2;41H[?12l[?25h[m[24;1H[K[2;40H[?25l[24;70H^[[2;40H[?12l[?25h[?25l[24;70H  [2;41H[23;66H[1m[7m0 [2;40H[?12l[?25h[?25l[m[24;70Hp[2;40H[24;70H [2;62H[2;41H[35m<msmarriott@telus.net>[m[23;65H[1m[7m62 [2;62H[?12l[?25h[?25l[m[24;70Hj[2;62H[24;70H [3;4H[23;63H[1m[7m3,4  [3;4H[?12l[?25h[?25l[m[24;70Hj[3;4H[24;70H [4;5H[23;63H[1m[7m4,5 [4;5H[?12l[?25h[?25l[m[24;70Hj[4;5H[24;70H [5;46H[23;63H[1m[7m5,46[5;46H[?12l[?25h[?25l[m[24;70Hj[5;46H[24;70H [6;10H[23;63H[1m[7m6,10 [6;10H[?12l[?25h[?25l[m[24;70Hj[6;10H[24;70H [7;62H[23;63H[1m[7m7,62 [7;62H[?12l[?25h[?25l[m[24;70Hj[7;62H[24;70H [9;1H[23;63H[1m[7m8,0-1[9;1H[?12l[?25h[?25l[m[24;70Hj[9;1H[24;70H [10;62H[23;63H[1m[7m9,62  [10;62H[?12l[?25h[?25l[m[24;70HO[10;62H[24;70H [10;1H[24;1H[1m-- INSERT --[10;22r[m[10;1H[L[1;24r[23;65H[1m[7m1  [10;1H[?12l[?25h[?25l[mM[23;65H[1m[7m2 [10;2H[?12l[?25h[?25l[ma[23;65H[1m[7m3 [10;3H[?12l[?25h[?25l[mr[23;65H[1m[7m4 [10;4H[?12l[?25h[?25l[mt[23;65H[1m[7m5 [10;5H[?12l[?25h[?25l[mh[23;65H[1m[7m6 [10;6H[?12l[?25h[?25l[ma[23;65H[1m[7m7 [10;7H[?12l[?25h[?25l[m,[23;65H[1m[7m8 [10;8H[?12l[?25h[?25l[11;22r[m[11;1H[L[1;24r[23;63H[1m[7m10,1[11;1H[?12l[?25h[?25l[12;22r[m[12;1H[L[1;24r[23;64H[1m[7m1,[12;1H[?12l[?25h[?25l[mI[23;66H[1m[7m2 [12;2H[?12l[?25h[?25l[23;66H3 [12;3H[?12l[?25h[?25l[mj[23;66H[1m[7m4 [12;4H[?12l[?25h[?25l[mu[23;66H[1m[7m5 [12;5H[?12l[?25h[?25l[ms[23;66H[1m[7m6 [12;6H[?12l[?25h[?25l[mt[23;66H[1m[7m7 [12;7H[?12l[?25h[?25l[23;66H8 [12;8H[?12l[?25h[?25l[mn[23;66H[1m[7m9 [12;9H[?12l[?25h[?25l[me[23;66H[1m[7m10[12;10H[?12l[?25h[?25l[me[23;67H[1m[7m1 [12;11H[?12l[?25h[?25l[md[23;67H[1m[7m2 [12;12H[?12l[?25h[?25l[23;67H3 [12;13H[?12l[?25h[?25l[mt[23;67H[1m[7m4 [12;14H[?12l[?25h[?25l[mo[23;67H[1m[7m5 [12;15H[?12l[?25h[?25l[23;67H6 [12;16H[?12l[?25h[?25l[mm[23;67H[1m[7m7 [12;17H[?12l[?25h[?25l[ma[23;67H[1m[7m8 [12;18H[?12l[?25h[?25l[mk[23;67H[1m[7m9 [12;19H[?12l[?25h[?25l[me[23;66H[1m[7m20 [12;20H[?12l[?25h[?25l[23;67H1 [12;21H[?12l[?25h[?25l[ms[23;67H[1m[7m2 [12;22H[?12l[?25h[?25l[mu[23;67H[1m[7m3 [12;23H[?12l[?25h[?25l[mr[23;67H[1m[7m4 [12;24H[?12l[?25h[?25l[me[23;67H[1m[7m5 [12;25H[?12l[?25h[?25l[23;67H6 [12;26H[?12l[?25h[?25l[my[23;67H[1m[7m7 [12;27H[?12l[?25h[?25l[mo[23;67H[1m[7m8 [12;28H[?12l[?25h[?25l[mu[23;67H[1m[7m9 [12;29H[?12l[?25h[?25l[23;66H30 [12;30H[?12l[?25h[?25l[ma[23;67H[1m[7m1 [12;31H[?12l[?25h[?25l[mr[23;67H[1m[7m2 [12;32H[?12l[?25h[?25l[me h[23;67H[1m[7m5 [12;35H[?12l[?25h[?25l[mo[23;67H[1m[7m6 [12;36H[?12l[?25h[?25l[mm[23;67H[1m[7m7 [12;37H[?12l[?25h[?25l[me[23;67H[1m[7m8 [12;38H[?12l[?25h[?25l[23;67H9 [12;39H[?12l[?25h[?25l[ma[23;66H[1m[7m40 [12;40H[?12l[?25h[?25l[mn[23;67H[1m[7m1 [12;41H[?12l[?25h[?25l[md[23;67H[1m[7m2 [12;42H[?12l[?25h[?25l[23;67H3 [12;43H[?12l[?25h[?25l[23;67H2 [12;42H[?12l[?25h[?25l[m[12;41H[K[23;67H[1m[7m1 [12;41H[?12l[?25h[?25l[m[12;40H[K[23;67H[1m[7m0 [12;40H[?12l[?25h[?25l[m[12;39H[K[23;66H[1m[7m39 [12;39H[?12l[?25h[?25l[23;67H8 [12;38H[?12l[?25h[?25l[m[12;37H[K[23;67H[1m[7m7 [12;37H[?12l[?25h[?25l[m[12;36H[K[23;67H[1m[7m6 [12;36H[?12l[?25h[?25l[m[12;35H[K[23;67H[1m[7m5 [12;35H[?12l[?25h[?25l[m[12;34H[K[23;67H[1m[7m4 [12;34H[?12l[?25h[?25l[23;67H3 [12;33H[?12l[?25h[?25l[23;67H4 [12;34H[?12l[?25h[?25l[m([23;67H[1m[7m5 [12;35H[?12l[?25h[?25l[mi[23;67H[1m[7m6 [12;36H[?12l[?25h[?25l[m)[106m([mi[106m)[m[23;67H[1m[7m7 [12;37H[?12l[?25h[?25l[m((i)[23;67H[1m[7m8 [12;38H[?12l[?25h[?25l[23;67H9 [12;39H[?12l[?25h[?25l[23;67H8 [12;38H[?12l[?25h[?25l[m[12;37H[K[12;34H[106m([mi[106m)[m[23;67H[1m[7m7 [12;37H[?12l[?25h[?25l[m(i)[23;67H[1m[7m8 [12;38H[?12l[?25h[?25l[mh[23;67H[1m[7m9 [12;39H[?12l[?25h[?25l[mo[23;66H[1m[7m40 [12;40H[?12l[?25h[?25l[mm[23;67H[1m[7m1 [12;41H[?12l[?25h[?25l[me[23;67H[1m[7m2 [12;42H[?12l[?25h[?25l[23;67H3 [12;43H[?12l[?25h[?25l[ma[23;67H[1m[7m4 [12;44H[?12l[?25h[?25l[mn[23;67H[1m[7m5 [12;45H[?12l[?25h[?25l[md[23;67H[1m[7m6 [12;46H[?12l[?25h[?25l[23;67H7 [12;47H[?12l[?25h[?25l[m([23;67H[1m[7m8 [12;48H[?12l[?25h[?25l[mi[23;67H[1m[7m9 [12;49H[?12l[?25h[?25l[mi[23;66H[1m[7m50 [12;50H[?12l[?25h[?25l[m)[106m([mii[106m)[m[23;67H[1m[7m1 [12;51H[?12l[?25h[?25l[m(ii)[23;67H[1m[7m2 [12;52H[?12l[?25h[?25l[ma[23;67H[1m[7m3 [12;53H[?12l[?25h[?25l[mw[23;67H[1m[7m4 [12;54H[?12l[?25h[?25l[ma[23;67H[1m[7m5 [12;55H[?12l[?25h[?25l[mk[23;67H[1m[7m6 [12;56H[?12l[?25h[?25l[me[23;67H[1m[7m7 [12;57H[?12l[?25h[?25l[m.[23;67H[1m[7m8 [12;58H[?12l[?25h[?25l[23;67H9 [12;59H[?12l[?25h[?25l[mT[23;66H[1m[7m60 [12;60H[?12l[?25h[?25l[mo[23;67H[1m[7m1 [12;61H[?12l[?25h[?25l[mm[23;67H[1m[7m2 [12;62H[?12l[?25h[?25l[mo[23;67H[1m[7m3 [12;63H[?12l[?25h[?25l[mr[23;67H[1m[7m4 [12;64H[?12l[?25h[?25l[mr[23;67H[1m[7m5 [12;65H[?12l[?25h[?25l[mo[23;67H[1m[7m6 [12;66H[?12l[?25h[?25l[mw[23;67H[1m[7m7 [12;67H[?12l[?25h[?25l[23;67H8 [12;68H[?12l[?25h[?25l[mm[23;67H[1m[7m9 [12;69H[?12l[?25h[?25l[mo[23;66H[1m[7m70 [12;70H[?12l[?25h[?25l[mr[23;67H[1m[7m1 [12;71H[?12l[?25h[?25l[m[12;70H[K[23;67H[1m[7m0 [12;70H[?12l[?25h[?25l[m[12;69H[K[23;66H[1m[7m69 [12;69H[?12l[?25h[?25l[m[12;68H[K[23;67H[1m[7m8 [12;68H[?12l[?25h[?25l[23;67H7 [12;67H[?12l[?25h[?25l[m[12;66H[K[23;67H[1m[7m6 [12;66H[?12l[?25h[?25l[m[12;65H[K[23;67H[1m[7m5 [12;65H[?12l[?25h[?25l[m[12;64H[K[23;67H[1m[7m4 [12;64H[?12l[?25h[?25l[m[12;62H[K[23;67H[1m[7m2 [12;62H[?12l[?25h[?25l[m[12;61H[K[23;67H[1m[7m1 [12;61H[?12l[?25h[?25l[m[12;60H[K[23;67H[1m[7m0 [12;60H[?12l[?25h[?25l[m[12;59H[K[23;66H[1m[7m59 [12;59H[?12l[?25h[?25l[mL[23;66H[1m[7m60 [12;60H[?12l[?25h[?25l[ma[23;67H[1m[7m1 [12;61H[?12l[?25h[?25l[mt[23;67H[1m[7m2 [12;62H[?12l[?25h[?25l[me[23;67H[1m[7m3 [12;63H[?12l[?25h[?25l[mr[23;67H[1m[7m4 [12;64H[?12l[?25h[?25l[23;67H5 [12;65H[?12l[?25h[?25l[mt[23;67H[1m[7m6 [12;66H[?12l[?25h[?25l[mh[23;67H[1m[7m7 [12;67H[?12l[?25h[?25l[mi[23;67H[1m[7m8 [12;68H[?12l[?25h[?25l[ms[23;67H[1m[7m9 [12;69H[?12l[?25h[?25l[23;66H70 [12;70H[?12l[?25h[?25l[ma[23;67H[1m[7m1 [12;71H[?12l[?25h[?25l[13;22r[m[13;1H[L[1;24r[12;70H[K[13;1Haf[23;64H[1m[7m2,3  [13;3H[?12l[?25h[?25l[mt[23;66H[1m[7m4 [13;4H[?12l[?25h[?25l[me[23;66H[1m[7m5 [13;5H[?12l[?25h[?25l[mr[23;66H[1m[7m6 [13;6H[?12l[?25h[?25l[mn[23;66H[1m[7m7 [13;7H[?12l[?25h[?25l[mo[23;66H[1m[7m8 [13;8H[?12l[?25h[?25l[mo[23;66H[1m[7m9 [13;9H[?12l[?25h[?25l[mn[23;66H[1m[7m10[13;10H[?12l[?25h[?25l[23;67H1 [13;11H[?12l[?25h[?25l[m([23;67H[1m[7m2 [13;12H[?12l[?25h[?25l[ma[23;67H[1m[7m3 [13;13H[?12l[?25h[?25l[mr[23;67H[1m[7m4 [13;14H[?12l[?25h[?25l[mo[23;67H[1m[7m5 [13;15H[?12l[?25h[?25l[mu[23;67H[1m[7m6 [13;16H[?12l[?25h[?25l[mn[23;67H[1m[7m7 [13;17H[?12l[?25h[?25l[md[23;67H[1m[7m8 [13;18H[?12l[?25h[?25l[23;67H9 [13;19H[?12l[?25h[?25l[m5[23;66H[1m[7m20 [13;20H[?12l[?25h[?25l[mp[23;67H[1m[7m1 [13;21H[?12l[?25h[?25l[mm[23;67H[1m[7m2 [13;22H[?12l[?25h[?25l[m)[13;11H[106m([10C)[m[23;67H[1m[7m3 [13;23H[?12l[?25h[?25l[m[13;11H([10C)[23;67H[1m[7m4 [13;24H[?12l[?25h[?25l[ma[23;67H[1m[7m5 [13;25H[?12l[?25h[?25l[mn[23;67H[1m[7m6 [13;26H[?12l[?25h[?25l[md[23;67H[1m[7m7 [13;27H[?12l[?25h[?25l[23;67H8 [13;28H[?12l[?25h[?25l[mt[23;67H[1m[7m9 [13;29H[?12l[?25h[?25l[mo[23;66H[1m[7m30 [13;30H[?12l[?25h[?25l[mm[23;67H[1m[7m1 [13;31H[?12l[?25h[?25l[mo[23;67H[1m[7m2 [13;32H[?12l[?25h[?25l[mr[23;67H[1m[7m3 [13;33H[?12l[?25h[?25l[mr[23;67H[1m[7m4 [13;34H[?12l[?25h[?25l[mo[23;67H[1m[7m5 [13;35H[?12l[?25h[?25l[mw[23;67H[1m[7m6 [13;36H[?12l[?25h[?25l[23;67H7 [13;37H[?12l[?25h[?25l[mm[23;67H[1m[7m8 [13;38H[?12l[?25h[?25l[mr[23;67H[1m[7m9 [13;39H[?12l[?25h[?25l[m[13;38H[K[23;67H[1m[7m8 [13;38H[?12l[?25h[?25l[mo[23;67H[1m[7m9 [13;39H[?12l[?25h[?25l[mr[23;66H[1m[7m40 [13;40H[?12l[?25h[?25l[mn[23;67H[1m[7m1 [13;41H[?12l[?25h[?25l[mi[23;67H[1m[7m2 [13;42H[?12l[?25h[?25l[mn[23;67H[1m[7m3 [13;43H[?12l[?25h[?25l[mg[23;67H[1m[7m4 [13;44H[?12l[?25h[?25l[23;67H5 [13;45H[?12l[?25h[?25l[mj[23;67H[1m[7m6 [13;46H[?12l[?25h[?25l[ma[23;67H[1m[7m7 [13;47H[?12l[?25h[?25l[mr[23;67H[1m[7m8 [13;48H[?12l[?25h[?25l[mo[23;67H[1m[7m9 [13;49H[?12l[?25h[?25l[mu[23;66H[1m[7m50 [13;50H[?12l[?25h[?25l[mn[23;67H[1m[7m1 [13;51H[?12l[?25h[?25l[md[23;67H[1m[7m2 [13;52H[?12l[?25h[?25l[23;67H3 [13;53H[?12l[?25h[?25l[23;67H2 [13;52H[?12l[?25h[?25l[m[13;51H[K[23;67H[1m[7m1 [13;51H[?12l[?25h[?25l[m[13;50H[K[23;67H[1m[7m0 [13;50H[?12l[?25h[?25l[m[13;49H[K[23;66H[1m[7m49 [13;49H[?12l[?25h[?25l[m[13;48H[K[23;67H[1m[7m8 [13;48H[?12l[?25h[?25l[m[13;47H[K[23;67H[1m[7m7 [13;47H[?12l[?25h[?25l[m[13;46H[K[23;67H[1m[7m6 [13;46H[?12l[?25h[?25l[m[13;45H[K[23;67H[1m[7m5 [13;45H[?12l[?25h[?25l[ma[23;67H[1m[7m6 [13;46H[?12l[?25h[?25l[mr[23;67H[1m[7m7 [13;47H[?12l[?25h[?25l[mo[23;67H[1m[7m8 [13;48H[?12l[?25h[?25l[mu[23;67H[1m[7m9 [13;49H[?12l[?25h[?25l[mn[23;66H[1m[7m50 [13;50H[?12l[?25h[?25l[md[23;67H[1m[7m1 [13;51H[?12l[?25h[?25l[23;67H2 [13;52H[?12l[?25h[?25l[m7[23;67H[1m[7m3 [13;53H[?12l[?25h[?25l[m:[23;67H[1m[7m4 [13;54H[?12l[?25h[?25l[m3[23;67H[1m[7m5 [13;55H[?12l[?25h[?25l[m0[23;67H[1m[7m6 [13;56H[?12l[?25h[?25l[ma[23;67H[1m[7m7 [13;57H[?12l[?25h[?25l[mm[23;67H[1m[7m8 [13;58H[?12l[?25h[?25l[23;67H9 [13;59H[?12l[?25h[?25l[ma[23;66H[1m[7m60 [13;60H[?12l[?25h[?25l[mr[23;67H[1m[7m1 [13;61H[?12l[?25h[?25l[me[23;67H[1m[7m2 [13;62H[?12l[?25h[?25l[23;67H3 [13;63H[?12l[?25h[?25l[mt[23;67H[1m[7m4 [13;64H[?12l[?25h[?25l[mh[23;67H[1m[7m5 [13;65H[?12l[?25h[?25l[me[23;67H[1m[7m6 [13;66H[?12l[?25h[?25l[23;67H7 [13;67H[?12l[?25h[?25l[mb[23;67H[1m[7m8 [13;68H[?12l[?25h[?25l[me[23;67H[1m[7m9 [13;69H[?12l[?25h[?25l[ms[23;66H[1m[7m70 [13;70H[?12l[?25h[?25l[mt[23;67H[1m[7m1 [13;71H[?12l[?25h[?25l[23;67H2 [13;72H[?12l[?25h[?25l[14;22r[m[14;1H[L[1;24r[14;1Ho[23;64H[1m[7m3,2  [14;2H[?12l[?25h[?25l[mp[23;66H[1m[7m3 [14;3H[?12l[?25h[?25l[mr[23;66H[1m[7m4 [14;4H[?12l[?25h[?25l[mi[23;66H[1m[7m5 [14;5H[?12l[?25h[?25l[mo[23;66H[1m[7m6 [14;6H[?12l[?25h[?25l[mn[23;66H[1m[7m7 [14;7H[?12l[?25h[?25l[m[14;6H[K[23;66H[1m[7m6 [14;6H[?12l[?25h[?25l[m[14;5H[K[23;66H[1m[7m5 [14;5H[?12l[?25h[?25l[m[14;4H[K[23;66H[1m[7m4 [14;4H[?12l[?25h[?25l[m[14;3H[K[23;66H[1m[7m3 [14;3H[?12l[?25h[?25l[mt[23;66H[1m[7m4 [14;4H[?12l[?25h[?25l[mi[23;66H[1m[7m5 [14;5H[?12l[?25h[?25l[mo[23;66H[1m[7m6 [14;6H[?12l[?25h[?25l[mn[23;66H[1m[7m7 [14;7H[?12l[?25h[?25l[ms[23;66H[1m[7m8 [14;8H[?12l[?25h[?25l[23;66H9 [14;9H[?12l[?25h[?25l[23;66H8 [14;8H[?12l[?25h[?25l[m[14;7H[K[23;66H[1m[7m7 [14;7H[?12l[?25h[?25l[m[14;6H[K[23;66H[1m[7m6 [14;6H[?12l[?25h[?25l[m[14;5H[K[23;66H[1m[7m5 [14;5H[?12l[?25h[?25l[m[14;4H[K[23;66H[1m[7m4 [14;4H[?12l[?25h[?25l[m[14;3H[K[23;66H[1m[7m3 [14;3H[?12l[?25h[?25l[m[14;2H[K[23;66H[1m[7m2 [14;2H[?12l[?25h[?25l[m[14;1H[K[23;66H[1m[7m1 [14;1H[?12l[?25h[?25l[13;22r[m[22;1H
+[1;24r[13;1Hafternoon (around 5pm) and tomorrow morning around 7:30am are the best[22;1H[34m> [m[23;64H[1m[7m2,71[13;71H[?12l[?25h[?25l[m[13;68H[K[23;66H[1m[7m68 [13;68H[?12l[?25h[?25l[m[13;67H[K[23;67H[1m[7m7 [13;67H[?12l[?25h[?25l[23;67H6 [13;66H[?12l[?25h[?25l[m[13;65H[K[23;67H[1m[7m5 [13;65H[?12l[?25h[?25l[me[23;67H[1m[7m6 [13;66H[?12l[?25h[?25l[23;67H7 [13;67H[?12l[?25h[?25l[mm[23;67H[1m[7m8 [13;68H[?12l[?25h[?25l[mo[23;67H[1m[7m9 [13;69H[?12l[?25h[?25l[ms[23;66H[1m[7m70 [13;70H[?12l[?25h[?25l[mt[23;67H[1m[7m1 [13;71H[?12l[?25h[?25l[23;67H2 [13;72H[?12l[?25h[?25l[14;22r[m[14;1H[L[1;24r[14;1Ha[23;64H[1m[7m3,2  [14;2H[?12l[?25h[?25l[mt[23;66H[1m[7m3 [14;3H[?12l[?25h[?25l[mt[23;66H[1m[7m4 [14;4H[?12l[?25h[?25l[mr[23;66H[1m[7m5 [14;5H[?12l[?25h[?25l[ma[23;66H[1m[7m6 [14;6H[?12l[?25h[?25l[mc[23;66H[1m[7m7 [14;7H[?12l[?25h[?25l[mt[23;66H[1m[7m8 [14;8H[?12l[?25h[?25l[mi[23;66H[1m[7m9 [14;9H[?12l[?25h[?25l[mv[23;66H[1m[7m10[14;10H[?12l[?25h[?25l[me[23;67H[1m[7m1 [14;11H[?12l[?25h[?25l[23;67H2 [14;12H[?12l[?25h[?25l[mo[23;67H[1m[7m3 [14;13H[?12l[?25h[?25l[mp[23;67H[1m[7m4 [14;14H[?12l[?25h[?25l[mr[23;67H[1m[7m5 [14;15H[?12l[?25h[?25l[mi[23;67H[1m[7m6 [14;16H[?12l[?25h[?25l[mo[23;67H[1m[7m7 [14;17H[?12l[?25h[?25l[mn[23;67H[1m[7m8 [14;18H[?12l[?25h[?25l[ms[23;67H[1m[7m9 [14;19H[?12l[?25h[?25l[m[14;18H[K[23;67H[1m[7m8 [14;18H[?12l[?25h[?25l[m[14;17H[K[23;67H[1m[7m7 [14;17H[?12l[?25h[?25l[m[14;16H[K[23;67H[1m[7m6 [14;16H[?12l[?25h[?25l[m[14;15H[K[23;67H[1m[7m5 [14;15H[?12l[?25h[?25l[m[14;14H[K[23;67H[1m[7m4 [14;14H[?12l[?25h[?25l[mt[23;67H[1m[7m5 [14;15H[?12l[?25h[?25l[mi[23;67H[1m[7m6 [14;16H[?12l[?25h[?25l[mo[23;67H[1m[7m7 [14;17H[?12l[?25h[?25l[mn[23;67H[1m[7m8 [14;18H[?12l[?25h[?25l[ms[23;67H[1m[7m9 [14;19H[?12l[?25h[?25l[23;66H20 [14;20H[?12l[?25h[?25l[mf[23;67H[1m[7m1 [14;21H[?12l[?25h[?25l[mo[23;67H[1m[7m2 [14;22H[?12l[?25h[?25l[mr[23;67H[1m[7m3 [14;23H[?12l[?25h[?25l[23;67H4 [14;24H[?12l[?25h[?25l[mm[23;67H[1m[7m5 [14;25H[?12l[?25h[?25l[me[23;67H[1m[7m6 [14;26H[?12l[?25h[?25l[m.[23;67H[1m[7m7 [14;27H[?12l[?25h[?25l[23;67H8 [14;28H[?12l[?25h[?25l[mP[23;67H[1m[7m9 [14;29H[?12l[?25h[?25l[ml[23;66H[1m[7m30 [14;30H[?12l[?25h[?25l[me[23;67H[1m[7m1 [14;31H[?12l[?25h[?25l[ma[23;67H[1m[7m2 [14;32H[?12l[?25h[?25l[ms[23;67H[1m[7m3 [14;33H[?12l[?25h[?25l[me[23;67H[1m[7m4 [14;34H[?12l[?25h[?25l[23;67H5 [14;35H[?12l[?25h[?25l[ma[23;67H[1m[7m6 [14;36H[?12l[?25h[?25l[ml[23;67H[1m[7m7 [14;37H[?12l[?25h[?25l[ms[23;67H[1m[7m8 [14;38H[?12l[?25h[?25l[mo[23;67H[1m[7m9 [14;39H[?12l[?25h[?25l[23;66H40 [14;40H[?12l[?25h[?25l[mr[23;67H[1m[7m1 [14;41H[?12l[?25h[?25l[me[23;67H[1m[7m2 [14;42H[?12l[?25h[?25l[mm[23;67H[1m[7m3 [14;43H[?12l[?25h[?25l[mi[23;67H[1m[7m4 [14;44H[?12l[?25h[?25l[mn[23;67H[1m[7m5 [14;45H[?12l[?25h[?25l[md[23;67H[1m[7m6 [14;46H[?12l[?25h[?25l[23;67H7 [14;47H[?12l[?25h[?25l[mm[23;67H[1m[7m8 [14;48H[?12l[?25h[?25l[me[23;67H[1m[7m9 [14;49H[?12l[?25h[?25l[23;66H50 [14;50H[?12l[?25h[?25l[mo[23;67H[1m[7m1 [14;51H[?12l[?25h[?25l[mf[23;67H[1m[7m2 [14;52H[?12l[?25h[?25l[23;67H3 [14;53H[?12l[?25h[?25l[my[23;67H[1m[7m4 [14;54H[?12l[?25h[?25l[mo[23;67H[1m[7m5 [14;55H[?12l[?25h[?25l[mu[23;67H[1m[7m6 [14;56H[?12l[?25h[?25l[mr[23;67H[1m[7m7 [14;57H[?12l[?25h[?25l[23;67H8 [14;58H[?12l[?25h[?25l[ma[23;67H[1m[7m9 [14;59H[?12l[?25h[?25l[md[23;66H[1m[7m60 [14;60H[?12l[?25h[?25l[mdres[23;67H[1m[7m4 [14;64H[?12l[?25h[?25l[ms[23;67H[1m[7m5 [14;65H[?12l[?25h[?25l[m.[23;67H[1m[7m6 [14;66H[?12l[?25h[?25l[15;22r[m[15;1H[L[1;24r[23;64H[1m[7m4,1  [15;1H[?12l[?25h[?25l[16;22r[m[16;1H[L[1;24r[23;64H[1m[7m5,[16;1H[?12l[?25h[?25l[mS[23;66H[1m[7m2 [16;2H[?12l[?25h[?25l[mt[23;66H[1m[7m3 [16;3H[?12l[?25h[?25l[me[23;66H[1m[7m4 [16;4H[?12l[?25h[?25l[mf[23;66H[1m[7m5 [16;5H[?12l[?25h[?25l[ma[23;66H[1m[7m6 [16;6H[?12l[?25h[?25l[mn[23;66H[1m[7m7 [16;7H[?12l[?25h[?25l[17;22r[m[17;1H[L[1;24r[23;64H[1m[7m6,1 [17;1H[?12l[?25h[?25l[18;22r[m[18;1H[L[1;24r[23;64H[1m[7m7,[18;1H[?12l[?25h[?25l[17;22r[m[22;1H
+[1;24r[22;1H[34m>    Subject: RE: Checking re: Galiano retreat[m[23;64H[1m[7m6,[17;1H[?12l[?25h[?25l[23;64H5,[16;1H[?12l[?25h[?25l[23;64H4,[15;1H[?12l[?25h[?25l[23;64H3,[14;1H[?12l[?25h[?25l[mAattractive options for me. Please also remind me of your address.[23;66H[1m[7m2 [14;2H[?12l[?25h[?25l[m attractive options for me. Please also remind me of your address.[23;66H[1m[7m3 [14;3H[?12l[?25h[?25l[mattractive options for me. Please also remind me of your address.[14;66H[K[23;66H[1m[7m1 [14;1H[?12l[?25h[m[24;1H[K[14;1H[?25l[24;70H^[[14;1H[?12l[?25h[?25l[24;70H  [14;1H[?12l[?25h[?25l[24;70HA[14;1H[24;70H [14;66H[24;1H[1m-- INSERT --[m[23;66H[1m[7m66[14;66H[?12l[?25h[?25l[23;67H7 [14;67H[?12l[?25h[?25l[mI[23;67H[1m[7m8 [14;68H[?12l[?25h[?25l[23;67H9 [14;69H[?12l[?25h[?25l[mh[23;66H[1m[7m70 [14;70H[?12l[?25h[?25l[ma[23;67H[1m[7m1 [14;71H[?12l[?25h[?25l[15;22r[m[15;1H[L[1;24r[14;69H[K[15;1Hhav[23;64H[1m[7m4,4  [15;4H[?12l[?25h[?25l[me[23;66H[1m[7m5 [15;5H[?12l[?25h[?25l[23;66H6 [15;6H[?12l[?25h[?25l[mv[23;66H[1m[7m7 [15;7H[?12l[?25h[?25l[mi[23;66H[1m[7m8 [15;8H[?12l[?25h[?25l[mv[23;66H[1m[7m9 [15;9H[?12l[?25h[?25l[mi[23;66H[1m[7m10[15;10H[?12l[?25h[?25l[md[23;67H[1m[7m1 [15;11H[?12l[?25h[?25l[23;67H2 [15;12H[?12l[?25h[?25l[mm[23;67H[1m[7m3 [15;13H[?12l[?25h[?25l[me[23;67H[1m[7m4 [15;14H[?12l[?25h[?25l[mm[23;67H[1m[7m5 [15;15H[?12l[?25h[?25l[mo[23;67H[1m[7m6 [15;16H[?12l[?25h[?25l[mr[23;67H[1m[7m7 [15;17H[?12l[?25h[?25l[mi[23;67H[1m[7m8 [15;18H[?12l[?25h[?25l[me[23;67H[1m[7m9 [15;19H[?12l[?25h[?25l[ms[23;66H[1m[7m20 [15;20H[?12l[?25h[?25l[23;67H1 [15;21H[?12l[?25h[?25l[mo[23;67H[1m[7m2 [15;22H[?12l[?25h[?25l[mf[23;67H[1m[7m3 [15;23H[?12l[?25h[?25l[23;67H4 [15;24H[?12l[?25h[?25l[mt[23;67H[1m[7m5 [15;25H[?12l[?25h[?25l[mh[23;67H[1m[7m6 [15;26H[?12l[?25h[?25l[me[23;67H[1m[7m7 [15;27H[?12l[?25h[?25l[23;67H8 [15;28H[?12l[?25h[?25l[mh[23;67H[1m[7m9 [15;29H[?12l[?25h[?25l[mi[23;66H[1m[7m30 [15;30H[?12l[?25h[?25l[ml[23;67H[1m[7m1 [15;31H[?12l[?25h[?25l[ml[23;67H[1m[7m2 [15;32H[?12l[?25h[?25l[23;67H3 [15;33H[?12l[?25h[?25l[mt[23;67H[1m[7m4 [15;34H[?12l[?25h[?25l[mh[23;67H[1m[7m5 [15;35H[?12l[?25h[?25l[ma[23;67H[1m[7m6 [15;36H[?12l[?25h[?25l[mt[23;67H[1m[7m7 [15;37H[?12l[?25h[?25l[23;67H8 [15;38H[?12l[?25h[?25l[my[23;67H[1m[7m9 [15;39H[?12l[?25h[?25l[mo[23;66H[1m[7m40 [15;40H[?12l[?25h[?25l[mu[23;67H[1m[7m1 [15;41H[?12l[?25h[?25l[23;67H2 [15;42H[?12l[?25h[?25l[ml[23;67H[1m[7m3 [15;43H[?12l[?25h[?25l[mi[23;67H[1m[7m4 [15;44H[?12l[?25h[?25l[mv[23;67H[1m[7m5 [15;45H[?12l[?25h[?25l[me[23;67H[1m[7m6 [15;46H[?12l[?25h[?25l[23;67H7 [15;47H[?12l[?25h[?25l[mo[23;67H[1m[7m8 [15;48H[?12l[?25h[?25l[mn[23;67H[1m[7m9 [15;49H[?12l[?25h[?25l[23;66H50 [15;50H[?12l[?25h[?25l[ma[23;67H[1m[7m1 [15;51H[?12l[?25h[?25l[mn[23;67H[1m[7m2 [15;52H[?12l[?25h[?25l[md[23;67H[1m[7m3 [15;53H[?12l[?25h[?25l[23;67H4 [15;54H[?12l[?25h[?25l[mt[23;67H[1m[7m5 [15;55H[?12l[?25h[?25l[mh[23;67H[1m[7m6 [15;56H[?12l[?25h[?25l[mat[23;67H[1m[7m8 [15;58H[?12l[?25h[?25l[23;67H9 [15;59H[?12l[?25h[?25l[mm[23;66H[1m[7m60 [15;60H[?12l[?25h[?25l[mu[23;67H[1m[7m1 [15;61H[?12l[?25h[?25l[ms[23;67H[1m[7m2 [15;62H[?12l[?25h[?25l[mt[23;67H[1m[7m3 [15;63H[?12l[?25h[?25l[23;67H4 [15;64H[?12l[?25h[?25l[mb[23;67H[1m[7m5 [15;65H[?12l[?25h[?25l[me[23;67H[1m[7m6 [15;66H[?12l[?25h[?25l[23;67H7 [15;67H[?12l[?25h[?25l[mb[23;67H[1m[7m8 [15;68H[?12l[?25h[?25l[mr[23;67H[1m[7m9 [15;69H[?12l[?25h[?25l[ma[23;66H[1m[7m70 [15;70H[?12l[?25h[?25l[mv[23;67H[1m[7m1 [15;71H[?12l[?25h[?25l[16;22r[m[16;1H[L[1;24r[15;67H[K[16;1Hbrave[23;64H[1m[7m5,6  [16;6H[?12l[?25h[?25l[md[23;66H[1m[7m7 [16;7H[?12l[?25h[?25l[23;66H8 [16;8H[?12l[?25h[?25l[mo[23;66H[1m[7m9 [16;9H[?12l[?25h[?25l[mn[23;66H[1m[7m10[16;10H[?12l[?25h[?25l[23;67H1 [16;11H[?12l[?25h[?25l[mt[23;67H[1m[7m2 [16;12H[?12l[?25h[?25l[mh[23;67H[1m[7m3 [16;13H[?12l[?25h[?25l[me[23;67H[1m[7m4 [16;14H[?12l[?25h[?25l[23;67H5 [16;15H[?12l[?25h[?25l[mb[23;67H[1m[7m6 [16;16H[?12l[?25h[?25l[mi[23;67H[1m[7m7 [16;17H[?12l[?25h[?25l[mc[23;67H[1m[7m8 [16;18H[?12l[?25h[?25l[my[23;67H[1m[7m9 [16;19H[?12l[?25h[?25l[mc[23;66H[1m[7m20 [16;20H[?12l[?25h[?25l[ml[23;67H[1m[7m1 [16;21H[?12l[?25h[?25l[me[23;67H[1m[7m2 [16;22H[?12l[?25h[?25l[m.[23;67H[1m[7m3 [16;23H[?12l[?25h[m[24;1H[K[16;22H[?25l[24;70H^[[16;22H[?12l[?25h[?25l[24;70H  [16;23H[23;67H[1m[7m2 [16;22H[?12l[?25h[?25l[m[24;70H^[[16;22H[?12l[?25h[?25l[24;70H  [16;22H[24;70H^[[16;22H[?5h[?5l[24;70H  [16;22H[?12l[?25h[?25l[24;70H:[16;22H[24;70H[K[24;1H:[?12l[?25hx[?25l[?12l[?25h[?25l"/tmp/mutt-ip-172-31-9-42-1000-22232-649234271968547704"<tt-ip-172-31-9-42-1000-22232-649234271968547704" 60L, 1628C written
+[?1l>[?12l[?25h[?1049l[?1h=[?25l[?1h=[?1049h[1;24r[?25l[39;49m(B[m[4l[?7h[39;49m[37m[40m[37m[40m[H[2J(B[0;1m[32m[44my:Send  q:Abort  t:To  c:CC  s:Subj  a:Attach file  d:Descrip  ?:Help[K
+[5G(B[0m[37m[40mFrom: Stefan Lukits <sediomyle@gmail.com>
+[7GTo: Sherry Lukits <sklukits@gmail.com>, msmarriott@telus.net
+[7GCc:
+Bcc:
+ Subject: Re: Fwd: Checking re: Galiano retreat
+Reply-To:
+Fcc: ~/mail/Sent
+[6GMix: <no chain defined>
+Security: None
+
+(B[0;1m[32m[44m-- Attachments[K
+(B[0m[30m[46m- I     1 /tmp/mutt-ip-172-31-9-42-1000-22232-2014[text/plain, 8bit, utf-8, 1.3K[23;1H(B[0;1m[32m[44m-- Mutt: Compose  [Approx. msg size: 1.3K   Atts: 1]----------------------------[13;80H(B[m[39;49m[37m[40m[?12l[?25h[24dSending message...Looking up smtp.gmail.com...Connecting to smtp.gmail.com...SSL/TLS connection using TLS1.2 (ECDHE-RSA/AES-128-GCM/AEAD)Authenticating (LOGIN)...[37m[40m[K(B[m[39;49m[37m[40mSending message... 0K/2.0K (0%)Mail sent.[37m[40m[K(B[m[39;49m[37m[40m[?25l[H(B[0;1m[32m[44mi:Exit  -:PrevPg  <Space>:NextPg v:View Attachm.  d:Del  r:Reply  j:Next ?:Help
+(B[0m[36m[40mDate: Wed, 21 Nov 2018 12:46:45 -0800[K
+From: Sherry Lukits <sklukits@gmail.com>[K
+To: Stefan Lukits <sediomyle@gmail.com>[K
+Subject: Fwd: Checking re: Galiano retreat[K
+[37m[40m[K
+(B[0;1m[33m[40m[-- Autoview using /usr/bin/lynx -nolist -dump[K
+[31m[40m+[33m[40m'/tmp/mutt-ip-172-31-9-42-1000-22232-1543902859317742810.html' --][K
+[4G(B[0m[37m[40m---------- Forwarded message ---------
+   From: <msmarriott@telus.net>
+   Date: Tue, Nov 20, 2018 at 5:30 PM
+   Subject: RE: Checking re: Galiano retreat[K
+   To: Sherry Lukits <sklukits@gmail.com>[K
+
+   Sorry I just got your message now. Anytime is fine with us.
+
+   Martha
+
+
+   From: Sherry Lukits <sklukits@gmail.com>
+   Sent: November 20, 2018 2:10 PM
+   To: Stefan Lukits <Sediomyle@gmail.com>; msmarriott@telus.net
+[C(B[0;1m[32m[44mN +- 3/4227: Sherry Lukits          Fwd: Checking re: Galiano retreat  -- (59%)[23;80H(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
+Fetching message... 0K/41K (0%)Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-4[?7l2[?7h[?25l[6;12r[6;1H[37m[40m[3T[1;24r[24;1H[J[2;28H[36m[40m7[4;40H, Anderson Lukits <ajlukits@gmail.com>[5;15HAppt[K
+
+(B[0;1m[33m[40m[-- Attachment #1 --][K
+[-- Type: multipart/alternative, Encoding: 7bit, Size: 22K --][K[11;40H9031218511679499315.html' --]
+[4G(B[0m[37m[40mStefan,[K
+   How far back are you going with receipts?
+   ---------- Forwarded message ---------
+   From: Clinic <clinic@mainstreetphysio.ca>[K
+   Date: Wed, Nov 21, 2018 at 10:12 AM
+   Subject: RE: Appt
+   To: Sherry Lukits <sklukits@gmail.com>
+
+   Hi Sherry,[K
+[K
+[K
+[4G(B[0;1m[32m[44mT- 2[23;43HAppt[24X[77G13%(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
+Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-4[?7l2[?7h[?25l[9;19r[19;1H[37m[40m[5S[1;24r[24;1H[J[2;28H[36m[40m6[4;40H[K[5;15HChecking re: Galiano retreat
+
+[6G(B[0;1m[33m[40mutoview using /usr/bin/lynx -nolist -dump
+[31m[40m+[33m[40m'/tmp/mutt-ip-172-31-9-42-1000-22232-18588169451396573955.html' --][10;10H(B[0m[37m[40m<msmarriott@telus.net>[K[11;10HTue[20G0[11;31H5:30 PM[K[12;17HChecking re: Galiano retreat
+
+
+   Sorry I just got your message now. Anytime is fine with us.
+
+   Martha
+
+
+   From: Sherry Lukits <sklukits@gmail.com>
+   Sent: November 20, 2018 2:10 PM
+   To: Stefan Lukits <Sediomyle@gmail.com>; msmarriott@telus.net
+[C(B[0;1m[32m[44mr +- 3[23;43HChecking re: Galiano retreat[77G59%(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
+Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-4[?7l2[?7h[?25l[6;12r[6;1H[37m[40m[3T[1;24r[24;1H[J[2;28H[36m[40m7[4;40H, Anderson Lukits <ajlukits@gmail.com>[5;15HAppt[K
+
+(B[0;1m[33m[40m[-- Attachment #1 --][K
+[-- Type: multipart/alternative, Encoding: 7bit, Size: 22K --][K[11;40H6387493551976222321
+[4G(B[0m[37m[40mStefan,[K
+   How far back are you going with receipts?
+   ---------- Forwarded message ---------
+   From: Clinic <clinic@mainstreetphysio.ca>[K
+   Date: Wed, Nov 21, 2018 at 10:12 AM
+   Subject: RE: Appt
+   To: Sherry Lukits <sklukits@gmail.com>
+
+   Hi Sherry,[K
+[K
+[K
+[C(B[0;1m[32m[44m  T- 2[23;43HAppt[24X[77G13%(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
+Fetching message... 0K/11K (0%)Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-4[?7l2[?7h[?25l[6;13r[13;1H[37m[40m[2S[1;24r[24;1H[J[2;25H[36m[40m3:13:02[4;40H[K[5;15HNotification: Dr. Merkeley [Stefan] @ Wed Nov 28, 2018 10:30am -
+[8G[1K 11:30am (PST) (xootesei@gmail.com)[K
+
+
+(B[0;1m[33m[40m4073746681467809757
+[4G(B[0m[37m[40mI thought you were doing this on Monday. Did you give them the heads up
+   that it is a baby molar bothering her and it is being pushed out by the
+   adult tooth? But it is coming out in pieces, and part of it is still
+   securely attached?[15;10HGoogle Calendar <calendar-notification@google.com>[16;34H30[17;13HNotification: Dr. Merkeley [Stefan] @ Wed Nov 28, 2018 10:30am
+   - 11:30am (PST) (xootesei@gmail.com)[K
+   To: Martha Sandlin <xootesei@gmail.com>
+   more details »
+
+Dr. Merkeley [Stefan]
+[C(B[0;1m[32m[44mN +- 1[23;43HNotification: Dr. Merkeley [S -- (61%(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[H(B[0;1m[32m[44mq:Quit  d:Del  u:Undel  s:Save  m:Mail  r:Reply  g:Group [15P
+(B[0m[30m[46m   1   + Nov 21 Sherry Lukits   ( 118) Fwd: Notification: Dr. Merkeley [Stefan][K
+[37m[40m   2   T Nov 21 Sherry Lukits   ( 835) Fwd: Appt[K
+   3 r + Nov 21 Sherry Lukits   (  97) Fwd: Checking re: Galiano retreat[K
+   4   + Nov 21 Sherry Lukits   (  47) Re: galiano -- I found an invigilator[K
+   5   + Nov 21 Silverback Tree (1470) Quote from Silverback Treeworks Ltd. - 37[7;4H6 r   Nov 21 Google Calendar (  81) Notification: Dr. Merkeley [Stefan] @ Wed[8;1H   7 r   Nov 21 craigslist 6743 (  41) Re: Yamaha Clavinova Brown Electric Piano[9;1H   8     Nov 21 alumni UBC      ( 538) Award recipient videos | Whisky barrels a[10;4H9     Nov 21 Google Calendar (  91) Notification: Soccer Practice [Anderson]
+  10     Nov 21 Google Calendar (  83) Notification: Soccer Practice [Evelyn] @
+  11 r + Nov 21 Kamani Thilakar (1679) Endabrechnung 2017[K
+  12   + Nov 21 VAFC Thunderbol (1687) Updated Repeating Event: Tuesday Practice[14;3H13   T Nov 21 VAFC Thunderbol (1316) Event Reminder: Thursday practice - turf,[15;3H14     Nov 20 Graham Moore    (2111) Re: Epistemology group tonight
+  15 r   Nov 20 craigslist 6730 ( 109) Re: Tree Removal and Trimming Rope Access[17;3H16 r + Nov 21 Duncan Morgan   (  57) Re: Faucets for Magnolia[K
+  17 r C Nov 20 Brunhoff Stefan ( 312) Re: Amendment meeting
+  18   C Nov 20 Michael Hicks   ( 270) RE: Amendment meeting
+  19 r C Nov 20 Brunhoff Stefan (  80) Amendment meeting
+  20   + Nov 20 Nick Portengen  (1532) Youth Weekly Email | November 19 - 25
+  21 r + Nov 20 Sherry Lukits   (  31) Re: Shaw
+[C(B[0;1m[32m[44m*-Mutt: imaps://imap.gmail.com:993/INBOX [Msgs:4227 388M]---(reverse-date/date[2d(B[m[39;49m[37m[40m[?12l[?25h[?25l[37m[40m   1   + Nov 21 Sherry Lukits   ( 118) Fwd: Notification: Dr. Merkeley [Stefan][K
+[30m[46m   2   T Nov 21 Sherry Lukits   ( 835) Fwd: Appt[K[80G(B[m[39;49m[37m[40m[?12l[?25h[?25l[37m[40m   2   T Nov 21 Sherry Lukits   ( 835) Fwd: Appt[K
+[30m[46m   3 r + Nov 21 Sherry Lukits   (  97) Fwd: Checking re: Galiano retreat[K[80G(B[m[39;49m[37m[40m[?12l[?25h[?25l[A[30m[46m   2   T Nov 21 Sherry Lukits   ( 835) Fwd: Appt[K
+[37m[40m   3 r + Nov 21 Sherry Lukits   (  97) Fwd: Checking re: Galiano retreat[K[3;80H(B[m[39;49m[37m[40m[?12l[?25h[24dInvoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-4[?7l2[?7h[?25l[37m[40m[J[H(B[0;1m[32m[44mi:Exit  -:PrevPg  <Space>:NextPg v:View Attachm.  d:Del  r:Reply  j:Next ?:Help
+(B[0m[36m[40mDate: Wed, 21 Nov 2018 12:47:45 -0800[K
+From: Sherry Lukits <sklukits@gmail.com>[K
+To: Stefan Lukits <sediomyle@gmail.com>, Anderson Lukits <ajlukits@gmail.com>[K
+Subject: Fwd: Appt[K
+[37m[40m[K
+(B[0;1m[33m[40m[-- Attachment #1 --][K
+[-- Type: multipart/alternative, Encoding: 7bit, Size: 22K --][K
+(B[0m[37m[40m[K
+(B[0;1m[33m[40m[-- Autoview using /usr/bin/lynx -nolist -dump[K
+[31m[40m+[33m[40m'/tmp/mutt-ip-172-31-9-42-1000-22232-1041409984603219758.html' --][K
+[3G(B[0m[37m[40m Stefan,[K
+   How far back are you going with receipts?[K
+   ---------- Forwarded message ---------[K
+   From: Clinic <clinic@mainstreetphysio.ca>[K
+   Date: Wed, Nov 21, 2018 at 10:12 AM[K
+   Subject: RE: Appt[K
+   To: Sherry Lukits <sklukits@gmail.com>[K
+[K
+   Hi Sherry,[K
+[K
+[K
+[C(B[0;1m[32m[44m  T- 2/4227: Sherry Lukits          Fwd: Appt[26X[73G-- (13%(B[m[39;49m[37m[40m[?12l[?25h
+To: [37m[40mSherry Lukits <sklukits@gmail.com>(B[m[39;49m[37m[40mSubject: [37m[40m[K(B[m[39;49m[37m[40m[37m[40mRe: Fwd: Appt(B[m[39;49m[37m[40mInclude message in reply? ([yes]/no): [37m[40myes(B[m[39;49m[37m[40m[7Ging quoted message...[37m[40m[K(B[m[39;49m[37m[40m[37m[40m[J(B[m[39;49m[37m[40m[39;49m[37m[40m[K[24;1H[?1049l[?1l>[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H"/tmp/mutt-ip-172-31-9-42-1000-22232-2026123650904400465"<tmp/mutt-ip-172-31-9-42-1000-22232-2026123650904400465" 219L, 5197C[>c[1;1H[32mFrom: Stefan Lukits [m[35m<sediomyle@gmail.com>[m
+[32mTo: Sherry Lukits [m[35m<sklukits@gmail.com>[m
+[32mCc: 
+Bcc: [m
+[35mSubject: Re: Fwd: Appt[m
+[32mReply-To: [m
+[38;5;130mIn-Reply-To: [m[35m<CANvkWBpreMfBcULTd_8j+pVG=m2wmAGbNen3xYHLD+_8O02Q3g@mail.gmail.comm[8;1H>[m
+
+On Wed, Nov 21, 2018 at 12:47:45PM -0800, Sherry Lukits wrote:
+[34m>    Stefan,
+>    How far back are you going with receipts?
+>    ---------- Forwarded message ---------
+>    From: Clinic <[m[35mclinic@mainstreetphysio.ca[m[34m>
+>    Date: Wed, Nov 21, 2018 at 10:12 AM
+>    Subject: RE: Appt
+>    To: Sherry Lukits <[m[35msklukits@gmail.com[m[34m>
+> 
+>    Hi Sherry,
+> 
+> 
+>    I’m not sure if any of the receptionists got back to you so I thought[m
+[1m[7m/tmp/mutt-ip-172-31-9-42-1000-22232-2026123650904400465       1,1            Top[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\P+q6b32\P+q6b33\P+q6b34\P+q6b35\P+q6b36\P+q6b37\P+q6b38\P+q6b39\P+q6b3b\P+q4631\P+q4632\P+q2531\P+q2638\P+q6b62\P+q6b49\P+q6b44\[?25l[m[24;70H^[[1;1H[?12l[?25h[?25l[24;70H  [1;1HP+q6b68\P+q4037\P+q6b50\P+q6b4e\[?12l[?25h[?25l[24;70Hj[1;1H[24;70H [2;1H[23;63H[1m[7m2,[2;1H[?12l[?25hP+q4b31\P+q4b33\P+q4b34\P+q4b35\[?25l[m[24;70H^[[2;1H[24;72HP[2;1H[24;73H0[2;1H[24;74H+[2;1H[24;75Hr[2;1H[24;76H6[2;1H[24;77Hb[2;1H[24;78H4[2;1H[?12l[?25h[?25l[24;70H         [2;1HP+q6b42\[24;70H^[[2;1H[24;72HP[2;1H[24;73H0[2;1H[24;74H+[2;1H[24;75Hr[2;1H[24;76H6[2;1H[24;77Hb[2;1H[24;78H4[2;1H[24;79He[2;1H[24;70HP0+r6b4e^[[2;1H[?12l[?25h[?25l[24;70H          [2;1H[?12l[?25h[?25l[24;70Hj[2;1H[24;70H [3;1H[23;63H[1m[7m3,[3;1H[?12l[?25h[?25l[m[24;70Hj[3;1H[24;70H [4;1H[23;63H[1m[7m4,[4;1H[?12l[?25h[?25l[m[24;70Hk[4;1H[24;70H [3;1H[23;63H[1m[7m3,[3;1H[?12l[?25h[?25l[m[24;70HA[3;1H[24;70H [3;5H[24;1H[1m-- INSERT --[m[24;13H[K[23;65H[1m[7m5 [3;5H[?12l[?25h[?25l[m[32mt[m[23;57H[1m[7m[+]   3,6 [3;6H[?12l[?25h[?25l[m[32mt[m[23;65H[1m[7m7 [3;7H[?12l[?25h[m[24;1H[K[3;6H[?25l[24;70H^[[3;6H[?12l[?25h[?25l[24;70H  [3;7H[23;65H[1m[7m6 [3;6H[?12l[?25h[?25l[24;1H[m/\n\n[23;63H[1m[7m7,81[8;1H[?12l[?25h[?25l[m[24;1H[K[9;22r[9;1H[2L[1;24r[10;1HStefan[23;63H[1m[7m9,6  [10;6H[?12l[?25h[?25l[10;22r[m[10;1H[2L[1;24r[23;63H[1m[7m10,0-1[11;1H[?12l[?25h[?25l[23;63H9,0-1  [10;1H[?12l[?25h[?25l[m[24;70Hi[10;1H[24;70H [10;1H[24;1H[1m-- INSERT --[m[23;65H[1m[7m1   [10;1H[?12l[?25h[?25l[mA[23;65H[1m[7m2 [10;2H[?12l[?25h[?25l[mn[23;65H[1m[7m3 [10;3H[?12l[?25h[?25l[my[23;65H[1m[7m4 [10;4H[?12l[?25h[?25l[23;65H5 [10;5H[?12l[?25h[?25l[mr[23;65H[1m[7m6 [10;6H[?12l[?25h[?25l[me[23;65H[1m[7m7 [10;7H[?12l[?25h[?25l[mc[23;65H[1m[7m8 [10;8H[?12l[?25h[?25l[me[23;65H[1m[7m9 [10;9H[?12l[?25h[?25l[mi[23;65H[1m[7m10[10;10H[?12l[?25h[?25l[mp[23;66H[1m[7m1 [10;11H[?12l[?25h[?25l[mt[23;66H[1m[7m2 [10;12H[?12l[?25h[?25l[23;66H3 [10;13H[?12l[?25h[?25l[mi[23;66H[1m[7m4 [10;14H[?12l[?25h[?25l[ms[23;66H[1m[7m5 [10;15H[?12l[?25h[?25l[23;66H6 [10;16H[?12l[?25h[?25l[mb[23;66H[1m[7m7 [10;17H[?12l[?25h[?25l[me[23;66H[1m[7m8 [10;18H[?12l[?25h[?25l[mt[23;66H[1m[7m9 [10;19H[?12l[?25h[?25l[mt[23;65H[1m[7m20 [10;20H[?12l[?25h[?25l[me[23;66H[1m[7m1 [10;21H[?12l[?25h[?25l[mr[23;66H[1m[7m2 [10;22H[?12l[?25h[?25l[23;66H3 [10;23H[?12l[?25h[?25l[mtha[23;66H[1m[7m6 [10;26H[?12l[?25h[?25l[mn[23;66H[1m[7m7 [10;27H[?12l[?25h[?25l[23;66H8 [10;28H[?12l[?25h[?25l[mn[23;66H[1m[7m9 [10;29H[?12l[?25h[?25l[mo[23;65H[1m[7m30 [10;30H[?12l[?25h[?25l[23;66H1 [10;31H[?12l[?25h[?25l[mr[23;66H[1m[7m2 [10;32H[?12l[?25h[?25l[me[23;66H[1m[7m3 [10;33H[?12l[?25h[?25l[mc[23;66H[1m[7m4 [10;34H[?12l[?25h[?25l[me[23;66H[1m[7m5 [10;35H[?12l[?25h[?25l[mi[23;66H[1m[7m6 [10;36H[?12l[?25h[?25l[mp[23;66H[1m[7m7 [10;37H[?12l[?25h[?25l[mt[23;66H[1m[7m8 [10;38H[?12l[?25h[?25l[m.[23;66H[1m[7m9 [10;39H[?12l[?25h[?25l[23;65H40 [10;40H[?12l[?25h[?25l[mT[23;66H[1m[7m1 [10;41H[?12l[?25h[?25l[mh[23;66H[1m[7m2 [10;42H[?12l[?25h[?25l[me[23;66H[1m[7m3 [10;43H[?12l[?25h[?25l[23;66H4 [10;44H[?12l[?25h[?25l[mc[23;66H[1m[7m5 [10;45H[?12l[?25h[?25l[mu[23;66H[1m[7m6 [10;46H[?12l[?25h[?25l[mt[23;66H[1m[7m7 [10;47H[?12l[?25h[?25l[23;66H8 [10;48H[?12l[?25h[?25l[mo[23;66H[1m[7m9 [10;49H[?12l[?25h[?25l[mf[23;65H[1m[7m50 [10;50H[?12l[?25h[?25l[mf[23;66H[1m[7m1 [10;51H[?12l[?25h[?25l[23;66H2 [10;52H[?12l[?25h[?25l[mi[23;66H[1m[7m3 [10;53H[?12l[?25h[?25l[ms[23;66H[1m[7m4 [10;54H[?12l[?25h[?25l[23;66H5 [10;55H[?12l[?25h[?25l[mt[23;66H[1m[7m6 [10;56H[?12l[?25h[?25l[mw[23;66H[1m[7m7 [10;57H[?12l[?25h[?25l[mo[23;66H[1m[7m8 [10;58H[?12l[?25h[?25l[23;66H9 [10;59H[?12l[?25h[?25l[my[23;65H[1m[7m60 [10;60H[?12l[?25h[?25l[me[23;66H[1m[7m1 [10;61H[?12l[?25h[?25l[ma[23;66H[1m[7m2 [10;62H[?12l[?25h[?25l[mr[23;66H[1m[7m3 [10;63H[?12l[?25h[?25l[ms[23;66H[1m[7m4 [10;64H[?12l[?25h[?25l[m.[23;66H[1m[7m5 [10;65H[?12l[?25h[?25l[11;22r[m[11;1H[L[1;24r[23;63H[1m[7m10,1 [11;1H[?12l[?25h[m[24;1H[K[11;1H[?25l[24;70H^[[11;1H[?12l[?25h[?25l[24;70H  [11;1H[23;66H[1m[7m0-1[11;1H[?12l[?25h[?25l[m[24;70H:[11;1H[24;70H[K[24;1H:[?12l[?25hx[?25l[?12l[?25h[?25l"/tmp/mutt-ip-172-31-9-42-1000-22232-2026123650904400465"<-ip-172-31-9-42-1000-22232-2026123650904400465" 224L, 5274C written
+[?1l>[?12l[?25h[?1049l[?1h=[?25l[?1h=[?1049h[1;24r[?25l[39;49m(B[m[4l[?7h[39;49m[37m[40m[37m[40m[H[2J(B[0;1m[32m[44my:Send  q:Abort  t:To  c:CC  s:Subj  a:Attach file  d:Descrip  ?:Help[K
+[5G(B[0m[37m[40mFrom: Stefan Lukits <sediomyle@gmail.com>
+[7GTo: Sherry Lukits <sklukits@gmail.com>
+[7GCc: Stefan Todo List <taihoole@gmail.com>
+[6GBcc:
+ Subject: Re: Fwd: Appt
+Reply-To:
+Fcc: ~/mail/Sent
+[6GMix: <no chain defined>
+Security: None
+
+(B[0;1m[32m[44m-- Attachments[K
+(B[0m[30m[46m- I     1 /tmp/mutt-ip-172-31-9-42-1000-22232-1401[text/plain, 8bit, utf-8, 4.9K[23;1H(B[0;1m[32m[44m-- Mutt: Compose  [Approx. msg size: 4.9K   Atts: 1]----------------------------[13;80H(B[m[39;49m[37m[40m[?12l[?25h[24dSending message...Looking up smtp.gmail.com...Connecting to smtp.gmail.com...SSL/TLS connection using TLS1.2 (ECDHE-RSA/AES-128-GCM/AEAD)Authenticating (LOGIN)...[37m[40m[K(B[m[39;49m[37m[40mSending message... 0K/6.0K (0%)Mail sent.[37m[40m[K(B[m[39;49m[37m[40m[?25l[H(B[0;1m[32m[44mi:Exit  -:PrevPg  <Space>:NextPg v:View Attachm.  d:Del  r:Reply  j:Next ?:Help
+(B[0m[36m[40mDate: Wed, 21 Nov 2018 12:47:45 -0800[K
+From: Sherry Lukits <sklukits@gmail.com>[K
+To: Stefan Lukits <sediomyle@gmail.com>, Anderson Lukits <ajlukits@gmail.com>[K
+Subject: Fwd: Appt[K
+[37m[40m[K
+(B[0;1m[33m[40m[-- Attachment #1 --][K
+[-- Type: multipart/alternative, Encoding: 7bit, Size: 22K --][K
+(B[0m[37m[40m[K
+(B[0;1m[33m[40m[-- Autoview using /usr/bin/lynx -nolist -dump[K
+[31m[40m+[33m[40m'/tmp/mutt-ip-172-31-9-42-1000-22232-1041409984603219758.html' --][K
+(B[0m[37m[40m   Stefan,[K
+   How far back are you going with receipts?[K
+   ---------- Forwarded message ---------
+   From: Clinic <clinic@mainstreetphysio.ca>
+   Date: Wed, Nov 21, 2018 at 10:12 AM
+   Subject: RE: Appt
+   To: Sherry Lukits <sklukits@gmail.com>
+
+   Hi Sherry,
+
+
+[C(B[0;1m[32m[44mr T- 2/4227: Sherry Lukits          Fwd: Appt[26X[73G-- (13%)[23;80H(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
+Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-4[?7l2[?7h[?25l[6;13r[13;1H[37m[40m[2S[1;24r[24;1H[J[2;25H[36m[40m3:13:02[4;40H[K[5;15HNotification: Dr. Merkeley [Stefan] @ Wed Nov 28, 2018 10:30am -
+[8G[1K 11:30am (PST) (xootesei@gmail.com)[K
+
+
+(B[0;1m[33m[40m881950644477409086
+[4G(B[0m[37m[40mI thought you were doing this on Monday. Did you give them the heads up
+   that it is a baby molar bothering her and it is being pushed out by the
+   adult tooth? But it is coming out in pieces, and part of it is still
+   securely attached?[15;10HGoogle Calendar <calendar-notification@google.com>[16;34H30[17;13HNotification: Dr. Merkeley [Stefan] @ Wed Nov 28, 2018 10:30am
+   - 11:30am (PST) (xootesei@gmail.com)[K
+   To: Martha Sandlin <xootesei@gmail.com>
+   more details »
+
+Dr. Merkeley [Stefan]
+[C(B[0;1m[32m[44m  +- 1[23;43HNotification: Dr. Merkeley [S -- (61%(B[m[39;49m[37m[40m[?12l[?25h
+To: [37m[40mSherry Lukits <sklukits@gmail.com>(B[m[39;49m[37m[40mSubject: [37m[40m[K(B[m[39;49m[37m[40m[37m[40mefan] @ Wed Nov 28, 2018 10:30am - 11:30am (PST) (xootesei@gmail.com)(B[m[39;49m[37m[40mInclude message in reply? ([yes]/no): [37m[40m[K(B[m[39;49m[37m[40m[37m[40myes(B[m[39;49m[37m[40m[7Ging quoted message...[37m[40m[K(B[m[39;49m[37m[40m[37m[40m[J(B[m[39;49m[37m[40m[39;49m[37m[40m[K[24;1H[?1049l[?1l>[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H"/tmp/mutt-ip-172-31-9-42-1000-22232-8336667671192491204" 45L, 1612C[>c[1;1H[32mFrom: Stefan Lukits [m[35m<sediomyle@gmail.com>[m
+[32mTo: Sherry Lukits [m[35m<sklukits@gmail.com>[m
+[32mCc: 
+Bcc: [m
+[35mSubject: Re: Fwd: Notification: Dr. Merkeley [Stefan] @ Wed Nov 28, 2018[m
+[38;5;130m 10:30am - 11:30am (PST) ([m[35mxootesei@gmail.com[m[38;5;130m)[m
+[32mReply-To: [m
+[38;5;130mIn-Reply-To: [m[35m<CANvkWBqH3yMtGq5r6v-309m3hB5dN87Z7cRZsv_wNRnBjos5bw@mail.gmail.comm[9;1H>[m
+
+On Wed, Nov 21, 2018 at 01:13:02PM -0800, Sherry Lukits wrote:
+[34m>    I thought you were doing this on Monday. Did you give them the heads up
+>    that it is a baby molar bothering her and it is being pushed out by the
+>    adult tooth? But it is coming out in pieces, and part of it is still
+>    securely attached?
+>    ---------- Forwarded message ---------
+>    From: Google Calendar <[m[35mcalendar-notification@google.com[m[34m>
+>    Date: Wed, Nov 21, 2018 at 10:30 AM
+>    Subject: Notification: Dr. Merkeley [Stefan] @ Wed Nov 28, 2018 10:30am
+>    - 11:30am (PST) ([m[35mxootesei@gmail.com[m[34m)
+>    To: Martha Sandlin <[m[35mxootesei@gmail.com[m[34m>
+>    more details »[m
+[1m[7m/tmp/mutt-ip-172-31-9-42-1000-22232-8336667671192491204       1,1            Top[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\P+q6b32\P+q6b33\P+q6b34\P+q6b35\P+q6b36\P+q6b37\P+q6b38\P+q6b39\P+q6b3b\P+q4631\P+q4632\P+q2531\P+q2638\P+q6b62\P+q6b49\P+q6b44\[?25l[m[24;70H^[[1;1H[?12l[?25h[?25l[24;70H  [1;1HP+q6b68\P+q4037\P+q6b50\P+q6b4e\[?12l[?25hP+q4b31\P+q4b33\P+q4b34\P+q4b35\[?25l[24;70H^[[1;1H[24;72HP[1;1H[24;73H0[1;1H[24;74H+[1;1H[24;75Hr[1;1H[24;76H6[1;1H[24;77Hb[1;1H[24;78H4[1;1H[24;79H9[1;1H[?12l[?25h[?25l[24;70H          [1;1HP+q6b42\[?12l[?25h[?25l[24;1H[K[24;1H/\n\n[23;63H[1m[7m8,81[9;1H[?12l[?25h[?25l[m[24;1H[K[10;22r[10;1H[2L[1;24r[11;1HStefan[23;57H[1m[7m[+]   10,6 [11;6H[?12l[?25h[?25l[11;22r[m[11;1H[2L[1;24r[23;64H[1m[7m1,0-1[12;1H[?12l[?25h[?25l[23;64H0,[11;1H[?12l[?25h[?25l[m[24;70Hi[11;1H[24;70H [11;1H[24;1H[1m-- INSERT --[m[23;66H[1m[7m1   [11;1H[?12l[?25h[?25l[mY[23;66H[1m[7m2 [11;2H[?12l[?25h[?25l[me[23;66H[1m[7m3 [11;3H[?12l[?25h[?25l[ms[23;66H[1m[7m4 [11;4H[?12l[?25h[?25l[m,[23;66H[1m[7m5 [11;5H[?12l[?25h[?25l[23;66H6 [11;6H[?12l[?25h[?25l[mI[23;66H[1m[7m7 [11;7H[?12l[?25h[?25l[23;66H8 [11;8H[?12l[?25h[?25l[ma[23;66H[1m[7m9 [11;9H[?12l[?25h[?25l[mm[23;66H[1m[7m10[11;10H[?12l[?25h[?25l[23;67H1 [11;11H[?12l[?25h[?25l[md[23;67H[1m[7m2 [11;12H[?12l[?25h[?25l[mo[23;67H[1m[7m3 [11;13H[?12l[?25h[?25l[mi[23;67H[1m[7m4 [11;14H[?12l[?25h[?25l[mn[23;67H[1m[7m5 [11;15H[?12l[?25h[?25l[mg[23;67H[1m[7m6 [11;16H[?12l[?25h[?25l[23;67H7 [11;17H[?12l[?25h[?25l[mi[23;67H[1m[7m8 [11;18H[?12l[?25h[?25l[mt[23;67H[1m[7m9 [11;19H[?12l[?25h[?25l[23;66H20 [11;20H[?12l[?25h[?25l[mo[23;67H[1m[7m1 [11;21H[?12l[?25h[?25l[mn[23;67H[1m[7m2 [11;22H[?12l[?25h[?25l[23;67H3 [11;23H[?12l[?25h[?25l[mM[23;67H[1m[7m4 [11;24H[?12l[?25h[?25l[mo[23;67H[1m[7m5 [11;25H[?12l[?25h[?25l[mn[23;67H[1m[7m6 [11;26H[?12l[?25h[?25l[md[23;67H[1m[7m7 [11;27H[?12l[?25h[?25l[ma[23;67H[1m[7m8 [11;28H[?12l[?25h[?25l[my[23;67H[1m[7m9 [11;29H[?12l[?25h[?25l[23;66H30 [11;30H[?12l[?25h[?25l[m([23;67H[1m[7m1 [11;31H[?12l[?25h[?25l[mN[23;67H[1m[7m2 [11;32H[?12l[?25h[?25l[mO[23;67H[1m[7m3 [11;33H[?12l[?25h[?25l[mT[23;67H[1m[7m4 [11;34H[?12l[?25h[?25l[23;67H5 [11;35H[?12l[?25h[?25l[mW[23;67H[1m[7m6 [11;36H[?12l[?25h[?25l[me[23;67H[1m[7m7 [11;37H[?12l[?25h[?25l[md[23;67H[1m[7m8 [11;38H[?12l[?25h[?25l[mn[23;67H[1m[7m9 [11;39H[?12l[?25h[?25l[me[23;66H[1m[7m40 [11;40H[?12l[?25h[?25l[ms[23;67H[1m[7m1 [11;41H[?12l[?25h[?25l[md[23;67H[1m[7m2 [11;42H[?12l[?25h[?25l[ma[23;67H[1m[7m3 [11;43H[?12l[?25h[?25l[my[23;67H[1m[7m4 [11;44H[?12l[?25h[?25l[m)[11;30H[106m([13C)[m[23;67H[1m[7m5 [11;45H[?12l[?25h[?25l[m.[11;30H([13C)[23;67H[1m[7m6 [11;46H[?12l[?25h[?25l[23;67H7 [11;47H[?12l[?25h[?25l[mI[23;67H[1m[7m8 [11;48H[?12l[?25h[?25l[23;67H9 [11;49H[?12l[?25h[?25l[md[23;66H[1m[7m50 [11;50H[?12l[?25h[?25l[mi[23;67H[1m[7m1 [11;51H[?12l[?25h[?25l[md[23;67H[1m[7m2 [11;52H[?12l[?25h[?25l[23;67H3 [11;53H[?12l[?25h[?25l[mn[23;67H[1m[7m4 [11;54H[?12l[?25h[?25l[mo[23;67H[1m[7m5 [11;55H[?12l[?25h[?25l[mt[23;67H[1m[7m6 [11;56H[?12l[?25h[?25l[23;67H7 [11;57H[?12l[?25h[?25l[mg[23;67H[1m[7m8 [11;58H[?12l[?25h[?25l[mi[23;67H[1m[7m9 [11;59H[?12l[?25h[?25l[mv[23;66H[1m[7m60 [11;60H[?12l[?25h[?25l[me[23;67H[1m[7m1 [11;61H[?12l[?25h[?25l[23;67H2 [11;62H[?12l[?25h[?25l[mt[23;67H[1m[7m3 [11;63H[?12l[?25h[?25l[mh[23;67H[1m[7m4 [11;64H[?12l[?25h[?25l[me[23;67H[1m[7m5 [11;65H[?12l[?25h[?25l[mm[23;67H[1m[7m6 [11;66H[?12l[?25h[?25l[23;67H7 [11;67H[?12l[?25h[?25l[mt[23;67H[1m[7m8 [11;68H[?12l[?25h[?25l[mh[23;67H[1m[7m9 [11;69H[?12l[?25h[?25l[me[23;66H[1m[7m70 [11;70H[?12l[?25h[?25l[23;67H1 [11;71H[?12l[?25h[?25l[12;22r[m[12;1H[L[1;24r[12;1Hh[23;64H[1m[7m1,2  [12;2H[?12l[?25h[?25l[me[23;66H[1m[7m3 [12;3H[?12l[?25h[?25l[ma[23;66H[1m[7m4 [12;4H[?12l[?25h[?25l[md[23;66H[1m[7m5 [12;5H[?12l[?25h[?25l[ms[23;66H[1m[7m6 [12;6H[?12l[?25h[?25l[23;66H7 [12;7H[?12l[?25h[?25l[mu[23;66H[1m[7m8 [12;8H[?12l[?25h[?25l[mp[23;66H[1m[7m9 [12;9H[?12l[?25h[?25l[23;66H10[12;10H[?12l[?25h[?25l[ma[23;67H[1m[7m1 [12;11H[?12l[?25h[?25l[mb[23;67H[1m[7m2 [12;12H[?12l[?25h[?25l[mo[23;67H[1m[7m3 [12;13H[?12l[?25h[?25l[mu[23;67H[1m[7m4 [12;14H[?12l[?25h[?25l[mt[23;67H[1m[7m5 [12;15H[?12l[?25h[?25l[23;67H6 [12;16H[?12l[?25h[?25l[ma[23;67H[1m[7m7 [12;17H[?12l[?25h[?25l[mn[23;67H[1m[7m8 [12;18H[?12l[?25h[?25l[my[23;67H[1m[7m9 [12;19H[?12l[?25h[?25l[mt[23;66H[1m[7m20 [12;20H[?12l[?25h[?25l[mh[23;67H[1m[7m1 [12;21H[?12l[?25h[?25l[mi[23;67H[1m[7m2 [12;22H[?12l[?25h[?25l[mn[23;67H[1m[7m3 [12;23H[?12l[?25h[?25l[mg[23;67H[1m[7m4 [12;24H[?12l[?25h[?25l[m.[23;67H[1m[7m5 [12;25H[?12l[?25h[?25l[23;67H6 [12;26H[?12l[?25h[?25l[mY[23;67H[1m[7m7 [12;27H[?12l[?25h[?25l[mo[23;67H[1m[7m8 [12;28H[?12l[?25h[?25l[mu[23;67H[1m[7m9 [12;29H[?12l[?25h[?25l[23;66H30 [12;30H[?12l[?25h[?25l[ma[23;67H[1m[7m1 [12;31H[?12l[?25h[?25l[mr[23;67H[1m[7m2 [12;32H[?12l[?25h[?25l[me[23;67H[1m[7m3 [12;33H[?12l[?25h[?25l[23;67H4 [12;34H[?12l[?25h[?25l[mw[23;67H[1m[7m5 [12;35H[?12l[?25h[?25l[me[23;67H[1m[7m6 [12;36H[?12l[?25h[?25l[ml[23;67H[1m[7m7 [12;37H[?12l[?25h[?25l[mc[23;67H[1m[7m8 [12;38H[?12l[?25h[?25l[mo[23;67H[1m[7m9 [12;39H[?12l[?25h[?25l[mm[23;66H[1m[7m40 [12;40H[?12l[?25h[?25l[me[23;67H[1m[7m1 [12;41H[?12l[?25h[?25l[23;67H2 [12;42H[?12l[?25h[?25l[mt[23;67H[1m[7m3 [12;43H[?12l[?25h[?25l[mo[23;67H[1m[7m4 [12;44H[?12l[?25h[?25l[23;67H5 [12;45H[?12l[?25h[?25l[mc[23;67H[1m[7m6 [12;46H[?12l[?25h[?25l[ma[23;67H[1m[7m7 [12;47H[?12l[?25h[?25l[ml[23;67H[1m[7m8 [12;48H[?12l[?25h[?25l[ml[23;67H[1m[7m9 [12;49H[?12l[?25h[?25l[23;66H50 [12;50H[?12l[?25h[?25l[mt[23;67H[1m[7m1 [12;51H[?12l[?25h[?25l[mh[23;67H[1m[7m2 [12;52H[?12l[?25h[?25l[me[23;67H[1m[7m3 [12;53H[?12l[?25h[?25l[mm[23;67H[1m[7m4 [12;54H[?12l[?25h[?25l[23;67H5 [12;55H[?12l[?25h[?25l[23;67H4 [12;54H[?12l[?25h[?25l[m.[23;67H[1m[7m5 [12;55H[?12l[?25h[m[24;1H[K[12;54H[?25l[24;70H^[[12;54H[?12l[?25h[?25l[24;70H  [12;55H[23;67H[1m[7m4 [12;54H[?12l[?25h[?25l[m[24;70H:[12;54H[24;70H[K[24;1H:[?12l[?25hx[?25l[?12l[?25h[?25l"/tmp/mutt-ip-172-31-9-42-1000-22232-8336667671192491204"<t-ip-172-31-9-42-1000-22232-8336667671192491204" 50L, 1746C written
+[?1l>[?12l[?25h[?1049l[?1h=[?25l[?1h=[?1049h[1;24r[?25l[39;49m(B[m[4l[?7h[39;49m[37m[40m[37m[40m[H[2J(B[0;1m[32m[44my:Send  q:Abort  t:To  c:CC  s:Subj  a:Attach file  d:Descrip  ?:Help[K
+[5G(B[0m[37m[40mFrom: Stefan Lukits <sediomyle@gmail.com>
+[7GTo: Sherry Lukits <sklukits@gmail.com>
+[7GCc:
+Bcc:
+ Subject: Re: Fwd: Notification: Dr. Merkeley [Stefan] @ Wed Nov 28, 2018 10:30a[7;1HReply-To:
+Fcc: ~/mail/Sent
+[6GMix: <no chain defined>
+Security: None
+
+(B[0;1m[32m[44m-- Attachments[K
+(B[0m[30m[46m- I     1 /tmp/mutt-ip-172-31-9-42-1000-22232-6346[text/plain, 8bit, utf-8, 1.4K[23;1H(B[0;1m[32m[44m-- Mutt: Compose  [Approx. msg size: 1.4K   Atts: 1]----------------------------[13;80H(B[m[39;49m[37m[40m[?12l[?25h[24dSending message...Looking up smtp.gmail.com...Connecting to smtp.gmail.com...SSL/TLS connection using TLS1.2 (ECDHE-RSA/AES-128-GCM/AEAD)Authenticating (LOGIN)...[37m[40m[K(B[m[39;49m[37m[40mSending message... 0K/2.1K (0%)Mail sent.[37m[40m[K(B[m[39;49m[37m[40m[?25l[H(B[0;1m[32m[44mi:Exit  -:PrevPg  <Space>:NextPg v:View Attachm.  d:Del  r:Reply  j:Next ?:Help
+(B[0m[36m[40mDate: Wed, 21 Nov 2018 13:13:02 -0800[K
+From: Sherry Lukits <sklukits@gmail.com>[K
+To: Stefan Lukits <sediomyle@gmail.com>[K
+Subject: Fwd: Notification: Dr. Merkeley [Stefan] @ Wed Nov 28, 2018 10:30am -[K
+[8G[1K 11:30am (PST) (xootesei@gmail.com)[K
+[37m[40m[K
+(B[0;1m[33m[40m[-- Autoview using /usr/bin/lynx -nolist -dump[K
+[31m[40m+[33m[40m'/tmp/mutt-ip-172-31-9-42-1000-22232-1881950644477409086.html' --][K
+(B[0m[37m[40m   I thought you were doing this on Monday. Did you give them the heads up
+   that it is a baby molar bothering her and it is being pushed out by the
+   adult tooth? But it is coming out in pieces, and part of it is still[K
+   securely attached?[K
+   ---------- Forwarded message ---------
+   From: Google Calendar <calendar-notification@google.com>
+   Date: Wed, Nov 21, 2018 at 10:30 AM
+   Subject: Notification: Dr. Merkeley [Stefan] @ Wed Nov 28, 2018 10:30am
+   - 11:30am (PST) (xootesei@gmail.com)
+   To: Martha Sandlin <xootesei@gmail.com>
+   more details »
+
+Dr. Merkeley [Stefan]
+[C(B[0;1m[32m[44mr +- 1/4227: Sherry Lukits          Fwd: Notification: Dr. Merkeley [S -- (61%)[23;80H(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l
+[37m[40m[J[H(B[0;1m[32m[44mq:Quit  d:Del  u:Undel  s:Save  m:Mail  r:Reply  g:Group [15P
+(B[0m[30m[46m   1 r + Nov 21 Sherry Lukits   ( 118) Fwd: Notification: Dr. Merkeley [Stefan][K
+[37m[40m   2 r T Nov 21 Sherry Lukits   ( 835) Fwd: Appt[K
+   3 r + Nov 21 Sherry Lukits   (  97) Fwd: Checking re: Galiano retreat[K
+   4   + Nov 21 Sherry Lukits   (  47) Re: galiano -- I found an invigilator[K
+   5   + Nov 21 Silverback Tree (1470) Quote from Silverback Treeworks Ltd. - 37[7;4H6 r   Nov 21 Google Calendar (  81) Notification: Dr. Merkeley [Stefan] @ Wed[8;1H   7 r   Nov 21 craigslist 6743 (  41) Re: Yamaha Clavinova Brown Electric Piano[9;1H   8     Nov 21 alumni UBC      ( 538) Award recipient videos | Whisky barrels a[10;4H9     Nov 21 Google Calendar (  91) Notification: Soccer Practice [Anderson]
+  10     Nov 21 Google Calendar (  83) Notification: Soccer Practice [Evelyn] @
+  11 r + Nov 21 Kamani Thilakar (1679) Endabrechnung 2017[K
+  12   + Nov 21 VAFC Thunderbol (1687) Updated Repeating Event: Tuesday Practice[14;3H13   T Nov 21 VAFC Thunderbol (1316) Event Reminder: Thursday practice - turf,[15;3H14     Nov 20 Graham Moore    (2111) Re: Epistemology group tonight
+  15 r   Nov 20 craigslist 6730 ( 109) Re: Tree Removal and Trimming Rope Access[17;3H16 r + Nov 21 Duncan Morgan   (  57) Re: Faucets for Magnolia[K
+  17 r C Nov 20 Brunhoff Stefan ( 312) Re: Amendment meeting
+  18   C Nov 20 Michael Hicks   ( 270) RE: Amendment meeting
+  19 r C Nov 20 Brunhoff Stefan (  80) Amendment meeting
+  20   + Nov 20 Nick Portengen  (1532) Youth Weekly Email | November 19 - 25
+  21 r + Nov 20 Sherry Lukits   (  31) Re: Shaw
+[C(B[0;1m[32m[44m*-Mutt: imaps://imap.gmail.com:993/INBOX [Msgs:4227 388M]---(reverse-date/date[2d(B[m[39;49m[37m[40m[?12l[?25h[24d4227 kept, 0 deleted.Closing connection to imap.gmail.com...[37m[40m[J(B[m[39;49m[37m[40m[39;49m[37m[40m[K[24;1H[?1049l[?1l>]0;ubuntu@ip-172-31-9-42: ~[01;32mubuntu@ip-172-31-9-42[00m:[01;34m~[00m$ exit
+logout
+Connection to 35.160.211.119 closed.
+]0;~/jupyter[01;34m~/jupyter[00m$ 
