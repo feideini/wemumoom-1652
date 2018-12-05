@@ -1,0 +1,417 @@
+]0;~/jupyter[01;34m~/jupyter[00m$ ff
+Welcome to Ubuntu 16.04.2 LTS (GNU/Linux 4.4.0-96-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+159 packages can be updated.
+0 updates are security updates.
+
+New release '18.04.1 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+*** System restart required ***
+Last login: Sat Dec  1 17:49:57 2018 from 35.231.108.24
+]0;ubuntu@ip-172-31-9-42: ~[01;32mubuntu@ip-172-31-9-42[00m:[01;34m~[00m$ cd www/lpublic/lukmarks/
+]0;ubuntu@ip-172-31-9-42: ~/www/lpublic/lukmarks[01;32mubuntu@ip-172-31-9-42[00m:[01;34m~/www/lpublic/lukmarks[00m$ ls
+152_PHIL_375_2018.csv   503_MATH_3512_2018.csv  asts.csv          cv.dox           genalno.data~  genrand.data~   login.php   rsync.sh       valentin-rsync.sh~
+152_PHIL_375_2018.csv~  508_PHIL_375_2017.csv   asts.csv~         encrypt.sh       genalno.pl     genrand.pl      logout.php  rsync.sh~
+192_MATH_2441_2018.csv  776_MATH_1441_2018.csv  check.php         encrypt.sh~      genalph.data   index.htm       marks.csv   students.csv
+192_MATH_2441_2018.ods  806_MATH_1511_2017.csv  courses.csv       genCourse.data   genalph.data~  instructor.pl   marks.csv~  students.csv~
+218_MATH_2511_2018.csv  818_MATH_1441_2017.csv  courses.csv~      genCourse.data~  genalph.pl     instructor.pl~  marks.php   temp.csv
+218_MATH_2511_2018.ods  README.md               createTables.sql  genalno.data     genrand.data   loadTables.sql  marks.php~  temp.csv~
+]0;ubuntu@ip-172-31-9-42: ~/www/lpublic/lukmarks[01;32mubuntu@ip-172-31-9-42[00m:[01;34m~/www/lpublic/lukmarks[00m$ vi lu[K[Kstudents.csv
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;33r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[33;1H"students.csv" 576L, 25575C[>c[1;1H505926,675,A00892710,Y86H,"Sangha","Amit"
+542150,675,A00804126,P64N,"Conconi","Katie"
+373971,675,A00804133,V68S,"Flaa","Erik"
+658468,675,A00861304,J24R,"Ly","Amy"
+946387,675,A00884171,O72X,"Smith","Randy"
+127232,675,A00914659,T53O,"Matias","Reiner"
+911293,675,A00927540,X46W,"Liu","Celina"
+377866,675,A00930461,D22M,"Dhillon","Lucky"
+387235,675,A00938050,J29V,"Ward","Thomas"
+467599,675,A00953822,E95V,"Rogers","Wyatt"
+519908,675,A00954408,X68J,"Shi","Gloria"
+734480,675,A00954606,C48S,"Godau","Jordan"
+346223,675,A00964143,B24N,"Tang","James"
+995874,675,A00964846,I48X,"An","Botan"
+770733,675,A00967305,U34Q,"Taaffe","Liam"
+559338,675,A00967371,O18X,"Ye","Jeffrey"
+598061,675,A00969352,F40N,"Schroh","Serianna"
+253839,675,A00980666,J29Z,"Zeng","Nicolas"
+531022,675,A00981853,S37D,"Oaks","Chris"
+481992,675,A00981963,U53X,"Brown","Wesley"
+145065,675,A00982208,U57T,"Minhas","Manvinder"
+683139,675,A00984521,Z40D,"Song","Peter"
+380881,675,A00985137,P81P,"Ly","Chadrick"
+128970,675,A00985752,G66P,"Vandergugten","Christopher"
+123574,675,A00986071,S50B,"Heyes","Julia"
+958376,675,A00986193,D91E,"Chung","Benson"
+418441,675,A00986312,V34X,"Brar","Surya"
+521522,675,A00987759,I56D,"O'Brien","Nolan"
+222278,675,A00987979,W46H,"Tatar","Iuliu"
+847811,675,A00988382,X20U,"Neels","Erik"
+231800,675,A00989389,P76L,"Lyne","Nicholas"
+[1m[7mstudents.csv                                                                                                                                                    1,1            Top[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\P+q6b32\P+q6b33\P+q6b34\P+q6b35\P+q6b36\P+q6b37\P+q6b38\P+q6b39\P+q6b3b\P+q4631\P+q4632\P+q2531\P+q2638\P+q6b62\P+q6b49\P+q6b44\P+q6b68\P+q4037\[?25l[m[33;168H^[[1;1H[33;170HP[1;1H[33;171H0[1;1H[33;172H+[1;1H[33;173Hr[1;1H[33;174H6[1;1H[33;175Hb[1;1H[33;176H3[1;1H[33;177Hb[1;1H[?12l[?25h[?25l[33;168H          [1;1HP+q6b50\P+q6b4e\[?12l[?25hP+q4b31\P+q4b33\P+q4b34\P+q4b35\P+q6b42\[?25l[33;168HG[1;1H[33;168H [31;1H[27m[23m[m[H[2J[1;1H297339,503,A01014725,E78Z,"[B] Benjaminsen","Aaron"
+716271,503,A00894369,N33L,"[B] Binning","Prabhjeet"
+586972,503,A00992824,Y77E,"[B] Chahal","Gurjot"
+747445,503,A01015879,Q41O,"[B] Connors","Sean"
+999159,503,A00787811,Y71U,"[B] Cooper","Peter"
+847461,503,A01065764,L63Y,"[B] Doerksen","Erik"
+316478,503,A00930956,M41F,"[B] Garrone","Nicolas (Nic)"
+401365,503,A00906505,O29S,"[B] Hutcheson","Nigel"
+811599,503,A01029168,Q98X,"[B] Lindberg","Erik"
+184309,503,A01044669,F88K,"[B] Manson","Marcus"
+213731,503,A00819537,F55B,"[B] Perley","Owen"
+363612,503,A01025353,B71A,"[B] Rooke","Aaron"
+697483,503,A00904954,B22E,"[B] Vicars","Megan"
+852721,503,A00889070,O97B,"[B] Wang","Yuhan"
+120365,503,A00880453,K72F,"[C] Borja","David"
+365093,503,A00907442,B65D,"[C] Dhillon","Mandeep"
+487923,503,A01059245,X20G,"[C] Goddard","Jane"
+127087,503,A00996273,C94C,"[C] Greggain","Rory"
+795826,503,A00982656,W56N,"[C] Ivanov","Stanislav (Stas)"
+754824,503,A00997593,D75P,"[C] Kim","Yeseul"
+713365,503,A01041069,Y42L,"[C] LaRone","Sam"
+364484,503,A01025173,Z88A,"[C] Li","Yunhui"
+749513,503,A00996477,Q14C,"[C] Millar","Jeremy"
+834132,503,A01021436,Y07Q,"[C] Nootebos","Nicholas D. (Nick)"
+790524,503,A00678582,I77A,"[C] Pallot","Joseph S. (Joey)"
+934028,503,A01019442,U01W,"[C] Stanbury","Adam"
+483770,503,A00951687,Z84R,"[C] Su","Darren"
+982918,503,A00977375,H25U,"[C] Wang","Zifeng (Feng)"
+117632,503,A01088970,B16J,"[C] Theophile","Jean-Vernet"
+309998,503,A00912603,A79R,"[C] Lanes","Cody"
+827461,503,A00953822,J72G,"[C] Rogers","Wyatt"
+[1m[7mstudents.csv                                                                                                                                                    576,1          Bot[31;1H[?12l[?25h[?25l[m[33;168Hk[31;1H[33;168H [30;1H[32;163H[1m[7m5,[30;1H[?12l[?25h[?25l[m[33;168Hk[30;1H[33;168H [29;1H[32;163H[1m[7m4,[29;1H[?12l[?25h[?25l[m[33;168Hk[29;1H[33;168H [28;1H[32;163H[1m[7m3,[28;1H[?12l[?25h[?25l[m[33;168Hk[28;1H[33;168H [27;1H[32;163H[1m[7m2,[27;1H[?12l[?25h[?25l[m[33;168Hk[27;1H[33;168H [26;1H[32;163H[1m[7m1,[26;1H[?12l[?25h[?25l[m[33;168Hk[26;1H[33;168H [25;1H[32;163H[1m[7m0,[25;1H[?12l[?25h[?25l[m[33;168Hk[25;1H[33;168H [24;1H[32;162H[1m[7m69,[24;1H[?12l[?25h[?25l[m[33;168Hk[24;1H[33;168H [23;1H[32;163H[1m[7m8,[23;1H[?12l[?25h[?25l[m[33;168Hk[23;1H[33;168H [22;1H[32;163H[1m[7m7,[22;1H[?12l[?25h[?25l[32;163H6,[21;1H[?12l[?25h[?25l[32;163H5,[20;1H[?12l[?25h[?25l[m[33;168Hk[20;1H[33;168H [19;1H[32;163H[1m[7m4,[19;1H[?12l[?25h[?25l[m[33;168Hk[19;1H[33;168H [18;1H[32;163H[1m[7m3,[18;1H[?12l[?25h[?25l[m[33;168Hk[18;1H[33;168H [17;1H[32;163H[1m[7m2,[17;1H[?12l[?25h[?25l[m[33;168Hk[17;1H[33;168H [16;1H[32;163H[1m[7m1,[16;1H[?12l[?25h[?25l[m[33;168Hk[16;1H[33;168H [15;1H[32;163H[1m[7m0,[15;1H[?12l[?25h[?25l[m[33;168Hk[15;1H[33;168H [14;1H[32;162H[1m[7m59,[14;1H[?12l[?25h[?25l[m[33;168Hk[14;1H[33;168H [13;1H[32;163H[1m[7m8,[13;1H[?12l[?25h[?25l[m[33;168Hk[13;1H[33;168H [12;1H[32;163H[1m[7m7,[12;1H[?12l[?25h[?25l[m[33;168Hk[12;1H[33;168H [11;1H[32;163H[1m[7m6,[11;1H[?12l[?25h[?25l[m[33;168Hk[11;1H[33;168H [10;1H[32;163H[1m[7m5,[10;1H[?12l[?25h[?25l[m[33;168Hk[10;1H[33;168H [9;1H[32;163H[1m[7m4,[9;1H[?12l[?25h[?25l[32;163H3,[8;1H[?12l[?25h[?25l[m[33;168Hk[8;1H[33;168H [7;1H[32;163H[1m[7m2,[7;1H[?12l[?25h[?25l[32;163H1,[6;1H[?12l[?25h[?25l[32;163H0,[5;1H[?12l[?25h[?25l[m[33;168Hk[5;1H[33;168H [4;1H[32;162H[1m[7m49,[4;1H[?12l[?25h[?25l[m[33;168Hk[4;1H[33;168H [3;1H[32;163H[1m[7m8,[3;1H[?12l[?25h[?25l[32;163H7,[2;1H[?12l[?25h[?25l[m[33;168Hk[2;1H[33;168H [1;1H[32;163H[1m[7m6,[1;1H[?12l[?25h[?25l[m[33;168Hk[1;1H[33;168H [1;1H[1;31r[1;1H[L[1;33r[1;1H825253,503,A00853009,S22F,"[A] Yoo","Joon Y."[32;163H[1m[7m5,[11C99%[1;1H[?12l[?25h[?25l[m[33;168Hk[1;1H[33;168H [1;1H[1;31r[1;1H[L[1;33r[1;1H956663,503,A00958781,J17P,"[A] Xu","Zhanchun (Colin)"[32;163H[1m[7m4,[1;1H[?12l[?25h[?25l[m[33;168Hk[1;1H[33;168H [1;1H[1;31r[1;1H[L[1;33r[1;1H765478,503,A01033418,R26O,"[A] Worthen","David"[32;163H[1m[7m3,[1;1H[?12l[?25h[?25l[1;31r[m[1;1H[L[1;33r[1;1H829456,503,A00952579,O71Z,"[A] Wang","He (Harry)"[32;163H[1m[7m2,[1;1H[?12l[?25h[?25l[m[33;168Hk[1;1H[33;168H [1;1H[1;31r[1;1H[L[1;33r[1;1H547806,503,A01030982,O89X,"[A] Stubbings","Daniel"[32;163H[1m[7m1,[1;1H[?12l[?25h[?25l[m[33;168Hk[1;1H[33;168H [1;1H[1;31r[1;1H[L[1;33r[1;1H159381,503,A01040831,W72B,"[A] Stewart","Derrick"[32;163H[1m[7m0,[12C8%[1;1H[?12l[?25h[?25l[m[33;168Hk[1;1H[33;168H [1;1H[1;31r[1;1H[L[1;33r[1;1H727697,503,A00868646,X98Q,"[A] Shaw","Peter"[32;162H[1m[7m39,[1;1H[?12l[?25h[?25l[m[33;168Hk[1;1H[33;168H [1;1H[1;31r[1;1H[L[1;33r[1;1H539059,503,A01023362,Z66G,"[A] Sandhu","Gurshaan"[32;163H[1m[7m8,[1;1H[?12l[?25h[?25l[m[33;168Hk[1;1H[33;168H [1;1H[1;31r[1;1H[L[1;33r[1;1H903587,503,A01017069,M17C,"[A] Rehal","Pavneet"[32;163H[1m[7m7,[1;1H[?12l[?25h[?25l[1;31r[m[1;1H[L[1;33r[1;1H850852,503,A01024660,F63P,"[A] Rai","Manit"[32;163H[1m[7m6,[1;1H[?12l[?25h[?25l[m[33;168Hk[1;1H[33;168H [1;1H[1;31r[1;1H[L[1;33r[1;1H718430,503,A01024107,T15A,"[A] Ludvigson","Connor"[32;163H[1m[7m5,[12C7%[1;1H[?12l[?25h[?25l[m[33;168Hk[1;1H[33;168H [1;1H[1;31r[1;1H[L[1;33r[1;1H380826,503,A01012791,T90I,"[A] Gu","Run Yao (Ryan)"[32;163H[1m[7m4,[1;1H[?12l[?25h[?25l[m[33;168Hk[1;1H[33;168H [1;1H[1;31r[1;1H[L[1;33r[1;1H593046,503,A01078903,Q39Y,"[A] Doyle","Erin"[32;163H[1m[7m3,[1;1H[?12l[?25h[?25l[m[33;168Hk[1;1H[33;168H [1;1H[1;31r[1;1H[L[1;33r[1;1H795990,503,A00996628,C12Z,"[A] de Weerdt","Julia"[32;163H[1m[7m2,[1;1H[?12l[?25h[?25l[1;31r[m[1;1H[L[1;33r[1;1H314531,503,A00827156,T10I,"[A] Chahal","Harmanjit"[32;163H[1m[7m1,[1;1H[?12l[?25h[?25l[m[33;168Hk[1;1H[33;168H [1;1H[1;31r[1;1H[L[1;33r[1;1H284179,776,A01033457,B39U,"Zhan","Alisha"[32;163H[1m[7m0,[1;1H[?12l[?25h[?25l[1;31r[m[1;1H[L[1;33r[1;1H157317,776,A01086918,H39C,"Yong","Donna"[32;162H[1m[7m29,[12C6%[1;1H[?12l[?25h[?25l[1;31r[m[1;1H[L[1;33r[1;1H620805,776,A01086421,A90B,"Vu","Jenni"[32;163H[1m[7m8,[1;1H[?12l[?25h[?25l[1;31r[m[1;1H[L[1;33r[1;1H602114,776,A01037427,H61G,"Pham","Hien"[32;163H[1m[7m7,[1;1H[?12l[?25h[?25l[m[33;168Hk[1;1H[33;168H [1;1H[1;31r[1;1H[L[1;33r[1;1H383569,776,A00811687,F44W,"Oh","Catherine"[32;163H[1m[7m6,[1;1H[?12l[?25h[?25l[m[33;168Hk[1;1H[33;168H [1;1H[1;31r[1;1H[L[1;33r[1;1H714746,776,A01060647,W74X,"Nooraei","Hasti"[32;163H[1m[7m5,[1;1H[?12l[?25h[?25l[m[33;168Hk[1;1H[33;168H [1;1H[1;31r[1;1H[L[1;33r[1;1H735481,776,A00985558,J32T,"Nguyen","Tracy"[32;163H[1m[7m4,[12C5%[1;1H[?12l[?25h[?25l[m[33;168Hj[1;1H[33;168H [2;1H[32;163H[1m[7m5,[2;1H[?12l[?25h[?25l[m[33;168Hj[2;1H[33;168H [3;1H[32;163H[1m[7m6,[3;1H[?12l[?25h[?25l[m[33;168Hj[3;1H[33;168H [4;1H[32;163H[1m[7m7,[4;1H[?12l[?25h[?25l[m[33;168Hj[4;1H[33;168H [5;1H[32;163H[1m[7m8,[5;1H[?12l[?25h[?25l[m[33;168Hj[5;1H[33;168H [6;1H[32;163H[1m[7m9,[6;1H[?12l[?25h[?25l[m[33;168Hj[6;1H[33;168H [7;1H[32;162H[1m[7m30,[7;1H[?12l[?25h[?25l[m[33;168Hj[7;1H[33;168H [8;1H[32;163H[1m[7m1,[8;1H[?12l[?25h[?25l[m[33;168Hy[8;1H[?12l[?25h[?25l[33;169HG[8;1H[33;1H46 lines yanked[33;168H[K[8;1H[?12l[?25h[?25l[33;168H:[8;1H[33;1H[K[33;1H:[?12l[?25he[?25l[?12l[?25h[?25l [?12l[?25h.[?25l[?12l[?25h.[?25l[?12l[?25h/[?25l[?12l[?25ht[?25l[?12l[?25he[?25l[?12l[?25hm[?25l[?12l[?25hp[?25l[?12l[?25h.[?25l[?12l[?25hc[?25l[?12l[?25hs[?25l[?12l[?25hv[?25l[?12l[?25h[?25l"../temp.csv" [New File][1;1H[1;1H[K[2;1H[94m~                                                                                                                                                                                 [3;1H~                                                                                                                                                                                 [4;1H~                                                                                                                                                                                 [5;1H~                                                                                                                                                                                 [6;1H~                                                                                                                                                                                 [7;1H~                                                                                                                                                                                 [8;1H~                                                                                                                                                                                 [9;1H~                                                                                                                                                                                 [10;1H~                                                                                                                                                                                 [11;1H~                                                                                                                                                                                 [12;1H~                                                                                                                                                                                 [13;1H~                                                                                                                                                                                 [14;1H~                                                                                                                                                                                 [15;1H~                                                                                                                                                                                 [16;1H~                                                                                                                                                                                 [17;1H~                                                                                                                                                                                 [18;1H~                                                                                                                                                                                 [19;1H~                                                                                                                                                                                 [20;1H~                                                                                                                                                                                 [21;1H~                                                                                                                                                                                 [22;1H~                                                                                                                                                                                 [23;1H~                                                                                                                                                                                 [24;1H~                                                                                                                                                                                 [25;1H~                                                                                                                                                                                 [26;1H~                                                                                                                                                                                 [27;1H~                                                                                                                                                                                 [28;1H~                                                                                                                                                                                 [29;1H~                                                                                                                                                                                 [30;1H~                                                                                                                                                                                 [31;1H~                                                                                                                                                                                 [m[32;1H[1m[7m../temp.csvv  [147C0,0-1[10CAll[1;1H[?12l[?25h[?25l[m[33;168HP[1;1H[33;1H46 more lines[33;15H[K[1;1H314531,503,A00827156,T10I,"[A] Chahal","Harmanjit"
+795990,503,A00996628,C12Z,"[A] de Weerdt","Julia"[2;50H[K[3;1H593046,503,A01078903,Q39Y,"[A] Doyle","Erin"[3;45H[K[4;1H380826,503,A01012791,T90I,"[A] Gu","Run Yao (Ryan)"[4;52H[K[5;1H718430,503,A01024107,T15A,"[A] Ludvigson","Connor"[5;51H[K[6;1H850852,503,A01024660,F63P,"[A] Rai","Manit"[6;44H[K[7;1H903587,503,A01017069,M17C,"[A] Rehal","Pavneet"[7;48H[K[8;1H539059,503,A01023362,Z66G,"[A] Sandhu","Gurshaan"[8;50H[K[9;1H727697,503,A00868646,X98Q,"[A] Shaw","Peter"[9;45H[K[10;1H159381,503,A01040831,W72B,"[A] Stewart","Derrick"[10;50H[K[11;1H547806,503,A01030982,O89X,"[A] Stubbings","Daniel"[11;51H[K[12;1H829456,503,A00952579,O71Z,"[A] Wang","He (Harry)"[12;50H[K[13;1H765478,503,A01033418,R26O,"[A] Worthen","David"[13;48H[K[14;1H956663,503,A00958781,J17P,"[A] Xu","Zhanchun (Colin)"[14;54H[K[15;1H825253,503,A00853009,S22F,"[A] Yoo","Joon Y."[15;46H[K[16;1H297339,503,A01014725,E78Z,"[B] Benjaminsen","Aaron"[16;52H[K[17;1H716271,503,A00894369,N33L,"[B] Binning","Prabhjeet"[17;52H[K[18;1H586972,503,A00992824,Y77E,"[B] Chahal","Gurjot"[18;48H[K[19;1H747445,503,A01015879,Q41O,"[B] Connors","Sean"[19;47H[K[20;1H999159,503,A00787811,Y71U,"[B] Cooper","Peter"[20;47H[K[21;1H847461,503,A01065764,L63Y,"[B] Doerksen","Erik"[21;48H[K[22;1H316478,503,A00930956,M41F,"[B] Garrone","Nicolas (Nic)"[22;56H[K[23;1H401365,503,A00906505,O29S,"[B] Hutcheson","Nigel"[23;50H[K[24;1H811599,503,A01029168,Q98X,"[B] Lindberg","Erik"[24;48H[K[25;1H184309,503,A01044669,F88K,"[B] Manson","Marcus"[25;48H[K[26;1H213731,503,A00819537,F55B,"[B] Perley","Owen"[26;46H[K[27;1H363612,503,A01025353,B71A,"[B] Rooke","Aaron"[27;46H[K[28;1H697483,503,A00904954,B22E,"[B] Vicars","Megan"[28;47H[K[29;1H852721,503,A00889070,O97B,"[B] Wang","Yuhan"[29;45H[K[30;1H120365,503,A00880453,K72F,"[C] Borja","David"[30;46H[K[31;1H365093,503,A00907442,B65D,"[C] Dhillon","Mandeep"[31;50H[K[32;13H[1m[7m[+][145C1,1   [9CTop[1;1H[?12l[?25h[?25l[m[33;168H:[1;1H[33;1H[K[33;1H:[?12l[?25hx[?25l[?12l[?25h[?25l"../temp.csv" [New] 47L, 2260C written
+[?1l>[?12l[?25h[?1049l]0;ubuntu@ip-172-31-9-42: ~/www/lpublic/lukmarks[01;32mubuntu@ip-172-31-9-42[00m:[01;34m~/www/lpublic/lukmarks[00m$ cd ..
+]0;ubuntu@ip-172-31-9-42: ~/www/lpublic[01;32mubuntu@ip-172-31-9-42[00m:[01;34m~/www/lpublic[00m$ ls
+[0m[01;34m2017-ubc-phil-375-hermeneutics-fall_files[0m  [01;34mbcit[0m  index.htm  [01;34mlaura[0m  [01;34mlukmarks[0m  [01;31mlukmarks.tar.xz[0m  [01;34mmath1441[0m  [01;34mmath2441[0m  [01;34mmath2511[0m  [01;34mmath3512[0m  [01;34mpaisley[0m  [01;34mphil375[0m  [01;34mrbills[0m  temp.csv  [01;34mvarious[0m
+]0;ubuntu@ip-172-31-9-42: ~/www/lpublic[01;32mubuntu@ip-172-31-9-42[00m:[01;34m~/www/lpublic[00m$ ls -l
+total 8252
+drwxr-xr-x 2 ubuntu ubuntu    4096 Jan 20  2018 [0m[01;34m2017-ubc-phil-375-hermeneutics-fall_files[0m
+drwxrwxr-x 2 ubuntu ubuntu    4096 Apr 20  2018 [01;34mbcit[0m
+-rw-rw-r-- 1 ubuntu ubuntu      22 Dec 23  2016 index.htm
+drwxrwxr-x 2 ubuntu ubuntu    4096 Feb  1  2018 [01;34mlaura[0m
+drwxrwxr-x 3 ubuntu ubuntu    4096 Dec  1 18:30 [01;34mlukmarks[0m
+-rw-rw-r-- 1 ubuntu ubuntu 8388384 Nov 30 19:37 [01;31mlukmarks.tar.xz[0m
+drwxrwxr-x 3 ubuntu ubuntu    4096 Oct 29 16:00 [01;34mmath1441[0m
+drwxrwxr-x 3 ubuntu ubuntu    4096 Jan 25  2018 [01;34mmath2441[0m
+drwxrwxr-x 3 ubuntu ubuntu    4096 May 17  2018 [01;34mmath2511[0m
+drwxrwxr-x 2 ubuntu ubuntu    4096 Oct  9 17:39 [01;34mmath3512[0m
+drwxrwxr-x 3 ubuntu ubuntu    4096 Oct 31 19:19 [01;34mpaisley[0m
+drwxr-xr-x 2 ubuntu ubuntu    4096 Nov 16 00:49 [01;34mphil375[0m
+drwxr-xr-x 3 ubuntu ubuntu    4096 Nov 29 00:10 [01;34mrbills[0m
+-rw-rw-r-- 1 ubuntu ubuntu    2260 Dec  1 18:30 temp.csv
+drwxrwxr-x 2 ubuntu ubuntu    4096 Oct 25 17:50 [01;34mvarious[0m
+]0;ubuntu@ip-172-31-9-42: ~/www/lpublic[01;32mubuntu@ip-172-31-9-42[00m:[01;34m~/www/lpublic[00m$ [K]0;ubuntu@ip-172-31-9-42: ~/www/lpublic[01;32mubuntu@ip-172-31-9-42[00m:[01;34m~/www/lpublic[00m$ ff
+ff: command not found
+]0;ubuntu@ip-172-31-9-42: ~/www/lpublic[01;32mubuntu@ip-172-31-9-42[00m:[01;34m~/www/lpublic[00m$ mutt
+[?1049h[1;31r(B[m[4l[?7h[39;49m[?1h=[39;49m[37m[40m[H[2J[39;49m[37m[40m[31d[K[31;1H[?1049l[?1l>[39;49m[37m[40m[K[31;1H[?1049l[?1l>[?1049h[1;31r[39;49m(B[m[4l[?7h[39;49m[37m[40m[37m[40m[H[2J[31d(B[m[39;49m[37m[40mReading imaps://imap.gmail.com:993/INBOX...Looking up imap.gmail.com...[37m[40m[K(B[m[39;49m[37m[40mConnecting to imap.gmail.com...SSL/TLS connection using TLS1.2 (ECDHE-RSA/AES-128-GCM/AEAD)Authenticating (PLAIN)...[37m[40m[K(B[m[39;49m[37m[40mSelecting INBOX...[37m[40m[K(B[m[39;49m[37m[40mEvaluating cache... 0/4394 (0%)[31;21H10/4394 (0%)Fetching message headers... 0/4394 (0%)Sorting mailbox...[37m[40m[K(B[m[39;49m[37m[40m[?25l[?12l[?25h[?25l[37m[40m[J[H(B[0;1m[32m[44mq:Quit  d:Del  u:Undel  s:Save  m:Mail  r:Reply  g:Group  ?:Help[K
+(B[0m[30m[46m   1 N + Dec 02 TOM MCHUGH      ( 62K) INTERAC e-Transfer: A money transfer from TOM MCHUGH has been automatically deposited.[K
+[4G[37m[40m2 N T Dec 02 IMPACT[3;33H( 64K) Event Reminder: Monday Practice, December 3, 5:00 PM
+   3 N T Dec 01 Ellen Gosney    (4.6K) Jethro
+   4 N   Dec 01 Google Calendar ( 13K) Notification: Soccer Game [Evelyn] @ Sun Dec 2, 2018 4pm - 5pm (PST) (xootesei@gmail.com)
+   5 N + Dec 01 Sandra[6;33H( 28K) [VAFC Thunderbolts] Field Duties tomorrow
+   6 N + Dec 01 Sherry Lukits   ( 51K) Fwd: Receipt from Susie Zabilka RMT#06024
+   7 N   Dec 01 Google Calendar ( 13K) Notification: Soccer Game [Josephine] @ Sun Dec 2, 2018 12pm - 1pm (PST) (xootesei@gmail.com)
+   8   T Dec 01 Sherry Lukits   (  62) Re: Horvath Christmas Party
+   9     Dec 01 Karen MacDonald (  93) Games Available - a couple of sick referees
+  10   T Nov 30 Sherry Lukits   (  37) Christmas presents
+  11     Dec 01 Karen MacDonald (  86) 2 Games Available - 1 House / 1 U12
+  12     Dec 01 ibchurchill     (3202) December at a Glance Newsletter
+  13     Nov 30 Elementary, L'E (6160) LEB E-Bulletin for Friday November 30 2018
+  14   + Nov 30 PHILIP ARTHUR S (1861) INTERAC e-Transfer: A money transfer from PHILIP ARTHUR SAUNDERS has been automatically deposited.
+  15   + Nov 30 St. John's Vanc (2542) What's up at St. John's?
+  16   + Nov 30 Ref Centre Webs (  69) 2018-2019 Refresher
+  17 r + Nov 30 Sherry Lukits   (  20) Come home
+  18   + Nov 30 TOM MCHUGH[33G(1861) INTERAC e-Transfer: A money transfer from TOM MCHUGH has been automatically deposited.
+  19   + Nov 30 Grace[20;33H( 418) [VAFC Thunderbolts] 20% to goal!
+  20     Nov 30 Google Calendar (  91) Notification: Soccer Game [Anderson] @ Sat Dec 1, 2018 10:15am - 11:15am (PST) (xootesei@gmail.com)
+  21   + Nov 30 Sherry Lukits   (  14) new pswd wk
+  22     Nov 30 Google Calendar (  85) Notification: change containers at AWS amazon @ Sat Dec 1, 2018 (zeimiewo@gmail.com)
+  23     Nov 30 Google Calendar (  85) Notification: check bandsintown on facebook @ Sat Dec 1, 2018 (zeimiewo@gmail.com)
+  24   + Nov 30 Rick Faw[25;33H(1351) Will you give to grow?
+  25   + Nov 29 PHILIP ARTHUR S (1861) INTERAC e-Transfer: A money transfer from PHILIP ARTHUR SAUNDERS has been automatically deposited.
+  26   + Nov 30 Churchill Atten (  17) Attendance - Churchill
+  27   + Nov 29 ill.lend@ubc.ca (  23) UBC Library Interlibrary Loan/Document Delivery Service Request PAT-20080176
+  28 r T Nov 29 Sherry Lukits   (  14) Free early season skiing
+(B[0;1m[32m[44m---Mutt: imaps://imap.gmail.com:993/INBOX [Msgs:4394 New:7 394M]---(reverse-date/date)-------------------------------------------------------------------------------------(0%)---[2;178H(B[m[39;49m[37m[40m[?1h=[?12l[?25h[?25l[37m[40m   1 N + Dec 02 TOM MCHUGH      ( 62K) INTERAC e-Transfer: A money transfer from TOM MCHUGH has been automatically deposited.[K
+[30m[46m   2 N T Dec 02 IMPACT          ( 64K) Event Reminder: Monday Practice, December 3, 5:00 PM[K[178G(B[m[39;49m[37m[40m[?12l[?25h[?25l[37m[40m   2 N T Dec 02 IMPACT          ( 64K) Event Reminder: Monday Practice, December 3, 5:00 PM[K
+[30m[46m   3 N T Dec 01 Ellen Gosney    (4.6K) Jethro[K[178G(B[m[39;49m[37m[40m[?12l[?25h[?25l[37m[40m   3 N T Dec 01 Ellen Gosney    (4.6K) Jethro[K
+[30m[46m   4 N   Dec 01 Google Calendar ( 13K) Notification: Soccer Game [Evelyn] @ Sun Dec 2, 2018 4pm - 5pm (PST) (xootesei@gmail.com)[K[178G(B[m[39;49m[37m[40m[?12l[?25h[?25l[37m[40m   4 N   Dec 01 Google Calendar ( 13K) Notification: Soccer Game [Evelyn] @ Sun Dec 2, 2018 4pm - 5pm (PST) (xootesei@gmail.com)[K
+[30m[46m   5 N + Dec 01 Sandra          ( 28K) [VAFC Thunderbolts] Field Duties tomorrow[K[178G(B[m[39;49m[37m[40m[?12l[?25h[?25l[37m[40m   5 N + Dec 01 Sandra          ( 28K) [VAFC Thunderbolts] Field Duties tomorrow[K
+[30m[46m   6 N + Dec 01 Sherry Lukits   ( 51K) Fwd: Receipt from Susie Zabilka RMT#06024[K[178G(B[m[39;49m[37m[40m[?12l[?25h[?25l[37m[40m   6 N + Dec 01 Sherry Lukits   ( 51K) Fwd: Receipt from Susie Zabilka RMT#06024[K
+[30m[46m   7 N   Dec 01 Google Calendar ( 13K) Notification: Soccer Game [Josephine] @ Sun Dec 2, 2018 12pm - 1pm (PST) (xootesei@gmail.com)[K[178G(B[m[39;49m[37m[40m[?12l[?25h[31dFetching message... 0K/14K (0%)Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-12845-114132880795233549.html'[?25l[37m[40m[J[H(B[0;1m[32m[44mi:Exit  -:PrevPg  <Space>:NextPg v:View Attachm.  d:Del  r:Reply  j:Next ?:Help
+(B[0m[36m[40mDate: Sat, 01 Dec 2018 19:59:59 +0000[K
+From: Google Calendar <calendar-notification@google.com>[K
+To: Martha Sandlin <xootesei@gmail.com>[K
+Subject: Notification: Soccer Game [Josephine] @ Sun Dec 2, 2018 12pm - 1pm (PST) (xootesei@gmail.com)[K
+[37m[40m[K
+(B[0;1m[33m[40m[-- Autoview using /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-12845-114132880795233549.html' --][K
+(B[0m[37m[40m[K
+   more details »[K
+[K
+Soccer Game [Josephine][K
+[K
+   When[K
+   Sun Dec 2, 2018 12pm – 1pm Pacific Time - Vancouver[K
+   Where[K
+   Memorial South Turf - North Field (5955 Ross St., Vancouver) (map)
+   Calendar[K
+   xootesei@gmail.com[K
+   Who[K
+   •[K
+ xootesei@gmail.com[K
+   - organizer[K
+[K
+   Invitation from Google Calendar[K
+[K
+   You are receiving this email at the account xootesei@gmail.com because[K
+   you set a notification for this event on the calendar[K
+   xootesei@gmail.com.[K
+[K
+[C(B[0;1m[32m[44mN  - 7/4394: Google Calendar        Notification: Soccer Game [Josephine] @ Sun Dec 2, 2018 12pm - 1pm (PST) (xootesei@gmail.com)[40X[171G-- (78%)[30;178H(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
+Fetching message... 0K/52K (0%)Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-12845-14347100371432225925.html'[?25l[37m[40m[J[2;12H[36m[40m1 Dec 2018 12:04:01 -0800[K
+[7GSherry Lukits <sklukits@gmail.com>[K
+[5GStefan Lukits <Sediomyle[5;10HFwd: Receipt from Susie Zabilka RMT#06024[K[7;86H(B[0;1m[33m[40m4347100371432225925.html' --]
+[4G(B[0m[37m[40mFor submission to insurance.
+   ---------- Forwarded message ---------
+   From: Susie Zabilka RMT#06024 via Square
+   <receipts@messaging.squareup.com>
+   Date: Sat, Dec 1, 2018 at 10:41 AM
+   Subject: Receipt from Susie Zabilka RMT#06024
+   To: <sklukits@gmail.com>[K
+   Receipt for $189.00 at Susie Zabilka RMT#06024 on 01/12/2018, 10:40.
+[K
+   gray[K
+white[K
+   Susie Zabilka RMT#06024
+[K
+   How was your experience?
+   Positive[K
+   Negative
+[K[25;36H$189.00
+[K
+   90 Min RMT Massage[K[28;14H[1K $180.00[K
+   Purchase Subtotal
+[4G(B[0;1m[32m[44m+- 6[15GSherry Lukits  [30;38HFwd: Receipt from Susie Zabilka RMT#06024[52X[175G51%(B[m[39;49m[37m[40m[?12l[?25h
+Bounce message to: [37m[40mt(B[m[39;49m[37m[40m[37m[40mt(B[m[39;49m[37m[40m Stefan Todo List <taihoole@gmail.com>? ([yes]/no): [37m[40myes(B[m[39;49m[37m[40mLooking up smtp.gmail.com...[37m[40m[K(B[m[39;49m[37m[40mConnecting to smtp.gmail.com...SSL/TLS connection using TLS1.2 (ECDHE-RSA/AES-128-GCM/AEAD)Authenticating (LOGIN)...[37m[40m[K(B[m[39;49m[37m[40mSending message... 0K/51K (0%)Message bounced.[37m[40m[K(B[m[39;49m[37m[40m[?25l[30;178H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
+Fetching message... 0K/28K (0%)Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-12845-344002856725666092.html'[?25l[37m[40m[J[2;12H[36m[40m01 Dec 2018 23:16:58 +0000 (UTC)
+[8Gandra <donotreply@email.teamsnap.com>
+[5Gsediomyle@gmail.com[K[5;10H[VAFC Thunderbolts] Field Duties tomorrow[7;85H(B[0;1m[33m[40m344002856725666092[2P
+[4G(B[0m[37m[40mTeamSnap[K
+[K
+[K
+   Sandra has sent a message on TeamSnap.
+[K
+   Hi everyone,[K
+[K
+   Our team is responsible for taking down the nets, flags, etc tomorrow.
+   Please stay for a few minutes to help if you can.
+[K
+   Thanks!
+[K
+   Sandra
+[K
+   View Message
+[K
+   You are receiving this message because you are a member of the VAFC
+   Thunderbolts.[K
+
+   If you prefer not to receive email from team VAFC Thunderbolts, update[28;23H[1K your communication preferences.
+     TeamSnap World HQ, 2040 14th Street, 1st Floor, Boulder, CO 80302.
+[7G(B[0;1m[32m[44m5[30;16Handra       [30;38H[VAFC Thunderbolts] Field Duties tomorrow[175Gall(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
+Fetching message... 0K/14K (0%)Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-12845-18933965631519855221.html'[?25l[37m[40m[J[2;27H[36m[40m59:54[38G[K
+[7GGoogle Calendar <calendar-notification@google.com>
+[5GMartha Sandlin <xootesei@gmail.com>[5;10HNotification: Soccer Game [Evelyn] @ Sun Dec 2, 2018 4pm - 5pm (PST) (xootesei@gmail.com)[7;85H(B[0;1m[33m[40m18933965631519855221.html' --]
+(B[0m[37m[40m[K
+   more details »
+
+Soccer Game [Evelyn][K
+
+   When[K
+Sun Dec 2, 2018 4pm – 5pm Pacific Time - Vancouver
+   Where[K
+   Trillium Park, 600 National Ave, Vancouver, BC V6A 2E5, Canada (map)
+   Calendar
+   xootesei@gmail.com
+   Who
+•[K
+xootesei@gmail.com
+   - organizer[K
+
+   Invitation from Google Calendar[K
+[K
+   You are receiving this email at the account xootesei@gmail.com because
+   you set a notification for this event on the calendar[K
+   xootesei@gmail.com.[K
+[K
+[4G(B[0;1m[32m[44m - 4[15GGoogle Calendar[30;38HNotification: Soccer Game [Evelyn] @ Sun Dec 2, 2018 4pm - 5pm (PST) (xootesei@gmail.com)[175G78%(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
+Fetching message... 0K/4.9K (0%)Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-12845-6101191911095250623.html'[?25l[37m[40m[J[2;12H[36m[40m1 Dec 2018 17:41:39 -0800[K
+[7GEllen Gosney <ellengosney@gmail.com>[K
+[5GSherry Lukits <sklukits@gmail.com>, Stefan Lukits <sediomyle@gmail.com>[5;10HJethro[K[7;85H(B[0;1m[33m[40m6101191911095250623[1P
+[4G(B[0m[37m[40mWe are having a birthday  dinner  for jethro's  11 birthday  upstairs
+   at 5pm tomorrow.   We hope you can make it.
+
+[34m[40m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[4G(B[0;1m[32m[44mT- 3[15GEllen Gosney   [30;38HJethro[83X[175Gall(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
+Fetching message... 0K/64K (0%)Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-12845-4056060581005497645.html'[?25l[37m[40m[J[2;8H[36m[40mun, 02 Dec 2018 03:10:20 +0000 (UTC)
+[7GIMPACT <donotreply@email.teamsnap.com>
+[5Gsklukits@gmail.com, sediomyle@gmail.com[K[5;10HEvent Reminder: Monday Practice, December 3, 5:00 PM
+x-mailer: TeamSnap[K
+[37m[40m[K
+(B[0;1m[33m[40m[-- Autoview using /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-12845-4056060581005497645.html' --][K
+[4G(B[0m[37m[40mTeamSnap[K
+
+   Hi Anderson,[K
+[K
+   Here's a reminder of an upcoming event with the team IMPACT:[K
+[5G[1K * Event: Monday Practice[K
+[5G[1K * Date/Time: Monday, December 3, 2018 at 5:00 PM - 6:00 PM (Arrive at[K
+[7G[1K 4:50 PM)[K
+[5G[1K * Location: Empire Turf North[K
+[7G[1K Location Website:[K
+[7G[1K https://www.google.com/maps/place/3311+E+Hastings+St,+Vancouver,+BC[K
+[7G[1K +V5K,+Canada/@49.2827914,-123.0350036,1015m/data=!3m2!1e3!4b1!4m2!3[K
+[7G[1K m1!1s0x548670dc0cbb2585:0x25baf6c81bec42c8!6m1!1e1?hl=en[K
+[K[23;18H[1K Anderson's Current Availability: Unknown[K
+[K[25;23H[1K Update Anderson's Availability[K
+[K
+    [1K * Players available for this event are:[K[28;10H[1K + Rex Hui[K[29;10H[1K + William Cobbin[K
+[7G(B[0;1m[32m[44m2[15GIMPACT      [30;38HEvent Reminder: Monday Practice, December 3, 5:00 PM[175G65%(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
+Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-12845-1884138590876957726.html'[?25l[37m[40m[J[2;8H[36m[40mat, 1 Dec 2018 17:41:39 -0800[K
+[7GEllen Gosney <ellengosney@gmail.com>[K
+[5GSherry Lukits <sklukits@gmail.com>, Stefan Lukits <sediomyle@gmail.com>[5;10HJethro[K
+[37m[40m[K
+(B[0;1m[33m[40m[-- Autoview using /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-12845-1884138590876957726.html' --][K
+(B[0m[37m[40m   We are having a birthday  dinner  for jethro's  11 birthday  upstairs[K
+   at 5pm tomorrow.   We hope you can make it.
+
+[34m[40m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[C(B[0;1m[32m[44m  T- 3[15GEllen Gosney[30;38HJethro[46X[175Gall(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
+Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-12845-162098325470255147.html'[?25l[37m[40m[J[2;8H[36m[40mun, 02 Dec 2018 03:10:20 +0000 (UTC)
+[7GIMPACT <donotreply@email.teamsnap.com>
+[5Gsklukits@gmail.com, sediomyle@gmail.com[K[5;10HEvent Reminder: Monday Practice, December 3, 5:00 PM
+x-mailer: TeamSnap[K
+[37m[40m[K
+(B[0;1m[33m[40m[-- Autoview using /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-12845-162098325470255147.html' --][K
+[4G(B[0m[37m[40mTeamSnap[K
+
+   Hi Anderson,[K
+[K
+   Here's a reminder of an upcoming event with the team IMPACT:[K
+[5G[1K * Event: Monday Practice[K
+[5G[1K * Date/Time: Monday, December 3, 2018 at 5:00 PM - 6:00 PM (Arrive at[K
+[7G[1K 4:50 PM)[K
+[5G[1K * Location: Empire Turf North[K
+[7G[1K Location Website:[K
+[7G[1K https://www.google.com/maps/place/3311+E+Hastings+St,+Vancouver,+BC[K
+[7G[1K +V5K,+Canada/@49.2827914,-123.0350036,1015m/data=!3m2!1e3!4b1!4m2!3[K
+[7G[1K m1!1s0x548670dc0cbb2585:0x25baf6c81bec42c8!6m1!1e1?hl=en[K
+[K[23;18H[1K Anderson's Current Availability: Unknown[K
+[K[25;23H[1K Update Anderson's Availability[K
+[K
+    [1K * Players available for this event are:[K[28;10H[1K + Rex Hui[K[29;10H[1K + William Cobbin[K
+[7G(B[0;1m[32m[44m2[15GIMPACT      [30;38HEvent Reminder: Monday Practice, December 3, 5:00 PM[175G65%(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
+Fetching message... 0K/62K (0%)Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-12845-4746482631332128166.html'[?25l[37m[40m[J[2;12H[36m[40m2 Dec 2018 01:51:45 -0500 (EST)[K
+[7GTOM MCHUGH <catch@payments.interac.ca
+[5GSTEFAN H LUKITS <sediomyle@gmail.com>[K[5;10HINTERAC e-Transfer: A money transfer from TOM MCHUGH has been automatically deposited.
+[37m[40m[K
+(B[0;1m[33m[40m[-- Attachment #1 --][K
+[5GType: multipart/related, Encoding: 7bit, Size: 57K --][K
+(B[0m[37m[40m[K
+(B[0;1m[33m[40m[-- Attachment #1 --][K
+[-- Type: multipart/alternative, Encoding: 7bit, Size: 56K --][K
+
+[-- Autoview using /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-12845-4746482631332128166.html' --][K
+[4G(B[0m[37m[40mINTERAC View in browser | Français ?
+[K
+Hi STEFAN H LUKITS,
+[K
+   TOM MCHUGH has sent you $1,000.00 (CAD) and the money has been
+   automatically deposited into your bank account at TD Canada Trust.[K
+[K
+   Reference Number: CAET3eav[K
+   Please do not reply to this email.
+[K[25;17HFAQs   |   This is a secure transaction lock
+
+   © 2000 - 2018 Interac Corp.[K
+   All rights reserved. Terms of Use
+   ® Trade-marks of Interac Corp.
+[C(B[0;1m[32m[44mN +- 1[15GTOM MCHUGH[30;38HINTERAC e-Transfer: A money transfer from TOM MCHUGH has been automatically deposited.[178G(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h
+You are on the first message.[?25l[H(B[0;1m[32m[44mq:Quit  d:Del  u:Undel  s:Save  m:Mail  r:Reply  g:Group [15P
+(B[0m[30m[46m   1   + Dec 02 TOM MCHUGH      (1861) INTERAC e-Transfer: A money transfer from TOM MCHUGH has been automatically deposited.[K
+[37m[40m   2   T Dec 02 IMPACT          (1329) Event Reminder: Monday Practice, December 3, 5:00 PM[K
+   3   T Dec 01 Ellen Gosney    (  15) Jethro[K
+   4     Dec 01 Google Calendar (  92) Notification: Soccer Game [Evelyn] @ Sun Dec 2, 2018 4pm - 5pm (PST) (xootesei@gmail.com)[K
+   5   + Dec 01 Sandra[6;33H( 401) [VAFC Thunderbolts] Field Duties tomorrow
+   6   + Dec 01 Sherry Lukits   ( 677) Fwd: Receipt from Susie Zabilka RMT#06024[K
+   7     Dec 01 Google Calendar (  93) Notification: Soccer Game [Josephine] @ Sun Dec 2, 2018 12pm - 1pm (PST) (xootesei@gmail.com)[K
+   8   T Dec 01 Sherry Lukits   (  62) Re: Horvath Christmas Party
+   9     Dec 01 Karen MacDonald (  93) Games Available - a couple of sick referees[K
+  10   T Nov 30 Sherry Lukits   (  37) Christmas presents[K
+  11     Dec 01 Karen MacDonald (  86) 2 Games Available - 1 House / 1 U12
+  12     Dec 01 ibchurchill     (3202) December at a Glance Newsletter[K
+  13     Nov 30 Elementary, L'E (6160) LEB E-Bulletin for Friday November 30 2018
+  14   + Nov 30 PHILIP ARTHUR S (1861) INTERAC e-Transfer: A money transfer from PHILIP ARTHUR SAUNDERS has been automatically deposited.
+  15   + Nov 30 St. John's Vanc (2542) What's up at St. John's?
+  16   + Nov 30 Ref Centre Webs (  69) 2018-2019 Refresher
+  17 r + Nov 30 Sherry Lukits   (  20) Come home[K
+  18   + Nov 30 TOM MCHUGH      (1861) INTERAC e-Transfer: A money transfer from TOM MCHUGH has been automatically deposited.
+  19   + Nov 30 Grace[20;33H( 418) [VAFC Thunderbolts] 20% to goal!
+  20     Nov 30 Google Calendar (  91) Notification: Soccer Game [Anderson] @ Sat Dec 1, 2018 10:15am - 11:15am (PST) (xootesei@gmail.com)
+  21   + Nov 30 Sherry Lukits   (  14) new pswd wk
+  22     Nov 30 Google Calendar (  85) Notification: change containers at AWS amazon @ Sat Dec 1, 2018 (zeimiewo@gmail.com)
+  23     Nov 30 Google Calendar (  85) Notification: check bandsintown on facebook @ Sat Dec 1, 2018 (zeimiewo@gmail.com)
+  24   + Nov 30 Rick Faw        (1351) Will you give to grow?
+  25   + Nov 29 PHILIP ARTHUR S (1861) INTERAC e-Transfer: A money transfer from PHILIP ARTHUR SAUNDERS has been automatically deposited.
+  26   + Nov 30 Churchill Atten (  17) Attendance - Churchill
+  27   + Nov 29 ill.lend@ubc.ca (  23) UBC Library Interlibrary Loan/Document Delivery Service Request PAT-20080176
+  28 r T Nov 29 Sherry Lukits   (  14) Free early season skiing
+[C(B[0;1m[32m[44m*-Mutt: imaps://imap.gmail.com:993/INBOX [Msgs:4394 394M]---(reverse-date/date)-------------------------------------------------------------------------------------------(0%)---[2;178H(B[m[39;49m[37m[40m[?12l[?25h[31dBounce message to: [37m[40m[K(B[m[39;49m[37m[40m[37m[40mt(B[m[39;49m[37m[40m[37m[40mt(B[m[39;49m[37m[40m Stefan Todo List <taihoole@gmail.com>? ([yes]/no): [37m[40myes(B[m[39;49m[37m[40mLooking up smtp.gmail.com...[37m[40m[K(B[m[39;49m[37m[40mConnecting to smtp.gmail.com...SSL/TLS connection using TLS1.2 (ECDHE-RSA/AES-128-GCM/AEAD)Authenticating (LOGIN)...[37m[40m[K(B[m[39;49m[37m[40mSending message... 0K/61K (0%)Message bounced.[37m[40m[K(B[m[39;49m[37m[40m[?25l[2;178H[?12l[?25h[31d4394 kept, 0 deleted.Closing connection to imap.gmail.com...[37m[40m[J(B[m[39;49m[37m[40m[39;49m[37m[40m[K[31;1H[?1049l[?1l>]0;ubuntu@ip-172-31-9-42: ~/www/lpublic[01;32mubuntu@ip-172-31-9-42[00m:[01;34m~/www/lpublic[00m$ exit
+logout
+Connection to 35.160.211.119 closed.
+]0;~/jupyter[01;34m~/jupyter[00m$ 

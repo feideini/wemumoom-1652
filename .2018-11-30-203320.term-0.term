@@ -1,0 +1,813 @@
+]0;~/jupyter[01;34m~/jupyter[00m$ ff
+Welcome to Ubuntu 16.04.2 LTS (GNU/Linux 4.4.0-96-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+159 packages can be updated.
+0 updates are security updates.
+
+New release '18.04.1 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+*** System restart required ***
+Last login: Fri Nov 30 22:37:01 2018 from 142.232.88.233
+]0;ubuntu@ip-172-31-9-42: ~[01;32mubuntu@ip-172-31-9-42[00m:[01;34m~[00m$ mtt
+The program 'mtt' is currently not installed. You can install it by typing:
+sudo apt install xawtv
+]0;ubuntu@ip-172-31-9-42: ~[01;32mubuntu@ip-172-31-9-42[00m:[01;34m~[00m$ mutt
+[?1049h[1;33r(B[m[4l[?7h[39;49m[?1h=[39;49m[37m[40m[H[2J[39;49m[37m[40m[33d[K[33;1H[?1049l[?1l>[39;49m[37m[40m[K[33;1H[?1049l[?1l>[?1049h[1;33r[39;49m(B[m[4l[?7h[39;49m[37m[40m[37m[40m[H[2J[33d(B[m[39;49m[37m[40mReading imaps://imap.gmail.com:993/INBOX...Looking up imap.gmail.com...[37m[40m[K(B[m[39;49m[37m[40mConnecting to imap.gmail.com...SSL/TLS connection using TLS1.2 (ECDHE-RSA/AES-128-GCM/AEAD)Authenticating (PLAIN)...[37m[40m[K(B[m[39;49m[37m[40mSelecting INBOX...[37m[40m[K(B[m[39;49m[37m[40mEvaluating cache... 0/4384 (0%)[33;21H10/4384 (0%)Fetching message headers... 0/4384 (0%)Sorting mailbox...[37m[40m[K(B[m[39;49m[37m[40m[?25l[?12l[?25h[?25l[37m[40m[J[H(B[0;1m[32m[44mq:Quit  d:Del  u:Undel  s:Save  m:Mail  r:Reply  g:Group  ?:Help[K
+(B[0m[30m[46m   1 N   Dec 01 Karen MacDonald (7.1K) 2 Games Available - 1 House / 1 U12[K
+[4G[37m[40m2 N   Dec 01 ibchurchill     (248K) December at a Glance Newsletter
+   3 N   Nov 30 Elementary, L'E (463K) LEB E-Bulletin for Friday November 30 2018
+   4   + Nov 30 PHILIP ARTHUR S (1861) INTERAC e-Transfer: A money transfer from PHILIP ARTHUR SAUNDERS has been automatically deposited.
+   5   + Nov 30 St. John's Vanc (2542) What's up at St. John's?
+   6   + Nov 30 Ref Centre Webs (  69) 2018-2019 Refresher
+   7 r + Nov 30 Sherry Lukits   (  20) Come home
+   8   + Nov 30 TOM MCHUGH[33G(1861) INTERAC e-Transfer: A money transfer from TOM MCHUGH has been automatically deposited.
+   9   + Nov 30 Grace[10;33H( 418) [VAFC Thunderbolts] 20% to goal!
+  10     Nov 30 Google Calendar (  91) Notification: Soccer Game [Anderson] @ Sat Dec 1, 2018 10:15am - 11:15am (PST) (xootesei@gmail.com)
+  11   + Nov 30 Sherry Lukits   (  14) new pswd wk
+  12     Nov 30 Google Calendar (  85) Notification: change containers at AWS amazon @ Sat Dec 1, 2018 (zeimiewo@gmail.com)
+  13     Nov 30 Google Calendar (  85) Notification: check bandsintown on facebook @ Sat Dec 1, 2018 (zeimiewo@gmail.com)
+  14   + Nov 30 Rick Faw[15;33H(1351) Will you give to grow?
+  15   + Nov 29 PHILIP ARTHUR S (1861) INTERAC e-Transfer: A money transfer from PHILIP ARTHUR SAUNDERS has been automatically deposited.
+  16   + Nov 30 Churchill Atten (  17) Attendance - Churchill
+  17   + Nov 29 ill.lend@ubc.ca (  23) UBC Library Interlibrary Loan/Document Delivery Service Request PAT-20080176
+  18 r T Nov 29 Sherry Lukits   (  14) Free early season skiing
+  19   T Nov 29 Thomas Groppi   (  88) Re: E. 22nd City Submission
+  20 r C Nov 29 Thomas Groppi   (  60) Re: E. 22nd City Submission
+  21 r + Nov 29 Sherry Lukits   (  24) Phone
+  22     Nov 29 Morissette, Nat (  50) Time sensitive
+  23   C Nov 29 Sherry Lukits   (  84) Re: E. 22nd City Submission
+  24   C Nov 29 Brunhoff Stefan (  85) E. 22nd City Submission
+  25   C Nov 29 Leah Kostamo    ( 237) Re: Address and phone ASAP
+  26   + Nov 29 Silverback Tree (1421) Receipt for Payment from Silverback Treeworks Ltd. - 29/11/2018
+  27   + Nov 29 Sherry Lukits   ( 106) Fwd:
+  28   + Nov 29 TD Canada Trust (1861) INTERAC e-Transfer: Your money transfer to ANDREW HOOPER was deposited.
+  29 r + Nov 29 Sherry Lukits   (  42) Re: orthodontist
+  30   + Nov 29 Silverback Tree (1618) Invoice from Silverback Treeworks Ltd. - Arborist Services
+(B[0;1m[32m[44m---Mutt: imaps://imap.gmail.com:993/INBOX [Msgs:4384 New:3 394M]---(reverse-date/date)-------------------------------------------------------------------------------------(0%)---[2;178H(B[m[39;49m[37m[40m[?1h=[?12l[?25h[?25l[37m[40m   1 N   Dec 01 Karen MacDonald (7.1K) 2 Games Available - 1 House / 1 U12[K
+[30m[46m   2 N   Dec 01 ibchurchill     (248K) December at a Glance Newsletter[K[178G(B[m[39;49m[37m[40m[?12l[?25h[?25l[37m[40m   2 N   Dec 01 ibchurchill     (248K) December at a Glance Newsletter[K
+[30m[46m   3 N   Nov 30 Elementary, L'E (463K) LEB E-Bulletin for Friday November 30 2018[K[178G(B[m[39;49m[37m[40m[?12l[?25h[33dFetching message... 0K/464K (0%)Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-31924-8177510871629982408.html'[?25l[37m[40m[J[H(B[0;1m[32m[44mi:Exit  -:PrevPg  <Space>:NextPg v:View Attachm.  d:Del  r:Reply  j:Next ?:Help
+(B[0m[36m[40mDate: Fri, 30 Nov 2018 15:53:32 -0800 (PST)[K
+From: "Elementary, L'Ecole Bilingue" <sysadmin@myeducation.gov.bc.ca>[K
+To: studentrecordsl'ecolebilingue@vsb.bc.ca[K
+Subject: LEB E-Bulletin for Friday November 30 2018[K
+[37m[40m[K
+(B[0;1m[33m[40m[-- Attachment #1 --][K
+[-- Type: multipart/related, Encoding: 7bit, Size: 8.9K --][K
+(B[0m[37m[40m[K
+(B[0;1m[33m[40m[-- Attachment #1 --][K
+[-- Type: multipart/alternative, Encoding: 7bit, Size: 8.8K --][K
+(B[0m[37m[40m[K
+(B[0;1m[33m[40m[-- Autoview using /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-31924-8177510871629982408.html' --][K
+[3G(B[0m[37m[40m Questions/comments, contact Natalie nmorissette@vsb.bc.ca[K
+   Newly assigned liaison Trustee:[K
+[K
+   After School Programs:[K
+   Food Bank Goods:[K
+   Safe arrivals Volunteers Needed on Thursday[K
+   Bilingualism and Brain Health in Children:[K
+   Items for residents of the Downtown Eastside:[K
+[K
+   Newly assigned liaison Trustee: Lois Chan-Pedley[K
+   Lois.Chan-Pedley@vsb.bc.ca[K
+[K
+   The Board of Education recently assigned Lois Chan-Pedley to our
+   school.  Here is an excerpt from the Board Policy Handbook (Policy[K
+   9: Board Representatives) on the role of liaison trustees:
+     * The Board of Education will assign one trustee to each secondary[K
+[7G[1K school and the family of elementary schools related to it and to
+[7G[1K serve as a liaison trustee for those schools. School liaison[K
+[C(B[0;1m[32m[44mN  - 3/4384: Elementary, L'Ecole    LEB E-Bulletin for Friday November 30 2018[91X[171G-- (28%)[32;178H(B[m[39;49m[37m[40m[?12l[?25h[?25l[2;7H[37m[40m[1K responsibilities shall not inhibit or circumvent administrative[K
+[7G[1K authority or responsibility and shall not include any[K
+[7G[1K decision-making authority. In carrying out school liaison[K
+[7G[1K responsibilities, trustees shall represent the interests of all[K
+[8Gstudents in the District. The role of liaison trustee is to provide
+[7G[1K visual support for school activities including but not limited to[K
+[7G[1K athletic competitions, fine arts performances and displays, school[K
+[8Gcelebrations, and recognition events. The role allows trustees to
+[7G[1K become knowledgeable of public school events while keeping[K
+[7G[1K manageable the time demands should there not be some limiting of[K
+[8Gexpectations for Board or trustee attendance at such public events
+[7G[1K When senior management receives matters that are of substantial[K
+       interest to a particular school, the school liaison trustee shall
+       be informed of such matters.After School Programs:  Many after
+[8Gschool programs are rapping up.  Please review dates on your
+       calendar or you may receive an unexpected call for pick up!
+[K
+   Food Bank Goods:  Thank you for your donations!  All items have been
+   boxed and will soon be picked up![K
+[K
+   Safe arrivals Volunteers Needed on Thursday:  In addition, substitute
+   volunteers needed for the backup list. If you can help once in a while
+   when your schedule allows please send me a note at
+   clsewell74@gmail.com.
+[K
+   Bilingualism and Brain Health in Children: Join Dr. Rachel Weber for
+   her talk on Tuesday, December 4^th, at Vancouver Technical Secondary
+   School’s Auditorium. More details attached.  Dr. Weber’s research[K
+   examines the development and promotion of cognitive skills in at-risk
+   children. She made important discoveries about multilingual exposure in
+[175G(B[0;1m[32m[44m67%(B[m[39;49m[37m[40m[?12l[?25h[?25l[2;4H[37m[40myoung children and the relationships between language exposure and[K
+   executive functioning development. Executive functioning refers to
+   those functions responsible for planning and organizing behavior and
+   regulating one’s actions, feelings, and thoughts and is an important
+   predictor of future success.[K
+[K
+   Items for residents of the Downtown Eastside:  Thank you for sending[K
+   items to school with your children.  Boxes are slowly filling up with
+   generosity.  We would like to remind you that items collected towards
+   adults with no permanent home.[K
+[K
+   Below are the items by division:[K
+[K
+   Divisions 1 & 2 - Femine hygiene products and or mens/womens deodorant
+[K
+   Divisions 3 & 4 - Tuques[K
+
+   Divisions 5 & 6 - Finger gloves[K
+[K
+   Division 7 - Small-sized shampoo & conditioner
+[K
+   Divisions 8, 9 & 10 - Socks mens/womens[K
+[K
+   Division 11 - Box of wrapped soft snacks - cereal bars, etc
+
+   Division 12 - Soap: bars, small sized body wash[K
+[K
+   Divisions 13 & 14 - Hand towels[K
+[K
+   Division 15 - Gum, individually small holiday treat of chocolates,[K
+[175G(B[0;1m[32m[44m89%(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
+Fetching message... 0K/248K (0%)Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-31924-1792971556402217026.html'[?25l[37m[40m[J[H
+[36m[40mDate: Sat, 1 Dec 2018 00:12:08 +0000[K
+From: ibchurchill <ibchurchill@vsb.bc.ca>[K
+Subject: December at a Glance Newsletter[K
+[37m[40m[K
+(B[0;1m[33m[40m[-- Attachment #1 --][K
+[-- Type: multipart/alternative, Encoding: 7bit, Size: 2.2K --][K
+(B[0m[37m[40m[K
+(B[0;1m[33m[40m[-- Autoview using /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-31924-1792971556402217026.html' --][K
+[4G(B[0m[37m[40mDear IB Year One Parents/Guardians and Students,[K
+[K
+   Attached you will find the very important edition of our Newsletter -
+   that will hopefully clarify some very important ideas about marks and
+   the end of first term.
+[K
+   Cheers,
+[K
+   Karen Puzio
+[K
+(B[0;1m[33m[40m[-- Attachment #2: Year One November 2018.pdf --][K
+[-- Type: application/pdf, Encoding: base64, Size: 235K --][K
+
+[-- application/pdf is unsupported (use 'v' to view this part) --][K
+
+(B[0m[34m[40m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7G(B[0;1m[32m[44m2[15Gibchurchill            December at a Glance Newsletter           [175Gall(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
+Fetching message... 0K/7.4K (0%)[?25l[37m[40m[J[2;12H[36m[40m01 Dec 2018 02:52:20 GMT[K
+[7GKaren MacDonald <karen255@me.com>[K
+To: Karen MacDonald <karen255@telus.net>
+Subject: 2 Games Available - 1 House / 1 U12[K
+X-Mailer: iCloud MailClient1822Project40 MailServer1821B37.10000-1821B-0-3ae025191697[K
+[37m[40m[K
+Hi Everyone,
+[K
+[K
+We still have the following 2 games available. I'd love to get these filled tonight:
+[K
+[K
+[K
+
+[K
+U8 Boys France 10:00 - 11:00 a.m.    DP West U8 Main
+[K
+
+[K
+[K
+U12S Hornets 8:00 - 9:00 a.m.[22;40HTrillium West S
+[K
+*If someone wants to take this game, KLM also has 2 games after this that don't have a ref so there could be 3 games in a row if someone is interested.  I need our games covered
+(B[0;1m[31m[40m+(B[0m[37m[40mas a priority.[K
+[K
+[K
+[K
+[K
+[K
+Thank you,[K
+(B[0;1m[32m[44m1[15GKaren MacDonald[32;38H2 Games Available - 1 House / 1 U12[175G94%(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h
+You are on the first message.[?25l[H(B[0;1m[32m[44mq:Quit  d:Del  u:Undel  s:Save  m:Mail  r:Reply  g:Group [15P
+(B[0m[30m[46m   1     Dec 01 Karen MacDonald (  86) 2 Games Available - 1 House / 1 U12[K
+[37m[40m   2     Dec 01 ibchurchill     (3202) December at a Glance Newsletter[K
+   3     Nov 30 Elementary, L'E (6160) LEB E-Bulletin for Friday November 30 2018[K
+   4   + Nov 30 PHILIP ARTHUR S (1861) INTERAC e-Transfer: A money transfer from PHILIP ARTHUR SAUNDERS has been automatically deposited.[K
+   5   + Nov 30 St. John's Vanc (2542) What's up at St. John's?[K
+   6   + Nov 30 Ref Centre Webs (  69) 2018-2019 Refresher
+   7 r + Nov 30 Sherry Lukits   (  20) Come home
+   8   + Nov 30 TOM MCHUGH[33G(1861) INTERAC e-Transfer: A money transfer from TOM MCHUGH has been automatically deposited.
+   9   + Nov 30 Grace[10;33H( 418) [VAFC Thunderbolts] 20% to goal!
+  10     Nov 30 Google Calendar (  91) Notification: Soccer Game [Anderson] @ Sat Dec 1, 2018 10:15am - 11:15am (PST) (xootesei@gmail.com)
+  11   + Nov 30 Sherry Lukits   (  14) new pswd wk
+  12     Nov 30 Google Calendar (  85) Notification: change containers at AWS amazon @ Sat Dec 1, 2018 (zeimiewo@gmail.com)
+  13     Nov 30 Google Calendar (  85) Notification: check bandsintown on facebook @ Sat Dec 1, 2018 (zeimiewo@gmail.com)
+  14   + Nov 30 Rick Faw[15;33H(1351) Will you give to grow?
+  15   + Nov 29 PHILIP ARTHUR S (1861) INTERAC e-Transfer: A money transfer from PHILIP ARTHUR SAUNDERS has been automatically deposited.
+  16   + Nov 30 Churchill Atten (  17) Attendance - Churchill
+  17   + Nov 29 ill.lend@ubc.ca (  23) UBC Library Interlibrary Loan/Document Delivery Service Request PAT-20080176
+  18 r T Nov 29 Sherry Lukits   (  14) Free early season skiing
+  19   T Nov 29 Thomas Groppi   (  88) Re: E. 22nd City Submission
+  20 r C Nov 29 Thomas Groppi   (  60) Re: E. 22nd City Submission
+  21 r + Nov 29 Sherry Lukits   (  24) Phone[K
+  22     Nov 29 Morissette, Nat (  50) Time sensitive
+  23   C Nov 29 Sherry Lukits   (  84) Re: E. 22nd City Submission[K
+  24   C Nov 29 Brunhoff Stefan (  85) E. 22nd City Submission
+  25   C Nov 29 Leah Kostamo    ( 237) Re: Address and phone ASAP
+  26   + Nov 29 Silverback Tree (1421) Receipt for Payment from Silverback Treeworks Ltd. - 29/11/2018
+  27   + Nov 29 Sherry Lukits   ( 106) Fwd:
+  28   + Nov 29 TD Canada Trust (1861) INTERAC e-Transfer: Your money transfer to ANDREW HOOPER was deposited.
+  29 r + Nov 29 Sherry Lukits   (  42) Re: orthodontist
+  30   + Nov 29 Silverback Tree (1618) Invoice from Silverback Treeworks Ltd. - Arborist Services
+[C(B[0;1m[32m[44m*-Mutt: imaps://imap.gmail.com:993/INBOX [Msgs:4384 394M]---(reverse-date/date)-------------------------------------------------------------------------------------------(0%)---[2;178H(B[m[39;49m[37m[40m[?12l[?25h[33dLimit to messages matching: [37m[40m[K(B[m[39;49m[37m[40m[37m[40m~(B[m[39;49m[37m[40m[37m[40mf(B[m[39;49m[37m[40m[?25l[37m[40m[J[2;178H(B[m[39;49m[37m[40m[?12l[?25h[33dBounce message to: [37m[40ms(B[m[39;49m[37m[40m[37m[40mh(B[m[39;49m[37m[40m[37m[40me(B[m[39;49m[37m[40m[37m[40mr(B[m[39;49m[37m[40m[37m[40mr(B[m[39;49m[37m[40m[37m[40my(B[m[39;49m[37m[40m[37m[40m,(B[m[39;49m[37m[40m[37m[40ma(B[m[39;49m[37m[40m[37m[40mn(B[m[39;49m[37m[40m[37m[40md(B[m[39;49m[37m[40m[37m[40me(B[m[39;49m[37m[40m[37m[40mr(B[m[39;49m[37m[40m[37m[40ms(B[m[39;49m[37m[40m[37m[40mo(B[m[39;49m[37m[40m[37m[40mn(B[m[39;49m[37m[40m[33;18H Sherry Suzanne Kuhn Lukits <sklukits@gmail.com>, Anderson Lukits <ajlukits@gmail.com>? ([yes]/no): [37m[40myes(B[m[39;49m[37m[40mLooking up smtp.gmail.com...[37m[40m[K(B[m[39;49m[37m[40mConnecting to smtp.gmail.com...SSL/TLS connection using TLS1.2 (ECDHE-RSA/AES-128-GCM/AEAD)Authenticating (LOGIN)...[37m[40m[K(B[m[39;49m[37m[40mSending message... 0K/7.5K (0%)Message bounced.[37m[40m[K(B[m[39;49m[37m[40m[?25l[2;178H[?12l[?25h[33dLimit to messages matching: [37m[40m~(B[m[39;49m[37m[40m[37m[40mf(B[m[39;49m[37m[40m[C[37m[40mf(B[m[39;49m[37m[40m[37m[40mr(B[m[39;49m[37m[40m[37m[40ma(B[m[39;49m[37m[40m[37m[40mn(B[m[39;49m[37m[40m[37m[40mc(B[m[39;49m[37m[40m[37m[40mi(B[m[39;49m[37m[40m[37m[40mn(B[m[39;49m[37m[40m[37m[40me(B[m[39;49m[37m[40mCompiling search pattern...[37m[40m[K(B[m[39;49m[37m[40mExecuting command on matching messages... 0/4384 (0%)To view all messages, limit to "all".[37m[40m[K(B[m[39;49m[37m[40m[?25l[H
+[30m[46m1304   + Sep 22 Francine Marx   ( 143) Re: soccer[K
+[37m[40m1306   + Sep 22 Francine Marx-Z ( 376) Re: soccer[K
+1312 r + Sep 22 Francine Marx-Z ( 276) Re: soccer[K
+1317   + Sep 21 Francine Marx-Z ( 257) Re: soccer[K
+1347 r C Sep 20 Francine Marx-Z ( 190) Re: soccer[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[32;49H(B[0;1m[32m[44m5/4384 394M]---(reverse-date/date)[171G(all[2;178H(B[m[39;49m[37m[40m[?12l[?25h[33dFetching message...[37m[40m[K(B[m[39;49m[37m[40m 0K/10K (0%)[?25l[37m[40m[J[H(B[0;1m[32m[44mi:Exit  -:PrevPg  <Space>:NextPg v:View Attachm.  d:Del  r:Reply  j:Next ?:Help
+(B[0m[36m[40mDate: Sat, 22 Sep 2018 12:16:15 -0700[K
+From: Francine Marx <fjmz33@gmail.com>[K
+To: Stefan Lukits <sediomyle@gmail.com>[K
+Subject: Re: soccer[K
+X-Mailer: iPhone Mail (15D100)[K
+
+[37m[40mHi Stefan-
+Please let me know you got this & will meet here at 1...
+Thanks
+
+[32m[40m> On Sep 22, 2018, at 8:30 AM, Stefan Lukits <sediomyle@gmail.com> wrote:[K
+>[K
+> Francine,[K
+>[K
+> Sounds good. The bike ride to VCC is about 12 minutes, VCC to[K
+> Lafarge-Douglas is a straight shot on the Evergreen Line, and then[K
+> it's a couple of blocks to the game. We will leave at around 1pm. I[K
+> will check my email again before then to see if I am picking up Odin[K
+> on the way.[K
+>[K
+> Stefan[K
+>[K
+>> On Sat, Sep 22, 2018 at 08:19:29AM -0700, Francine Marx-Zatzick wrote:[K
+>>   Hi Stefan,[K
+>>   I haven't heard back from you, so will post a request for the team to[K
+>>   look for a ride. If we can't find one, I'll see about him biking with[K
+>>   Anderson...[K
+>>[K
+>>   On Fri, Sep 21, 2018 at 6:35 PM Francine Marx-Zatzick[K
+>>   <fjmz33@gmail.com> wrote:[K
+[C(B[0;1m[32m[44m  +- 1304/4384: Francine Marx          Re: soccer[120X[171G-- (22%)[32;178H(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
+Fetching message... 0K/21K (0%)Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-31924-1226502521664155258.html'[?25l[37m[40m[J[2;25H[36m[40m1:10:29[3;20H-Zatzick <fjmz33@gmail.com>
+
+
+[37m[40m[K
+(B[0;1m[33m[40m[-- Autoview using /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-31924-1226502521664155258.html' --][K
+(B[0m[37m[40m   It sounds like Odin will go with you after all as the ride is a far
+   drive for us.  I didn't realize you would be going too, so feel better
+   about that. If you guys can stop here for Odin on your way (59 east
+   20th) at 1:00, that would be great.
+   Thanks[K
+[K
+   On Sat, Sep 22, 2018 at 8:30 AM Stefan Lukits <sediomyle@gmail.com>[K
+   wrote:[K
+[K
+    [1K Francine,[K
+[5G[1K Sounds good. The bike ride to VCC is about 12 minutes, VCC to[K
+[5G[1K Lafarge-Douglas is a straight shot on the Evergreen Line, and then[K
+[5G[1K it's a couple of blocks to the game. We will leave at around 1pm. I[K
+[5G[1K will check my email again before then to see if I am picking up Odin[K
+[5G[1K on the way.[K
+[5G[1K Stefan[K
+[5G[1K On Sat, Sep 22, 2018 at 08:19:29AM -0700, Francine Marx-Zatzick[K
+[5G[1K wrote:[K
+[5G[32m[40m[1K >    Hi Stefan,[K
+[5G[1K >    I haven't heard back from you, so will post a request for the[K
+[5G[37m[40m[1K team to[K
+[5G[32m[40m[1K >    look for a ride. If we can't find one, I'll see about him
+[5G[37m[40m[1K biking with[K
+[5G[32m[40m[1K >    Anderson...[K[32;10H(B[0;1m[32m[44m6[32;31H-Zatzic[175G19%(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
+Fetching message... 0K/16K (0%)Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-31924-9719782411066161884.html'[?25l[37m[40m[J[2;24H[36m[40m08:19[7;85H(B[0;1m[33m[40m9719782411066161884
+[4G(B[0m[37m[40mHi Stefan,[K
+   I haven't heard back from you, so will post a request for the team to[K
+   look for a ride. If we can't find one, I'll see about him biking with
+   Anderson...[K
+[K
+   On Fri, Sep 21, 2018 at 6:35 PM Francine Marx-Zatzick
+   <fjmz33@gmail.com> wrote:[K
+[K
+   Hi Stefan,
+   Odin does bike a lot, but he is filling in tonight on his old team and
+   will likely be pretty tired, plus tomorrow should be rainy. If you
+   aren't up for driving, I might put a message out to the team to see if
+   Odin could get a ride from another family.[K
+   Just let me know,[K
+   Thanks[K
+[K
+   On Fri, Sep 21, 2018 at 3:15 PM Stefan Lukits <sediomyle@gmail.com>
+[2P
+[K
+    [1K Francine,[K
+[6GDoes Odin ride his bike? I am wondering about taking him and
+[5G[1K Anderson[K
+[6Gto VCC and taking the skytrain. It would be just as fast as the car.
+[5G[1K I have an extra compass card for Odin.[K
+[C(B[0;1m[32m[44mr[9G12[175G25%(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
+Fetching message... 0K/15K (0%)Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-31924-392594554932943126.html'[?25l[8;31r[31;1H[37m[40m[8S[1;33r[33;1H[J[2;7H[36m[40mFri, 21[2;24H18:35:15[7;85H(B[0;1m[33m[40m392594554932943126[1P[24;6H(B[0m[37m[40mStefan
+[6GOn Thu, Sep 20, 2018 at 12:59:26PM -0700, Francine Marx-Zatzick
+[6Gwrote:
+[5G[32m[40m[1K >    Hi Stefan,[K
+[5G[1K >    Thanks very much for taking Odin. We try to go to all of his[K
+[6G[37m[40mgames, but
+[5G[32m[40m[1K >    it looks like there may be a couple we can't get to this year.[K
+[6G[37m[40mOur
+[C(B[0;1m[32m[44m [10G7[176G7%(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
+Fetching message... 0K/12K (0%)Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-31924-16348192351429294320.html'[?25l[14;30r[14;1H[37m[40m[8T[1;33r[5;9r[5;1HM[1;33r[33;1H[J[2;7H[36m[40mThu, 20[2;25H2:59:26
+
+[6Gherry[4;21Hklukits[1P
+Cc: sediomyle@gmail.com[K[8;85H(B[0;1m[33m[40m16348192351429294320.html' --]
+
+[4G(B[0m[37m[40mThanks very much for taking Odin. We try to go to all of his games, but
+   it looks like there may be a couple we can't ge[58Gis year. Our[K
+   address is 59 East 20th, a purple house. I'll leave my phone #s below
+   as well. Again, happy to return the ride anytime.
+   Francine
+   h-604.876.4597
+   c-778.558.4597
+
+   On Thu, Sep 20, 2018 at 8:37 AM Sherry Lukits <sklukits@gmail.com>
+   wrote:
+
+   I think the plan is pick up Odin at 1:15 on Saturday at his house.
+   Francine, can you send stefan your address again?
+
+[7GThu[17G0[24;28H8:01 A[28;6HHi. Please let me know what the plan is. I am happy to drive on
+[6GSaturday.
+[6GStefan[K
+[7Gn Wed, Sep 19, 2018 at 06:40:17PM -0700, Sherry Lukits wrote:
+[C(B[0;1m[32m[44mr C- 134[175G37%(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[H(B[0;1m[32m[44mq:Quit  d:Del  u:Undel  s:Save  m:Mail  r:Reply  g:Group [15P
+(B[0m[37m[40m1304   + Sep 22 Francine Marx   ( 143) Re: soccer[K
+1306   + Sep 22 Francine Marx-Z ( 376) Re: soccer[K
+1312 r + Sep 22 Francine Marx-Z ( 276) Re: soccer[K
+1317   + Sep 21 Francine Marx-Z ( 257) Re: soccer[K
+[30m[46m1347 r C Sep 20 Francine Marx-Z ( 190) Re: soccer[K
+
+[37m[40m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+
+[K
+[K
+
+[K
+[K
+
+[K
+[K
+
+[K
+[K
+[K
+[K
+[K
+[C(B[0;1m[32m[44m*-Mutt: imaps://imap.gmail.com:993/INBOX [Msgs:5/4384 394M]---(reverse-date/date)----------------------------------------------------------------------------------------(all)---[6;178H(B[m[39;49m[37m[40m[?12l[?25h[33dInvoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-31924-13359211371839736618.html'[?25l[37m[40m[J[H(B[0;1m[32m[44mi:Exit  -:PrevPg  <Space>:NextPg v:View Attachm.  d:Del  r:Reply  j:Next ?:Help
+(B[0m[36m[40mDate: Thu, 20 Sep 2018 12:59:26 -0700[K
+From: Francine Marx-Zatzick <fjmz33@gmail.com>[K
+To: Sherry Lukits <sklukits@gmail.com>[K
+Cc: sediomyle@gmail.com[K
+Subject: Re: soccer[K
+
+(B[0;1m[33m[40m[-- Autoview using /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-31924-13359211371839736618.html' --][K
+[4G(B[0m[37m[40mHi Stefan,
+   Thanks very much for taking Odin. We try to go to all of his games, but
+   it looks like there may be a couple we can't get to this year. Our
+   address is 59 East 20th, a purple house. I'll leave my phone #s below
+   as well. Again, happy to return the ride anytime.
+   Francine
+   h-604.876.4597
+   c-778.558.4597
+
+   On Thu, Sep 20, 2018 at 8:37 AM Sherry Lukits <sklukits@gmail.com>
+   wrote:
+
+   I think the plan is pick up Odin at 1:15 on Saturday at his house.
+   Francine, can you send stefan your address again?
+
+   On Thu, Sep 20, 2018 at 8:01 AM Stefan Lukits <sediomyle@gmail.com>
+   wrote:
+
+Francine,
+[6GHi. Please let me know what the plan is. I am happy to drive on
+[6GSaturday.
+[6GStefan
+[6GOn Wed, Sep 19, 2018 at 06:40:17PM -0700, Sherry Lukits wrote:
+[C(B[0;1m[32m[44mr C- 1347/4384: Francine Marx-Zatzic   Re: soccer[120X[171G-- (37%)[32;178H(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[H(B[0;1m[32m[44mq:Quit  d:Del  u:Undel  s:Save  m:Mail  r:Reply  g:Group [15P
+(B[0m[37m[40m1304   + Sep 22 Francine Marx   ( 143) Re: soccer[K
+1306   + Sep 22 Francine Marx-Z ( 376) Re: soccer[K
+1312 r + Sep 22 Francine Marx-Z ( 276) Re: soccer[K
+1317   + Sep 21 Francine Marx-Z ( 257) Re: soccer[K
+[30m[46m1347 r C Sep 20 Francine Marx-Z ( 190) Re: soccer[K
+
+[37m[40m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+
+[K
+[K
+
+[K
+[K
+
+[K
+[K
+
+[K
+[K
+[K
+[K
+[K
+[C(B[0;1m[32m[44m*-Mutt: imaps://imap.gmail.com:993/INBOX [Msgs:5/4384 394M]---(reverse-date/date)----------------------------------------------------------------------------------------(all)---[6;178H(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[H
+[30m[46m   1     Dec 01 Karen MacDonald (  86) 2 Games Available - 1 House / 1 U12[K
+[37m[40m   2     Dec 01 ibchurchill     (3202) December at a Glance Newsletter
+   3     Nov 30 Elementary, L'E (6160) LEB E-Bulletin for Friday November 30 2018
+   4   + Nov 30 PHILIP ARTHUR S (1861) INTERAC e-Transfer: A money transfer from PHILIP ARTHUR SAUNDERS has been automatically deposited.
+   5   + Nov 30 St. John's Vanc (2542) What's up at St. John's?[K
+   6   + Nov 30 Ref Centre Webs (  69) 2018-2019 Refresher
+   7 r + Nov 30 Sherry Lukits   (  20) Come home
+   8   + Nov 30 TOM MCHUGH[33G(1861) INTERAC e-Transfer: A money transfer from TOM MCHUGH has been automatically deposited.
+   9   + Nov 30 Grace[10;33H( 418) [VAFC Thunderbolts] 20% to goal!
+  10     Nov 30 Google Calendar (  91) Notification: Soccer Game [Anderson] @ Sat Dec 1, 2018 10:15am - 11:15am (PST) (xootesei@gmail.com)
+  11   + Nov 30 Sherry Lukits   (  14) new pswd wk
+  12     Nov 30 Google Calendar (  85) Notification: change containers at AWS amazon @ Sat Dec 1, 2018 (zeimiewo@gmail.com)
+  13     Nov 30 Google Calendar (  85) Notification: check bandsintown on facebook @ Sat Dec 1, 2018 (zeimiewo@gmail.com)
+  14   + Nov 30 Rick Faw[15;33H(1351) Will you give to grow?
+  15   + Nov 29 PHILIP ARTHUR S (1861) INTERAC e-Transfer: A money transfer from PHILIP ARTHUR SAUNDERS has been automatically deposited.
+  16   + Nov 30 Churchill Atten (  17) Attendance - Churchill
+  17   + Nov 29 ill.lend@ubc.ca (  23) UBC Library Interlibrary Loan/Document Delivery Service Request PAT-20080176
+  18 r T Nov 29 Sherry Lukits   (  14) Free early season skiing
+  19   T Nov 29 Thomas Groppi   (  88) Re: E. 22nd City Submission
+  20 r C Nov 29 Thomas Groppi   (  60) Re: E. 22nd City Submission
+  21 r + Nov 29 Sherry Lukits   (  24) Phone
+  22     Nov 29 Morissette, Nat (  50) Time sensitive
+  23   C Nov 29 Sherry Lukits   (  84) Re: E. 22nd City Submission
+  24   C Nov 29 Brunhoff Stefan (  85) E. 22nd City Submission
+  25   C Nov 29 Leah Kostamo    ( 237) Re: Address and phone ASAP
+  26   + Nov 29 Silverback Tree (1421) Receipt for Payment from Silverback Treeworks Ltd. - 29/11/2018
+  27   + Nov 29 Sherry Lukits   ( 106) Fwd:
+  28   + Nov 29 TD Canada Trust (1861) INTERAC e-Transfer: Your money transfer to ANDREW HOOPER was deposited.
+  29 r + Nov 29 Sherry Lukits   (  42) Re: orthodontist
+  30   + Nov 29 Silverback Tree (1618) Invoice from Silverback Treeworks Ltd. - Arborist Services[32;49H(B[0;1m[32m[44m4384 394M]---(reverse-date/date)--[171G-(0%[2;178H(B[m[39;49m[37m[40m[33dFetching message headers... 0/4385 (0%)Sorting mailbox...[37m[40m[K(B[m[39;49m[37m[40mNew mail in this mailbox.[H
+[37m[40m   1 N T Nov 30 Sherry Lukits   (5.4K) Christmas presents[K
+[30m[46m   2     Dec 01 Karen MacDonald (  86) 2 Games Available - 1 House / 1 U12[K[4;10H[37m[40mDec 01 ibchurchill     (3202) December at a Glance Newsletter[K
+[8G [5;17HElementary, L'E (6160) LEB E-Bulletin for Friday November 30 2018[K[6;17HPHILIP ARTHUR S (1861) INTERAC e-Transfer: A money transfer from PHILIP ARTHUR SAUNDERS has been automatically deposited.[7;17HSt. John's Vanc (2542) What's up at St. John's?
+[6G [8;17HRef Centre Webs (  69) 2018-2019 Refresher
+[6Gr[9;17HSherry Lukits   (  20) Come home[K[10;17HTOM MCHUGH[34G1861) INTERAC e-Transfer: A money transfer from TOM MCHUGH has been automatically deposited.
+[8G+[11;18Hrace           ( 418) [VAFC Thunderbolts] 20% to goal![K
+[8G [12;17HGoogle Calendar (  91) Notification: Soccer Game [Anderson] @ Sat Dec 1, 2018 10:15am - 11:15am (PST) (xootesei@gmail.com)
+[8G+[13;17HSherry Lukits   (  14) new pswd wk[K
+[56Gange containers at AWS amazon @ Sat Dec 1, 2018 (zeimiewo@gmail.com)
+[8G [15;17HGoogle Calendar (  85) Notification: check bandsintown on facebook @ Sat Dec 1, 2018 (zeimiewo@gmail.com)[16;14H30 Rick Faw        (1351) Will you give to grow?[K[17;14H29 PHILIP ARTHUR S (1861) INTERAC e-Transfer: A money transfer from PHILIP ARTHUR SAUNDERS has been automatically deposited.[18;14H30 Churchill Atten (  17) Attendance - Churchill[K
+[6G  +[19;17Hill.lend@ubc.ca (  23) UBC Library Interlibrary Loan/Document Delivery Service Request PAT-20080176
+[6Gr[20;17HSherry Lukits[36G14) Free early season skiing[K
+[6G  T[21;36H88
+[8GC[22;17HThomas Groppi[36G60) Re: E. 22nd City Submission
+[6Gr +[23;17HSherry Lukits   (  24) Phone[K
+[8G [24;17HMorissette, Nat (  50) Time sensitive[K[25;17HSherry Lukits   (  84) Re: E. 22nd City Submission[26;17HBrunhoff Stefan (  85) E. 22nd City Submission[K
+[8GC[27;17HLeah Kostamo    ( 237) Re: Address and phone ASAP[K[28;18Hilverback Tree (1421) Receipt for Payment from Silverback Treeworks Ltd. - 29/11/2018[29;17HSherry Lukits   ( 106) Fwd:[K
+[6G [30;17HTD Canada Trust (1861) INTERAC e-Transfer: Your money transfer to ANDREW HOOPER was deposited.
+[6Gr[31;18Hherry Lukits   (  42) Re: orthodontist[K
+(B[0;1m[32m[44m5 New:1 394M]---(reverse-date/date)[3;178H(B[m[39;49m[37m[40mpacket_write_wait: Connection to 35.160.211.119 port 22: Broken pipe
+]0;~/jupyter[01;34m~/jupyter[00m$ ff
+Welcome to Ubuntu 16.04.2 LTS (GNU/Linux 4.4.0-96-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+159 packages can be updated.
+0 updates are security updates.
+
+New release '18.04.1 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+*** System restart required ***
+Last login: Sat Dec  1 04:33:30 2018 from 35.231.108.24
+]0;ubuntu@ip-172-31-9-42: ~[01;32mubuntu@ip-172-31-9-42[00m:[01;34m~[00m$ mutt
+[?1049h[1;33r(B[m[4l[?7h[39;49m[?1h=[39;49m[37m[40m[H[2J[39;49m[37m[40m[33d[K[33;1H[?1049l[?1l>[39;49m[37m[40m[K[33;1H[?1049l[?1l>[?1049h[1;33r[39;49m(B[m[4l[?7h[39;49m[37m[40m[37m[40m[H[2J[33d(B[m[39;49m[37m[40mReading imaps://imap.gmail.com:993/INBOX...Looking up imap.gmail.com...[37m[40m[K(B[m[39;49m[37m[40mConnecting to imap.gmail.com...SSL/TLS connection using TLS1.2 (ECDHE-RSA/AES-128-GCM/AEAD)Authenticating (PLAIN)...[37m[40m[K(B[m[39;49m[37m[40mSelecting INBOX...[37m[40m[K(B[m[39;49m[37m[40mEvaluating cache... 0/4387 (0%)[33;21H10/4387 (0%)Fetching message headers... 0/4387 (0%)Sorting mailbox...[37m[40m[K(B[m[39;49m[37m[40m[?25l[?12l[?25h[?25l[37m[40m[J[H(B[0;1m[32m[44mq:Quit  d:Del  u:Undel  s:Save  m:Mail  r:Reply  g:Group  ?:Help[K
+(B[0m[30m[46m   1 N T Dec 01 Sherry Lukits   (7.0K) Re: Horvath Christmas Party[K
+[4G[37m[40m2 N   Dec 01 Karen MacDonald (7.1K) Games Available - a couple of sick referees
+   3 N T Nov 30 Sherry Lukits   (5.4K) Christmas presents
+   4 N   Dec 01 Karen MacDonald (7.1K) 2 Games Available - 1 House / 1 U12
+   5 N   Dec 01 ibchurchill     (248K) December at a Glance Newsletter
+   6 N   Nov 30 Elementary, L'E (463K) LEB E-Bulletin for Friday November 30 2018
+   7   + Nov 30 PHILIP ARTHUR S (1861) INTERAC e-Transfer: A money transfer from PHILIP ARTHUR SAUNDERS has been automatically deposited.
+   8   + Nov 30 St. John's Vanc (2542) What's up at St. John's?
+   9   + Nov 30 Ref Centre Webs (  69) 2018-2019 Refresher
+  10 r + Nov 30 Sherry Lukits   (  20) Come home
+  11   + Nov 30 TOM MCHUGH[33G(1861) INTERAC e-Transfer: A money transfer from TOM MCHUGH has been automatically deposited.
+  12   + Nov 30 Grace[13;33H( 418) [VAFC Thunderbolts] 20% to goal!
+  13     Nov 30 Google Calendar (  91) Notification: Soccer Game [Anderson] @ Sat Dec 1, 2018 10:15am - 11:15am (PST) (xootesei@gmail.com)
+  14   + Nov 30 Sherry Lukits   (  14) new pswd wk
+  15     Nov 30 Google Calendar (  85) Notification: change containers at AWS amazon @ Sat Dec 1, 2018 (zeimiewo@gmail.com)
+  16     Nov 30 Google Calendar (  85) Notification: check bandsintown on facebook @ Sat Dec 1, 2018 (zeimiewo@gmail.com)
+  17   + Nov 30 Rick Faw[18;33H(1351) Will you give to grow?
+  18   + Nov 29 PHILIP ARTHUR S (1861) INTERAC e-Transfer: A money transfer from PHILIP ARTHUR SAUNDERS has been automatically deposited.
+  19   + Nov 30 Churchill Atten (  17) Attendance - Churchill
+  20   + Nov 29 ill.lend@ubc.ca (  23) UBC Library Interlibrary Loan/Document Delivery Service Request PAT-20080176
+  21 r T Nov 29 Sherry Lukits   (  14) Free early season skiing
+  22   T Nov 29 Thomas Groppi   (  88) Re: E. 22nd City Submission
+  23 r C Nov 29 Thomas Groppi   (  60) Re: E. 22nd City Submission
+  24 r + Nov 29 Sherry Lukits   (  24) Phone
+  25     Nov 29 Morissette, Nat (  50) Time sensitive
+  26   C Nov 29 Sherry Lukits   (  84) Re: E. 22nd City Submission
+  27   C Nov 29 Brunhoff Stefan (  85) E. 22nd City Submission
+  28   C Nov 29 Leah Kostamo    ( 237) Re: Address and phone ASAP
+  29   + Nov 29 Silverback Tree (1421) Receipt for Payment from Silverback Treeworks Ltd. - 29/11/2018
+  30   + Nov 29 Sherry Lukits   ( 106) Fwd:
+(B[0;1m[32m[44m---Mutt: imaps://imap.gmail.com:993/INBOX [Msgs:4387 New:6 394M]---(reverse-date/date)-------------------------------------------------------------------------------------(0%)---[2;178H(B[m[39;49m[37m[40m[?1h=[?12l[?25h[?25l[37m[40m   1 N T Dec 01 Sherry Lukits   (7.0K) Re: Horvath Christmas Party[K
+[30m[46m   2 N   Dec 01 Karen MacDonald (7.1K) Games Available - a couple of sick referees[K[178G(B[m[39;49m[37m[40m[?12l[?25h[?25l[37m[40m   2 N   Dec 01 Karen MacDonald (7.1K) Games Available - a couple of sick referees[K
+[30m[46m   3 N T Nov 30 Sherry Lukits   (5.4K) Christmas presents[K[178G(B[m[39;49m[37m[40m[?12l[?25h[?25l[37m[40m   3 N T Nov 30 Sherry Lukits   (5.4K) Christmas presents[K
+[30m[46m   4 N   Dec 01 Karen MacDonald (7.1K) 2 Games Available - 1 House / 1 U12[K[178G(B[m[39;49m[37m[40m[?12l[?25h[?25l[37m[40m   4 N   Dec 01 Karen MacDonald (7.1K) 2 Games Available - 1 House / 1 U12[K
+[30m[46m   5 N   Dec 01 ibchurchill     (248K) December at a Glance Newsletter[K[178G(B[m[39;49m[37m[40m[?12l[?25h[?25l[37m[40m   5 N   Dec 01 ibchurchill     (248K) December at a Glance Newsletter[K
+[30m[46m   6 N   Nov 30 Elementary, L'E (463K) LEB E-Bulletin for Friday November 30 2018[K[178G(B[m[39;49m[37m[40m[?12l[?25h[33dInvoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-6002-1953975461245492335.html'[?25l[37m[40m[J[H(B[0;1m[32m[44mi:Exit  -:PrevPg  <Space>:NextPg v:View Attachm.  d:Del  r:Reply  j:Next ?:Help
+(B[0m[36m[40mDate: Fri, 30 Nov 2018 15:53:32 -0800 (PST)[K
+From: "Elementary, L'Ecole Bilingue" <sysadmin@myeducation.gov.bc.ca>[K
+To: studentrecordsl'ecolebilingue@vsb.bc.ca[K
+Subject: LEB E-Bulletin for Friday November 30 2018[K
+[37m[40m[K
+(B[0;1m[33m[40m[-- Attachment #1 --][K
+[-- Type: multipart/related, Encoding: 7bit, Size: 8.9K --][K
+(B[0m[37m[40m[K
+(B[0;1m[33m[40m[-- Attachment #1 --][K
+[-- Type: multipart/alternative, Encoding: 7bit, Size: 8.8K --][K
+(B[0m[37m[40m[K
+(B[0;1m[33m[40m[-- Autoview using /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-6002-1953975461245492335.html' --][K
+[3G(B[0m[37m[40m Questions/comments, contact Natalie nmorissette@vsb.bc.ca[K
+   Newly assigned liaison Trustee:[K
+[K
+   After School Programs:[K
+   Food Bank Goods:[K
+   Safe arrivals Volunteers Needed on Thursday[K
+   Bilingualism and Brain Health in Children:[K
+   Items for residents of the Downtown Eastside:[K
+[K
+   Newly assigned liaison Trustee: Lois Chan-Pedley[K
+   Lois.Chan-Pedley@vsb.bc.ca[K
+[K
+   The Board of Education recently assigned Lois Chan-Pedley to our
+   school.  Here is an excerpt from the Board Policy Handbook (Policy
+   9: Board Representatives) on the role of liaison trustees:[K
+     * The Board of Education will assign one trustee to each secondary
+[7G[1K school and the family of elementary schools related to it and to[K
+[7G[1K serve as a liaison trustee for those schools. School liaison
+[C(B[0;1m[32m[44mN  - 6/4387: Elementary, L'Ecole    LEB E-Bulletin for Friday November 30 2018[91X[171G-- (28%)[32;178H(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
+Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-6002-68481790222038734.html'[?25l[37m[40m[J[2;7H[36m[40mSat, 1 Dec 2018 00:12:08 +0000[K
+[7Gibchurchill <ibchurchill@vsb[28P
+Subject: December at a Glance Newsletter[K
+[37m[40m[K
+(B[0;1m[33m[40m[-- Attachment #1 --][K
+[5GType: multipart/alternative, Encoding: 7bit, Size: 2.2K --]
+(B[0m[37m[40m[K
+(B[0;1m[33m[40m[-- Autoview using /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-6002-68481790222038734.html' --][K
+(B[0m[37m[40m   Dear IB Year One Parents/Guardians and Students,[K
+[K
+   Attached you will find the very important edition of our Newsletter -
+   that will hopefully clarify some very important ideas about marks and[K
+   the end of first term.[K
+[K
+   Cheers,
+[K
+   Karen Puzio[K
+[K
+(B[0;1m[33m[40m[-- Attachment #2: Year One November 2018.pdf --][K
+[-- Type: application/pdf, Encoding: base64, Size: 235K --][K
+
+[-- application/pdf is unsupported (use 'v' to view this part) --][K
+(B[0m[37m[40m[K
+[34m[40m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7G(B[0;1m[32m[44m5[15Gibchurchill            December at a Glance Newsletter           [175Gall(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[2;12H[36m[40m01 Dec 2018 02:52:20 GMT[K
+[7GKaren MacDonald <karen255@me.com>[K
+To: Karen MacDonald <karen255@telus.net>
+Subject: 2 Games Available - 1 House / 1 U12[K
+X-Mailer: iCloud MailClient1822Project40 MailServer1821B37.10000-1821B-0-3ae025191697[K
+[37m[40m[K
+Hi Everyone,
+[K
+[K
+We still have the following 2 games available. I'd love to get these filled tonight:
+[K
+[K
+[K
+
+[K
+U8 Boys France 10:00 - 11:00 a.m.    DP West U8 Main
+[K
+
+[K
+[K
+U12S Hornets 8:00 - 9:00 a.m.[22;40HTrillium West S
+[K
+*If someone wants to take this game, KLM also has 2 games after this that don't have a ref so there could be 3 games in a row if someone is interested.  I need our games covered
+(B[0;1m[31m[40m+(B[0m[37m[40mas a priority.[K
+[K
+[K
+[K
+[K
+[K
+Thank you,[K
+(B[0;1m[32m[44m4[15GKaren MacDonald[32;38H2 Games Available - 1 House / 1 U12[175G94%(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
+Fetching message... 0K/5.8K (0%)Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-6002-10349836691464241369.html'[?25l[37m[40m[J[2;7H[36m[40mFri, 30 Nov[24G22:23:14 -0800
+[7GSherry Lukits <sklukits@gmail.com>
+[5GSherry Lukits <sklukits@gmail.com>, Stefan Lukits <Sediomyle@gmail.com>[5;10HChristmas presents[K
+[37m[40m[K
+(B[0;1m[33m[40m[-- Autoview using /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-6002-10349836691464241369.html' --][K
+(B[0m[37m[40m   Recording microphone EO
+
+   Watch Josephine
+[K
+   Anderson:
+
+   Bible
+
+   Computer parts
+[K
+   --
+
+Sherry
+[34m[40m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[4G(B[0;1m[32m[44mT- 3[15GSherry Lukits  [32;38HChristmas presents[17X[175Gall(B[m[39;49m[37m[40m[?12l[?25h
+Bounce message to: [37m[40mt(B[m[39;49m[37m[40m[37m[40mt(B[m[39;49m[37m[40m Stefan Todo List <taihoole@gmail.com>? ([yes]/no): [37m[40myes(B[m[39;49m[37m[40mLooking up smtp.gmail.com...[37m[40m[K(B[m[39;49m[37m[40mConnecting to smtp.gmail.com...SSL/TLS connection using TLS1.2 (ECDHE-RSA/AES-128-GCM/AEAD)Authenticating (LOGIN)...[37m[40m[K(B[m[39;49m[37m[40mSending message... 0K/5.8K (0%)Message bounced.[37m[40m[K(B[m[39;49m[37m[40m[?25l[32;178H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
+Fetching message... 0K/7.5K (0%)[?25l[37m[40m[J[2;7H[36m[40mSat, 01 Dec[24G16:00:58 GMT[K
+[7GKaren MacDonald <karen255@me.com>[K
+[5GKaren MacDonald <karen255@telus.net>[K
+Cc: Michelle Martin <vancouverathleticfc@gmail.com>, Steve Weston <steveswest@aol.com>
+Subject: Games Available - a couple of sick referees[K
+X-Mailer: iCloud MailClient1822Project40 MailServer1821B37.10000-1821B-0-3ae025191697[K
+[37m[40m[K
+Hi Everyone,
+[K
+
+I've had a couple of referees let me know that they are under the weather and can't make their games. The following are available. Please sign up to cover these if you can.
+
+[K
+
+[K
+
+Saturday
+
+[K
+U8 Boys Argentina 11:00 - 12:00 noon DP West U8 Main[K
+[K
+U9 Boys Score'pions 12:00 - 1:00 p.m. DP West U9 Roving[K
+[K
+[K
+[K
+[K
+Sunday[K
+[K
+[K
+U11S Blue Lobsters 8:30 - 9:30 a.m. Trillium East N[K
+[4G(B[0;1m[32m[44m - 2[15GKaren MacDonald[32;38HGames Available - a couple of sick referees[175G92%(B[m[39;49m[37m[40m[?12l[?25h
+Bounce message to: [37m[40ma(B[m[39;49m[37m[40m[37m[40mn(B[m[39;49m[37m[40m[37m[40md(B[m[39;49m[37m[40m[37m[40me(B[m[39;49m[37m[40m[37m[40mr(B[m[39;49m[37m[40m[37m[40ms(B[m[39;49m[37m[40m[37m[40mo(B[m[39;49m[37m[40m[37m[40mn(B[m[39;49m[37m[40m[37m[40m,(B[m[39;49m[37m[40m[37m[40ms(B[m[39;49m[37m[40m[37m[40mh(B[m[39;49m[37m[40m[37m[40me(B[m[39;49m[37m[40m[37m[40mr(B[m[39;49m[37m[40m[37m[40mr(B[m[39;49m[37m[40m[37m[40my(B[m[39;49m[37m[40m[33;18H Anderson Lukits <ajlukits@gmail.com>, Sherry Suzanne Kuhn Lukits <sklukits@gmail.com>? ([yes]/no): [37m[40myes(B[m[39;49m[37m[40mLooking up smtp.gmail.com...[37m[40m[K(B[m[39;49m[37m[40mConnecting to smtp.gmail.com...SSL/TLS connection using TLS1.2 (ECDHE-RSA/AES-128-GCM/AEAD)Authenticating (LOGIN)...[37m[40m[K(B[m[39;49m[37m[40mSending message... 0K/7.6K (0%)Message bounced.[37m[40m[K(B[m[39;49m[37m[40m[?25l[32;178H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h
+Fetching message... 0K/7.5K (0%)Invoking autoview command: /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-6002-1450522570545124444.html'[?25l[37m[40m[J[2;12H[36m[40m1 Dec 2018 08:01:01 -0800
+[7GSherry Lukits <sklukits@gmail.com>
+[5GStefan Lukits <Sediomyle@gmail.com>, Tracee Horvath <traceelise@gmail.com>
+Subject: Re: Horvath Christmas Party[K
+[37m[40m[K
+(B[0;1m[33m[40m[-- Autoview using /usr/bin/lynx -nolist -dump '/tmp/mutt-ip-172-31-9-42-1000-6002-1450522570545124444.html' --][K
+[4G(B[0m[37m[40mTrace,
+[K
+   We’d love to come, but haven’t talked about it yet. I got an unclear
+   email from our piano teacher about that evening perhaps being a recital
+   for Anderson. I’ll try to confirm with you today.[K
+
+   On Mon, Nov 26, 2018 at 8:10 PM Tracee Horvath <traceelise@gmail.com>
+   wrote:
+
+   You are invited to a Christmas Party
+   at Zoltan and Tracee Horvath's home
+   (6750 - 272nd Street, Langley)
+   on Saturday, December 8th, 6:00 pm
+   Please bring either an appetizer or a dessert;[K
+   libations to share are also welcome.
+   Sorry for the late notice. Hope you can join us![K
+   RSVP to traceelise@gmail.com by December 1st
+
+   --
+
+   Sherry
+[34m[40m[K
+[K
+[K
+[4G(B[0;1m[32m[44mT- 1[15GSherry Lukits  [32;38HRe: Horvath Christmas Party[16X[175Gall(B[m[39;49m[37m[40m[?12l[?25h[?25l[?12l[?25h
+You are on the first message.[?25l[H(B[0;1m[32m[44mq:Quit  d:Del  u:Undel  s:Save  m:Mail  r:Reply  g:Group [15P
+(B[0m[30m[46m   1   T Dec 01 Sherry Lukits   (  62) Re: Horvath Christmas Party[K
+[37m[40m   2     Dec 01 Karen MacDonald (  93) Games Available - a couple of sick referees[K
+   3   T Nov 30 Sherry Lukits   (  37) Christmas presents[K
+   4     Dec 01 Karen MacDonald (  86) 2 Games Available - 1 House / 1 U12[K
+   5     Dec 01 ibchurchill     (3202) December at a Glance Newsletter
+   6     Nov 30 Elementary, L'E (6160) LEB E-Bulletin for Friday November 30 2018[K
+   7   + Nov 30 PHILIP ARTHUR S (1861) INTERAC e-Transfer: A money transfer from PHILIP ARTHUR SAUNDERS has been automatically deposited.
+   8   + Nov 30 St. John's Vanc (2542) What's up at St. John's?
+   9   + Nov 30 Ref Centre Webs (  69) 2018-2019 Refresher[K
+  10 r + Nov 30 Sherry Lukits   (  20) Come home[K
+  11   + Nov 30 TOM MCHUGH      (1861) INTERAC e-Transfer: A money transfer from TOM MCHUGH has been automatically deposited.
+  12   + Nov 30 Grace[13;33H( 418) [VAFC Thunderbolts] 20% to goal!
+  13     Nov 30 Google Calendar (  91) Notification: Soccer Game [Anderson] @ Sat Dec 1, 2018 10:15am - 11:15am (PST) (xootesei@gmail.com)
+  14   + Nov 30 Sherry Lukits   (  14) new pswd wk
+  15     Nov 30 Google Calendar (  85) Notification: change containers at AWS amazon @ Sat Dec 1, 2018 (zeimiewo@gmail.com)
+  16     Nov 30 Google Calendar (  85) Notification: check bandsintown on facebook @ Sat Dec 1, 2018 (zeimiewo@gmail.com)
+  17   + Nov 30 Rick Faw        (1351) Will you give to grow?
+  18   + Nov 29 PHILIP ARTHUR S (1861) INTERAC e-Transfer: A money transfer from PHILIP ARTHUR SAUNDERS has been automatically deposited.
+  19   + Nov 30 Churchill Atten (  17) Attendance - Churchill
+  20   + Nov 29 ill.lend@ubc.ca (  23) UBC Library Interlibrary Loan/Document Delivery Service Request PAT-20080176
+  21 r T Nov 29 Sherry Lukits   (  14) Free early season skiing
+  22   T Nov 29 Thomas Groppi   (  88) Re: E. 22nd City Submission
+  23 r C Nov 29 Thomas Groppi   (  60) Re: E. 22nd City Submission
+  24 r + Nov 29 Sherry Lukits   (  24) Phone
+  25     Nov 29 Morissette, Nat (  50) Time sensitive
+  26   C Nov 29 Sherry Lukits   (  84) Re: E. 22nd City Submission
+  27   C Nov 29 Brunhoff Stefan (  85) E. 22nd City Submission
+  28   C Nov 29 Leah Kostamo    ( 237) Re: Address and phone ASAP[K
+  29   + Nov 29 Silverback Tree (1421) Receipt for Payment from Silverback Treeworks Ltd. - 29/11/2018[K
+  30   + Nov 29 Sherry Lukits   ( 106) Fwd:[K
+[C(B[0;1m[32m[44m*-Mutt: imaps://imap.gmail.com:993/INBOX [Msgs:4387 394M]---(reverse-date/date)-------------------------------------------------------------------------------------------(0%)---[2;178H(B[m[39;49m[37m[40m[?12l[?25h[33d4387 kept, 0 deleted.[37m[40m[K(B[m[39;49m[37m[40mClosing connection to imap.gmail.com...[37m[40m[J(B[m[39;49m[37m[40m[39;49m[37m[40m[K[33;1H[?1049l[?1l>]0;ubuntu@ip-172-31-9-42: ~[01;32mubuntu@ip-172-31-9-42[00m:[01;34m~[00m$ exit
+logout
+Connection to 35.160.211.119 closed.
+]0;~/jupyter[01;34m~/jupyter[00m$ 
