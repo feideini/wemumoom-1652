@@ -30,4 +30,4 @@
 {"type":"cell","id":"df96d5","pos":24,"input":"The volume of the cylinder in terms of the radius of its base is $$V(r)=r^{2}\\pi{}h$$","cell_type":"markdown"}
 {"type":"cell","id":"e1997a","pos":7,"input":"S(x)=x+1/(x*10^14)","cell_type":"code","exec_count":0}
 {"type":"file","last_load":1542396710763}
-{"type":"settings","kernel":"sagemath","backend_state":"running","metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.14"}},"kernel_usage":{"cpu":0,"memory":179929088},"kernel_state":"idle"}
+{"type":"settings","kernel":"sagemath","backend_state":"running","metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.14"}},"kernel_usage":{"cpu":0,"memory":178958336},"kernel_state":"idle"}

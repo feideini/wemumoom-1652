@@ -20,4 +20,4 @@
 {"output":{"0":{"data":{"text/plain":"[4 0]\n[0 2]"},"exec_count":16}},"exec_count":16,"start":1542855677227,"input":"D","state":"done","pos":14,"type":"cell","end":1542855677279,"id":"2d2189","kernel":"sagemath"}
 {"type":"cell","id":"a22793","pos":20,"input":""}
 {"type":"file","last_load":1542820822838}
-{"type":"settings","trust":true,"kernel_state":"idle","backend_state":"running","kernel":"sagemath","kernel_usage":{"cpu":0,"memory":205484032}}
+{"type":"settings","trust":true,"kernel_usage":{"cpu":0,"memory":193171456},"backend_state":"running","kernel":"sagemath","kernel_state":"idle"}

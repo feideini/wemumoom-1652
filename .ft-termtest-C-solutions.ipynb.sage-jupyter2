@@ -1,10 +1,9 @@
 {"exec_count":1,"start":1542849835495,"input":"f(x)=0.005*x^2+(3*10^8)/x^2","state":"done","pos":2,"type":"cell","end":1542849835538,"id":"b864e9","kernel":"sagemath"}
 {"exec_count":11,"start":1542850418945,"input":"fp1(x)=diff(f1(x),x)","state":"done","pos":13,"type":"cell","end":1542850418994,"id":"c9fd64","kernel":"sagemath"}
-{"exec_count":15,"start":1542850624829,"input":"g1(t)=(2*t^2+1)/93*t","state":"done","pos":17,"cell_type":"code","type":"cell","end":1542850624843,"id":"c79302","kernel":"sagemath"}
-{"exec_count":16,"start":1542850664605,"input":"gp1(t)=diff(g1(t),t)","state":"done","pos":18,"type":"cell","end":1542850664615,"id":"64e186","kernel":"sagemath"}
+{"exec_count":2,"start":1543537707573,"input":"g1(t)=(2*t^2+1)/(3*t)","state":"done","pos":17,"cell_type":"code","type":"cell","end":1543537707611,"id":"c79302","kernel":"sagemath"}
 {"exec_count":20,"start":1542850810335,"input":"f2(x)=x*sqrt(x-x^2)","state":"done","pos":24,"type":"cell","end":1542850810347,"id":"6f61fc","kernel":"sagemath"}
 {"exec_count":21,"start":1542850827525,"input":"fp2(x)=diff(f2(x),x)","state":"done","pos":25,"type":"cell","end":1542850827532,"id":"2ea3a0","kernel":"sagemath"}
-{"exec_count":29,"start":1542851280147,"input":"f3(x)=(x^2-5)*log(x^3)","state":"done","pos":34,"type":"cell","end":1542851280151,"id":"597e07","kernel":"sagemath"}
+{"exec_count":3,"start":1543537710253,"input":"gp1(t)=diff(g1(t),t)","state":"done","pos":18,"type":"cell","end":1543537710266,"id":"64e186","kernel":"sagemath"}
 {"exec_count":32,"start":1542851354434,"input":"g2(s)=2*s^2+pi*s-3","state":"done","pos":38,"type":"cell","end":1542851354466,"id":"ee0331","kernel":"sagemath"}
 {"exec_count":34,"start":1542851448540,"input":"f4(t)=t^3+6*t^2+3*t-1","state":"done","pos":41,"type":"cell","end":1542851448552,"id":"122e92","kernel":"sagemath"}
 {"exec_count":35,"start":1542851463839,"input":"fp4(t)=diff(f4(t),t)","state":"done","pos":42,"type":"cell","end":1542851463851,"id":"ebcaaa","kernel":"sagemath"}
@@ -12,26 +11,28 @@
 {"exec_count":4,"start":1542849960809,"input":"x0=n(100*24^(1/4)*sqrt(5))","state":"done","pos":5,"type":"cell","end":1542849960840,"id":"04bc80","kernel":"sagemath"}
 {"exec_count":40,"start":1542851573528,"input":"gp3(z)=diff(g3(z),z)","state":"done","pos":47,"type":"cell","end":1542851573540,"id":"ee7207","kernel":"sagemath"}
 {"exec_count":8,"input":"Find the slope of the tangent line at the given point.\n\\[\nf(x)=\\frac{4}{x}+2\\sqrt[3]{x},x=8\\notag\n\\]\n\\[\ng(t)=\\frac{2t^{2}+1}{3t},t=2\\notag\n\\]","state":"done","pos":11,"cell_type":"markdown","type":"cell","id":"a6b63c","kernel":"sagemath"}
+{"exec_count":8,"start":1543538143796,"input":"f3(x)=(x^2-5)*log(x^3)","state":"done","pos":34,"type":"cell","end":1543538143807,"id":"597e07","kernel":"sagemath"}
 {"exec_count":9,"start":1542850382930,"input":"f1(x)=4/x+2*x^(1/3)","state":"done","pos":12,"type":"cell","end":1542850382947,"id":"41ff61","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"(-3.73205080756888, -0.267949192431123)"},"exec_count":38}},"exec_count":38,"start":1542851525129,"input":"vector([n(-sqrt(3) - 2),n(sqrt(3) - 2)])","state":"done","pos":45,"type":"cell","end":1542851525209,"id":"0badb7","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"-(2*z + 1)*(z + 1)/(z^2 + z + 1)^2 + 1/(z^2 + z + 1)"},"exec_count":41}},"exec_count":41,"start":1542851580423,"input":"gp3(z)","state":"done","pos":48,"type":"cell","end":1542851580636,"id":"62d81a","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"-1/2*(2*x - 1)*x/sqrt(-x^2 + x) + sqrt(-x^2 + x)"},"exec_count":22}},"exec_count":22,"start":1542850838336,"input":"fp2(x)","state":"done","pos":26,"type":"cell","end":1542850838361,"id":"41ebb7","kernel":"sagemath"}
-{"output":{"0":{"data":{"text/plain":"-32/93"},"exec_count":19}},"exec_count":19,"start":1542850708832,"input":"g1(2)-gp1(2)*2","state":"done","pos":21,"type":"cell","end":1542850708847,"id":"c5ea2d","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"-1/3*(2*t^2 + 1)/t^2 + 4/3"},"exec_count":4}},"exec_count":4,"start":1543537712895,"input":"gp1(t)","state":"done","pos":19,"type":"cell","end":1543537712927,"id":"a01e26","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"-4*x + 2400"},"exec_count":6}},"exec_count":6,"start":1542850253827,"input":"diff(x*(2400-2*x),x)","state":"done","pos":9,"type":"cell","end":1542850253842,"id":"492786","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"-\\frac{3 \\, {\\left(x^{2} - 5\\right)}}{x^{2}} + 2 \\, \\log\\left(x^{3}\\right) + 12"},"exec_count":9}},"exec_count":9,"start":1543538146900,"input":"latex(diff(diff(f3(x),x),x))","state":"done","pos":37.5,"type":"cell","end":1543538146922,"id":"1885e9","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"-\\frac{{\\left(2 \\, x - 1\\right)} x}{2 \\, \\sqrt{-x^{2} + x}} + \\sqrt{-x^{2} + x}"},"exec_count":23}},"exec_count":23,"start":1542850855628,"input":"latex(-1/2*(2*x - 1)*x/sqrt(-x^2 + x) + sqrt(-x^2 + x))","state":"done","pos":27,"type":"cell","end":1542850855644,"id":"0fa6d7","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"-\\frac{{\\left(2 \\, z + 1\\right)} {\\left(z + 1\\right)}}{{\\left(z^{2} + z + 1\\right)}^{2}} + \\frac{1}{z^{2} + z + 1}"},"exec_count":42}},"exec_count":42,"start":1542851590958,"input":"latex(-(2*z + 1)*(z + 1)/(z^2 + z + 1)^2 + 1/(z^2 + z + 1))","state":"done","pos":49,"type":"cell","end":1542851590988,"id":"049725","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"0.0100000000000000*x - 600000000/x^3"},"exec_count":2}},"exec_count":2,"start":1542849844976,"input":"diff(f(x),x)","state":"done","pos":3,"type":"cell","end":1542849845010,"id":"33cc71","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"0.324759526419165"},"exec_count":28}},"exec_count":28,"start":1542851187029,"input":"n(f2(3/4))","state":"done","pos":32,"type":"cell","end":1542851187057,"id":"1271c9","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"1/3"},"exec_count":6}},"exec_count":6,"start":1543537719532,"input":"g1(2)-gp1(2)*2","state":"done","pos":21,"type":"cell","end":1543537719550,"id":"c5ea2d","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"11/3"},"exec_count":13}},"exec_count":13,"start":1542850507724,"input":"f1(8)-fp1(8)*8","state":"done","pos":15,"type":"cell","end":1542850507742,"id":"56bb0c","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"2 \\, x \\log\\left(x^{3}\\right) + \\frac{3 \\, {\\left(x^{2} - 5\\right)}}{x}"},"exec_count":31}},"exec_count":31,"start":1542851301025,"input":"latex(diff(f3(x),x))","state":"done","pos":36,"type":"cell","end":1542851301061,"id":"e7b988","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"2*x*log(x^3) + 3*(x^2 - 5)/x"},"exec_count":30}},"exec_count":30,"start":1542851289334,"input":"diff(f3(x),x)","state":"done","pos":35,"type":"cell","end":1542851289357,"id":"e5f15d","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"2/3/x^(2/3) - 4/x^2"},"exec_count":14}},"exec_count":14,"start":1542850567667,"input":"fp1(x)","state":"done","pos":13.5,"type":"cell","end":1542850567682,"id":"4f79a6","kernel":"sagemath"}
-{"output":{"0":{"data":{"text/plain":"2/31*t^2 + 1/93"},"exec_count":17}},"exec_count":17,"start":1542850670831,"input":"gp1(t)","state":"done","pos":19,"type":"cell","end":1542850670871,"id":"a01e26","kernel":"sagemath"}
-{"output":{"0":{"data":{"text/plain":"25/93"},"exec_count":18}},"exec_count":18,"start":1542850684730,"input":"gp1(2)","state":"done","pos":20,"type":"cell","end":1542850684753,"id":"cb1520","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"3*t^2 + 12*t + 3"},"exec_count":36}},"exec_count":36,"start":1542851468726,"input":"fp4(t)","state":"done","pos":43,"type":"cell","end":1542851468750,"id":"45b2fa","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"3/16*sqrt(3)"},"exec_count":26}},"exec_count":26,"start":1542851166075,"input":"f2(3/4)","state":"done","pos":31,"type":"cell","end":1542851166098,"id":"1bb1a2","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"494.923200383977"},"exec_count":5}},"exec_count":5,"start":1542849969517,"input":"x0","state":"done","pos":6,"type":"cell","end":1542849969531,"id":"f8ec37","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"5/48"},"exec_count":12}},"exec_count":12,"start":1542850427825,"input":"fp1(8)","state":"done","pos":14,"type":"cell","end":1542850427836,"id":"baf75e","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"7/12"},"exec_count":5}},"exec_count":5,"start":1543537715966,"input":"gp1(2)","state":"done","pos":20,"type":"cell","end":1543537716009,"id":"cb1520","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"[t == -sqrt(3) - 2, t == sqrt(3) - 2]"},"exec_count":37}},"exec_count":37,"start":1542851478638,"input":"solve(fp4(t),t)","state":"done","pos":44,"type":"cell","end":1542851478673,"id":"25452b","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"[x == (3/4), x == 0]"},"exec_count":24}},"exec_count":24,"start":1542851100124,"input":"solve(fp2(x),x)","state":"done","pos":29,"type":"cell","end":1542851100157,"id":"4d9617","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"[x == 100*I*24^(1/4)*sqrt(5), x == -100*24^(1/4)*sqrt(5), x == -100*I*24^(1/4)*sqrt(5), x == 100*24^(1/4)*sqrt(5)]"},"exec_count":3}},"exec_count":3,"start":1542849913305,"input":"solve(diff(f(x),x),x)","state":"done","pos":4,"type":"cell","end":1542849922779,"id":"8629d9","kernel":"sagemath"}
@@ -48,9 +49,9 @@
 {"type":"cell","id":"a2c121","pos":8,"input":"![Farmer's Field](./riveropt.png)","cell_type":"markdown"}
 {"type":"cell","id":"e589cc","pos":50,"input":"$$\n-\\frac{{\\left(2 \\, z + 1\\right)} {\\left(z + 1\\right)}}{{\\left(z^{2} + z + 1\\right)}^{2}} + \\frac{1}{z^{2} + z + 1}\n$$","cell_type":"markdown"}
 {"type":"cell","id":"e990b2","pos":40,"input":"Find the critical numbers of each function and identify them as maximum, minimum, or neither.\n$$\nf(t)=t^{3}+6t^{2}+3t-1\n\\notag$$\n$$\ng(z)=\\frac{z+1}{z^{2}+z+1}\\notag\n$$","cell_type":"markdown"}
-{"type":"cell","id":"ee040a","pos":22,"input":"$$L(t)=\\frac{25}{93}t-\\frac{32}{93}$$","cell_type":"markdown"}
+{"type":"cell","id":"ee040a","pos":22,"input":"$$L(t)=\\frac{7}{12}t+\\frac{1}{3}$$","cell_type":"markdown"}
+{"type":"cell","id":"efdb83","pos":37.75,"input":"$$-\\frac{3 \\, {\\left(x^{2} - 5\\right)}}{x^{2}} + 2 \\, \\log\\left(x^{3}\\right) + 12$$","cell_type":"markdown"}
 {"type":"cell","id":"f1caef","pos":37,"input":"$$\n2 \\, x \\log\\left(x^{3}\\right) + \\frac{3 \\, {\\left(x^{2} - 5\\right)}}{x}\n$$","cell_type":"markdown"}
 {"type":"cell","id":"f7b822","pos":33,"input":"Find the first and second derivative of the following functions.\n$$\nf(x)=(x^{2}-5)\\ln{}x^{3}\\notag\n$$\n$$\ng(s)=2s^{2}+\\pi{}s-3\\notag\n$$","cell_type":"markdown"}
 {"type":"file","last_load":1542849685093}
-{"type":"nbconvert","args":["--to","html"],"state":"done","start":1542851687614,"time":1542851694374}
-{"type":"settings","backend_state":"running","trust":true,"kernel":"sagemath","kernel_usage":{"cpu":0,"memory":320655360},"kernel_state":"idle"}
+{"type":"settings","backend_state":"running","trust":true,"kernel":"sagemath","kernel_usage":{"cpu":0,"memory":172064768},"kernel_state":"idle"}
