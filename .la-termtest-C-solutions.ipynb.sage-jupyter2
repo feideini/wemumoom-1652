@@ -52,4 +52,4 @@
 {"type":"cell","id":"cfd048","pos":9,"input":"Find the eigenvalues of the matrix\n$$\nA=\\left[\\begin{array}{cc}\n3&1\\\\-6&-4\n\\end{array}\\right]\\notag$$\nand provide one eigenvector for each eigenvalue.","cell_type":"markdown"}
 {"type":"cell","id":"f42174","pos":20,"input":"$$F(x,y)=\\left[\\begin{array}{c}x^{2}+y^{2}-4\\\\e^{x}-y\\end{array}\\right]$$","cell_type":"markdown"}
 {"type":"file","last_load":1542915637505}
-{"type":"settings","backend_state":"running","trust":true,"kernel":"sagemath","kernel_usage":{"cpu":0,"memory":191803392},"kernel_state":"idle"}
+{"type":"settings","backend_state":"running","trust":true,"kernel":"sagemath","kernel_usage":{"cpu":0,"memory":261529600},"kernel_state":"idle"}
