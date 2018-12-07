@@ -5,6 +5,7 @@
 {"exec_count":28,"start":1544217234895,"input":"x3hat=(A.transpose()*A).inverse()*A.transpose()*Y","state":"done","pos":19,"type":"cell","end":1544217234899,"id":"95e3ba","kernel":"sagemath"}
 {"exec_count":3,"start":1544215668669,"input":"y=r([1.252,1.894,0.913,0.907])","state":"done","pos":3,"type":"cell","end":1544215668680,"id":"f73d98","kernel":"sagemath"}
 {"exec_count":30,"start":1544217263566,"input":"y3hat=0.4535097299807165*x3hat-0.008712942690074499","state":"done","pos":21,"type":"cell","end":1544217263575,"id":"f73ee2","kernel":"sagemath"}
+{"exec_count":33,"input":"<image src=\"stal.png\">","state":"done","pos":0.625,"cell_type":"markdown","type":"cell","id":"194d06","kernel":"sagemath"}
 {"exec_count":4,"start":1544215683385,"input":"r=r.cor(x,y)","state":"done","pos":4,"type":"cell","end":1544215683394,"id":"65fc08","kernel":"sagemath"}
 {"exec_count":9,"start":1544216106364,"input":"L=matrix([[2.698,1.252],[4.217,1.894],[2.115,0.913],[1.997,0.907]])","state":"done","pos":6,"type":"cell","end":1544216106390,"id":"c9d681","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"(a, b)"},"exec_count":11}},"exec_count":11,"start":1544216153071,"input":"var('a','b')","state":"done","pos":8,"type":"cell","end":1544216153090,"id":"5b909e","kernel":"sagemath"}
@@ -19,11 +20,10 @@
 {"type":"cell","id":"0461a1","pos":23,"input":"These are the least-squares adjusted measurements from the origin. Consequently, the $y$-intercept of the green line is $0.9426$ and the slope is $0.4494$.","cell_type":"markdown"}
 {"type":"cell","id":"0e368b","pos":13,"input":"The YAVE setup is $$\\left[\\begin{array}{c}2.115 \\\\ 0.913\\end{array}\\right]-\\left[\\begin{array}{c}1 \\\\ 0.4535\\end{array}\\right][\\hat{x}_{3}]=\\left[\\begin{array}{c}\\epsilon_{1} \\\\ \\epsilon_{2}\\end{array}\\right]$$","cell_type":"markdown"}
 {"type":"cell","id":"1ae211","pos":11,"input":"What I just did in a program called Sage Math, you can do using the formulas for $r$, the slope and the $y$-intercept of the linear regression line. The results are $r\\approx{}0.9977$ (which will pass any hypothesis test for linear correlation), and $y=0.4535x-0.008713$.","cell_type":"markdown"}
-{"type":"cell","id":"2ff9d8","pos":1,"input":"These points are not quite on a line. There is clearly a linear correlation.","cell_type":"markdown"}
+{"type":"cell","id":"2ff9d8","pos":1,"input":"The measured points are not quite on a line. There is clearly a linear correlation.","cell_type":"markdown"}
 {"type":"cell","id":"a7e7b9","pos":0,"input":"The surveyor measures the following lengths:\n\n<table>\n    <tr><td></td><td>x<sub>i</sub></td><td>y<sub>i</sub></td></tr>\n    <tr><td>i=1</td><td>2.698</td><td>1.252</td></tr>\n    <tr><td>i=2</td><td>4.217</td><td>1.894</td></tr>\n    <tr><td>i=3 (at origin)</td><td>2.115</td><td>0.913</td></tr>\n    <tr><td>i=4</td><td>1.997</td><td>0.907</td></tr>\n</table>","cell_type":"markdown"}
 {"type":"cell","id":"beee14","pos":12,"input":"At the origin, we measured $x_{3}=2.115$ and $y_{3}=0.913$. Using the regression line equation, one of these measurement becomes redundant. $$\\begin{array}{rcl}x&=&2.115-\\epsilon_{1} \\\\ 0.4535x&=&0.913-\\epsilon_{2}\\end{array}$$","cell_type":"markdown"}
 {"type":"cell","id":"c3239e","pos":14,"input":"$\\hat{x}_{3}$ is the least-squares adjusted value for the measurement $x_{3}$.","cell_type":"markdown"}
-{"type":"cell","id":"d90832","pos":0.5,"input":"<image src=\"last.png\">","cell_type":"markdown"}
-{"type":"cell","id":"ea1f52","pos":0.75,"input":"(this diagram isn't great---the numbers are such that the surveyor is always southeast of the green line)","cell_type":"markdown"}
 {"type":"file","last_load":1544215020451}
+{"type":"nbconvert","args":["--to","html"],"state":"run","start":1544223027301}
 {"type":"settings","backend_state":"running","trust":true,"kernel":"sagemath","kernel_usage":{"cpu":0,"memory":310661120},"kernel_state":"idle"}
