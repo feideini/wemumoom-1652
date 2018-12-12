@@ -25,5 +25,4 @@
 {"type":"cell","id":"beee14","pos":12,"input":"At the origin, we measured $x_{3}=2.115$ and $y_{3}=0.913$. Using the regression line equation, one of these measurement becomes redundant. $$\\begin{array}{rcl}x&=&2.115-\\epsilon_{1} \\\\ 0.4535x&=&0.913-\\epsilon_{2}\\end{array}$$","cell_type":"markdown"}
 {"type":"cell","id":"c3239e","pos":14,"input":"$\\hat{x}_{3}$ is the least-squares adjusted value for the measurement $x_{3}$.","cell_type":"markdown"}
 {"type":"file","last_load":1544215020451}
-{"type":"nbconvert","args":["--to","html"],"state":"done","start":1544223027301,"time":1544223032081}
-{"type":"settings","backend_state":"running","trust":true,"kernel":"sagemath","kernel_usage":{"cpu":0,"memory":225439744},"kernel_state":"idle"}
+{"type":"settings","backend_state":"running","trust":true,"kernel":"sagemath","kernel_usage":{"cpu":0,"memory":262574080},"kernel_state":"idle"}
