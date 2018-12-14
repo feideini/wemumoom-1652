@@ -1,0 +1,100 @@
+{"type":"cell","id":"0630cc","pos":186,"input":"s=0.001114397","cell_type":"code","exec_count":97}
+{"type":"cell","id":"0b79b4","pos":71,"input":"A=matrix([[1,4],[2,-1]])","cell_type":"code","exec_count":31}
+{"type":"cell","id":"0c2b3e","pos":101,"input":"tat","output":{"0":{"data":{"text/plain":"[1] 2.059539"},"output_type":"execute_result","exec_count":40}},"cell_type":"code","exec_count":40}
+{"type":"cell","id":"0ee0cd","pos":55,"input":"<font color=\"red\">version 2</font>","cell_type":"markdown"}
+{"type":"cell","id":"0fb63e","pos":25,"input":"b=matrix([[-15,3,0]]).transpose()","cell_type":"code","exec_count":14}
+{"type":"cell","id":"1365ab","pos":99,"input":"xbar=359","cell_type":"code","exec_count":38}
+{"type":"cell","id":"155bb9","pos":57,"input":"Y=matrix([547.2,592.2,568]).transpose()","cell_type":"code","exec_count":26}
+{"type":"cell","id":"1da737","pos":110,"input":"left=((n-1)*s^2/cr)^.5","cell_type":"code","exec_count":49}
+{"type":"cell","id":"219b0b","pos":40,"input":"Resolve the vector $\\vec{u}=(0,2)$ into components parallel and perpendicular to the vector $\\vec{v}=(-2,5)$. In other words, write $\\vec{u}=\\vec{v}_{1}+\\vec{v}_{2}$ with $\\vec{v}_{1}\\perp{}\\vec{v}$ and $\\vec{v}_{2}\\parallel{}\\vec{v}$.","cell_type":"markdown"}
+{"type":"cell","id":"235dd7","pos":163,"input":"N(theta*180/pi)","output":{"0":{"data":{"text/plain":"44.9113067011702"},"output_type":"execute_result","exec_count":84}},"cell_type":"code","exec_count":84,"scrolled":true}
+{"type":"cell","id":"24e32a","pos":45,"input":"v1=u-v2","cell_type":"code","exec_count":22}
+{"type":"cell","id":"26cdb6","pos":98,"input":"n=26","cell_type":"code","exec_count":37}
+{"type":"cell","id":"2716bb","pos":108,"input":"cl=r.qchisq(0.025,n-1)\n","cell_type":"code","exec_count":47}
+{"type":"cell","id":"28f348","pos":111,"input":"rite=((n-1)*s^2/cl)^.5\n","cell_type":"code","exec_count":50}
+{"type":"cell","id":"2b5b24","pos":95,"input":"<font color=\"red\">version 2</font>","cell_type":"markdown"}
+{"type":"cell","id":"2d700e","pos":138,"input":"x=z3*ss+mu","cell_type":"code","exec_count":75}
+{"type":"cell","id":"2e1dd0","pos":136,"input":"z3=r.qnorm(3/4)","cell_type":"code","exec_count":73}
+{"type":"cell","id":"2e7daf","pos":165,"input":"j2=1-I","cell_type":"code","exec_count":86}
+{"type":"cell","id":"2e829b","pos":69,"input":"<font color=\"red\">version 2</font>","cell_type":"markdown"}
+{"type":"cell","id":"343075","pos":168,"input":"N(abs(j1/j2))","output":{"0":{"data":{"text/plain":"2.54950975679639"},"output_type":"execute_result","exec_count":89}},"cell_type":"code","exec_count":89}
+{"type":"cell","id":"35d479","pos":187,"input":"mu=0.007","cell_type":"code","exec_count":98}
+{"type":"cell","id":"366c34","pos":74,"input":"P","output":{"0":{"data":{"text/plain":"[  1   1]\n[1/2  -1]"},"output_type":"execute_result","exec_count":34}},"cell_type":"code","exec_count":34}
+{"type":"cell","id":"36a60a","pos":16,"input":"r.cor(x,y)","output":{"0":{"data":{"text/plain":"[1] 0.971565"},"output_type":"execute_result","exec_count":12}},"cell_type":"code","exec_count":12}
+{"type":"cell","id":"3a6fe8","pos":23,"input":"Solve the following system of equations. \\[ \\begin{array}{rcl} 7y+2x&=&6z-15 \\\\ 7y+5z&=&3 \\\\ 4z&=&2\\cdot(2y+3x) \\end{array}\\]","cell_type":"markdown"}
+{"type":"cell","id":"3b25a5","pos":134,"input":"z2","output":{"0":{"data":{"text/plain":"-0.562814070351758"},"output_type":"execute_result","exec_count":71}},"cell_type":"code","exec_count":71}
+{"type":"cell","id":"3c9f62","pos":58,"input":"A=matrix([[1,0],[0,1],[1/2,1/2]])","cell_type":"code","exec_count":27}
+{"type":"cell","id":"3f16cd","pos":191,"input":"t0=r.qt(0.90,12)","cell_type":"code","exec_count":102}
+{"type":"cell","id":"3ff42c","pos":72,"input":"D,P=A.eigenmatrix_right()","cell_type":"code","exec_count":32}
+{"type":"cell","id":"40d28d","pos":188,"input":"n=13","cell_type":"code","exec_count":99}
+{"type":"cell","id":"41fd15","pos":13,"input":"find_fit(L,model)","output":{"0":{"data":{"text/plain":"[a == 0.7026918419124302, b == 4.194596223276983]"},"output_type":"execute_result","exec_count":5}},"cell_type":"code","exec_count":5}
+{"type":"cell","id":"495498","pos":193,"input":"Fail to reject $H_{0}$.","cell_type":"markdown"}
+{"type":"cell","id":"4b8c14","pos":29,"input":"(B*B.transpose()).inverse()","output":{"0":{"data":{"text/plain":"[ 3/14 -1/14]\n[-1/14  5/14]"},"output_type":"execute_result","exec_count":16}},"cell_type":"code","exec_count":16}
+{"type":"cell","id":"4c9c0b","pos":160,"input":"theta=arccos(u.dot_product(v)/(norm(u)*norm(v)))","cell_type":"code","exec_count":81}
+{"type":"cell","id":"522b6e","pos":162,"input":"N(theta)","output":{"0":{"data":{"text/plain":"0.783850173308412"},"output_type":"execute_result","exec_count":83}},"cell_type":"code","exec_count":83}
+{"type":"cell","id":"5b5569","pos":44,"input":"v2","output":{"0":{"data":{"text/plain":"(-20/29, 50/29)"},"output_type":"execute_result","exec_count":21}},"cell_type":"code","exec_count":21}
+{"type":"cell","id":"5f17c5","pos":100,"input":"tat=r.qt(0.975,25)","cell_type":"code","exec_count":39}
+{"type":"cell","id":"60c73c","pos":24,"input":"A=matrix([[2,7,-6],[0,7,5],[-6,-4,4]])","cell_type":"code","exec_count":13}
+{"type":"cell","id":"6290c8","pos":157,"input":"Perform the following two calculations. \n* Given $\\vec{u}=(5,2,-3)$, $\\vec{v}=(4,-1,0)$, find the angle in degrees between the two vectors. \n* Compute $\\frac{3+2i}{1+i}$ and express it in polar form $(r,\\theta)$.","cell_type":"markdown"}
+{"type":"cell","id":"6456c7","pos":105,"input":"xbar+E","output":{"0":{"data":{"text/plain":"[1] 359.2221"},"output_type":"execute_result","exec_count":44}},"cell_type":"code","exec_count":44}
+{"type":"cell","id":"654070","pos":104,"input":"xbar-E","output":{"0":{"data":{"text/plain":"[1] 358.7779"},"output_type":"execute_result","exec_count":43}},"cell_type":"code","exec_count":43}
+{"type":"cell","id":"656599","pos":22,"input":"<font color=\"red\">version 2</font>","cell_type":"markdown"}
+{"type":"cell","id":"66a8cf","pos":112,"input":"left","output":{"0":{"data":{"text/plain":"[1] 0.4313415"},"output_type":"execute_result","exec_count":51}},"cell_type":"code","exec_count":51}
+{"type":"cell","id":"6e149b","pos":192,"input":"t0","output":{"0":{"data":{"text/plain":"[1] 1.356217"},"output_type":"execute_result","exec_count":103}},"cell_type":"code","exec_count":103}
+{"type":"cell","id":"6f9c4c","pos":139,"input":"x","output":{"0":{"data":{"text/plain":"[1] 10.46223"},"output_type":"execute_result","exec_count":76}},"cell_type":"code","exec_count":76}
+{"type":"cell","id":"756a6d","pos":11,"input":"var('a','b')","output":{"0":{"data":{"text/plain":"(a, b)"},"output_type":"execute_result","exec_count":3}},"cell_type":"code","exec_count":3}
+{"type":"cell","id":"771704","pos":41,"input":"u=vector([0,2])","cell_type":"code","exec_count":18}
+{"type":"cell","id":"77fc81","pos":185,"input":"xbar=0.007261001","cell_type":"code","exec_count":96}
+{"type":"cell","id":"7a9c52","pos":190,"input":"t","output":{"0":{"data":{"text/plain":"0.844449947772091"},"output_type":"execute_result","exec_count":101}},"cell_type":"code","exec_count":101}
+{"type":"cell","id":"7c4bd6","pos":130,"input":"ss=1.99","cell_type":"code","exec_count":67}
+{"type":"cell","id":"7cb29c","pos":60,"input":"V0","output":{"0":{"data":{"text/plain":"[546.633333333333]\n[591.633333333333]"},"output_type":"execute_result","exec_count":29}},"cell_type":"code","exec_count":29}
+{"type":"cell","id":"7cf339","pos":133,"input":"z1","output":{"0":{"data":{"text/plain":"-2.57286432160804"},"output_type":"execute_result","exec_count":70}},"cell_type":"code","exec_count":70}
+{"type":"cell","id":"80647a","pos":15,"input":"y=r([4.3,1.8,6.9,4.2])","cell_type":"code","exec_count":11}
+{"type":"cell","id":"82ab41","pos":42,"input":"v=vector([-2,5])","cell_type":"code","exec_count":19}
+{"type":"cell","id":"86be66","pos":128,"input":"The lifetimes of certain survey equipment are normally distributed, with a mean of $9.12$ years and standard deviation of $1.99$ years.\n* Find the probability that a randomly selected piece of equipment will have a lifetime between 4 and 8 years.\n* Find the number $x$ such that a quarter of the equipment lasts longer than $x$ years.","cell_type":"markdown"}
+{"type":"cell","id":"88cceb","pos":96,"input":"Carbon dioxide concentration sampled at 26 different locations indicates a sample mean concentration of 359 ppm with a sample standard deviation of $0.55$ ppm.  Assume that the sample is a simple random sample and the  population is normally distributed. \n* Find a 95\\% confidence interval for the global mean concentration (population mean). \n* Find a 95\\% confidence interval for the population standard deviation. \\end{enumerate}","cell_type":"markdown"}
+{"type":"cell","id":"8fde28","pos":184,"input":"The Canadian Board of Examiners for Professional Surveyors has a standard indicating that a professional surveyor must be able to make a certain measurement with a mean of 0.007 units of error or less. A professional surveyor is tested, and she produces the following simple random sample of errors, assumed to be normally distributed: The summary statistics are $\\bar{x}=0.007261001,s=0.001114397$. Is there support in the data that this professional surveyor would in the long run average a greater error than 0.007 units? Use a confidence level of $1-\\alpha=0.90$.","cell_type":"markdown"}
+{"type":"cell","id":"9206f5","pos":103,"input":"E","output":{"0":{"data":{"text/plain":"[1] 0.2221498"},"output_type":"execute_result","exec_count":42}},"cell_type":"code","exec_count":42}
+{"type":"cell","id":"93f342","pos":131,"input":"z1=(4-mu)/ss","cell_type":"code","exec_count":68}
+{"type":"cell","id":"99b5d8","pos":167,"input":"abs(j1/j2)","output":{"0":{"data":{"text/plain":"sqrt(13/2)"},"output_type":"execute_result","exec_count":88}},"cell_type":"code","exec_count":88}
+{"type":"cell","id":"9bfeb7","pos":26,"input":"A.inverse()*b","output":{"0":{"data":{"text/plain":"[ 2]\n[-1]\n[ 2]"},"output_type":"execute_result","exec_count":15}},"cell_type":"code","exec_count":15}
+{"type":"cell","id":"a2ceb1","pos":102,"input":"E=tat*s/n^.5","cell_type":"code","exec_count":41}
+{"type":"cell","id":"ad3d39","pos":127,"input":"<font color=\"red\">version 2</font>","cell_type":"markdown"}
+{"type":"cell","id":"ae87be","pos":59,"input":"V0=(A.transpose()*A).inverse()*A.transpose()*Y","cell_type":"code","exec_count":28}
+{"type":"cell","id":"b1cf86","pos":129,"input":"mu=9.12","cell_type":"code","exec_count":66}
+{"type":"cell","id":"b58bd3","pos":70,"input":"For the following matrix $A$, find matrices $D$ (which is a diagonal matrix with non-zero elements only along the diagonal) and $P$ such that $D=P^{-1}AP$. \\[ A=\\left[\\begin{array}{cc}1 & 4 \\\\ 2 & -1\\end{array}\\right] \\]","cell_type":"markdown"}
+{"type":"cell","id":"b77409","pos":9,"input":"<font color=\"red\">version 2</font>","cell_type":"markdown"}
+{"type":"cell","id":"b7c04a","pos":166,"input":"j1/j2","output":{"0":{"data":{"text/plain":"5/2*I - 1/2"},"output_type":"execute_result","exec_count":87}},"cell_type":"code","exec_count":87}
+{"type":"cell","id":"b876f8","pos":12,"input":"model(x)=a*x+b","cell_type":"code","exec_count":4}
+{"type":"cell","id":"b90e97","pos":132,"input":"z2=(8-mu)/ss","cell_type":"code","exec_count":69}
+{"type":"cell","id":"ba1801","pos":158,"input":"u=vector([5,2,-3])","cell_type":"code","exec_count":79}
+{"type":"cell","id":"bbedb2","pos":107,"input":"cr","output":{"0":{"data":{"text/plain":"[1] 40.64647"},"output_type":"execute_result","exec_count":46}},"cell_type":"code","exec_count":46}
+{"type":"cell","id":"bec1f5","pos":169,"input":"arg(j1/j2)","output":{"0":{"data":{"text/plain":"pi - arctan(5)"},"output_type":"execute_result","exec_count":90}},"cell_type":"code","exec_count":90}
+{"type":"cell","id":"c01092","pos":27,"input":"If \\[ B=\\left[\\begin{array}{ccc}2&0&1 \\\\ 1&1&-1\\end{array}\\right] \\]provide $(BB^{\\intercal})^{-1}$ in exact form (no rounding). Show your work as if you did not have a calculator.","cell_type":"markdown"}
+{"type":"cell","id":"c283d5","pos":14,"input":"x=r([.6,-2.9,3.9,-1])","cell_type":"code","exec_count":10}
+{"type":"cell","id":"c562f7","pos":75,"input":"P.inverse()*A*P","output":{"0":{"data":{"text/plain":"[ 3  0]\n[ 0 -3]"},"output_type":"execute_result","exec_count":35}},"cell_type":"code","exec_count":35}
+{"type":"cell","id":"d136b7","pos":46,"input":"v1","output":{"0":{"data":{"text/plain":"(20/29, 8/29)"},"output_type":"execute_result","exec_count":23}},"cell_type":"code","exec_count":23,"scrolled":true}
+{"type":"cell","id":"d2320a","pos":183,"input":"<font color=\"red\">version 2</font>","cell_type":"markdown"}
+{"type":"cell","id":"d6a462","pos":109,"input":"cl","output":{"0":{"data":{"text/plain":"[1] 13.11972"},"output_type":"execute_result","exec_count":48}},"cell_type":"code","exec_count":48}
+{"type":"cell","id":"d6a72e","pos":137,"input":"z3","output":{"0":{"data":{"text/plain":"[1] 0.6744898"},"output_type":"execute_result","exec_count":74}},"cell_type":"code","exec_count":74}
+{"type":"cell","id":"d95ab2","pos":43,"input":"v2=(u.dot_product(v)/v.dot_product(v))*v","cell_type":"code","exec_count":20}
+{"type":"cell","id":"dc3cd9","pos":56,"input":"Three points $A,M,B$ are collinear (on one line $h$), and $M$ is exactly midway between $A$ and $B$. A surveyor at position $S$ measures the distance from a fixed position $X$ (also on line $h$) to $A$ as 547.2m; from $X$ to $B$ as 592.2m; from $X$ to $M$ as 568.0m; apply least squares adjustment to find the least squares adjusted length AB.","cell_type":"markdown"}
+{"type":"cell","id":"dca4a0","pos":161,"input":"theta","output":{"0":{"data":{"text/plain":"arccos(9/323*sqrt(38)*sqrt(17))"},"output_type":"execute_result","exec_count":82}},"cell_type":"code","exec_count":82}
+{"type":"cell","id":"e0093e","pos":28,"input":"B=matrix([[2,0,1],[1,1,-1]])","cell_type":"code","exec_count":15}
+{"type":"cell","id":"e70e6b","pos":171,"input":"N(arg(j1/j2)*180/pi)","output":{"0":{"data":{"text/plain":"101.309932474020"},"output_type":"execute_result","exec_count":92}},"cell_type":"code","exec_count":92}
+{"type":"cell","id":"e840f7","pos":73,"input":"D","output":{"0":{"data":{"text/plain":"[ 3  0]\n[ 0 -3]"},"output_type":"execute_result","exec_count":33}},"cell_type":"code","exec_count":33}
+{"type":"cell","id":"e9fe5f","pos":159,"input":"v=vector([4,-1,0])","cell_type":"code","exec_count":80}
+{"type":"cell","id":"ea7b24","pos":189,"input":"t=(xbar-mu)/(s/n^.5)","cell_type":"code","exec_count":100}
+{"type":"cell","id":"ebb27c","pos":61,"input":"V0[1,0]-V0[0,0]","output":{"0":{"data":{"text/plain":"45.0000000000000"},"output_type":"execute_result","exec_count":30}},"cell_type":"code","exec_count":30}
+{"type":"cell","id":"f2b6c2","pos":106,"input":"cr=r.qchisq(0.975,n-1)","cell_type":"code","exec_count":45}
+{"type":"cell","id":"f2f036","pos":39,"input":"<font color=\"red\">version 2</font>","cell_type":"markdown"}
+{"type":"cell","id":"f4d3ad","pos":170,"input":"N(arg(j1/j2))","output":{"0":{"data":{"text/plain":"1.76819188664478"},"output_type":"execute_result","exec_count":91}},"cell_type":"code","exec_count":91}
+{"type":"cell","id":"f72155","pos":135,"input":"r.pnorm(z2)-r.pnorm(z1)","output":{"0":{"data":{"text/plain":"[1] 0.2817377"},"output_type":"execute_result","exec_count":72}},"cell_type":"code","exec_count":72}
+{"type":"cell","id":"f7d30f","pos":47,"input":"v1.dot_product(v2)","output":{"0":{"data":{"text/plain":"0"},"output_type":"execute_result","exec_count":24}},"cell_type":"code","exec_count":24}
+{"type":"cell","id":"f8268c","pos":164,"input":"j1=2+3*I","cell_type":"code","exec_count":85}
+{"type":"cell","id":"fabc32","pos":156,"input":"<font color=\"red\">version 2</font>","cell_type":"markdown"}
+{"type":"cell","id":"fb97de","pos":113,"input":"rite","output":{"0":{"data":{"text/plain":"[1] 0.7592248"},"output_type":"execute_result","exec_count":52}},"cell_type":"code","exec_count":52}
+{"type":"cell","id":"ff1fd8","pos":97,"input":"s=0.55","cell_type":"code","exec_count":36}
+{"type":"cell","id":"ffe9a9","pos":10,"input":"L=matrix([[0.6,4.3],[-2.9,1.8],[3.9,6.9],[-1.0,4.2]])","cell_type":"code","exec_count":2}
+{"type":"file","last_load":1544748848002}
+{"type":"settings","kernel":"sagemath","backend_state":"running","metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.15"}},"kernel_usage":{"cpu":0,"memory":262766592},"kernel_state":"idle"}

@@ -24,7 +24,7 @@
 {"type":"cell","id":"9fc1ea","pos":13,"input":"definite_integral((x^2-1)*x,x,-1,0)","output":{"0":{"data":{"text/plain":"1/4"},"output_type":"execute_result","exec_count":2}},"cell_type":"code","exec_count":2,"scrolled":true}
 {"type":"cell","id":"a8beef","pos":23,"input":"s=var('s')","cell_type":"code","exec_count":4}
 {"type":"cell","id":"ae83c6","pos":33,"input":"$$T=T_{0}+(37-T_{0})0.87^{t}$$","cell_type":"markdown"}
-{"type":"cell","id":"b7d0a7","pos":36,"input":"Death occurred at approximately 4:11pm.","cell_type":"markdown"}
+{"type":"cell","id":"b7d0a7","pos":36,"input":"Death occurred at approximately 4:07pm.","cell_type":"markdown"}
 {"type":"cell","id":"bde7ca","pos":22,"input":"What are the critical points of the function $$g(s)=(4s^{2}-15s-18)\\frac{1}{6}s$$","cell_type":"markdown"}
 {"type":"cell","id":"c0e07e","pos":19,"input":"A juice shop wants to make the perfect banana smoothie. In order to do so, they need the smoothie to have 55% banana juice. The shop has a solution with 30% banana juice and a solution with 70% banana juice. How much of 30% banana juice do they need to get 100L of 55% banana juice? [10]","cell_type":"markdown"}
 {"type":"cell","id":"ce186e","pos":20,"input":"Consider the equation $$0.30x+0.70(100-x)=0.55\\cdot{}100$$","cell_type":"markdown"}
@@ -36,4 +36,4 @@
 {"type":"cell","id":"f0d709","pos":7,"input":"pkg load specfun","cell_type":"markdown"}
 {"type":"cell","id":"fe17a6","pos":8,"input":"-lambertw(-0.1)","output":{"0":{"name":"stdout","output_type":"stream","text":"ans =  0.11183\n"}},"cell_type":"code","exec_count":2}
 {"type":"file","last_load":1544560643088}
-{"type":"settings","kernel":"ir-sage","kernel_state":"idle","backend_state":"running","trust":false,"metadata":{"language_info":{"codemirror_mode":"r","file_extension":".r","mimetype":"text/x-r-source","name":"R","pygments_lexer":"r","version":"3.4.4"}}}
+{"type":"settings","kernel":"ir-sage","kernel_usage":{"cpu":0,"memory":50118656},"backend_state":"running","trust":false,"metadata":{"language_info":{"codemirror_mode":"r","file_extension":".r","mimetype":"text/x-r-source","name":"R","pygments_lexer":"r","version":"3.4.4"}},"kernel_state":"idle"}
