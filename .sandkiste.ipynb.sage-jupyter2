@@ -23,4 +23,4 @@
 {"output":{"0":{"data":{"text/plain":"[2 0 0]\n[0 1 0]\n[0 0 1]"},"output_type":"execute_result","exec_count":21}},"exec_count":21,"input":"D","pos":19,"cell_type":"code","type":"cell","id":"6d448a"}
 {"output":{"0":{"data":{"text/plain":"[4 0]\n[0 2]"},"output_type":"execute_result","exec_count":16}},"exec_count":16,"input":"D","pos":14,"cell_type":"code","type":"cell","id":"2d2189"}
 {"type":"file","last_load":1544560636057}
-{"type":"settings","trust":true,"kernel_usage":{"cpu":0,"memory":174133248},"backend_state":"running","kernel":"sagemath","metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.15"}},"kernel_state":"starting"}
+{"type":"settings","trust":true,"kernel_usage":{"cpu":0,"memory":262098944},"backend_state":"running","kernel":"sagemath","metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.15"}},"kernel_state":"starting"}

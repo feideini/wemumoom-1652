@@ -95,4 +95,4 @@
 {"type":"cell","id":"fe6b63","pos":20,"input":"b=matrix([[-11,19,-9]]).transpose()","cell_type":"code","exec_count":10}
 {"type":"cell","id":"fe86e9","pos":141,"input":"* Given $\\vec{u}=(2,5,-3)$, $\\vec{v}=(-1,4,0)$, find the angle in degrees between the two vectors. \n* Compute $\\frac{2+3i}{1-i}$ and express it in polar form.","cell_type":"markdown"}
 {"type":"file","last_load":1544748631653}
-{"type":"settings","kernel":"sagemath","backend_state":"running","metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.15"}},"kernel_usage":{"cpu":0,"memory":262553600},"kernel_state":"idle"}
+{"type":"settings","kernel":"sagemath","backend_state":"running","metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.15"}},"kernel_usage":{"cpu":0,"memory":261386240},"kernel_state":"idle"}

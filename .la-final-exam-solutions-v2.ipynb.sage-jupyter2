@@ -97,4 +97,4 @@
 {"type":"cell","id":"ff1fd8","pos":97,"input":"s=0.55","cell_type":"code","exec_count":36}
 {"type":"cell","id":"ffe9a9","pos":10,"input":"L=matrix([[0.6,4.3],[-2.9,1.8],[3.9,6.9],[-1.0,4.2]])","cell_type":"code","exec_count":2}
 {"type":"file","last_load":1544748848002}
-{"type":"settings","kernel":"sagemath","backend_state":"running","metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.15"}},"kernel_usage":{"cpu":0,"memory":262766592},"kernel_state":"idle"}
+{"type":"settings","kernel":"sagemath","backend_state":"running","metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.15"}},"kernel_usage":{"cpu":0,"memory":169512960},"kernel_state":"idle"}
