@@ -1,17 +1,34 @@
+{"exec_count":1,"start":1544939821943,"input":"B=matrix([[2,0,1],[1,1,-1]])","state":"done","pos":27.75,"type":"cell","end":1544939821972,"id":"70e7fe","kernel":"sagemath"}
+{"exec_count":15,"start":1544942766500,"input":"u=vector([1,0])","state":"done","pos":32,"cell_type":"code","type":"cell","end":1544942766506,"id":"14d4be","kernel":"sagemath"}
+{"exec_count":16,"start":1544942767518,"input":"v=vector([5,-1])","state":"done","pos":33,"cell_type":"code","type":"cell","end":1544942767524,"id":"64d290","kernel":"sagemath"}
+{"exec_count":17,"start":1544942767539,"input":"v2=(u.dot_product(v)/v.dot_product(v))*v","state":"done","pos":34,"cell_type":"code","type":"cell","end":1544942767557,"id":"bf36c9","kernel":"sagemath"}
+{"exec_count":20,"start":1544942767657,"input":"v1=u-v2","state":"done","pos":36,"cell_type":"code","type":"cell","end":1544942767671,"id":"e35c94","kernel":"sagemath"}
+{"exec_count":7,"start":1544942113516,"input":"A=matrix([[8,-3],[8,-2]])","state":"done","pos":64,"cell_type":"code","type":"cell","end":1544942113525,"id":"a01d11","kernel":"sagemath"}
+{"exec_count":8,"start":1544942114065,"input":"D,P=A.eigenmatrix_right()","state":"done","pos":65,"cell_type":"code","type":"cell","end":1544942114071,"id":"d17b05","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"(0.0384615384615385, 0.192307692307692)"},"exec_count":22}},"exec_count":22,"start":1544942767767,"input":"N(v1)","state":"done","pos":37.5,"type":"cell","end":1544942767778,"id":"2e2351","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"(0.961538461538462, -0.192307692307692)"},"exec_count":19}},"exec_count":19,"start":1544942767585,"input":"N(v2)","state":"done","pos":35.5,"type":"cell","end":1544942767652,"id":"6d0841","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"(1/26, 5/26)"},"exec_count":21}},"exec_count":21,"start":1544942767754,"input":"v1","scrolled":true,"state":"done","pos":37,"cell_type":"code","type":"cell","end":1544942767757,"id":"f5c3db","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"(25/26, -5/26)"},"exec_count":18}},"exec_count":18,"start":1544942767562,"input":"v2","state":"done","pos":35,"cell_type":"code","type":"cell","end":1544942767580,"id":"2e0e96","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"-1.37340076694502"},"exec_count":25}},"exec_count":25,"start":1544947199990,"input":"N(arctan(-5))","state":"done","pos":167.75,"type":"cell","end":1544947201187,"id":"9f4975","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"0"},"exec_count":23}},"exec_count":23,"start":1544942767821,"input":"v1.dot_product(v2)","state":"done","pos":38,"cell_type":"code","type":"cell","end":1544942767831,"id":"e1c33d","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"281.309932474020"},"exec_count":28}},"exec_count":28,"start":1544947256316,"input":"N(arctan(-5)*180/pi)+360","state":"done","pos":169.875,"type":"cell","end":1544947256337,"id":"226bb6","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"[   3 -3/2]\n[  -2  3/2]"},"exec_count":11}},"exec_count":11,"start":1544942114123,"input":"P.inverse()","state":"done","pos":67.5,"type":"cell","end":1544942114138,"id":"c25aa0","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"[  0.214285714285714 -0.0714285714285714]\n[-0.0714285714285714   0.357142857142857]"},"exec_count":4}},"exec_count":4,"start":1544939874525,"input":"N((B*B.transpose()).inverse())","state":"done","pos":29.4375,"type":"cell","end":1544939874551,"id":"5e6884","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"[  1   1]\n[4/3   2]"},"exec_count":10}},"exec_count":10,"start":1544942114103,"input":"P","scrolled":true,"state":"done","pos":67,"cell_type":"code","type":"cell","end":1544942114116,"id":"0ebfdc","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"[ 3/14 -1/14]\n[-1/14  5/14]"},"exec_count":3}},"exec_count":3,"start":1544939866019,"input":"(B*B.transpose()).inverse()","state":"done","pos":28.875,"type":"cell","end":1544939866040,"id":"78e333","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"[4 0]\n[0 2]"},"exec_count":12}},"exec_count":12,"start":1544942114147,"input":"P.inverse()*A*P","state":"done","pos":68,"cell_type":"code","type":"cell","end":1544942114158,"id":"a5d3f6","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"[4 0]\n[0 2]"},"exec_count":9}},"exec_count":9,"start":1544942114087,"input":"D","state":"done","pos":66,"cell_type":"code","type":"cell","end":1544942114098,"id":"9584d4","kernel":"sagemath"}
 {"type":"cell","id":"01afd2","pos":80,"input":"xbar=383","cell_type":"code","exec_count":48}
 {"type":"cell","id":"03dfc1","pos":31,"input":"Resolve the vector $\\vec{u}=(1,0)$ into components parallel and perpendicular to the vector $\\vec{v}=(5,−1)$. In other words, write $\\vec{u}=\\vec{v}_{1}+\\vec{v}_{2}$ with $\\vec{v}_{1}\\perp{}\\vec{v}$ and $\\vec{v}_{2}\\parallel{}\\vec{v}$.","cell_type":"markdown"}
 {"type":"cell","id":"0d6658","pos":143,"input":"v=vector([-1,4,0])","cell_type":"code","exec_count":88}
-{"type":"cell","id":"0ebfdc","pos":67,"input":"P","output":{"0":{"data":{"text/plain":"[  1   1]\n[4/3   2]"},"output_type":"execute_result","exec_count":42}},"cell_type":"code","exec_count":42}
 {"type":"cell","id":"10af38","pos":124,"input":"z3","output":{"0":{"data":{"text/plain":"[1] 0.4307273"},"output_type":"execute_result","exec_count":80}},"cell_type":"code","exec_count":80}
 {"type":"cell","id":"1371ac","pos":117,"input":"ss=2.14","cell_type":"code","exec_count":73}
 {"type":"cell","id":"144e83","pos":62,"input":"<font color=\"red\">version 1</font>","cell_type":"markdown"}
-{"type":"cell","id":"14d4be","pos":32,"input":"u=vector([1,0])","cell_type":"code","exec_count":17}
 {"type":"cell","id":"1aeb54","pos":115,"input":"The lifetimes of certain survey equipment are normally distributed, with a mean of $8.91$ years and standard deviation of $2.14$ years. \n* Find the probability that a randomly selected piece of equipment will have a lifetime between 3 and 6 years. \n* Find the number $x$ such that a third of the equipment lasts longer than $x$ years.","cell_type":"markdown"}
 {"type":"cell","id":"23b68d","pos":114,"input":"<font color=\"red\">version 1</font>","cell_type":"markdown"}
 {"type":"cell","id":"24551f","pos":173,"input":"The Canadian Board of Examiners for Professional Surveyors has a standard indicating that a professional surveyor must be able to make a certain measurement with a mean of 0.007 units of error or less. A professional surveyor is tested, and she produces the following simple random sample of errors, assumed to be normally distributed. The summary statistics are $\\bar{x}=0.007413221,s=0.0006822132$. Is there support in the data that this professional surveyor would in the long run average a greater error than 0.007 units? Use a confidence level of $1-\\alpha=0.95$.","cell_type":"markdown"}
 {"type":"cell","id":"272811","pos":21,"input":"A.inverse()*b","output":{"0":{"data":{"text/plain":"[ 1]\n[ 2]\n[-1]"},"output_type":"execute_result","exec_count":14}},"cell_type":"code","exec_count":14}
 {"type":"cell","id":"281dd7","pos":120,"input":"z1","output":{"0":{"data":{"text/plain":"-2.76168224299065"},"output_type":"execute_result","exec_count":77}},"cell_type":"code","exec_count":77}
-{"type":"cell","id":"2e0e96","pos":35,"input":"v2","output":{"0":{"data":{"text/plain":"(25/26, -5/26)"},"output_type":"execute_result","exec_count":26}},"cell_type":"code","exec_count":26}
 {"type":"cell","id":"3203d3","pos":17,"input":"<font color=\"red\">version 1</font>","cell_type":"markdown"}
 {"type":"cell","id":"35ed05","pos":88,"input":"cr","output":{"0":{"data":{"text/plain":"[1] 34.16961"},"output_type":"execute_result","exec_count":63}},"cell_type":"code","exec_count":63}
 {"type":"cell","id":"379f53","pos":84,"input":"E","output":{"0":{"data":{"text/plain":"[1] 0.1820778"},"output_type":"execute_result","exec_count":52}},"cell_type":"code","exec_count":52}
@@ -27,11 +44,12 @@
 {"type":"cell","id":"4dc41f","pos":7,"input":"y=r([2.7,4.3,4.2,5.1])","cell_type":"code","exec_count":6}
 {"type":"cell","id":"4e9440","pos":118,"input":"z1=(3-mu)/ss","cell_type":"code","exec_count":74}
 {"type":"cell","id":"51536d","pos":78,"input":"s=0.4","cell_type":"code","exec_count":46}
+{"type":"cell","id":"51942b","pos":163.5,"input":"Incorrect:","cell_type":"markdown"}
 {"type":"cell","id":"53b7ad","pos":148,"input":"j1=2+3*I","cell_type":"code","exec_count":104}
 {"type":"cell","id":"57540f","pos":94,"input":"rite","output":{"0":{"data":{"text/plain":"[1] 0.5776278"},"output_type":"execute_result","exec_count":69}},"cell_type":"code","exec_count":69}
 {"type":"cell","id":"5ccfd1","pos":174,"input":"xbar=0.007413221","cell_type":"code","exec_count":114}
-{"type":"cell","id":"64d290","pos":33,"input":"v=vector([5,-1])","cell_type":"code","exec_count":18}
 {"type":"cell","id":"66220a","pos":126,"input":"x","output":{"0":{"data":{"text/plain":"[1] 9.831756"},"output_type":"execute_result","exec_count":84}},"cell_type":"code","exec_count":84}
+{"type":"cell","id":"6c0fdf","pos":23.25,"input":"<font color=\"red\">version 1</font>","cell_type":"markdown"}
 {"type":"cell","id":"6e1c25","pos":0,"input":"Four survey markers are placed at points $A=(-0.2,2.7),B=(1.3,4.3),C=(2.1,4.2)$ and $D=(2.8,5.1)$.  They are supposed to be on a straight line, but their locations have shifted over many years.  Find the equation for the line of best fit (least squares). Whichever method you use to solve this problem, you are only allowed to use your calculator for basic number and matrix arithmetic (for example, if your calculator has a function to find the line of best fit, you are not allowed to use this function in your procedure). Show all the steps in your work.","cell_type":"markdown"}
 {"type":"cell","id":"710a10","pos":82,"input":"tat","output":{"0":{"data":{"text/plain":"[1] 2.085963"},"output_type":"execute_result","exec_count":50}},"cell_type":"code","exec_count":50}
 {"type":"cell","id":"7182ec","pos":151,"input":"abs(j1/j2)","output":{"0":{"data":{"text/plain":"sqrt(13/2)"},"output_type":"execute_result","exec_count":109}},"cell_type":"code","exec_count":109}
@@ -46,20 +64,18 @@
 {"type":"cell","id":"859b5b","pos":89,"input":"cl=r.qchisq(0.025,n-1)\n","cell_type":"code","exec_count":64}
 {"type":"cell","id":"8873fb","pos":4,"input":"model(x)=a*x+b","cell_type":"code","exec_count":3}
 {"type":"cell","id":"88c5fc","pos":178,"input":"t=(xbar-mu)/(s/n^.5)","cell_type":"code","exec_count":118}
+{"type":"cell","id":"89ce81","pos":25.5,"input":"If \\[ B=\\left[\\begin{array}{ccc}2&0&1 \\\\ 1&1&-1\\end{array}\\right] \\]provide $(BB^{\\intercal})^{-1}$ in exact form (no rounding). Show your work as if you did not have a calculator.","cell_type":"markdown"}
 {"type":"cell","id":"8b4796","pos":8,"input":"r.cor(x,y)","output":{"0":{"data":{"text/plain":"[1] 0.956058"},"output_type":"execute_result","exec_count":8}},"cell_type":"code","exec_count":8}
 {"type":"cell","id":"8b51ea","pos":5,"input":"find_fit(L,model)","output":{"0":{"data":{"text/plain":"[a == 0.7429718897901255, b == 2.960542166275751]"},"output_type":"execute_result","exec_count":4}},"cell_type":"code","exec_count":4}
 {"type":"cell","id":"8bc8d6","pos":175,"input":"s=0.0006822132","cell_type":"code","exec_count":115}
 {"type":"cell","id":"8d06b6","pos":-1,"input":"<font color=\"red\">version 1</font>","cell_type":"markdown"}
 {"type":"cell","id":"92f330","pos":53,"input":"V0","output":{"0":{"data":{"text/plain":"[273.316666666667]\n[295.816666666667]"},"output_type":"execute_result","exec_count":35}},"cell_type":"code","exec_count":35}
-{"type":"cell","id":"9584d4","pos":66,"input":"D","output":{"0":{"data":{"text/plain":"[4 0]\n[0 2]"},"output_type":"execute_result","exec_count":41}},"cell_type":"code","exec_count":41}
 {"type":"cell","id":"9ae755","pos":125,"input":"x=z3*ss+mu","cell_type":"code","exec_count":83}
 {"type":"cell","id":"9c4c7e","pos":180,"input":"t0=r.qt(0.95,12)","cell_type":"code","exec_count":120}
 {"type":"cell","id":"9e1a3b","pos":149,"input":"j2=1-I","cell_type":"code","exec_count":105}
-{"type":"cell","id":"a01d11","pos":64,"input":"A=matrix([[8,-3],[8,-2]])","cell_type":"code","exec_count":39}
 {"type":"cell","id":"a3cf4b","pos":54,"input":"V0[1,0]-V0[0,0]","output":{"0":{"data":{"text/plain":"22.5000000000000"},"output_type":"execute_result","exec_count":38}},"cell_type":"code","exec_count":38}
 {"type":"cell","id":"a435ae","pos":121,"input":"z2","output":{"0":{"data":{"text/plain":"-1.35981308411215"},"output_type":"execute_result","exec_count":78}},"cell_type":"code","exec_count":78}
 {"type":"cell","id":"a46958","pos":122,"input":"r.pnorm(z2)-r.pnorm(z1)","output":{"0":{"data":{"text/plain":"[1] 0.08406932"},"output_type":"execute_result","exec_count":76}},"cell_type":"code","exec_count":76}
-{"type":"cell","id":"a5d3f6","pos":68,"input":"P.inverse()*A*P","output":{"0":{"data":{"text/plain":"[4 0]\n[0 2]"},"output_type":"execute_result","exec_count":45}},"cell_type":"code","exec_count":45}
 {"type":"cell","id":"a84a94","pos":119,"input":"z2=(6-mu)/ss","cell_type":"code","exec_count":75}
 {"type":"cell","id":"aa404c","pos":63,"input":"For the following matrix $A$, find matrices $D$ (which is a diagonal matrix with non-zero elements only along the diagonal) and $P$ such that $D=P^{-1}AP$. \\[ A=\\left[\\begin{array}{cc}8 & -3 \\\\ 8 & -2\\end{array}\\right] \\]","cell_type":"markdown"}
 {"type":"cell","id":"ae2eee","pos":50,"input":"Y=matrix([273.6,296.1,284]).transpose()","cell_type":"code","exec_count":30}
@@ -71,28 +87,24 @@
 {"type":"cell","id":"bac79e","pos":147,"input":"N(theta*180/pi)","output":{"0":{"data":{"text/plain":"44.9113067011702"},"output_type":"execute_result","exec_count":103}},"cell_type":"code","exec_count":103,"scrolled":true}
 {"type":"cell","id":"bbc6b7","pos":150,"input":"j1/j2","output":{"0":{"data":{"text/plain":"5/2*I - 1/2"},"output_type":"execute_result","exec_count":106}},"cell_type":"code","exec_count":106}
 {"type":"cell","id":"bbf584","pos":87,"input":"cr=r.qchisq(0.975,n-1)","cell_type":"code","exec_count":62}
-{"type":"cell","id":"bf36c9","pos":34,"input":"v2=(u.dot_product(v)/v.dot_product(v))*v","cell_type":"code","exec_count":25}
 {"type":"cell","id":"bf7270","pos":6,"input":"x=r([-.2,1.3,2.1,2.8])","cell_type":"code","exec_count":5}
 {"type":"cell","id":"c2abfe","pos":182,"input":"Reject $H_{0}$.","cell_type":"markdown"}
 {"type":"cell","id":"c7e423","pos":144,"input":"theta=arccos(u.dot_product(v)/(norm(u)*norm(v)))","cell_type":"code","exec_count":89}
+{"type":"cell","id":"ced731","pos":1,"input":"<img src=\"labestfit.png\">","cell_type":"markdown"}
 {"type":"cell","id":"d0dded","pos":30,"input":"<font color=\"red\">version 1</font>","cell_type":"markdown"}
 {"type":"cell","id":"d0e7a8","pos":154,"input":"N(arg(j1/j2))","output":{"0":{"data":{"text/plain":"1.76819188664478"},"output_type":"execute_result","exec_count":112}},"cell_type":"code","exec_count":112}
 {"type":"cell","id":"d107e6","pos":140,"input":"<font color=\"red\">version 1</font>","cell_type":"markdown"}
-{"type":"cell","id":"d17b05","pos":65,"input":"D,P=A.eigenmatrix_right()","cell_type":"code","exec_count":40}
 {"type":"cell","id":"d6c256","pos":51,"input":"A=matrix([[1,0],[0,1],[1/2,1/2]])","cell_type":"code","exec_count":31}
-{"type":"cell","id":"e1c33d","pos":38,"input":"v1.dot_product(v2)","output":{"0":{"data":{"text/plain":"0"},"output_type":"execute_result","exec_count":29}},"cell_type":"code","exec_count":29}
-{"type":"cell","id":"e35c94","pos":36,"input":"v1=u-v2","cell_type":"code","exec_count":27}
 {"type":"cell","id":"eb27ea","pos":85,"input":"xbar-E","output":{"0":{"data":{"text/plain":"[1] 382.8179"},"output_type":"execute_result","exec_count":55}},"cell_type":"code","exec_count":55}
 {"type":"cell","id":"ef76d2","pos":3,"input":"var('a','b')","output":{"0":{"data":{"text/plain":"(a, b)"},"output_type":"execute_result","exec_count":2}},"cell_type":"code","exec_count":2}
 {"type":"cell","id":"efc5b7","pos":83,"input":"E=tat*s/n^.5","cell_type":"code","exec_count":51}
 {"type":"cell","id":"f40677","pos":155,"input":"N(arg(j1/j2)*180/pi)","output":{"0":{"data":{"text/plain":"101.309932474020"},"output_type":"execute_result","exec_count":113}},"cell_type":"code","exec_count":113}
 {"type":"cell","id":"f4c4c2","pos":81,"input":"tat=r.qt(0.975,20)","cell_type":"code","exec_count":49}
 {"type":"cell","id":"f50302","pos":142,"input":"u=vector([2,5,-3])","cell_type":"code","exec_count":87}
-{"type":"cell","id":"f5c3db","pos":37,"input":"v1","output":{"0":{"data":{"text/plain":"(1/26, 5/26)"},"output_type":"execute_result","exec_count":28}},"cell_type":"code","exec_count":28,"scrolled":true}
 {"type":"cell","id":"f69f96","pos":19,"input":"A=matrix([[0,-3,5],[2,5,-7],[-1,-2,4]])","cell_type":"code","exec_count":9}
 {"type":"cell","id":"fc2c7d","pos":90,"input":"cl","output":{"0":{"data":{"text/plain":"[1] 9.590777"},"output_type":"execute_result","exec_count":65}},"cell_type":"code","exec_count":65}
 {"type":"cell","id":"fd4987","pos":176,"input":"mu=0.007","cell_type":"code","exec_count":116}
 {"type":"cell","id":"fe6b63","pos":20,"input":"b=matrix([[-11,19,-9]]).transpose()","cell_type":"code","exec_count":10}
 {"type":"cell","id":"fe86e9","pos":141,"input":"* Given $\\vec{u}=(2,5,-3)$, $\\vec{v}=(-1,4,0)$, find the angle in degrees between the two vectors. \n* Compute $\\frac{2+3i}{1-i}$ and express it in polar form.","cell_type":"markdown"}
 {"type":"file","last_load":1544748631653}
-{"type":"settings","kernel":"sagemath","backend_state":"running","metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.15"}},"kernel_usage":{"cpu":0,"memory":261386240},"kernel_state":"idle"}
+{"type":"settings","kernel":"sagemath","backend_state":"running","metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.15"}},"kernel_usage":{"cpu":0,"memory":260411392},"kernel_state":"idle","trust":true}

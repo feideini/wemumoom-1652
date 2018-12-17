@@ -1,13 +1,25 @@
 {"exec_count":1,"input":"A=matrix([[14,20,4],[-12,-17,-3],[0,0,-2]])","pos":0,"cell_type":"code","type":"cell","id":"d0342e"}
+{"exec_count":1,"start":1544939419723,"input":"z=-1+5*I","state":"done","pos":24,"type":"cell","end":1544939419767,"id":"c75b4f","kernel":"sagemath"}
 {"exec_count":10,"input":"D,P=A.eigenmatrix_right()","pos":8,"cell_type":"code","type":"cell","id":"049658"}
+{"exec_count":10,"start":1545025081820,"input":"x=var('x')","state":"done","pos":27.875,"type":"cell","end":1545025081827,"id":"276cbb","kernel":"sagemath"}
 {"exec_count":13,"input":"A=matrix([[8,-3],[8,-2]])","pos":11,"cell_type":"code","type":"cell","id":"530ff9"}
+{"exec_count":13,"start":1545025147517,"input":"from sage.symbolic.integration.integral import definite_integral","state":"done","pos":30,"type":"cell","end":1545025147524,"id":"e30662","kernel":"sagemath"}
 {"exec_count":15,"input":"D,P=A.eigenmatrix_right()","pos":13,"cell_type":"code","type":"cell","id":"82e03f"}
 {"exec_count":18,"input":"A=matrix([[1,0,0],[-1/2,0,1],[-1,-2,3]])","pos":16,"cell_type":"code","type":"cell","id":"ddad1b"}
 {"exec_count":20,"input":"D,P=A.eigenmatrix_right()","pos":18,"cell_type":"code","type":"cell","id":"9b62bb"}
+{"exec_count":20,"start":1545026267121,"input":"from sage.symbolic.integration.integral import indefinite_integral","state":"done","pos":32,"type":"cell","end":1545026267127,"id":"48a8df","kernel":"sagemath"}
 {"exec_count":4,"input":"D,P=A.eigenmatrix_right()","pos":3,"cell_type":"code","type":"cell","id":"59e5f0"}
 {"exec_count":5,"start":1544570382303,"input":"A=matrix([[1,4],[2,-1]])","state":"done","pos":20,"cell_type":"code","type":"cell","end":1544570382314,"id":"a22793","kernel":"sagemath"}
 {"exec_count":6,"start":1544570383442,"input":"D,P=A.eigenmatrix_right()","state":"done","pos":21,"type":"cell","end":1544570383463,"id":"dc7e1e","kernel":"sagemath"}
+{"exec_count":7,"start":1545025061545,"input":"t=var('t')","state":"done","pos":27.5,"type":"cell","end":1545025061552,"id":"2ddc86","kernel":"sagemath"}
 {"exec_count":8,"input":"A=matrix([[1,4],[2,-1]])","pos":6,"cell_type":"code","type":"cell","id":"6b6cbf"}
+{"exec_count":9,"start":1545025074997,"input":"y=var('y')","state":"done","pos":27.75,"type":"cell","end":1545025075006,"id":"9ed61e","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"101.309932474020"},"exec_count":5}},"exec_count":5,"start":1544939471653,"input":"N(arg(z)*180/pi)","state":"done","pos":27,"type":"cell","end":1544939471671,"id":"c41795","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"2*t^2*x"},"exec_count":12}},"exec_count":12,"start":1545025097419,"input":"diff(2*t^2*x*y+exp(t*x),y)","state":"done","pos":29,"type":"cell","end":1545025097437,"id":"48eb09","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"2*t^2*y + t*e^(t*x)"},"exec_count":11}},"exec_count":11,"start":1545025085544,"input":"diff(2*t^2*x*y+exp(t*x),x)","scrolled":true,"state":"done","pos":28,"type":"cell","end":1545025085562,"id":"2c02f8","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"2*x"},"exec_count":17}},"exec_count":17,"start":1545025606318,"input":"diff(2*x*y+exp(x),y)","state":"done","pos":29.5,"type":"cell","end":1545025606339,"id":"03a5cd","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"2*x*y + e^x - 1"},"exec_count":19}},"exec_count":19,"start":1545025665615,"input":"definite_integral((x*(2*y*t + e^(t*x))+y*(2*t*x)),t,0,1)","state":"done","pos":31,"type":"cell","end":1545025665651,"id":"caac32","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"2*y + e^x"},"exec_count":16}},"exec_count":16,"start":1545025591019,"input":"diff(2*x*y+exp(x),x)","state":"done","pos":28.5,"type":"cell","end":1545025591037,"id":"b976d3","kernel":"sagemath"}
 {"output":{"0":{"data":{"text/plain":"[   1    0    0]\n[-1/2    0    1]\n[  -1   -2    3]"},"output_type":"execute_result","exec_count":19}},"exec_count":19,"input":"A","pos":17,"cell_type":"code","type":"cell","id":"e28231"}
 {"output":{"0":{"data":{"text/plain":"[   1    1    0]\n[-3/4    0    1]\n[   0   -4   -5]"},"output_type":"execute_result","exec_count":6}},"exec_count":6,"input":"P","scrolled":true,"pos":5,"cell_type":"code","type":"cell","id":"1c8810"}
 {"output":{"0":{"data":{"text/plain":"[  1   1]\n[1/2  -1]"},"exec_count":8}},"exec_count":8,"start":1544570388264,"input":"P","state":"done","pos":23,"type":"cell","end":1544570388291,"id":"adff2e","kernel":"sagemath"}
@@ -22,5 +34,8 @@
 {"output":{"0":{"data":{"text/plain":"[-1  0  0]\n[ 0 -2  0]\n[ 0  0 -2]"},"output_type":"execute_result","exec_count":5}},"exec_count":5,"input":"D","pos":4,"cell_type":"code","type":"cell","id":"1748d2"}
 {"output":{"0":{"data":{"text/plain":"[2 0 0]\n[0 1 0]\n[0 0 1]"},"output_type":"execute_result","exec_count":21}},"exec_count":21,"input":"D","pos":19,"cell_type":"code","type":"cell","id":"6d448a"}
 {"output":{"0":{"data":{"text/plain":"[4 0]\n[0 2]"},"output_type":"execute_result","exec_count":16}},"exec_count":16,"input":"D","pos":14,"cell_type":"code","type":"cell","id":"2d2189"}
+{"output":{"0":{"data":{"text/plain":"pi - arctan(5)"},"exec_count":3}},"exec_count":3,"start":1544939440219,"input":"arg(z)","state":"done","pos":26,"type":"cell","end":1544939440237,"id":"30a495","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"sqrt(26)"},"exec_count":2}},"exec_count":2,"start":1544939426078,"input":"abs(z)","state":"done","pos":25,"type":"cell","end":1544939426109,"id":"f54416","kernel":"sagemath"}
+{"output":{"0":{"data":{"text/plain":"t^2*x*y + (t^2*y + e^(t*x)/x)*x"},"exec_count":22}},"exec_count":22,"start":1545026357323,"input":"indefinite_integral((x*(2*y*t + e^(t*x))+y*(2*t*x)),t)","state":"done","pos":33,"type":"cell","end":1545026357350,"id":"890c38","kernel":"sagemath"}
 {"type":"file","last_load":1544560636057}
-{"type":"settings","trust":true,"kernel_usage":{"cpu":0,"memory":262098944},"backend_state":"running","kernel":"sagemath","metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.15"}},"kernel_state":"starting"}
+{"type":"settings","trust":true,"kernel_usage":{"cpu":0,"memory":301719552},"backend_state":"running","kernel":"sagemath","metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":2},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython2","version":"2.7.15"}},"kernel_state":"idle"}

@@ -1,0 +1,14 @@
+]0;~/jupyter[01;34m~/jupyter[00m$ ls
+2018-11-02-125125.term         ft-termtest-C-solutions.ipynb                  la-leastsquares-final.html     la-webwork-10-r11-solution.ipynb
+2018-11-21-124016.term         gc-cooley-optimization.ipynb                   la-leastsquares-final.ipynb    octave-workspace
+2018-11-30-203320.term         gc-finalexam-2018-solutions.html               la-termtest-A-manson.html      rename.sh~
+2018-12-01-102918.term         gc-finalexam-notes.ipynb                       la-termtest-A-manson.ipynb     [0m[01;35mriveropt.png[0m
+2018-12-15-213602.term         la-LinearizingAngleObservationEquations.ipynb  la-termtest-A-solutions.html   sandkiste.html
+README.md                      [01;35mla-final-exam-best-fit-v1.png[0m                  la-termtest-A-solutions.ipynb  sandkiste.ipynb
+[01;35mRplot001.png[0m                   la-final-exam-solutions-v1.ipynb               la-termtest-B-solutions.html   schmierbuch-2018-10-28.ipynb
+archive-01-sandkiste.ipynb     la-final-exam-solutions-v2.ipynb               la-termtest-B-solutions.ipynb  solvesystemnonlinear.ipynb
+fs-finalexam-notes.ipynb       la-final-exam-solutions.ipynb                  la-termtest-C-solutions.html   [01;35msonle.png[0m
+ft-final-exam-solutions.html   [01;35mla-lab-4-q3-answer.png[0m                         la-termtest-C-solutions.ipynb  [01;35mstal.png[0m
+ft-final-exam-solutions.ipynb  la-lab-solutions.html                          [01;35mla-termtest-Ca-1-2.png[0m
+ft-termtest-C-solutions.html   la-lab-solutions.ipynb                         [01;35mla-termtest-Ca-1-5.png[0m
+]0;~/jupyter[01;34m~/jupyter[00m$ 
